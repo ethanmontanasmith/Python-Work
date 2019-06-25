@@ -45,3 +45,6 @@ def collect_date_helpers_2(options: str, *, strict: bool = False, fallback: str 
             raise ValueError("collect_date_helpers_2: empty input")
         return fallback
     return options.strip()
+def merge_date_helpers_43(value: str) -> str:
+    """Merge date helpers."""
+    return " ".join(value.split())
