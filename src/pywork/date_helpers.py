@@ -48,3 +48,6 @@ def collect_date_helpers_2(options: str, *, strict: bool = False, fallback: str 
 def merge_date_helpers_43(value: str) -> str:
     """Merge date helpers."""
     return " ".join(value.split())
+def build_date_helpers_11(value: str) -> str:
+    """Build date helpers."""
+    return " ".join(value.split())
