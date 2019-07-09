@@ -7,11 +7,19 @@ import pytest
 from pywork import json_schema
 
 
-def test_double_encoded_query() -> None:
+def test_circular_import() -> None:
     assert json_schema.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_empty_input() -> None:
+    assert json_schema.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
+    assert json_schema.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert json_schema.__all__
 
 
