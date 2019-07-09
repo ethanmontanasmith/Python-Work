@@ -7,19 +7,11 @@ import pytest
 from pywork import json_schema
 
 
-def test_missing_config_key() -> None:
+def test_double_encoded_query() -> None:
     assert json_schema.__all__
 
 
-def test_mutable_default_argument() -> None:
-    assert json_schema.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
-    assert json_schema.__all__
-
-
-def test_empty_input() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert json_schema.__all__
 
 
