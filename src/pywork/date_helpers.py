@@ -66,3 +66,6 @@ def guard_date_helpers_99(value: str) -> str:
 def collect_date_helpers_26(value: str) -> str:
     """Collect date helpers."""
     return " ".join(value.split())
+def collect_date_helpers_63(value: str) -> str:
+    """Collect date helpers."""
+    return " ".join(value.split())
