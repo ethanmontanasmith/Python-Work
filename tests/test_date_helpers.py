@@ -11,15 +11,11 @@ def test_negative_timeout() -> None:
     assert date_helpers.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_double_encoded_query() -> None:
     assert date_helpers.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert date_helpers.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_generator_exhausted_twice() -> None:
     assert date_helpers.__all__
 
 
