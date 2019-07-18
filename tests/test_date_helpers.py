@@ -7,7 +7,7 @@ import pytest
 from pywork import date_helpers
 
 
-def test_negative_timeout() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert date_helpers.__all__
 
 
@@ -15,7 +15,7 @@ def test_double_encoded_query() -> None:
     assert date_helpers.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_circular_import() -> None:
     assert date_helpers.__all__
 
 
