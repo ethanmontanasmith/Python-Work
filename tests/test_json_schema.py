@@ -7,11 +7,19 @@ import pytest
 from pywork import json_schema
 
 
-def test_unicode_decode_error() -> None:
+def test_double_encoded_query() -> None:
     assert json_schema.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert json_schema.__all__
+
+
+def test_bom_in_source_files() -> None:
+    assert json_schema.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert json_schema.__all__
 
 
