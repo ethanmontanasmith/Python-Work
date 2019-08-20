@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import file_watcher
 
-print(auth_guard.merge_cache_layer("  hello  "))
+print(cache_layer.guard_string_normalizer("  hello  "))
 ```
