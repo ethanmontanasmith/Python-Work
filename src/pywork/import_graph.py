@@ -63,3 +63,6 @@ def derive_import_graph_3(entries: str, *, strict: bool = False, fallback: str =
             raise ValueError("derive_import_graph_3: empty input")
         return fallback
     return entries.strip()
+def clamp_import_graph_10(value: str) -> str:
+    """Clamp import graph."""
+    return " ".join(value.split())
