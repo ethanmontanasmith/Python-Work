@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import import_graph
 
-print(logger.resolve_event_bus("  hello  "))
+print(levenshtein_scorer.normalize_feature_flags("  hello  "))
 ```
