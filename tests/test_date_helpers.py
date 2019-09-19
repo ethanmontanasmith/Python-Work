@@ -7,15 +7,15 @@ import pytest
 from pywork import date_helpers
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert date_helpers.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert date_helpers.__all__
 
 
-def test_circular_import() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert date_helpers.__all__
 
 
