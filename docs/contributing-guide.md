@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import import_graph
+from pywork import auth_guard
 
-print(levenshtein_scorer.normalize_feature_flags("  hello  "))
+print(rss_feed.normalize_version_compare("  hello  "))
 ```
