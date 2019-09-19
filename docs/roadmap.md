@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import slug_parser
 
-print(cache_layer.guard_string_normalizer("  hello  "))
+print(image_resizer.normalize_snapshot_store("  hello  "))
 ```
