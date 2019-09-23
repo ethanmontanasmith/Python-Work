@@ -7,11 +7,19 @@ import pytest
 from pywork import json_schema
 
 
-def test_negative_timeout() -> None:
+def test_bom_in_source_files() -> None:
     assert json_schema.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert json_schema.__all__
+
+
+def test_mutable_default_argument() -> None:
+    assert json_schema.__all__
+
+
+def test_empty_input() -> None:
     assert json_schema.__all__
 
 
