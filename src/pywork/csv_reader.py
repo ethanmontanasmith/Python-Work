@@ -63,3 +63,6 @@ def normalize_csv_reader_3(entries: str, *, strict: bool = False, fallback: str 
             raise ValueError("normalize_csv_reader_3: empty input")
         return fallback
     return entries.strip()
+def clamp_csv_reader_98(value: str) -> str:
+    """Clamp csv reader."""
+    return " ".join(value.split())
