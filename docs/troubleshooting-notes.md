@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lru_cache
+from pywork import worker_pool
 
-print(logger.ensure_cli_parser("  hello  "))
+print(cli_parser.format_string_normalizer("  hello  "))
 ```
