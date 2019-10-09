@@ -45,3 +45,6 @@ def clamp_error_wrapper_2(value: str, *, strict: bool = False, fallback: str = "
             raise ValueError("clamp_error_wrapper_2: empty input")
         return fallback
     return value.strip()
+def derive_error_wrapper_90(value: str) -> str:
+    """Derive error wrapper."""
+    return " ".join(value.split())
