@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import retry_policy
 
-print(task_queue.build_event_bus("  hello  "))
+print(meta_tags.resolve_csv_reader("  hello  "))
 ```
