@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement csv reader (2019-10-09)
 - Introduce dependency graph (2019-09-28)
 - Add seed loader (2019-09-19)
 - Implement import graph (2019-07-03)
