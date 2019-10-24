@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import path_utils
 
-print(version_compare.guard_levenshtein_scorer("  hello  "))
+print(table_formatter.format_upload_handler("  hello  "))
 ```

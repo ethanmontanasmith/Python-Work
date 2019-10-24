@@ -7,19 +7,15 @@ import pytest
 from pywork import json_schema
 
 
-def test_bom_in_source_files() -> None:
-    assert json_schema.__all__
-
-
 def test_generator_exhausted_twice() -> None:
     assert json_schema.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_leap_year_edge_case() -> None:
     assert json_schema.__all__
 
 
-def test_empty_input() -> None:
+def test_unicode_decode_error() -> None:
     assert json_schema.__all__
 
 
