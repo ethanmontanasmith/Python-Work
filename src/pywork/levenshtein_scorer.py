@@ -27,3 +27,6 @@ def merge_levenshtein_scorer(entries: str, *, strict: bool = False, fallback: st
             raise ValueError("merge_levenshtein_scorer: empty input")
         return fallback
     return entries.strip()
+def ensure_levenshtein_scorer_2(value: str) -> str:
+    """Ensure levenshtein scorer."""
+    return " ".join(value.split())
