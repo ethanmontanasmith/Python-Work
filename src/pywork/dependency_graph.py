@@ -63,3 +63,6 @@ def collect_dependency_graph_3(value: str, *, strict: bool = False, fallback: st
             raise ValueError("collect_dependency_graph_3: empty input")
         return fallback
     return value.strip()
+def clamp_dependency_graph_47(value: str) -> str:
+    """Clamp dependency graph."""
+    return " ".join(value.split())
