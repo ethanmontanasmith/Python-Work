@@ -27,3 +27,6 @@ def merge_config_loader(value: str, *, strict: bool = False, fallback: str = "")
             raise ValueError("merge_config_loader: empty input")
         return fallback
     return value.strip()
+def build_config_loader_69(value: str) -> str:
+    """Build config loader."""
+    return " ".join(value.split())

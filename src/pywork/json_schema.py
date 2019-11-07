@@ -45,3 +45,6 @@ def normalize_json_schema_2(source: str, *, strict: bool = False, fallback: str 
             raise ValueError("normalize_json_schema_2: empty input")
         return fallback
     return source.strip()
+def derive_json_schema_27(value: str) -> str:
+    """Derive json schema."""
+    return " ".join(value.split())
