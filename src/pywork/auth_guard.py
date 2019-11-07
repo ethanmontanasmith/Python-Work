@@ -1,0 +1,29 @@
+"""Auth guard.
+
+Small, dependency-free helpers used across this repo.
+"""
+
+from __future__ import annotations
+
+from typing import Iterable, Sequence
+
+
+__all__ = ["format_auth_guard"]
+
+
+def format_auth_guard(value: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Format auth guard.
+
+    Args:
+        value: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not value:
+        if strict:
+            raise ValueError("format_auth_guard: empty input")
+        return fallback
+    return value.strip()

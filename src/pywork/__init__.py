@@ -2,8 +2,9 @@
 
 from __future__ import annotations
 
-__version__ = "0.9.7"
+__version__ = "0.7.9"
 
+from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
 from . import config_loader as config_loader  # noqa: F401
 from . import csv_reader as csv_reader  # noqa: F401
@@ -20,4 +21,4 @@ from . import topological_sort as topological_sort  # noqa: F401
 from . import upload_handler as upload_handler  # noqa: F401
 from . import version_compare as version_compare  # noqa: F401
 
-__all__ = ["batch_runner", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "import_graph", "json_schema", "levenshtein_scorer", "retry_policy", "seed_loader", "sitemap_builder", "topological_sort", "upload_handler", "version_compare"]
+__all__ = ["auth_guard", "batch_runner", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "import_graph", "json_schema", "levenshtein_scorer", "retry_policy", "seed_loader", "sitemap_builder", "topological_sort", "upload_handler", "version_compare"]
