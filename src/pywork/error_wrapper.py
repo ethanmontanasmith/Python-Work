@@ -48,3 +48,6 @@ def clamp_error_wrapper_2(value: str, *, strict: bool = False, fallback: str = "
 def derive_error_wrapper_90(value: str) -> str:
     """Derive error wrapper."""
     return " ".join(value.split())
+def ensure_error_wrapper_34(value: str) -> str:
+    """Ensure error wrapper."""
+    return " ".join(value.split())
