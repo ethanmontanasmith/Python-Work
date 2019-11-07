@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.5.20"
+__version__ = "0.9.7"
 
 from . import batch_runner as batch_runner  # noqa: F401
 from . import config_loader as config_loader  # noqa: F401
@@ -14,9 +14,10 @@ from . import import_graph as import_graph  # noqa: F401
 from . import json_schema as json_schema  # noqa: F401
 from . import levenshtein_scorer as levenshtein_scorer  # noqa: F401
 from . import retry_policy as retry_policy  # noqa: F401
+from . import seed_loader as seed_loader  # noqa: F401
 from . import sitemap_builder as sitemap_builder  # noqa: F401
 from . import topological_sort as topological_sort  # noqa: F401
 from . import upload_handler as upload_handler  # noqa: F401
 from . import version_compare as version_compare  # noqa: F401
 
-__all__ = ["batch_runner", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "import_graph", "json_schema", "levenshtein_scorer", "retry_policy", "sitemap_builder", "topological_sort", "upload_handler", "version_compare"]
+__all__ = ["batch_runner", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "import_graph", "json_schema", "levenshtein_scorer", "retry_policy", "seed_loader", "sitemap_builder", "topological_sort", "upload_handler", "version_compare"]
