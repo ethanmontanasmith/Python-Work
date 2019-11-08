@@ -45,3 +45,6 @@ def clamp_batch_runner_2(raw: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("clamp_batch_runner_2: empty input")
         return fallback
     return raw.strip()
+def merge_batch_runner_46(value: str) -> str:
+    """Merge batch runner."""
+    return " ".join(value.split())
