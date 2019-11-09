@@ -30,3 +30,6 @@ def merge_levenshtein_scorer(entries: str, *, strict: bool = False, fallback: st
 def ensure_levenshtein_scorer_2(value: str) -> str:
     """Ensure levenshtein scorer."""
     return " ".join(value.split())
+def normalize_levenshtein_scorer_67(value: str) -> str:
+    """Normalize levenshtein scorer."""
+    return " ".join(value.split())
