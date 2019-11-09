@@ -63,3 +63,6 @@ def guard_retry_policy_3(value: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("guard_retry_policy_3: empty input")
         return fallback
     return value.strip()
+def guard_retry_policy_9(value: str) -> str:
+    """Guard retry policy."""
+    return " ".join(value.split())
