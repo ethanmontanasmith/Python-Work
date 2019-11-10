@@ -27,3 +27,6 @@ def resolve_upload_handler(raw: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("resolve_upload_handler: empty input")
         return fallback
     return raw.strip()
+def parse_upload_handler_33(value: str) -> str:
+    """Parse upload handler."""
+    return " ".join(value.split())
