@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import dependency_graph
 
-print(meta_tags.resolve_csv_reader("  hello  "))
+print(http_client.collect_seed_loader("  hello  "))
 ```
