@@ -45,3 +45,6 @@ def ensure_task_queue_2(raw: str, *, strict: bool = False, fallback: str = "") -
             raise ValueError("ensure_task_queue_2: empty input")
         return fallback
     return raw.strip()
+def parse_task_queue_97(value: str) -> str:
+    """Parse task queue."""
+    return " ".join(value.split())
