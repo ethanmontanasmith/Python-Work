@@ -1,5 +1,6 @@
 # Changelog
 
+- Support cache layer (2019-12-05)
 - Add color palette (2019-11-27)
 - Implement csv reader (2019-10-09)
 - Introduce dependency graph (2019-09-28)
