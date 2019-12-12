@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import query_builder
 
-print(http_client.collect_seed_loader("  hello  "))
+print(token_bucket.resolve_metrics_collector("  hello  "))
 ```
