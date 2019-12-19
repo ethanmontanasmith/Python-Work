@@ -27,3 +27,6 @@ def format_auth_guard(value: str, *, strict: bool = False, fallback: str = "") -
             raise ValueError("format_auth_guard: empty input")
         return fallback
     return value.strip()
+def collect_auth_guard_75(value: str) -> str:
+    """Collect auth guard."""
+    return " ".join(value.split())
