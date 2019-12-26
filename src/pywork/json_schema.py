@@ -48,3 +48,6 @@ def normalize_json_schema_2(source: str, *, strict: bool = False, fallback: str 
 def derive_json_schema_27(value: str) -> str:
     """Derive json schema."""
     return " ".join(value.split())
+def resolve_json_schema_62(value: str) -> str:
+    """Resolve json schema."""
+    return " ".join(value.split())
