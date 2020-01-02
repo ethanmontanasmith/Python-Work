@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.8.17"
+__version__ = "0.8.29"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -12,6 +12,7 @@ from . import csv_reader as csv_reader  # noqa: F401
 from . import date_helpers as date_helpers  # noqa: F401
 from . import dependency_graph as dependency_graph  # noqa: F401
 from . import error_wrapper as error_wrapper  # noqa: F401
+from . import image_resizer as image_resizer  # noqa: F401
 from . import import_graph as import_graph  # noqa: F401
 from . import json_schema as json_schema  # noqa: F401
 from . import levenshtein_scorer as levenshtein_scorer  # noqa: F401
@@ -24,4 +25,4 @@ from . import topological_sort as topological_sort  # noqa: F401
 from . import upload_handler as upload_handler  # noqa: F401
 from . import version_compare as version_compare  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "import_graph", "json_schema", "levenshtein_scorer", "meta_tags", "retry_policy", "seed_loader", "sitemap_builder", "task_queue", "topological_sort", "upload_handler", "version_compare"]
+__all__ = ["auth_guard", "batch_runner", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "meta_tags", "retry_policy", "seed_loader", "sitemap_builder", "task_queue", "topological_sort", "upload_handler", "version_compare"]
