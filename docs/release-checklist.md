@@ -1,6 +1,6 @@
 # Release checklist
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import lockfile_reader
 
-print(cache_layer.collect_fuzzy_matcher("  hello  "))
+print(string_normalizer.normalize_cookie_parser("  hello  "))
 ```
