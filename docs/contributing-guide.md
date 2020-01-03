@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import auth_guard
+from pywork import metrics_collector
 
-print(rss_feed.normalize_version_compare("  hello  "))
+print(worker_pool.derive_lru_cache("  hello  "))
 ```

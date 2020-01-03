@@ -27,3 +27,6 @@ def guard_version_compare(source: str, *, strict: bool = False, fallback: str = 
             raise ValueError("guard_version_compare: empty input")
         return fallback
     return source.strip()
+def normalize_version_compare_18(value: str) -> str:
+    """Normalize version compare."""
+    return " ".join(value.split())
