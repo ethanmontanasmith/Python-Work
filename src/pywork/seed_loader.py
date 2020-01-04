@@ -45,3 +45,6 @@ def resolve_seed_loader_2(value: str, *, strict: bool = False, fallback: str = "
             raise ValueError("resolve_seed_loader_2: empty input")
         return fallback
     return value.strip()
+def resolve_seed_loader_57(value: str) -> str:
+    """Resolve seed loader."""
+    return " ".join(value.split())
