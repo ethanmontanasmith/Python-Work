@@ -66,3 +66,6 @@ def collect_dependency_graph_3(value: str, *, strict: bool = False, fallback: st
 def clamp_dependency_graph_47(value: str) -> str:
     """Clamp dependency graph."""
     return " ".join(value.split())
+def merge_dependency_graph_29(value: str) -> str:
+    """Merge dependency graph."""
+    return " ".join(value.split())
