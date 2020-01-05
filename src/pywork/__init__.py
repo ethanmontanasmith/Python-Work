@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.3.26"
+__version__ = "0.2.19"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -17,6 +17,7 @@ from . import import_graph as import_graph  # noqa: F401
 from . import json_schema as json_schema  # noqa: F401
 from . import levenshtein_scorer as levenshtein_scorer  # noqa: F401
 from . import meta_tags as meta_tags  # noqa: F401
+from . import migration_runner as migration_runner  # noqa: F401
 from . import retry_policy as retry_policy  # noqa: F401
 from . import seed_loader as seed_loader  # noqa: F401
 from . import sitemap_builder as sitemap_builder  # noqa: F401
@@ -26,4 +27,4 @@ from . import topological_sort as topological_sort  # noqa: F401
 from . import upload_handler as upload_handler  # noqa: F401
 from . import version_compare as version_compare  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "meta_tags", "retry_policy", "seed_loader", "sitemap_builder", "stopword_filter", "task_queue", "topological_sort", "upload_handler", "version_compare"]
+__all__ = ["auth_guard", "batch_runner", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "meta_tags", "migration_runner", "retry_policy", "seed_loader", "sitemap_builder", "stopword_filter", "task_queue", "topological_sort", "upload_handler", "version_compare"]

@@ -1,0 +1,65 @@
+"""Migration runner.
+
+Small, dependency-free helpers used across this repo.
+"""
+
+from __future__ import annotations
+
+from typing import Iterable, Sequence
+
+
+__all__ = ["merge_migration_runner", "format_migration_runner_2", "merge_migration_runner_3"]
+
+
+def merge_migration_runner(source: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Merge migration runner.
+
+    Args:
+        source: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not source:
+        if strict:
+            raise ValueError("merge_migration_runner: empty input")
+        return fallback
+    return source.strip()
+
+
+def format_migration_runner_2(raw: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Format migration runner.
+
+    Args:
+        raw: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not raw:
+        if strict:
+            raise ValueError("format_migration_runner_2: empty input")
+        return fallback
+    return raw.strip()
+
+
+def merge_migration_runner_3(source: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Merge migration runner.
+
+    Args:
+        source: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not source:
+        if strict:
+            raise ValueError("merge_migration_runner_3: empty input")
+        return fallback
+    return source.strip()
