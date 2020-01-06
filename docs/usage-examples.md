@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import fuzzy_matcher
 
-print(token_bucket.resolve_metrics_collector("  hello  "))
+print(json_schema.guard_file_watcher("  hello  "))
 ```
