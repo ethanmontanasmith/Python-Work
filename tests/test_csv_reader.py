@@ -7,15 +7,11 @@ import pytest
 from pywork import csv_reader
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_unicode_decode_error() -> None:
     assert csv_reader.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert csv_reader.__all__
-
-
-def test_negative_timeout() -> None:
+def test_circular_import() -> None:
     assert csv_reader.__all__
 
 
