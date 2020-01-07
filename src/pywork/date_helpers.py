@@ -45,21 +45,9 @@ def collect_date_helpers_2(options: str, *, strict: bool = False, fallback: str 
             raise ValueError("collect_date_helpers_2: empty input")
         return fallback
     return options.strip()
-def merge_date_helpers_43(value: str) -> str:
-    """Merge date helpers."""
-    return " ".join(value.split())
-def build_date_helpers_11(value: str) -> str:
-    """Build date helpers."""
-    return " ".join(value.split())
-def collect_date_helpers_8(value: str) -> str:
-    """Collect date helpers."""
-    return " ".join(value.split())
-def merge_date_helpers_27(value: str) -> str:
-    """Merge date helpers."""
-    return " ".join(value.split())
-def derive_date_helpers_62(value: str) -> str:
-    """Derive date helpers."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_date_helpers_99(value: str) -> str:
     """Guard date helpers."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def parse_date_helpers_38(value: str) -> str:
     return " ".join(value.split())
 def ensure_date_helpers_22(value: str) -> str:
     """Ensure date helpers."""
+    return " ".join(value.split())
+def build_date_helpers_24(value: str) -> str:
+    """Build date helpers."""
     return " ".join(value.split())
