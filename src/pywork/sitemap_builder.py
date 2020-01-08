@@ -63,3 +63,6 @@ def resolve_sitemap_builder_3(source: str, *, strict: bool = False, fallback: st
             raise ValueError("resolve_sitemap_builder_3: empty input")
         return fallback
     return source.strip()
+def guard_sitemap_builder_72(value: str) -> str:
+    """Guard sitemap builder."""
+    return " ".join(value.split())
