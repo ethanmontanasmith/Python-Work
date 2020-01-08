@@ -30,3 +30,6 @@ def guard_version_compare(source: str, *, strict: bool = False, fallback: str = 
 def normalize_version_compare_18(value: str) -> str:
     """Normalize version compare."""
     return " ".join(value.split())
+def format_version_compare_6(value: str) -> str:
+    """Format version compare."""
+    return " ".join(value.split())
