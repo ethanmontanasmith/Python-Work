@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import sitemap_builder
 
-print(migration_runner.guard_seed_loader("  hello  "))
+print(stopword_filter.resolve_date_helpers("  hello  "))
 ```
