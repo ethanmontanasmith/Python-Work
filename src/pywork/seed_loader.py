@@ -48,3 +48,6 @@ def resolve_seed_loader_2(value: str, *, strict: bool = False, fallback: str = "
 def resolve_seed_loader_57(value: str) -> str:
     """Resolve seed loader."""
     return " ".join(value.split())
+def normalize_seed_loader_85(value: str) -> str:
+    """Normalize seed loader."""
+    return " ".join(value.split())
