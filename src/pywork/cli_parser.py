@@ -45,3 +45,6 @@ def collect_cli_parser_2(raw: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("collect_cli_parser_2: empty input")
         return fallback
     return raw.strip()
+def guard_cli_parser_3(value: str) -> str:
+    """Guard cli parser."""
+    return " ".join(value.split())
