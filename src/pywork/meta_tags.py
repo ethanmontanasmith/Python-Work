@@ -45,3 +45,6 @@ def format_meta_tags_2(value: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("format_meta_tags_2: empty input")
         return fallback
     return value.strip()
+def normalize_meta_tags_41(value: str) -> str:
+    """Normalize meta tags."""
+    return " ".join(value.split())
