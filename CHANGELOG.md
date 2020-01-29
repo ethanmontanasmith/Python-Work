@@ -1,5 +1,6 @@
 # Changelog
 
+- Add migration runner (2020-01-28)
 - Expose version compare (2020-01-07)
 - Implement auth guard (2020-01-06)
 - Support cache layer (2019-12-05)
