@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import snapshot_store
 
-print(worker_pool.derive_lru_cache("  hello  "))
+print(date_helpers.parse_json_schema("  hello  "))
 ```
