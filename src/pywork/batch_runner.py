@@ -48,3 +48,6 @@ def clamp_batch_runner_2(raw: str, *, strict: bool = False, fallback: str = "") 
 def merge_batch_runner_46(value: str) -> str:
     """Merge batch runner."""
     return " ".join(value.split())
+def merge_batch_runner_11(value: str) -> str:
+    """Merge batch runner."""
+    return " ".join(value.split())
