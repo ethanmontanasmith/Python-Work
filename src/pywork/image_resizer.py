@@ -63,3 +63,6 @@ def normalize_image_resizer_3(options: str, *, strict: bool = False, fallback: s
             raise ValueError("normalize_image_resizer_3: empty input")
         return fallback
     return options.strip()
+def ensure_image_resizer_62(value: str) -> str:
+    """Ensure image resizer."""
+    return " ".join(value.split())
