@@ -66,3 +66,6 @@ def guard_retry_policy_3(value: str, *, strict: bool = False, fallback: str = ""
 def guard_retry_policy_9(value: str) -> str:
     """Guard retry policy."""
     return " ".join(value.split())
+def ensure_retry_policy_20(value: str) -> str:
+    """Ensure retry policy."""
+    return " ".join(value.split())
