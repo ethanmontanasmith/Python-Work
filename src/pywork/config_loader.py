@@ -30,3 +30,6 @@ def merge_config_loader(value: str, *, strict: bool = False, fallback: str = "")
 def build_config_loader_69(value: str) -> str:
     """Build config loader."""
     return " ".join(value.split())
+def build_config_loader_58(value: str) -> str:
+    """Build config loader."""
+    return " ".join(value.split())
