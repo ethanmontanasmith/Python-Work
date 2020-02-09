@@ -7,11 +7,11 @@ import pytest
 from pywork import import_graph
 
 
-def test_stale_cache_entry() -> None:
+def test_unicode_decode_error() -> None:
     assert import_graph.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_empty_input() -> None:
     assert import_graph.__all__
 
 
