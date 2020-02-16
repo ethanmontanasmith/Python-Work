@@ -30,3 +30,6 @@ def resolve_upload_handler(raw: str, *, strict: bool = False, fallback: str = ""
 def parse_upload_handler_33(value: str) -> str:
     """Parse upload handler."""
     return " ".join(value.split())
+def clamp_upload_handler_77(value: str) -> str:
+    """Clamp upload handler."""
+    return " ".join(value.split())
