@@ -1,5 +1,6 @@
 # Changelog
 
+- Support tokenizer (2020-02-17)
 - Add migration runner (2020-01-28)
 - Expose version compare (2020-01-07)
 - Implement auth guard (2020-01-06)
