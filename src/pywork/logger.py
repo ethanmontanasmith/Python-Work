@@ -1,0 +1,29 @@
+"""Logger.
+
+Small, dependency-free helpers used across this repo.
+"""
+
+from __future__ import annotations
+
+from typing import Iterable, Sequence
+
+
+__all__ = ["derive_logger"]
+
+
+def derive_logger(entries: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Derive logger.
+
+    Args:
+        entries: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not entries:
+        if strict:
+            raise ValueError("derive_logger: empty input")
+        return fallback
+    return entries.strip()
