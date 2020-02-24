@@ -51,3 +51,6 @@ def resolve_seed_loader_57(value: str) -> str:
 def normalize_seed_loader_85(value: str) -> str:
     """Normalize seed loader."""
     return " ".join(value.split())
+def merge_seed_loader_7(value: str) -> str:
+    """Merge seed loader."""
+    return " ".join(value.split())
