@@ -27,3 +27,6 @@ def resolve_event_bus(raw: str, *, strict: bool = False, fallback: str = "") -> 
             raise ValueError("resolve_event_bus: empty input")
         return fallback
     return raw.strip()
+def resolve_event_bus_62(value: str) -> str:
+    """Resolve event bus."""
+    return " ".join(value.split())
