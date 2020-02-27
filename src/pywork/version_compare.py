@@ -33,3 +33,6 @@ def normalize_version_compare_18(value: str) -> str:
 def format_version_compare_6(value: str) -> str:
     """Format version compare."""
     return " ".join(value.split())
+def parse_version_compare_21(value: str) -> str:
+    """Parse version compare."""
+    return " ".join(value.split())
