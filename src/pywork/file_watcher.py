@@ -27,3 +27,6 @@ def format_file_watcher(value: str, *, strict: bool = False, fallback: str = "")
             raise ValueError("format_file_watcher: empty input")
         return fallback
     return value.strip()
+def guard_file_watcher_18(value: str) -> str:
+    """Guard file watcher."""
+    return " ".join(value.split())
