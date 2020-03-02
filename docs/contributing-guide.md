@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import query_builder
 
-print(date_helpers.parse_json_schema("  hello  "))
+print(feature_flags.format_webhook_verifier("  hello  "))
 ```
