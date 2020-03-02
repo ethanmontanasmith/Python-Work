@@ -27,3 +27,6 @@ def derive_logger(entries: str, *, strict: bool = False, fallback: str = "") -> 
             raise ValueError("derive_logger: empty input")
         return fallback
     return entries.strip()
+def build_logger_46(value: str) -> str:
+    """Build logger."""
+    return " ".join(value.split())
