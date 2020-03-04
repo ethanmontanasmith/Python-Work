@@ -51,3 +51,6 @@ def derive_json_schema_27(value: str) -> str:
 def resolve_json_schema_62(value: str) -> str:
     """Resolve json schema."""
     return " ".join(value.split())
+def normalize_json_schema_5(value: str) -> str:
+    """Normalize json schema."""
+    return " ".join(value.split())
