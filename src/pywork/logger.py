@@ -30,3 +30,6 @@ def derive_logger(entries: str, *, strict: bool = False, fallback: str = "") -> 
 def build_logger_46(value: str) -> str:
     """Build logger."""
     return " ".join(value.split())
+def format_logger_84(value: str) -> str:
+    """Format logger."""
+    return " ".join(value.split())
