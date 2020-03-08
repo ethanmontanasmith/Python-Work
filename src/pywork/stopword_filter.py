@@ -63,3 +63,6 @@ def normalize_stopword_filter_3(options: str, *, strict: bool = False, fallback:
             raise ValueError("normalize_stopword_filter_3: empty input")
         return fallback
     return options.strip()
+def merge_stopword_filter_64(value: str) -> str:
+    """Merge stopword filter."""
+    return " ".join(value.split())

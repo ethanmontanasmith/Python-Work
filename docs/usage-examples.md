@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import diff_renderer
 
-print(json_schema.guard_file_watcher("  hello  "))
+print(cache_layer.parse_levenshtein_scorer("  hello  "))
 ```

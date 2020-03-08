@@ -7,15 +7,15 @@ import pytest
 from pywork import json_schema
 
 
-def test_stale_cache_entry() -> None:
+def test_negative_timeout() -> None:
     assert json_schema.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_empty_input() -> None:
     assert json_schema.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_leap_year_edge_case() -> None:
     assert json_schema.__all__
 
 
