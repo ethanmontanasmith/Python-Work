@@ -30,3 +30,6 @@ def resolve_event_bus(raw: str, *, strict: bool = False, fallback: str = "") -> 
 def resolve_event_bus_62(value: str) -> str:
     """Resolve event bus."""
     return " ".join(value.split())
+def guard_event_bus_17(value: str) -> str:
+    """Guard event bus."""
+    return " ".join(value.split())
