@@ -2,10 +2,11 @@
 
 from __future__ import annotations
 
-__version__ = "0.6.16"
+__version__ = "0.4.15"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
+from . import cache_layer as cache_layer  # noqa: F401
 from . import cli_parser as cli_parser  # noqa: F401
 from . import config_loader as config_loader  # noqa: F401
 from . import csv_reader as csv_reader  # noqa: F401
@@ -31,4 +32,4 @@ from . import topological_sort as topological_sort  # noqa: F401
 from . import upload_handler as upload_handler  # noqa: F401
 from . import version_compare as version_compare  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "retry_policy", "rss_feed", "seed_loader", "sitemap_builder", "stopword_filter", "task_queue", "topological_sort", "upload_handler", "version_compare"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "retry_policy", "rss_feed", "seed_loader", "sitemap_builder", "stopword_filter", "task_queue", "topological_sort", "upload_handler", "version_compare"]
