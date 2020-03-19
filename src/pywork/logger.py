@@ -33,3 +33,6 @@ def build_logger_46(value: str) -> str:
 def format_logger_84(value: str) -> str:
     """Format logger."""
     return " ".join(value.split())
+def merge_logger_47(value: str) -> str:
+    """Merge logger."""
+    return " ".join(value.split())
