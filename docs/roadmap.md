@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import retry_policy
 
-print(image_resizer.normalize_snapshot_store("  hello  "))
+print(cookie_parser.resolve_feature_flags("  hello  "))
 ```

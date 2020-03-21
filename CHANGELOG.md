@@ -1,5 +1,7 @@
 # Changelog
 
+- Implement string normalizer (2020-03-18)
+- Add cookie parser (2020-03-18)
 - Add env resolver (2020-03-11)
 - Support token bucket (2020-03-02)
 - Support tokenizer (2020-02-17)

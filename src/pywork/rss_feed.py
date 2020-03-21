@@ -27,3 +27,6 @@ def normalize_rss_feed(raw: str, *, strict: bool = False, fallback: str = "") ->
             raise ValueError("normalize_rss_feed: empty input")
         return fallback
     return raw.strip()
+def clamp_rss_feed_47(value: str) -> str:
+    """Clamp rss feed."""
+    return " ".join(value.split())

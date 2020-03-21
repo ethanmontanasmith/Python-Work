@@ -48,3 +48,6 @@ def collect_cli_parser_2(raw: str, *, strict: bool = False, fallback: str = "") 
 def guard_cli_parser_3(value: str) -> str:
     """Guard cli parser."""
     return " ".join(value.split())
+def format_cli_parser_28(value: str) -> str:
+    """Format cli parser."""
+    return " ".join(value.split())
