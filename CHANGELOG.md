@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement changelog parser (2020-03-23)
 - Implement string normalizer (2020-03-18)
 - Add cookie parser (2020-03-18)
 - Add env resolver (2020-03-11)
