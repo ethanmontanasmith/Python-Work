@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.3.28"
+__version__ = "0.8.14"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -27,10 +27,10 @@ from . import query_builder as query_builder  # noqa: F401
 from . import retry_policy as retry_policy  # noqa: F401
 from . import rss_feed as rss_feed  # noqa: F401
 from . import seed_loader as seed_loader  # noqa: F401
+from . import session_store as session_store  # noqa: F401
 from . import sitemap_builder as sitemap_builder  # noqa: F401
 from . import stopword_filter as stopword_filter  # noqa: F401
 from . import task_queue as task_queue  # noqa: F401
 from . import topological_sort as topological_sort  # noqa: F401
-from . import upload_handler as upload_handler  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "query_builder", "retry_policy", "rss_feed", "seed_loader", "sitemap_builder", "stopword_filter", "task_queue", "topological_sort", "upload_handler"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store", "sitemap_builder", "stopword_filter", "task_queue", "topological_sort"]
