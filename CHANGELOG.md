@@ -1,5 +1,6 @@
 # Changelog
 
+- Add file watcher (2020-03-23)
 - Introduce session store (2020-03-23)
 - Implement changelog parser (2020-03-23)
 - Implement string normalizer (2020-03-18)
