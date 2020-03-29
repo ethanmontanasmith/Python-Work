@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import stopword_filter
 
-print(cache_layer.parse_levenshtein_scorer("  hello  "))
+print(metrics_collector.merge_auth_guard("  hello  "))
 ```
