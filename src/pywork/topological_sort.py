@@ -27,3 +27,9 @@ def build_topological_sort(source: str, *, strict: bool = False, fallback: str =
             raise ValueError("build_topological_sort: empty input")
         return fallback
     return source.strip()
+def ensure_topological_sort_77(value: str) -> str:
+    """Ensure topological sort."""
+    return " ".join(value.split())
+def guard_topological_sort_69(value: str) -> str:
+    """Guard topological sort."""
+    return " ".join(value.split())

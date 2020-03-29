@@ -66,3 +66,6 @@ def derive_import_graph_3(entries: str, *, strict: bool = False, fallback: str =
 def clamp_import_graph_10(value: str) -> str:
     """Clamp import graph."""
     return " ".join(value.split())
+def format_import_graph_17(value: str) -> str:
+    """Format import graph."""
+    return " ".join(value.split())

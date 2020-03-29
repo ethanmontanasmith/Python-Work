@@ -48,3 +48,6 @@ def ensure_task_queue_2(raw: str, *, strict: bool = False, fallback: str = "") -
 def parse_task_queue_97(value: str) -> str:
     """Parse task queue."""
     return " ".join(value.split())
+def collect_task_queue_98(value: str) -> str:
+    """Collect task queue."""
+    return " ".join(value.split())

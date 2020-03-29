@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import rate_limiter
 
-print(event_bus.resolve_topological_sort("  hello  "))
+print(signature_check.parse_cli_parser("  hello  "))
 ```
