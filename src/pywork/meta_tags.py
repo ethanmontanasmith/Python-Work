@@ -48,3 +48,6 @@ def format_meta_tags_2(value: str, *, strict: bool = False, fallback: str = "") 
 def normalize_meta_tags_41(value: str) -> str:
     """Normalize meta tags."""
     return " ".join(value.split())
+def format_meta_tags_84(value: str) -> str:
+    """Format meta tags."""
+    return " ".join(value.split())
