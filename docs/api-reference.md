@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import topological_sort
 
-print(snapshot_store.clamp_cors_handler("  hello  "))
+print(signature_check.normalize_path_utils("  hello  "))
 ```
