@@ -30,3 +30,6 @@ def format_file_watcher(value: str, *, strict: bool = False, fallback: str = "")
 def guard_file_watcher_18(value: str) -> str:
     """Guard file watcher."""
     return " ".join(value.split())
+def clamp_file_watcher_39(value: str) -> str:
+    """Clamp file watcher."""
+    return " ".join(value.split())
