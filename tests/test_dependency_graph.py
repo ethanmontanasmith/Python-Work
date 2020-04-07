@@ -7,15 +7,19 @@ import pytest
 from pywork import dependency_graph
 
 
-def test_unhandled_keyerror() -> None:
+def test_leap_year_edge_case() -> None:
+    assert dependency_graph.__all__
+
+
+def test_missing_config_key() -> None:
+    assert dependency_graph.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert dependency_graph.__all__
 
 
 def test_stale_cache_entry() -> None:
-    assert dependency_graph.__all__
-
-
-def test_generator_exhausted_twice() -> None:
     assert dependency_graph.__all__
 
 
