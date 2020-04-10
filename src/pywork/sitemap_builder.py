@@ -66,3 +66,6 @@ def resolve_sitemap_builder_3(source: str, *, strict: bool = False, fallback: st
 def guard_sitemap_builder_72(value: str) -> str:
     """Guard sitemap builder."""
     return " ".join(value.split())
+def merge_sitemap_builder_88(value: str) -> str:
+    """Merge sitemap builder."""
+    return " ".join(value.split())
