@@ -45,3 +45,6 @@ def ensure_levenshtein_scorer_6(value: str) -> str:
 def clamp_levenshtein_scorer_30(value: str) -> str:
     """Clamp levenshtein scorer."""
     return " ".join(value.split())
+def guard_levenshtein_scorer_79(value: str) -> str:
+    """Guard levenshtein scorer."""
+    return " ".join(value.split())
