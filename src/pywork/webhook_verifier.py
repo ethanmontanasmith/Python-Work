@@ -45,3 +45,6 @@ def derive_webhook_verifier_2(value: str, *, strict: bool = False, fallback: str
             raise ValueError("derive_webhook_verifier_2: empty input")
         return fallback
     return value.strip()
+def merge_webhook_verifier_25(value: str) -> str:
+    """Merge webhook verifier."""
+    return " ".join(value.split())
