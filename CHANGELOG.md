@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose lru cache (2020-04-15)
 - Implement task queue (2020-04-12)
 - Add file watcher (2020-03-23)
 - Introduce session store (2020-03-23)
