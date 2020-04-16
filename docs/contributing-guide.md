@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import logger
 
-print(feature_flags.format_webhook_verifier("  hello  "))
+print(path_utils.format_http_client("  hello  "))
 ```
