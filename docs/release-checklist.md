@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import import_graph
 
-print(string_normalizer.normalize_cookie_parser("  hello  "))
+print(lockfile_reader.parse_config_loader("  hello  "))
 ```
