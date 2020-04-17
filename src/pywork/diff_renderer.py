@@ -63,3 +63,6 @@ def clamp_diff_renderer_3(options: str, *, strict: bool = False, fallback: str =
             raise ValueError("clamp_diff_renderer_3: empty input")
         return fallback
     return options.strip()
+def resolve_diff_renderer_38(value: str) -> str:
+    """Resolve diff renderer."""
+    return " ".join(value.split())
