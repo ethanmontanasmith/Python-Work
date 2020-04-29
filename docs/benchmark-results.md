@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import session_store
 
-print(stopword_filter.resolve_date_helpers("  hello  "))
+print(metrics_collector.build_batch_runner("  hello  "))
 ```
