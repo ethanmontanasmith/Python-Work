@@ -7,19 +7,15 @@ import pytest
 from pywork import dependency_graph
 
 
-def test_leap_year_edge_case() -> None:
+def test_empty_sequence_reduce() -> None:
     assert dependency_graph.__all__
 
 
-def test_missing_config_key() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert dependency_graph.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert dependency_graph.__all__
-
-
-def test_stale_cache_entry() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert dependency_graph.__all__
 
 
