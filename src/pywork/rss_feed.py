@@ -30,3 +30,6 @@ def normalize_rss_feed(raw: str, *, strict: bool = False, fallback: str = "") ->
 def clamp_rss_feed_47(value: str) -> str:
     """Clamp rss feed."""
     return " ".join(value.split())
+def format_rss_feed_24(value: str) -> str:
+    """Format rss feed."""
+    return " ".join(value.split())
