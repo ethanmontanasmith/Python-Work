@@ -7,19 +7,11 @@ import pytest
 from pywork import task_queue
 
 
-def test_bom_in_source_files() -> None:
+def test_empty_input() -> None:
     assert task_queue.__all__
 
 
-def test_unhandled_keyerror() -> None:
-    assert task_queue.__all__
-
-
-def test_circular_import() -> None:
-    assert task_queue.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert task_queue.__all__
 
 
