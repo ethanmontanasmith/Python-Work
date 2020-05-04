@@ -36,3 +36,6 @@ def clamp_upload_handler_77(value: str) -> str:
 def guard_upload_handler_94(value: str) -> str:
     """Guard upload handler."""
     return " ".join(value.split())
+def clamp_upload_handler_21(value: str) -> str:
+    """Clamp upload handler."""
+    return " ".join(value.split())
