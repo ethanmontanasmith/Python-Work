@@ -30,3 +30,6 @@ def format_auth_guard(value: str, *, strict: bool = False, fallback: str = "") -
 def collect_auth_guard_75(value: str) -> str:
     """Collect auth guard."""
     return " ".join(value.split())
+def format_auth_guard_67(value: str) -> str:
+    """Format auth guard."""
+    return " ".join(value.split())
