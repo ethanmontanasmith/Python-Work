@@ -7,15 +7,19 @@ import pytest
 from pywork import event_bus
 
 
-def test_double_encoded_query() -> None:
+def test_mutable_default_argument() -> None:
     assert event_bus.__all__
 
 
-def test_negative_timeout() -> None:
+def test_empty_input() -> None:
     assert event_bus.__all__
 
 
-def test_missing_config_key() -> None:
+def test_bom_in_source_files() -> None:
+    assert event_bus.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert event_bus.__all__
 
 
