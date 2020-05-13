@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import event_bus
 
-print(import_graph.clamp_metrics_collector("  hello  "))
+print(topological_sort.normalize_dependency_graph("  hello  "))
 ```
