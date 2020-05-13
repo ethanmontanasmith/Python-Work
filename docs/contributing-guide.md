@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import changelog_parser
 
-print(path_utils.format_http_client("  hello  "))
+print(diff_renderer.build_topological_sort("  hello  "))
 ```
