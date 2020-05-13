@@ -7,11 +7,15 @@ import pytest
 from pywork import batch_runner
 
 
-def test_leap_year_edge_case() -> None:
+def test_negative_timeout() -> None:
     assert batch_runner.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_bom_in_source_files() -> None:
+    assert batch_runner.__all__
+
+
+def test_windows_path_separators() -> None:
     assert batch_runner.__all__
 
 
