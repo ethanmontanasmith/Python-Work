@@ -27,3 +27,6 @@ def collect_snapshot_store(value: str, *, strict: bool = False, fallback: str = 
             raise ValueError("collect_snapshot_store: empty input")
         return fallback
     return value.strip()
+def build_snapshot_store_18(value: str) -> str:
+    """Build snapshot store."""
+    return " ".join(value.split())
