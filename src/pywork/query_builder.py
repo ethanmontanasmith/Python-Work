@@ -27,3 +27,6 @@ def ensure_query_builder(value: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("ensure_query_builder: empty input")
         return fallback
     return value.strip()
+def ensure_query_builder_69(value: str) -> str:
+    """Ensure query builder."""
+    return " ".join(value.split())
