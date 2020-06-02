@@ -66,3 +66,6 @@ def guard_seed_loader_81(value: str) -> str:
 def merge_seed_loader_20(value: str) -> str:
     """Merge seed loader."""
     return " ".join(value.split())
+def format_seed_loader_91(value: str) -> str:
+    """Format seed loader."""
+    return " ".join(value.split())
