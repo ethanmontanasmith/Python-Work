@@ -7,15 +7,15 @@ import pytest
 from pywork import stopword_filter
 
 
-def test_shadowed_builtin_name() -> None:
-    assert stopword_filter.__all__
-
-
-def test_bom_in_source_files() -> None:
-    assert stopword_filter.__all__
-
-
 def test_double_encoded_query() -> None:
+    assert stopword_filter.__all__
+
+
+def test_missing_config_key() -> None:
+    assert stopword_filter.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert stopword_filter.__all__
 
 
