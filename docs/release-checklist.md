@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import import_graph
+from pywork import http_client
 
-print(lockfile_reader.parse_config_loader("  hello  "))
+print(image_resizer.format_task_queue("  hello  "))
 ```
