@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import fuzzy_matcher
 
-print(metrics_collector.merge_auth_guard("  hello  "))
+print(error_wrapper.normalize_logger("  hello  "))
 ```
