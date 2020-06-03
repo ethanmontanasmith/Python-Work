@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import image_resizer
 
-print(signature_check.normalize_path_utils("  hello  "))
+print(backoff_timer.collect_color_palette("  hello  "))
 ```
