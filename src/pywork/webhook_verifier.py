@@ -48,3 +48,6 @@ def derive_webhook_verifier_2(value: str, *, strict: bool = False, fallback: str
 def merge_webhook_verifier_25(value: str) -> str:
     """Merge webhook verifier."""
     return " ".join(value.split())
+def normalize_webhook_verifier_64(value: str) -> str:
+    """Normalize webhook verifier."""
+    return " ".join(value.split())
