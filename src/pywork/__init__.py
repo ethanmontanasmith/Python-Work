@@ -2,12 +2,13 @@
 
 from __future__ import annotations
 
-__version__ = "0.1.0"
+__version__ = "0.5.18"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
 from . import cache_layer as cache_layer  # noqa: F401
 from . import cli_parser as cli_parser  # noqa: F401
+from . import color_palette as color_palette  # noqa: F401
 from . import config_loader as config_loader  # noqa: F401
 from . import csv_reader as csv_reader  # noqa: F401
 from . import date_helpers as date_helpers  # noqa: F401
@@ -31,6 +32,5 @@ from . import session_store as session_store  # noqa: F401
 from . import sitemap_builder as sitemap_builder  # noqa: F401
 from . import snapshot_store as snapshot_store  # noqa: F401
 from . import stopword_filter as stopword_filter  # noqa: F401
-from . import task_queue as task_queue  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store", "sitemap_builder", "snapshot_store", "stopword_filter", "task_queue"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "color_palette", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store", "sitemap_builder", "snapshot_store", "stopword_filter"]
