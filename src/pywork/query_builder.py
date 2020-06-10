@@ -30,3 +30,6 @@ def ensure_query_builder(value: str, *, strict: bool = False, fallback: str = ""
 def ensure_query_builder_69(value: str) -> str:
     """Ensure query builder."""
     return " ".join(value.split())
+def normalize_query_builder_17(value: str) -> str:
+    """Normalize query builder."""
+    return " ".join(value.split())
