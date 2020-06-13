@@ -7,15 +7,23 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_unicode_decode_error() -> None:
-    assert sitemap_builder.__all__
-
-
 def test_unhandled_keyerror() -> None:
     assert sitemap_builder.__all__
 
 
 def test_circular_import() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_shadowed_builtin_name() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_empty_input() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_double_encoded_query() -> None:
     assert sitemap_builder.__all__
 
 
