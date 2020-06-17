@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import version_compare
 
-print(error_wrapper.normalize_logger("  hello  "))
+print(query_builder.resolve_image_resizer("  hello  "))
 ```
