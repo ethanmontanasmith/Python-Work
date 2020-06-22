@@ -27,3 +27,6 @@ def guard_color_palette(source: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("guard_color_palette: empty input")
         return fallback
     return source.strip()
+def normalize_color_palette_14(value: str) -> str:
+    """Normalize color palette."""
+    return " ".join(value.split())
