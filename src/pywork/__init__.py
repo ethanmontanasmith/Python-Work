@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.5.18"
+__version__ = "0.6.13"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -30,7 +30,7 @@ from . import rss_feed as rss_feed  # noqa: F401
 from . import seed_loader as seed_loader  # noqa: F401
 from . import session_store as session_store  # noqa: F401
 from . import sitemap_builder as sitemap_builder  # noqa: F401
+from . import slug_parser as slug_parser  # noqa: F401
 from . import snapshot_store as snapshot_store  # noqa: F401
-from . import stopword_filter as stopword_filter  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "color_palette", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store", "sitemap_builder", "snapshot_store", "stopword_filter"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "color_palette", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store", "sitemap_builder", "slug_parser", "snapshot_store"]
