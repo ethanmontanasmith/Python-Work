@@ -54,3 +54,6 @@ def collect_task_queue_98(value: str) -> str:
 def collect_task_queue_77(value: str) -> str:
     """Collect task queue."""
     return " ".join(value.split())
+def clamp_task_queue_89(value: str) -> str:
+    """Clamp task queue."""
+    return " ".join(value.split())
