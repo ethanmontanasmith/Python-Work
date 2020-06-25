@@ -69,3 +69,6 @@ def clamp_dependency_graph_47(value: str) -> str:
 def merge_dependency_graph_29(value: str) -> str:
     """Merge dependency graph."""
     return " ".join(value.split())
+def merge_dependency_graph_98(value: str) -> str:
+    """Merge dependency graph."""
+    return " ".join(value.split())
