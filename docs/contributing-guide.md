@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import signature_check
 
-print(diff_renderer.build_topological_sort("  hello  "))
+print(tokenizer.parse_seed_loader("  hello  "))
 ```
