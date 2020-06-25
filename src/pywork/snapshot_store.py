@@ -30,3 +30,6 @@ def collect_snapshot_store(value: str, *, strict: bool = False, fallback: str = 
 def build_snapshot_store_18(value: str) -> str:
     """Build snapshot store."""
     return " ".join(value.split())
+def normalize_snapshot_store_70(value: str) -> str:
+    """Normalize snapshot store."""
+    return " ".join(value.split())
