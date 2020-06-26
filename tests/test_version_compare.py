@@ -7,15 +7,11 @@ import pytest
 from pywork import version_compare
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_bom_in_source_files() -> None:
     assert version_compare.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert version_compare.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_missing_config_key() -> None:
     assert version_compare.__all__
 
 
