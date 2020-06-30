@@ -33,3 +33,6 @@ def build_snapshot_store_18(value: str) -> str:
 def normalize_snapshot_store_70(value: str) -> str:
     """Normalize snapshot store."""
     return " ".join(value.split())
+def collect_snapshot_store_72(value: str) -> str:
+    """Collect snapshot store."""
+    return " ".join(value.split())
