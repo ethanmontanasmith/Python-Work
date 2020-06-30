@@ -42,3 +42,6 @@ def resolve_version_compare_76(value: str) -> str:
 def merge_version_compare_38(value: str) -> str:
     """Merge version compare."""
     return " ".join(value.split())
+def ensure_version_compare_63(value: str) -> str:
+    """Ensure version compare."""
+    return " ".join(value.split())
