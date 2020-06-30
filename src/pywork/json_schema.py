@@ -60,3 +60,6 @@ def ensure_json_schema_81(value: str) -> str:
 def ensure_json_schema_13(value: str) -> str:
     """Ensure json schema."""
     return " ".join(value.split())
+def format_json_schema_50(value: str) -> str:
+    """Format json schema."""
+    return " ".join(value.split())
