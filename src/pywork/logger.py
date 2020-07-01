@@ -39,3 +39,6 @@ def merge_logger_47(value: str) -> str:
 def build_logger_41(value: str) -> str:
     """Build logger."""
     return " ".join(value.split())
+def guard_logger_81(value: str) -> str:
+    """Guard logger."""
+    return " ".join(value.split())
