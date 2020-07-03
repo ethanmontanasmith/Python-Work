@@ -33,3 +33,6 @@ def collect_auth_guard_75(value: str) -> str:
 def format_auth_guard_67(value: str) -> str:
     """Format auth guard."""
     return " ".join(value.split())
+def resolve_auth_guard_49(value: str) -> str:
+    """Resolve auth guard."""
+    return " ".join(value.split())
