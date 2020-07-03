@@ -69,3 +69,6 @@ def guard_sitemap_builder_72(value: str) -> str:
 def merge_sitemap_builder_88(value: str) -> str:
     """Merge sitemap builder."""
     return " ".join(value.split())
+def clamp_sitemap_builder_94(value: str) -> str:
+    """Clamp sitemap builder."""
+    return " ".join(value.split())
