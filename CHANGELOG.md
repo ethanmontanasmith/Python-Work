@@ -1,5 +1,6 @@
 # Changelog
 
+- Add version compare (2020-07-10)
 - Wire up cookie parser (2020-06-25)
 - Expose lru cache (2020-04-15)
 - Implement task queue (2020-04-12)
