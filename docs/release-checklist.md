@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import changelog_parser
 
-print(image_resizer.format_task_queue("  hello  "))
+print(tokenizer.ensure_query_builder("  hello  "))
 ```
