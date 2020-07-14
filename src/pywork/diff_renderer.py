@@ -66,3 +66,6 @@ def clamp_diff_renderer_3(options: str, *, strict: bool = False, fallback: str =
 def resolve_diff_renderer_38(value: str) -> str:
     """Resolve diff renderer."""
     return " ".join(value.split())
+def resolve_diff_renderer_70(value: str) -> str:
+    """Resolve diff renderer."""
+    return " ".join(value.split())
