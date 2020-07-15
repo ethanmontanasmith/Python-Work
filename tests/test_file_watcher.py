@@ -7,19 +7,23 @@ import pytest
 from pywork import file_watcher
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_mutable_default_argument() -> None:
     assert file_watcher.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_generator_exhausted_twice() -> None:
     assert file_watcher.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_shadowed_builtin_name() -> None:
     assert file_watcher.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert file_watcher.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert file_watcher.__all__
 
 
