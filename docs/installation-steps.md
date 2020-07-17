@@ -1,6 +1,6 @@
 # Installation steps
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import auth_guard
+from pywork import table_formatter
 
-print(cache_layer.build_env_resolver("  hello  "))
+print(error_wrapper.derive_lockfile_reader("  hello  "))
 ```
