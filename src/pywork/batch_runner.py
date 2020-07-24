@@ -57,3 +57,6 @@ def build_batch_runner_49(value: str) -> str:
 def format_batch_runner_29(value: str) -> str:
     """Format batch runner."""
     return " ".join(value.split())
+def clamp_batch_runner_2(value: str) -> str:
+    """Clamp batch runner."""
+    return " ".join(value.split())
