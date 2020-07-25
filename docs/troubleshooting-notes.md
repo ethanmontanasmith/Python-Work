@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import markdown_renderer
 
-print(signature_check.parse_cli_parser("  hello  "))
+print(cli_parser.format_stopword_filter("  hello  "))
 ```
