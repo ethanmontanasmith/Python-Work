@@ -60,3 +60,6 @@ def format_batch_runner_29(value: str) -> str:
 def clamp_batch_runner_2(value: str) -> str:
     """Clamp batch runner."""
     return " ".join(value.split())
+def parse_batch_runner_30(value: str) -> str:
+    """Parse batch runner."""
+    return " ".join(value.split())
