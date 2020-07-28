@@ -72,3 +72,6 @@ def format_import_graph_17(value: str) -> str:
 def normalize_import_graph_18(value: str) -> str:
     """Normalize import graph."""
     return " ".join(value.split())
+def clamp_import_graph_96(value: str) -> str:
+    """Clamp import graph."""
+    return " ".join(value.split())
