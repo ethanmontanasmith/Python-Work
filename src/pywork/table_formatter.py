@@ -1,0 +1,29 @@
+"""Table formatter.
+
+Small, dependency-free helpers used across this repo.
+"""
+
+from __future__ import annotations
+
+from typing import Iterable, Sequence
+
+
+__all__ = ["build_table_formatter"]
+
+
+def build_table_formatter(source: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Build table formatter.
+
+    Args:
+        source: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not source:
+        if strict:
+            raise ValueError("build_table_formatter: empty input")
+        return fallback
+    return source.strip()
