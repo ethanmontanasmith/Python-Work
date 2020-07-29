@@ -48,3 +48,6 @@ def ensure_version_compare_63(value: str) -> str:
 def ensure_version_compare_29(value: str) -> str:
     """Ensure version compare."""
     return " ".join(value.split())
+def derive_version_compare_52(value: str) -> str:
+    """Derive version compare."""
+    return " ".join(value.split())
