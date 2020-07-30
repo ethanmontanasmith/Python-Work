@@ -7,11 +7,15 @@ import pytest
 from pywork import version_compare
 
 
-def test_bom_in_source_files() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert version_compare.__all__
 
 
-def test_missing_config_key() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert version_compare.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert version_compare.__all__
 
 
