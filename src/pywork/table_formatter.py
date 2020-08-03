@@ -27,3 +27,6 @@ def build_table_formatter(source: str, *, strict: bool = False, fallback: str = 
             raise ValueError("build_table_formatter: empty input")
         return fallback
     return source.strip()
+def format_table_formatter_40(value: str) -> str:
+    """Format table formatter."""
+    return " ".join(value.split())
