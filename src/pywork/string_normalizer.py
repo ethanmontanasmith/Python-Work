@@ -45,3 +45,6 @@ def build_string_normalizer_2(source: str, *, strict: bool = False, fallback: st
             raise ValueError("build_string_normalizer_2: empty input")
         return fallback
     return source.strip()
+def normalize_string_normalizer_82(value: str) -> str:
+    """Normalize string normalizer."""
+    return " ".join(value.split())
