@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.3.14"
+__version__ = "0.6.23"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
