@@ -7,23 +7,11 @@ import pytest
 from pywork import meta_tags
 
 
-def test_bom_in_source_files() -> None:
+def test_unhandled_keyerror() -> None:
     assert meta_tags.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
-    assert meta_tags.__all__
-
-
-def test_unicode_decode_error() -> None:
-    assert meta_tags.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
-    assert meta_tags.__all__
-
-
-def test_missing_config_key() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert meta_tags.__all__
 
 
