@@ -45,3 +45,6 @@ def guard_config_loader_40(value: str) -> str:
 def guard_config_loader_59(value: str) -> str:
     """Guard config loader."""
     return " ".join(value.split())
+def format_config_loader_66(value: str) -> str:
+    """Format config loader."""
+    return " ".join(value.split())

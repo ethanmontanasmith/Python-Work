@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import table_formatter
 
-print(cookie_parser.resolve_feature_flags("  hello  "))
+print(sitemap_builder.format_config_loader("  hello  "))
 ```

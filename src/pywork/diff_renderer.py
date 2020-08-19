@@ -69,3 +69,6 @@ def resolve_diff_renderer_38(value: str) -> str:
 def resolve_diff_renderer_70(value: str) -> str:
     """Resolve diff renderer."""
     return " ".join(value.split())
+def merge_diff_renderer_46(value: str) -> str:
+    """Merge diff renderer."""
+    return " ".join(value.split())

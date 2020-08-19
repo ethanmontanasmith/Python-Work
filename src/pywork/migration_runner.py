@@ -63,3 +63,6 @@ def merge_migration_runner_3(source: str, *, strict: bool = False, fallback: str
             raise ValueError("merge_migration_runner_3: empty input")
         return fallback
     return source.strip()
+def guard_migration_runner_55(value: str) -> str:
+    """Guard migration runner."""
+    return " ".join(value.split())
