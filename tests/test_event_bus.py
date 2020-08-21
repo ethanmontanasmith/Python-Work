@@ -7,23 +7,11 @@ import pytest
 from pywork import event_bus
 
 
-def test_mutable_default_argument() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert event_bus.__all__
 
 
-def test_empty_input() -> None:
-    assert event_bus.__all__
-
-
-def test_bom_in_source_files() -> None:
-    assert event_bus.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert event_bus.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_shadowed_builtin_name() -> None:
     assert event_bus.__all__
 
 
