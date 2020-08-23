@@ -87,3 +87,6 @@ def resolve_csv_reader_14(value: str) -> str:
 def merge_csv_reader_25(value: str) -> str:
     """Merge csv reader."""
     return " ".join(value.split())
+def derive_csv_reader_81(value: str) -> str:
+    """Derive csv reader."""
+    return " ".join(value.split())
