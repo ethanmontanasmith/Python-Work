@@ -48,3 +48,6 @@ def build_string_normalizer_2(source: str, *, strict: bool = False, fallback: st
 def normalize_string_normalizer_82(value: str) -> str:
     """Normalize string normalizer."""
     return " ".join(value.split())
+def collect_string_normalizer_61(value: str) -> str:
+    """Collect string normalizer."""
+    return " ".join(value.split())
