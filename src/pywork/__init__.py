@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.7.4"
+__version__ = "0.3.7"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -18,6 +18,7 @@ from . import env_resolver as env_resolver  # noqa: F401
 from . import error_wrapper as error_wrapper  # noqa: F401
 from . import event_bus as event_bus  # noqa: F401
 from . import file_watcher as file_watcher  # noqa: F401
+from . import http_client as http_client  # noqa: F401
 from . import image_resizer as image_resizer  # noqa: F401
 from . import import_graph as import_graph  # noqa: F401
 from . import json_schema as json_schema  # noqa: F401
@@ -31,6 +32,5 @@ from . import retry_policy as retry_policy  # noqa: F401
 from . import rss_feed as rss_feed  # noqa: F401
 from . import seed_loader as seed_loader  # noqa: F401
 from . import session_store as session_store  # noqa: F401
-from . import signature_check as signature_check  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "color_palette", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "pagination", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store", "signature_check"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "cli_parser", "color_palette", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "meta_tags", "migration_runner", "pagination", "query_builder", "retry_policy", "rss_feed", "seed_loader", "session_store"]
