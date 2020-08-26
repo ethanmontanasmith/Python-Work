@@ -7,19 +7,11 @@ import pytest
 from pywork import cli_parser
 
 
-def test_unhandled_keyerror() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert cli_parser.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert cli_parser.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert cli_parser.__all__
-
-
-def test_double_encoded_query() -> None:
+def test_missing_config_key() -> None:
     assert cli_parser.__all__
 
 
