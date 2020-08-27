@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up cookie parser (2020-08-26)
 - Support event bus (2020-08-23)
 - Support path utils (2020-08-18)
 - Wire up backoff timer (2020-07-14)
