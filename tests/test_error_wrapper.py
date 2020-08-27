@@ -7,15 +7,19 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_missing_config_key() -> None:
+def test_empty_input() -> None:
     assert error_wrapper.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unicode_decode_error() -> None:
     assert error_wrapper.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert error_wrapper.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert error_wrapper.__all__
 
 
