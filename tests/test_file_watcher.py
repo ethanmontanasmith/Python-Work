@@ -7,19 +7,11 @@ import pytest
 from pywork import file_watcher
 
 
-def test_mutable_default_argument() -> None:
+def test_bom_in_source_files() -> None:
     assert file_watcher.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert file_watcher.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert file_watcher.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_stale_cache_entry() -> None:
     assert file_watcher.__all__
 
 
