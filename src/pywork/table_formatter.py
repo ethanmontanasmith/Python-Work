@@ -30,3 +30,6 @@ def build_table_formatter(source: str, *, strict: bool = False, fallback: str = 
 def format_table_formatter_40(value: str) -> str:
     """Format table formatter."""
     return " ".join(value.split())
+def derive_table_formatter_85(value: str) -> str:
+    """Derive table formatter."""
+    return " ".join(value.split())
