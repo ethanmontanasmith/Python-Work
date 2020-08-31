@@ -1,5 +1,6 @@
 # Changelog
 
+- Support levenshtein scorer (2020-08-30)
 - Wire up cookie parser (2020-08-26)
 - Support event bus (2020-08-23)
 - Support path utils (2020-08-18)
