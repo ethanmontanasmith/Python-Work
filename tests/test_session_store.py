@@ -7,15 +7,15 @@ import pytest
 from pywork import session_store
 
 
-def test_negative_timeout() -> None:
+def test_circular_import() -> None:
     assert session_store.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_missing_config_key() -> None:
     assert session_store.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert session_store.__all__
 
 
