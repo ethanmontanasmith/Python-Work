@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import auth_guard
 
-print(metrics_collector.build_batch_runner("  hello  "))
+print(tokenizer.normalize_upload_handler("  hello  "))
 ```
