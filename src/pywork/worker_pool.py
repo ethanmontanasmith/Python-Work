@@ -27,3 +27,6 @@ def derive_worker_pool(value: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("derive_worker_pool: empty input")
         return fallback
     return value.strip()
+def normalize_worker_pool_54(value: str) -> str:
+    """Normalize worker pool."""
+    return " ".join(value.split())
