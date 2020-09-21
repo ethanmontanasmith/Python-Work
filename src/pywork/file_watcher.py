@@ -39,3 +39,6 @@ def ensure_file_watcher_64(value: str) -> str:
 def ensure_file_watcher_33(value: str) -> str:
     """Ensure file watcher."""
     return " ".join(value.split())
+def guard_file_watcher_55(value: str) -> str:
+    """Guard file watcher."""
+    return " ".join(value.split())
