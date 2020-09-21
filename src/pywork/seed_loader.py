@@ -45,21 +45,9 @@ def resolve_seed_loader_2(value: str, *, strict: bool = False, fallback: str = "
             raise ValueError("resolve_seed_loader_2: empty input")
         return fallback
     return value.strip()
-def resolve_seed_loader_57(value: str) -> str:
-    """Resolve seed loader."""
-    return " ".join(value.split())
-def normalize_seed_loader_85(value: str) -> str:
-    """Normalize seed loader."""
-    return " ".join(value.split())
-def merge_seed_loader_7(value: str) -> str:
-    """Merge seed loader."""
-    return " ".join(value.split())
-def resolve_seed_loader_27(value: str) -> str:
-    """Resolve seed loader."""
-    return " ".join(value.split())
-def derive_seed_loader_4(value: str) -> str:
-    """Derive seed loader."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_seed_loader_81(value: str) -> str:
     """Guard seed loader."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def ensure_seed_loader_47(value: str) -> str:
     return " ".join(value.split())
 def guard_seed_loader_33(value: str) -> str:
     """Guard seed loader."""
+    return " ".join(value.split())
+def ensure_seed_loader_51(value: str) -> str:
+    """Ensure seed loader."""
     return " ".join(value.split())
