@@ -27,3 +27,6 @@ def resolve_signature_check(value: str, *, strict: bool = False, fallback: str =
             raise ValueError("resolve_signature_check: empty input")
         return fallback
     return value.strip()
+def resolve_signature_check_72(value: str) -> str:
+    """Resolve signature check."""
+    return " ".join(value.split())
