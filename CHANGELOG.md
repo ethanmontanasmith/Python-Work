@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement retry policy (2020-09-29)
 - Support levenshtein scorer (2020-08-30)
 - Wire up cookie parser (2020-08-26)
 - Support event bus (2020-08-23)
