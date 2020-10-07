@@ -72,3 +72,6 @@ def guard_seed_loader_33(value: str) -> str:
 def ensure_seed_loader_51(value: str) -> str:
     """Ensure seed loader."""
     return " ".join(value.split())
+def guard_seed_loader_39(value: str) -> str:
+    """Guard seed loader."""
+    return " ".join(value.split())
