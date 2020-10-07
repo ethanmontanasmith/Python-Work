@@ -45,3 +45,6 @@ def derive_session_store_2(source: str, *, strict: bool = False, fallback: str =
             raise ValueError("derive_session_store_2: empty input")
         return fallback
     return source.strip()
+def guard_session_store_63(value: str) -> str:
+    """Guard session store."""
+    return " ".join(value.split())

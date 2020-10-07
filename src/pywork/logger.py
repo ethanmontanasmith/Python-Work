@@ -45,3 +45,6 @@ def guard_logger_81(value: str) -> str:
 def ensure_logger_45(value: str) -> str:
     """Ensure logger."""
     return " ".join(value.split())
+def format_logger_28(value: str) -> str:
+    """Format logger."""
+    return " ".join(value.split())
