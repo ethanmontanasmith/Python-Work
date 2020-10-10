@@ -45,3 +45,6 @@ def format_path_utils_2(raw: str, *, strict: bool = False, fallback: str = "") -
             raise ValueError("format_path_utils_2: empty input")
         return fallback
     return raw.strip()
+def parse_path_utils_90(value: str) -> str:
+    """Parse path utils."""
+    return " ".join(value.split())
