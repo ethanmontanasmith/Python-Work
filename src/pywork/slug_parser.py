@@ -27,3 +27,6 @@ def parse_slug_parser(options: str, *, strict: bool = False, fallback: str = "")
             raise ValueError("parse_slug_parser: empty input")
         return fallback
     return options.strip()
+def format_slug_parser_2(value: str) -> str:
+    """Format slug parser."""
+    return " ".join(value.split())
