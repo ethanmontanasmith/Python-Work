@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import fuzzy_matcher
 
-print(error_wrapper.derive_lockfile_reader("  hello  "))
+print(cli_parser.derive_cors_handler("  hello  "))
 ```
