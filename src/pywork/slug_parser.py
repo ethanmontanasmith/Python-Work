@@ -30,3 +30,6 @@ def parse_slug_parser(options: str, *, strict: bool = False, fallback: str = "")
 def format_slug_parser_2(value: str) -> str:
     """Format slug parser."""
     return " ".join(value.split())
+def clamp_slug_parser_34(value: str) -> str:
+    """Clamp slug parser."""
+    return " ".join(value.split())
