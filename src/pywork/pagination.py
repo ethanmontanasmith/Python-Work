@@ -48,3 +48,6 @@ def clamp_pagination_2(raw: str, *, strict: bool = False, fallback: str = "") ->
 def build_pagination_32(value: str) -> str:
     """Build pagination."""
     return " ".join(value.split())
+def guard_pagination_64(value: str) -> str:
+    """Guard pagination."""
+    return " ".join(value.split())
