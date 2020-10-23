@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import topological_sort
 
-print(sitemap_builder.format_config_loader("  hello  "))
+print(color_palette.merge_task_queue("  hello  "))
 ```

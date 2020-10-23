@@ -45,3 +45,6 @@ def clamp_pagination_2(raw: str, *, strict: bool = False, fallback: str = "") ->
             raise ValueError("clamp_pagination_2: empty input")
         return fallback
     return raw.strip()
+def build_pagination_32(value: str) -> str:
+    """Build pagination."""
+    return " ".join(value.split())

@@ -33,3 +33,6 @@ def format_slug_parser_2(value: str) -> str:
 def clamp_slug_parser_34(value: str) -> str:
     """Clamp slug parser."""
     return " ".join(value.split())
+def clamp_slug_parser_27(value: str) -> str:
+    """Clamp slug parser."""
+    return " ".join(value.split())

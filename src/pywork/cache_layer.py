@@ -63,3 +63,6 @@ def build_cache_layer_3(source: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("build_cache_layer_3: empty input")
         return fallback
     return source.strip()
+def clamp_cache_layer_56(value: str) -> str:
+    """Clamp cache layer."""
+    return " ".join(value.split())
