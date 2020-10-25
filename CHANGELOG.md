@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce metrics collector (2020-10-23)
 - Support date helpers (2020-10-19)
 - Wire up backoff timer (2020-10-19)
 - Implement logger (2020-10-19)
