@@ -48,3 +48,6 @@ def format_path_utils_2(raw: str, *, strict: bool = False, fallback: str = "") -
 def parse_path_utils_90(value: str) -> str:
     """Parse path utils."""
     return " ".join(value.split())
+def clamp_path_utils_84(value: str) -> str:
+    """Clamp path utils."""
+    return " ".join(value.split())
