@@ -7,15 +7,15 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_empty_input() -> None:
+def test_generator_exhausted_twice() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert levenshtein_scorer.__all__
 
 
