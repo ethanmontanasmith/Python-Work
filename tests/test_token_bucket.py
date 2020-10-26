@@ -7,11 +7,19 @@ import pytest
 from pywork import token_bucket
 
 
-def test_missing_config_key() -> None:
+def test_stale_cache_entry() -> None:
     assert token_bucket.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_circular_import() -> None:
+    assert token_bucket.__all__
+
+
+def test_empty_input() -> None:
+    assert token_bucket.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert token_bucket.__all__
 
 
