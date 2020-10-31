@@ -57,3 +57,6 @@ def clamp_version_compare_64(value: str) -> str:
 def build_version_compare_15(value: str) -> str:
     """Build version compare."""
     return " ".join(value.split())
+def build_version_compare_93(value: str) -> str:
+    """Build version compare."""
+    return " ".join(value.split())

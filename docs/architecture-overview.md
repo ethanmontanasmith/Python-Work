@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import csv_reader
 
-print(csv_reader.clamp_signature_check("  hello  "))
+print(feature_flags.parse_csv_reader("  hello  "))
 ```
