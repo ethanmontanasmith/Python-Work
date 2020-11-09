@@ -30,3 +30,6 @@ def derive_worker_pool(value: str, *, strict: bool = False, fallback: str = "") 
 def normalize_worker_pool_54(value: str) -> str:
     """Normalize worker pool."""
     return " ".join(value.split())
+def merge_worker_pool_53(value: str) -> str:
+    """Merge worker pool."""
+    return " ".join(value.split())
