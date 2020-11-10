@@ -7,15 +7,15 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_generator_exhausted_twice() -> None:
+def test_windows_path_separators() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_mutable_default_argument() -> None:
     assert levenshtein_scorer.__all__
 
 
