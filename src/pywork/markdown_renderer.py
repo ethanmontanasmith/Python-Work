@@ -45,3 +45,6 @@ def build_markdown_renderer_2(raw: str, *, strict: bool = False, fallback: str =
             raise ValueError("build_markdown_renderer_2: empty input")
         return fallback
     return raw.strip()
+def parse_markdown_renderer_72(value: str) -> str:
+    """Parse markdown renderer."""
+    return " ".join(value.split())
