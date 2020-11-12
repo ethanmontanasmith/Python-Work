@@ -42,3 +42,6 @@ def parse_auth_guard_45(value: str) -> str:
 def clamp_auth_guard_31(value: str) -> str:
     """Clamp auth guard."""
     return " ".join(value.split())
+def format_auth_guard_73(value: str) -> str:
+    """Format auth guard."""
+    return " ".join(value.split())
