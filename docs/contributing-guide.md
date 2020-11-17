@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import backoff_timer
 
-print(tokenizer.parse_seed_loader("  hello  "))
+print(cookie_parser.clamp_snapshot_store("  hello  "))
 ```
