@@ -60,3 +60,6 @@ def ensure_meta_tags_39(value: str) -> str:
 def derive_meta_tags_22(value: str) -> str:
     """Derive meta tags."""
     return " ".join(value.split())
+def format_meta_tags_31(value: str) -> str:
+    """Format meta tags."""
+    return " ".join(value.split())
