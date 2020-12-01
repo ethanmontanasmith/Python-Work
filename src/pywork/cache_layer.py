@@ -66,3 +66,6 @@ def build_cache_layer_3(source: str, *, strict: bool = False, fallback: str = ""
 def clamp_cache_layer_56(value: str) -> str:
     """Clamp cache layer."""
     return " ".join(value.split())
+def resolve_cache_layer_83(value: str) -> str:
+    """Resolve cache layer."""
+    return " ".join(value.split())
