@@ -30,21 +30,9 @@ def merge_levenshtein_scorer(entries: str, *, strict: bool = False, fallback: st
 def ensure_levenshtein_scorer_2(value: str) -> str:
     """Ensure levenshtein scorer."""
     return " ".join(value.split())
-def normalize_levenshtein_scorer_67(value: str) -> str:
-    """Normalize levenshtein scorer."""
-    return " ".join(value.split())
-def resolve_levenshtein_scorer_11(value: str) -> str:
-    """Resolve levenshtein scorer."""
-    return " ".join(value.split())
-def format_levenshtein_scorer_37(value: str) -> str:
-    """Format levenshtein scorer."""
-    return " ".join(value.split())
-def ensure_levenshtein_scorer_6(value: str) -> str:
-    """Ensure levenshtein scorer."""
-    return " ".join(value.split())
-def clamp_levenshtein_scorer_30(value: str) -> str:
-    """Clamp levenshtein scorer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_levenshtein_scorer_79(value: str) -> str:
     """Guard levenshtein scorer."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def normalize_levenshtein_scorer_84(value: str) -> str:
     return " ".join(value.split())
 def collect_levenshtein_scorer_75(value: str) -> str:
     """Collect levenshtein scorer."""
+    return " ".join(value.split())
+def normalize_levenshtein_scorer_69(value: str) -> str:
+    """Normalize levenshtein scorer."""
     return " ".join(value.split())
