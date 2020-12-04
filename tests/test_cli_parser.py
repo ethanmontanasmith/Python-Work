@@ -7,11 +7,15 @@ import pytest
 from pywork import cli_parser
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_bom_in_source_files() -> None:
     assert cli_parser.__all__
 
 
-def test_missing_config_key() -> None:
+def test_unhandled_keyerror() -> None:
+    assert cli_parser.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert cli_parser.__all__
 
 
