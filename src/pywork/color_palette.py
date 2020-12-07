@@ -30,3 +30,6 @@ def guard_color_palette(source: str, *, strict: bool = False, fallback: str = ""
 def normalize_color_palette_14(value: str) -> str:
     """Normalize color palette."""
     return " ".join(value.split())
+def guard_color_palette_10(value: str) -> str:
+    """Guard color palette."""
+    return " ".join(value.split())
