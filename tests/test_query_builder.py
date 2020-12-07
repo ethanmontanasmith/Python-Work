@@ -7,11 +7,7 @@ import pytest
 from pywork import query_builder
 
 
-def test_missing_config_key() -> None:
-    assert query_builder.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert query_builder.__all__
 
 
@@ -19,11 +15,11 @@ def test_off_by_one_on_page_boundary() -> None:
     assert query_builder.__all__
 
 
-def test_empty_input() -> None:
+def test_shadowed_builtin_name() -> None:
     assert query_builder.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert query_builder.__all__
 
 
