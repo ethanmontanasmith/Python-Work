@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import color_palette
 
-print(topological_sort.normalize_dependency_graph("  hello  "))
+print(logger.format_batch_runner("  hello  "))
 ```
