@@ -48,3 +48,6 @@ def ensure_logger_45(value: str) -> str:
 def format_logger_28(value: str) -> str:
     """Format logger."""
     return " ".join(value.split())
+def normalize_logger_19(value: str) -> str:
+    """Normalize logger."""
+    return " ".join(value.split())
