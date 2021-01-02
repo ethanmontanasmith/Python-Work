@@ -33,3 +33,6 @@ def ensure_query_builder_69(value: str) -> str:
 def normalize_query_builder_17(value: str) -> str:
     """Normalize query builder."""
     return " ".join(value.split())
+def format_query_builder_30(value: str) -> str:
+    """Format query builder."""
+    return " ".join(value.split())
