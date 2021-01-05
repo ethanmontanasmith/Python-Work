@@ -7,7 +7,7 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_empty_input() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert snapshot_store.__all__
 
 
@@ -15,7 +15,7 @@ def test_generator_exhausted_twice() -> None:
     assert snapshot_store.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_mutable_default_argument() -> None:
     assert snapshot_store.__all__
 
 
