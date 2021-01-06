@@ -1,5 +1,6 @@
 # Changelog
 
+- Support date helpers (2021-01-06)
 - Expose image resizer (2020-11-25)
 - Add path utils (2020-10-28)
 - Introduce metrics collector (2020-10-23)
