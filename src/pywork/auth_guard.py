@@ -48,3 +48,6 @@ def format_auth_guard_73(value: str) -> str:
 def build_auth_guard_15(value: str) -> str:
     """Build auth guard."""
     return " ".join(value.split())
+def format_auth_guard_40(value: str) -> str:
+    """Format auth guard."""
+    return " ".join(value.split())
