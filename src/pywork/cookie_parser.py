@@ -1,0 +1,29 @@
+"""Cookie parser.
+
+Small, dependency-free helpers used across this repo.
+"""
+
+from __future__ import annotations
+
+from typing import Iterable, Sequence
+
+
+__all__ = ["guard_cookie_parser"]
+
+
+def guard_cookie_parser(source: str, *, strict: bool = False, fallback: str = "") -> str:
+    """Guard cookie parser.
+
+    Args:
+        source: raw input value.
+        strict: raise instead of returning ``fallback``.
+        fallback: value returned when input is empty.
+
+    Returns:
+        The normalised value.
+    """
+    if not source:
+        if strict:
+            raise ValueError("guard_cookie_parser: empty input")
+        return fallback
+    return source.strip()

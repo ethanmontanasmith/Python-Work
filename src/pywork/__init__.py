@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.1.22"
+__version__ = "0.6.23"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -11,6 +11,7 @@ from . import changelog_parser as changelog_parser  # noqa: F401
 from . import cli_parser as cli_parser  # noqa: F401
 from . import color_palette as color_palette  # noqa: F401
 from . import config_loader as config_loader  # noqa: F401
+from . import cookie_parser as cookie_parser  # noqa: F401
 from . import csv_reader as csv_reader  # noqa: F401
 from . import date_helpers as date_helpers  # noqa: F401
 from . import dependency_graph as dependency_graph  # noqa: F401
@@ -31,6 +32,5 @@ from . import migration_runner as migration_runner  # noqa: F401
 from . import pagination as pagination  # noqa: F401
 from . import path_utils as path_utils  # noqa: F401
 from . import query_builder as query_builder  # noqa: F401
-from . import retry_policy as retry_policy  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "markdown_renderer", "meta_tags", "migration_runner", "pagination", "path_utils", "query_builder", "retry_policy"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "markdown_renderer", "meta_tags", "migration_runner", "pagination", "path_utils", "query_builder"]
