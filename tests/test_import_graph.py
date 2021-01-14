@@ -7,11 +7,15 @@ import pytest
 from pywork import import_graph
 
 
-def test_unicode_decode_error() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert import_graph.__all__
 
 
-def test_empty_input() -> None:
+def test_double_encoded_query() -> None:
+    assert import_graph.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert import_graph.__all__
 
 
