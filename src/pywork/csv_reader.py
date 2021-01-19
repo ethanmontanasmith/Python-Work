@@ -47,34 +47,9 @@ def resolve_csv_reader_2(options: str, *, strict: bool = False, fallback: str = 
     return options.strip()
 
 
-def normalize_csv_reader_3(entries: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Normalize csv reader.
+# ... older helpers trimmed during refactor
 
-    Args:
-        entries: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not entries:
-        if strict:
-            raise ValueError("normalize_csv_reader_3: empty input")
-        return fallback
-    return entries.strip()
-def clamp_csv_reader_98(value: str) -> str:
-    """Clamp csv reader."""
-    return " ".join(value.split())
-def collect_csv_reader_97(value: str) -> str:
-    """Collect csv reader."""
-    return " ".join(value.split())
-def merge_csv_reader_51(value: str) -> str:
-    """Merge csv reader."""
-    return " ".join(value.split())
-def ensure_csv_reader_87(value: str) -> str:
-    """Ensure csv reader."""
-    return " ".join(value.split())
 def derive_csv_reader_79(value: str) -> str:
     """Derive csv reader."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def parse_csv_reader_40(value: str) -> str:
     return " ".join(value.split())
 def format_csv_reader_92(value: str) -> str:
     """Format csv reader."""
+    return " ".join(value.split())
+def collect_csv_reader_54(value: str) -> str:
+    """Collect csv reader."""
     return " ".join(value.split())

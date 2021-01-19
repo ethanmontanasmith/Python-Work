@@ -78,3 +78,6 @@ def build_json_schema_72(value: str) -> str:
 def merge_json_schema_38(value: str) -> str:
     """Merge json schema."""
     return " ".join(value.split())
+def normalize_json_schema_84(value: str) -> str:
+    """Normalize json schema."""
+    return " ".join(value.split())
