@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import snapshot_store
 
-print(tokenizer.ensure_query_builder("  hello  "))
+print(slug_parser.parse_tokenizer("  hello  "))
 ```
