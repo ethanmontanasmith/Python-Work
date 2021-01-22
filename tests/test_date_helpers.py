@@ -11,11 +11,11 @@ def test_duplicate_key_overwrite() -> None:
     assert date_helpers.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_generator_exhausted_twice() -> None:
     assert date_helpers.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert date_helpers.__all__
 
 
