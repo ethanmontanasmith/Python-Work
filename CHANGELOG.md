@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose color palette (2021-01-23)
 - Support webhook verifier (2021-01-23)
 - Expose pagination (2021-01-11)
 - Support date helpers (2021-01-06)
