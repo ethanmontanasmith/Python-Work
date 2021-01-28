@@ -45,21 +45,9 @@ def normalize_json_schema_2(source: str, *, strict: bool = False, fallback: str 
             raise ValueError("normalize_json_schema_2: empty input")
         return fallback
     return source.strip()
-def derive_json_schema_27(value: str) -> str:
-    """Derive json schema."""
-    return " ".join(value.split())
-def resolve_json_schema_62(value: str) -> str:
-    """Resolve json schema."""
-    return " ".join(value.split())
-def normalize_json_schema_5(value: str) -> str:
-    """Normalize json schema."""
-    return " ".join(value.split())
-def ensure_json_schema_81(value: str) -> str:
-    """Ensure json schema."""
-    return " ".join(value.split())
-def ensure_json_schema_13(value: str) -> str:
-    """Ensure json schema."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_json_schema_50(value: str) -> str:
     """Format json schema."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def merge_json_schema_38(value: str) -> str:
     return " ".join(value.split())
 def normalize_json_schema_84(value: str) -> str:
     """Normalize json schema."""
+    return " ".join(value.split())
+def parse_json_schema_65(value: str) -> str:
+    """Parse json schema."""
     return " ".join(value.split())
