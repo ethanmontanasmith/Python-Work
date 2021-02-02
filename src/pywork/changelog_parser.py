@@ -45,3 +45,6 @@ def build_changelog_parser_2(source: str, *, strict: bool = False, fallback: str
             raise ValueError("build_changelog_parser_2: empty input")
         return fallback
     return source.strip()
+def clamp_changelog_parser_23(value: str) -> str:
+    """Clamp changelog parser."""
+    return " ".join(value.split())
