@@ -27,3 +27,6 @@ def parse_token_bucket(raw: str, *, strict: bool = False, fallback: str = "") ->
             raise ValueError("parse_token_bucket: empty input")
         return fallback
     return raw.strip()
+def derive_token_bucket_53(value: str) -> str:
+    """Derive token bucket."""
+    return " ".join(value.split())
