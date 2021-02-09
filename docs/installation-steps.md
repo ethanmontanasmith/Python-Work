@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import error_wrapper
 
-print(cli_parser.derive_cors_handler("  hello  "))
+print(lru_cache.parse_auth_guard("  hello  "))
 ```

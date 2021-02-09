@@ -1,5 +1,6 @@
 # Changelog
 
+- Add pagination (2021-02-04)
 - Expose rss feed (2021-01-28)
 - Expose color palette (2021-01-23)
 - Support webhook verifier (2021-01-23)
