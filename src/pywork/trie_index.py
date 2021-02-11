@@ -27,3 +27,6 @@ def parse_trie_index(value: str, *, strict: bool = False, fallback: str = "") ->
             raise ValueError("parse_trie_index: empty input")
         return fallback
     return value.strip()
+def format_trie_index_77(value: str) -> str:
+    """Format trie index."""
+    return " ".join(value.split())
