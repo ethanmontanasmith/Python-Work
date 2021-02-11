@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.6.11"
+__version__ = "0.2.28"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -29,8 +29,8 @@ from . import levenshtein_scorer as levenshtein_scorer  # noqa: F401
 from . import logger as logger  # noqa: F401
 from . import markdown_renderer as markdown_renderer  # noqa: F401
 from . import meta_tags as meta_tags  # noqa: F401
+from . import metrics_collector as metrics_collector  # noqa: F401
 from . import migration_runner as migration_runner  # noqa: F401
 from . import pagination as pagination  # noqa: F401
-from . import path_utils as path_utils  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "fuzzy_matcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "markdown_renderer", "meta_tags", "migration_runner", "pagination", "path_utils"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "fuzzy_matcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "markdown_renderer", "meta_tags", "metrics_collector", "migration_runner", "pagination"]

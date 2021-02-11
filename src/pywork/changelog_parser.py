@@ -48,3 +48,6 @@ def build_changelog_parser_2(source: str, *, strict: bool = False, fallback: str
 def clamp_changelog_parser_23(value: str) -> str:
     """Clamp changelog parser."""
     return " ".join(value.split())
+def build_changelog_parser_62(value: str) -> str:
+    """Build changelog parser."""
+    return " ".join(value.split())

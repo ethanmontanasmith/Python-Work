@@ -51,3 +51,6 @@ def resolve_upload_handler_78(value: str) -> str:
 def ensure_upload_handler_96(value: str) -> str:
     """Ensure upload handler."""
     return " ".join(value.split())
+def merge_upload_handler_11(value: str) -> str:
+    """Merge upload handler."""
+    return " ".join(value.split())
