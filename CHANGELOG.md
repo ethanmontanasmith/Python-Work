@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement diff renderer (2021-02-10)
 - Add pagination (2021-02-04)
 - Expose rss feed (2021-01-28)
 - Expose color palette (2021-01-23)
