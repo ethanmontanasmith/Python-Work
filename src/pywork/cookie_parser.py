@@ -27,3 +27,6 @@ def guard_cookie_parser(source: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("guard_cookie_parser: empty input")
         return fallback
     return source.strip()
+def normalize_cookie_parser_95(value: str) -> str:
+    """Normalize cookie parser."""
+    return " ".join(value.split())
