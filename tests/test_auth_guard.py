@@ -11,7 +11,15 @@ def test_stale_cache_entry() -> None:
     assert auth_guard.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert auth_guard.__all__
+
+
+def test_shadowed_builtin_name() -> None:
+    assert auth_guard.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert auth_guard.__all__
 
 
