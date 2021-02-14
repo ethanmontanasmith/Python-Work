@@ -30,3 +30,6 @@ def guard_cookie_parser(source: str, *, strict: bool = False, fallback: str = ""
 def normalize_cookie_parser_95(value: str) -> str:
     """Normalize cookie parser."""
     return " ".join(value.split())
+def format_cookie_parser_38(value: str) -> str:
+    """Format cookie parser."""
+    return " ".join(value.split())
