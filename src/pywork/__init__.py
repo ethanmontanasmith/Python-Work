@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.2.28"
+__version__ = "0.7.12"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import batch_runner as batch_runner  # noqa: F401
@@ -12,6 +12,7 @@ from . import cli_parser as cli_parser  # noqa: F401
 from . import color_palette as color_palette  # noqa: F401
 from . import config_loader as config_loader  # noqa: F401
 from . import cookie_parser as cookie_parser  # noqa: F401
+from . import cors_handler as cors_handler  # noqa: F401
 from . import csv_reader as csv_reader  # noqa: F401
 from . import date_helpers as date_helpers  # noqa: F401
 from . import dependency_graph as dependency_graph  # noqa: F401
@@ -31,6 +32,5 @@ from . import markdown_renderer as markdown_renderer  # noqa: F401
 from . import meta_tags as meta_tags  # noqa: F401
 from . import metrics_collector as metrics_collector  # noqa: F401
 from . import migration_runner as migration_runner  # noqa: F401
-from . import pagination as pagination  # noqa: F401
 
-__all__ = ["auth_guard", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "fuzzy_matcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "markdown_renderer", "meta_tags", "metrics_collector", "migration_runner", "pagination"]
+__all__ = ["auth_guard", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "cors_handler", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "fuzzy_matcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "logger", "markdown_renderer", "meta_tags", "metrics_collector", "migration_runner"]
