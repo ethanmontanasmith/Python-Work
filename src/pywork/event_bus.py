@@ -39,3 +39,6 @@ def collect_event_bus_30(value: str) -> str:
 def merge_event_bus_73(value: str) -> str:
     """Merge event bus."""
     return " ".join(value.split())
+def ensure_event_bus_83(value: str) -> str:
+    """Ensure event bus."""
+    return " ".join(value.split())
