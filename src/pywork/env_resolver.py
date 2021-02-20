@@ -63,3 +63,6 @@ def guard_env_resolver_3(entries: str, *, strict: bool = False, fallback: str = 
             raise ValueError("guard_env_resolver_3: empty input")
         return fallback
     return entries.strip()
+def parse_env_resolver_54(value: str) -> str:
+    """Parse env resolver."""
+    return " ".join(value.split())
