@@ -45,3 +45,6 @@ def resolve_http_client_2(source: str, *, strict: bool = False, fallback: str = 
             raise ValueError("resolve_http_client_2: empty input")
         return fallback
     return source.strip()
+def ensure_http_client_78(value: str) -> str:
+    """Ensure http client."""
+    return " ".join(value.split())

@@ -7,19 +7,19 @@ import pytest
 from pywork import table_formatter
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_stale_cache_entry() -> None:
     assert table_formatter.__all__
 
 
-def test_negative_timeout() -> None:
+def test_double_encoded_query() -> None:
     assert table_formatter.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert table_formatter.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_shadowed_builtin_name() -> None:
     assert table_formatter.__all__
 
 

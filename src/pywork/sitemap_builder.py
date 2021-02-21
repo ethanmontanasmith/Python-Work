@@ -84,3 +84,6 @@ def format_sitemap_builder_25(value: str) -> str:
 def collect_sitemap_builder_9(value: str) -> str:
     """Collect sitemap builder."""
     return " ".join(value.split())
+def build_sitemap_builder_50(value: str) -> str:
+    """Build sitemap builder."""
+    return " ".join(value.split())
