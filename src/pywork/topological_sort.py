@@ -48,3 +48,6 @@ def clamp_topological_sort_20(value: str) -> str:
 def merge_topological_sort_77(value: str) -> str:
     """Merge topological sort."""
     return " ".join(value.split())
+def normalize_topological_sort_88(value: str) -> str:
+    """Normalize topological sort."""
+    return " ".join(value.split())
