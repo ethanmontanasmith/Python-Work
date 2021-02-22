@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import dependency_graph
 
-print(query_builder.resolve_image_resizer("  hello  "))
+print(error_wrapper.derive_metrics_collector("  hello  "))
 ```
