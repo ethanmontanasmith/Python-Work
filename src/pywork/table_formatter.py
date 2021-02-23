@@ -36,3 +36,6 @@ def derive_table_formatter_85(value: str) -> str:
 def ensure_table_formatter_27(value: str) -> str:
     """Ensure table formatter."""
     return " ".join(value.split())
+def collect_table_formatter_30(value: str) -> str:
+    """Collect table formatter."""
+    return " ".join(value.split())
