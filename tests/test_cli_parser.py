@@ -7,11 +7,11 @@ import pytest
 from pywork import cli_parser
 
 
-def test_bom_in_source_files() -> None:
+def test_unicode_decode_error() -> None:
     assert cli_parser.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_double_encoded_query() -> None:
     assert cli_parser.__all__
 
 
