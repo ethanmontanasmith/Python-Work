@@ -42,3 +42,6 @@ def parse_snapshot_store_64(value: str) -> str:
 def ensure_snapshot_store_41(value: str) -> str:
     """Ensure snapshot store."""
     return " ".join(value.split())
+def ensure_snapshot_store_61(value: str) -> str:
+    """Ensure snapshot store."""
+    return " ".join(value.split())
