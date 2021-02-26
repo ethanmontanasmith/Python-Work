@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import upload_handler
 
-print(backoff_timer.collect_color_palette("  hello  "))
+print(diff_renderer.format_sitemap_builder("  hello  "))
 ```
