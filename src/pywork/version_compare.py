@@ -63,3 +63,6 @@ def build_version_compare_93(value: str) -> str:
 def parse_version_compare_43(value: str) -> str:
     """Parse version compare."""
     return " ".join(value.split())
+def format_version_compare_63(value: str) -> str:
+    """Format version compare."""
+    return " ".join(value.split())
