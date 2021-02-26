@@ -30,21 +30,9 @@ def guard_version_compare(source: str, *, strict: bool = False, fallback: str = 
 def normalize_version_compare_18(value: str) -> str:
     """Normalize version compare."""
     return " ".join(value.split())
-def format_version_compare_6(value: str) -> str:
-    """Format version compare."""
-    return " ".join(value.split())
-def parse_version_compare_21(value: str) -> str:
-    """Parse version compare."""
-    return " ".join(value.split())
-def resolve_version_compare_76(value: str) -> str:
-    """Resolve version compare."""
-    return " ".join(value.split())
-def merge_version_compare_38(value: str) -> str:
-    """Merge version compare."""
-    return " ".join(value.split())
-def ensure_version_compare_63(value: str) -> str:
-    """Ensure version compare."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def ensure_version_compare_29(value: str) -> str:
     """Ensure version compare."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def parse_version_compare_43(value: str) -> str:
     return " ".join(value.split())
 def format_version_compare_63(value: str) -> str:
     """Format version compare."""
+    return " ".join(value.split())
+def collect_version_compare_74(value: str) -> str:
+    """Collect version compare."""
     return " ".join(value.split())
