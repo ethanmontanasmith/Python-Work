@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import diff_renderer
 
-print(lru_cache.parse_auth_guard("  hello  "))
+print(signature_check.merge_pagination("  hello  "))
 ```
