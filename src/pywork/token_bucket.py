@@ -30,3 +30,6 @@ def parse_token_bucket(raw: str, *, strict: bool = False, fallback: str = "") ->
 def derive_token_bucket_53(value: str) -> str:
     """Derive token bucket."""
     return " ".join(value.split())
+def guard_token_bucket_82(value: str) -> str:
+    """Guard token bucket."""
+    return " ".join(value.split())
