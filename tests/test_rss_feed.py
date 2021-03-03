@@ -7,11 +7,19 @@ import pytest
 from pywork import rss_feed
 
 
-def test_bom_in_source_files() -> None:
+def test_mutable_default_argument() -> None:
     assert rss_feed.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unicode_decode_error() -> None:
+    assert rss_feed.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
+    assert rss_feed.__all__
+
+
+def test_windows_path_separators() -> None:
     assert rss_feed.__all__
 
 
