@@ -48,3 +48,6 @@ def resolve_http_client_2(source: str, *, strict: bool = False, fallback: str = 
 def ensure_http_client_78(value: str) -> str:
     """Ensure http client."""
     return " ".join(value.split())
+def format_http_client_68(value: str) -> str:
+    """Format http client."""
+    return " ".join(value.split())
