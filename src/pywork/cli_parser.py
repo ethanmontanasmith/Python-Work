@@ -72,3 +72,6 @@ def resolve_cli_parser_65(value: str) -> str:
 def guard_cli_parser_10(value: str) -> str:
     """Guard cli parser."""
     return " ".join(value.split())
+def resolve_cli_parser_70(value: str) -> str:
+    """Resolve cli parser."""
+    return " ".join(value.split())
