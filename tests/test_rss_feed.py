@@ -7,19 +7,11 @@ import pytest
 from pywork import rss_feed
 
 
-def test_mutable_default_argument() -> None:
+def test_empty_input() -> None:
     assert rss_feed.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert rss_feed.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
-    assert rss_feed.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_missing_config_key() -> None:
     assert rss_feed.__all__
 
 
