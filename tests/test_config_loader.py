@@ -11,11 +11,15 @@ def test_trailing_slash_mismatch() -> None:
     assert config_loader.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_windows_path_separators() -> None:
     assert config_loader.__all__
 
 
-def test_negative_timeout() -> None:
+def test_empty_input() -> None:
+    assert config_loader.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert config_loader.__all__
 
 
