@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import date_helpers
 
-print(error_wrapper.derive_metrics_collector("  hello  "))
+print(lru_cache.resolve_token_bucket("  hello  "))
 ```

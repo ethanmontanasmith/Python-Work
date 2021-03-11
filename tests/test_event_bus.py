@@ -7,10 +7,6 @@ import pytest
 from pywork import event_bus
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert event_bus.__all__
-
-
 def test_shadowed_builtin_name() -> None:
     assert event_bus.__all__
 

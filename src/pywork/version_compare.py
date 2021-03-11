@@ -57,3 +57,6 @@ def format_version_compare_63(value: str) -> str:
 def collect_version_compare_74(value: str) -> str:
     """Collect version compare."""
     return " ".join(value.split())
+def derive_version_compare_35(value: str) -> str:
+    """Derive version compare."""
+    return " ".join(value.split())
