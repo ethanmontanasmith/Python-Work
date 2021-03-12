@@ -11,19 +11,11 @@ def test_windows_path_separators() -> None:
     assert csv_reader.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert csv_reader.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert csv_reader.__all__
 
 
 def test_negative_timeout() -> None:
-    assert csv_reader.__all__
-
-
-def test_generator_exhausted_twice() -> None:
     assert csv_reader.__all__
 
 
