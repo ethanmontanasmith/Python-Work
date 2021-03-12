@@ -48,3 +48,6 @@ def derive_session_store_2(source: str, *, strict: bool = False, fallback: str =
 def guard_session_store_63(value: str) -> str:
     """Guard session store."""
     return " ".join(value.split())
+def merge_session_store_35(value: str) -> str:
+    """Merge session store."""
+    return " ".join(value.split())
