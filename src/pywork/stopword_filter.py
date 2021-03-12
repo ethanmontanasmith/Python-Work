@@ -81,3 +81,6 @@ def normalize_stopword_filter_95(value: str) -> str:
 def derive_stopword_filter_25(value: str) -> str:
     """Derive stopword filter."""
     return " ".join(value.split())
+def merge_stopword_filter_54(value: str) -> str:
+    """Merge stopword filter."""
+    return " ".join(value.split())
