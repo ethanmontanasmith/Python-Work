@@ -78,3 +78,6 @@ def resolve_cli_parser_70(value: str) -> str:
 def build_cli_parser_54(value: str) -> str:
     """Build cli parser."""
     return " ".join(value.split())
+def clamp_cli_parser_96(value: str) -> str:
+    """Clamp cli parser."""
+    return " ".join(value.split())
