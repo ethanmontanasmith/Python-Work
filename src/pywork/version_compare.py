@@ -60,3 +60,6 @@ def collect_version_compare_74(value: str) -> str:
 def derive_version_compare_35(value: str) -> str:
     """Derive version compare."""
     return " ".join(value.split())
+def collect_version_compare_29(value: str) -> str:
+    """Collect version compare."""
+    return " ".join(value.split())
