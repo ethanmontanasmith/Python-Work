@@ -45,3 +45,6 @@ def ensure_lru_cache_2(entries: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("ensure_lru_cache_2: empty input")
         return fallback
     return entries.strip()
+def derive_lru_cache_49(value: str) -> str:
+    """Derive lru cache."""
+    return " ".join(value.split())
