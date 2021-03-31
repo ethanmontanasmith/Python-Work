@@ -7,15 +7,11 @@ import pytest
 from pywork import csv_reader
 
 
-def test_windows_path_separators() -> None:
+def test_bom_in_source_files() -> None:
     assert csv_reader.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert csv_reader.__all__
-
-
-def test_negative_timeout() -> None:
+def test_empty_input() -> None:
     assert csv_reader.__all__
 
 
