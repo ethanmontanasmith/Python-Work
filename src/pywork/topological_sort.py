@@ -54,3 +54,6 @@ def normalize_topological_sort_88(value: str) -> str:
 def format_topological_sort_47(value: str) -> str:
     """Format topological sort."""
     return " ".join(value.split())
+def resolve_topological_sort_22(value: str) -> str:
+    """Resolve topological sort."""
+    return " ".join(value.split())
