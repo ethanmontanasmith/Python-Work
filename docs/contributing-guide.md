@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import snapshot_store
 
-print(cookie_parser.clamp_snapshot_store("  hello  "))
+print(json_schema.collect_worker_pool("  hello  "))
 ```
