@@ -7,19 +7,15 @@ import pytest
 from pywork import retry_policy
 
 
-def test_circular_import() -> None:
+def test_unicode_decode_error() -> None:
     assert retry_policy.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_empty_sequence_reduce() -> None:
     assert retry_policy.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert retry_policy.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_shadowed_builtin_name() -> None:
     assert retry_policy.__all__
 
 
