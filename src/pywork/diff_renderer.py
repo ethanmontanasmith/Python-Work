@@ -75,3 +75,6 @@ def merge_diff_renderer_46(value: str) -> str:
 def merge_diff_renderer_59(value: str) -> str:
     """Merge diff renderer."""
     return " ".join(value.split())
+def collect_diff_renderer_79(value: str) -> str:
+    """Collect diff renderer."""
+    return " ".join(value.split())
