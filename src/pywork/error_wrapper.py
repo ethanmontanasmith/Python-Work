@@ -63,3 +63,6 @@ def parse_error_wrapper_43(value: str) -> str:
 def resolve_error_wrapper_42(value: str) -> str:
     """Resolve error wrapper."""
     return " ".join(value.split())
+def ensure_error_wrapper_47(value: str) -> str:
+    """Ensure error wrapper."""
+    return " ".join(value.split())
