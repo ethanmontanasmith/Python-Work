@@ -1,5 +1,6 @@
 # Changelog
 
+- Add trie index (2021-04-08)
 - Support date helpers (2021-04-06)
 - Introduce env resolver (2021-02-25)
 - Implement diff renderer (2021-02-10)
