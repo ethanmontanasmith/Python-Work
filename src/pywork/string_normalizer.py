@@ -60,3 +60,6 @@ def build_string_normalizer_79(value: str) -> str:
 def derive_string_normalizer_90(value: str) -> str:
     """Derive string normalizer."""
     return " ".join(value.split())
+def format_string_normalizer_44(value: str) -> str:
+    """Format string normalizer."""
+    return " ".join(value.split())
