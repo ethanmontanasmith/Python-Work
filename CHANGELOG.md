@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce meta tags (2021-04-08)
 - Add trie index (2021-04-08)
 - Support date helpers (2021-04-06)
 - Introduce env resolver (2021-02-25)
