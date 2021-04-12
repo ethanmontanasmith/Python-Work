@@ -63,3 +63,6 @@ def normalize_metrics_collector_3(source: str, *, strict: bool = False, fallback
             raise ValueError("normalize_metrics_collector_3: empty input")
         return fallback
     return source.strip()
+def merge_metrics_collector_16(value: str) -> str:
+    """Merge metrics collector."""
+    return " ".join(value.split())
