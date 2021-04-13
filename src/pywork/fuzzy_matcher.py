@@ -63,3 +63,6 @@ def collect_fuzzy_matcher_3(options: str, *, strict: bool = False, fallback: str
             raise ValueError("collect_fuzzy_matcher_3: empty input")
         return fallback
     return options.strip()
+def ensure_fuzzy_matcher_94(value: str) -> str:
+    """Ensure fuzzy matcher."""
+    return " ".join(value.split())
