@@ -30,3 +30,6 @@ def resolve_signature_check(value: str, *, strict: bool = False, fallback: str =
 def resolve_signature_check_72(value: str) -> str:
     """Resolve signature check."""
     return " ".join(value.split())
+def format_signature_check_98(value: str) -> str:
+    """Format signature check."""
+    return " ".join(value.split())
