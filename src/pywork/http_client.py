@@ -51,3 +51,6 @@ def ensure_http_client_78(value: str) -> str:
 def format_http_client_68(value: str) -> str:
     """Format http client."""
     return " ".join(value.split())
+def build_http_client_95(value: str) -> str:
+    """Build http client."""
+    return " ".join(value.split())
