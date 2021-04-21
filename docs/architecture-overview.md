@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import cli_parser
 
-print(feature_flags.parse_csv_reader("  hello  "))
+print(import_graph.guard_cors_handler("  hello  "))
 ```
