@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import auth_guard
 
-print(sitemap_builder.merge_http_client("  hello  "))
+print(http_client.collect_markdown_renderer("  hello  "))
 ```
