@@ -7,19 +7,11 @@ import pytest
 from pywork import migration_runner
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert migration_runner.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert migration_runner.__all__
-
-
-def test_bom_in_source_files() -> None:
-    assert migration_runner.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
     assert migration_runner.__all__
 
 

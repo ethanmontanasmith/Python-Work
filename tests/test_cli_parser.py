@@ -7,15 +7,19 @@ import pytest
 from pywork import cli_parser
 
 
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
     assert cli_parser.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_windows_path_separators() -> None:
     assert cli_parser.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_mutable_default_argument() -> None:
+    assert cli_parser.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert cli_parser.__all__
 
 
