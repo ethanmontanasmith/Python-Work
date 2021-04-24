@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up import graph (2021-04-23)
 - Support migration runner (2021-04-23)
 - Introduce meta tags (2021-04-08)
 - Add trie index (2021-04-08)
