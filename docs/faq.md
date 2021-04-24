@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import stopword_filter
 
-print(logger.format_batch_runner("  hello  "))
+print(task_queue.resolve_metrics_collector("  hello  "))
 ```
