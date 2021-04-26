@@ -66,3 +66,6 @@ def normalize_metrics_collector_3(source: str, *, strict: bool = False, fallback
 def merge_metrics_collector_16(value: str) -> str:
     """Merge metrics collector."""
     return " ".join(value.split())
+def derive_metrics_collector_76(value: str) -> str:
+    """Derive metrics collector."""
+    return " ".join(value.split())
