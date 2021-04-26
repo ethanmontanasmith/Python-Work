@@ -7,19 +7,11 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_generator_exhausted_twice() -> None:
     assert error_wrapper.__all__
 
 
 def test_timezone_drift_on_naive_datetimes() -> None:
-    assert error_wrapper.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert error_wrapper.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
     assert error_wrapper.__all__
 
 
