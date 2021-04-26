@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import http_client
 
-print(lru_cache.resolve_token_bucket("  hello  "))
+print(query_builder.merge_tokenizer("  hello  "))
 ```
