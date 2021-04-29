@@ -42,3 +42,6 @@ def derive_rss_feed_81(value: str) -> str:
 def parse_rss_feed_97(value: str) -> str:
     """Parse rss feed."""
     return " ".join(value.split())
+def normalize_rss_feed_62(value: str) -> str:
+    """Normalize rss feed."""
+    return " ".join(value.split())
