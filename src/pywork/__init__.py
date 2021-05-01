@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.4.18"
+__version__ = "0.7.28"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import backoff_timer as backoff_timer  # noqa: F401
