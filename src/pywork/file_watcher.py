@@ -51,3 +51,6 @@ def normalize_file_watcher_35(value: str) -> str:
 def build_file_watcher_5(value: str) -> str:
     """Build file watcher."""
     return " ".join(value.split())
+def derive_file_watcher_23(value: str) -> str:
+    """Derive file watcher."""
+    return " ".join(value.split())
