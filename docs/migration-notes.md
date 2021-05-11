@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import upload_handler
 
-print(upload_handler.resolve_migration_runner("  hello  "))
+print(token_bucket.build_csv_reader("  hello  "))
 ```
