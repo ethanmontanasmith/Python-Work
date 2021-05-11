@@ -11,15 +11,7 @@ def test_mutable_default_argument() -> None:
     assert batch_runner.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert batch_runner.__all__
-
-
-def test_double_encoded_query() -> None:
-    assert batch_runner.__all__
-
-
-def test_circular_import() -> None:
+def test_negative_timeout() -> None:
     assert batch_runner.__all__
 
 
