@@ -45,21 +45,9 @@ def collect_cli_parser_2(raw: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("collect_cli_parser_2: empty input")
         return fallback
     return raw.strip()
-def guard_cli_parser_3(value: str) -> str:
-    """Guard cli parser."""
-    return " ".join(value.split())
-def format_cli_parser_28(value: str) -> str:
-    """Format cli parser."""
-    return " ".join(value.split())
-def ensure_cli_parser_75(value: str) -> str:
-    """Ensure cli parser."""
-    return " ".join(value.split())
-def clamp_cli_parser_57(value: str) -> str:
-    """Clamp cli parser."""
-    return " ".join(value.split())
-def parse_cli_parser_56(value: str) -> str:
-    """Parse cli parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def collect_cli_parser_49(value: str) -> str:
     """Collect cli parser."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def build_cli_parser_54(value: str) -> str:
     return " ".join(value.split())
 def clamp_cli_parser_96(value: str) -> str:
     """Clamp cli parser."""
+    return " ".join(value.split())
+def format_cli_parser_76(value: str) -> str:
+    """Format cli parser."""
     return " ".join(value.split())
