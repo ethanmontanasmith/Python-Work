@@ -66,3 +66,6 @@ def collect_version_compare_29(value: str) -> str:
 def normalize_version_compare_13(value: str) -> str:
     """Normalize version compare."""
     return " ".join(value.split())
+def parse_version_compare_41(value: str) -> str:
+    """Parse version compare."""
+    return " ".join(value.split())
