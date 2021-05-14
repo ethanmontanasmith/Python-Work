@@ -7,15 +7,15 @@ import pytest
 from pywork import file_watcher
 
 
-def test_bom_in_source_files() -> None:
+def test_double_encoded_query() -> None:
     assert file_watcher.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_empty_sequence_reduce() -> None:
     assert file_watcher.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_circular_import() -> None:
     assert file_watcher.__all__
 
 
