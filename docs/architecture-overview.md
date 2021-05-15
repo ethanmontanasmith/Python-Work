@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import import_graph
 
-print(import_graph.guard_cors_handler("  hello  "))
+print(cors_handler.ensure_trie_index("  hello  "))
 ```
