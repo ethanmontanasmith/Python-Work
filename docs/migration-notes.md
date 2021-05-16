@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import version_compare
 
-print(token_bucket.build_csv_reader("  hello  "))
+print(config_loader.resolve_tokenizer("  hello  "))
 ```
