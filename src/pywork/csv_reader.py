@@ -77,3 +77,6 @@ def collect_csv_reader_54(value: str) -> str:
 def clamp_csv_reader_47(value: str) -> str:
     """Clamp csv reader."""
     return " ".join(value.split())
+def collect_csv_reader_79(value: str) -> str:
+    """Collect csv reader."""
+    return " ".join(value.split())
