@@ -63,3 +63,6 @@ def format_lockfile_reader_3(entries: str, *, strict: bool = False, fallback: st
             raise ValueError("format_lockfile_reader_3: empty input")
         return fallback
     return entries.strip()
+def derive_lockfile_reader_2(value: str) -> str:
+    """Derive lockfile reader."""
+    return " ".join(value.split())
