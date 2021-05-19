@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import auth_guard
+from pywork import cli_parser
 
-print(http_client.collect_markdown_renderer("  hello  "))
+print(diff_renderer.build_pagination("  hello  "))
 ```
