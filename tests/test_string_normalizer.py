@@ -7,11 +7,23 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_shadowed_builtin_name() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert string_normalizer.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_stale_cache_entry() -> None:
+    assert string_normalizer.__all__
+
+
+def test_missing_config_key() -> None:
+    assert string_normalizer.__all__
+
+
+def test_mutable_default_argument() -> None:
+    assert string_normalizer.__all__
+
+
+def test_negative_timeout() -> None:
     assert string_normalizer.__all__
 
 

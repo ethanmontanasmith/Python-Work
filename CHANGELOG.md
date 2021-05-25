@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce meta tags (2021-05-19)
 - Wire up import graph (2021-04-23)
 - Support migration runner (2021-04-23)
 - Introduce meta tags (2021-04-08)

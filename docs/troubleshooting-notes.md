@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import task_queue
 
-print(cli_parser.format_stopword_filter("  hello  "))
+print(cache_layer.build_cors_handler("  hello  "))
 ```
