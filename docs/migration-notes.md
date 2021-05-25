@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import sitemap_builder
 
-print(config_loader.resolve_tokenizer("  hello  "))
+print(lru_cache.normalize_upload_handler("  hello  "))
 ```
