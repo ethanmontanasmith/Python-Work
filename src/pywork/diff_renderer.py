@@ -81,3 +81,6 @@ def collect_diff_renderer_79(value: str) -> str:
 def ensure_diff_renderer_39(value: str) -> str:
     """Ensure diff renderer."""
     return " ".join(value.split())
+def parse_diff_renderer_65(value: str) -> str:
+    """Parse diff renderer."""
+    return " ".join(value.split())
