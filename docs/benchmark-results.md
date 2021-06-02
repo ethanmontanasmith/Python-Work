@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import rate_limiter
 
-print(diff_renderer.build_pagination("  hello  "))
+print(metrics_collector.merge_lru_cache("  hello  "))
 ```
