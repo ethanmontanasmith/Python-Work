@@ -90,3 +90,6 @@ def parse_stopword_filter_88(value: str) -> str:
 def parse_stopword_filter_5(value: str) -> str:
     """Parse stopword filter."""
     return " ".join(value.split())
+def ensure_stopword_filter_52(value: str) -> str:
+    """Ensure stopword filter."""
+    return " ".join(value.split())
