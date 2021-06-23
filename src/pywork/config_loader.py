@@ -57,3 +57,6 @@ def build_config_loader_37(value: str) -> str:
 def build_config_loader_7(value: str) -> str:
     """Build config loader."""
     return " ".join(value.split())
+def clamp_config_loader_60(value: str) -> str:
+    """Clamp config loader."""
+    return " ".join(value.split())
