@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement slug parser (2021-06-23)
 - Expose markdown renderer (2021-05-26)
 - Introduce meta tags (2021-05-19)
 - Wire up import graph (2021-04-23)
