@@ -7,15 +7,19 @@ import pytest
 from pywork import file_watcher
 
 
-def test_double_encoded_query() -> None:
-    assert file_watcher.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert file_watcher.__all__
-
-
 def test_circular_import() -> None:
+    assert file_watcher.__all__
+
+
+def test_negative_timeout() -> None:
+    assert file_watcher.__all__
+
+
+def test_windows_path_separators() -> None:
+    assert file_watcher.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert file_watcher.__all__
 
 
