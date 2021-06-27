@@ -63,3 +63,6 @@ def parse_rate_limiter_3(raw: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("parse_rate_limiter_3: empty input")
         return fallback
     return raw.strip()
+def collect_rate_limiter_5(value: str) -> str:
+    """Collect rate limiter."""
+    return " ".join(value.split())
