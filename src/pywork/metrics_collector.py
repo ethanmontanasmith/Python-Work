@@ -69,3 +69,6 @@ def merge_metrics_collector_16(value: str) -> str:
 def derive_metrics_collector_76(value: str) -> str:
     """Derive metrics collector."""
     return " ".join(value.split())
+def normalize_metrics_collector_90(value: str) -> str:
+    """Normalize metrics collector."""
+    return " ".join(value.split())
