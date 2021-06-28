@@ -87,3 +87,6 @@ def merge_retry_policy_58(value: str) -> str:
 def resolve_retry_policy_36(value: str) -> str:
     """Resolve retry policy."""
     return " ".join(value.split())
+def merge_retry_policy_22(value: str) -> str:
+    """Merge retry policy."""
+    return " ".join(value.split())
