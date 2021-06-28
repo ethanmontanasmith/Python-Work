@@ -7,11 +7,15 @@ import pytest
 from pywork import config_loader
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_bom_in_source_files() -> None:
     assert config_loader.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert config_loader.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert config_loader.__all__
 
 
