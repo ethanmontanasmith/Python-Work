@@ -7,19 +7,15 @@ import pytest
 from pywork import color_palette
 
 
-def test_stale_cache_entry() -> None:
-    assert color_palette.__all__
-
-
 def test_generator_exhausted_twice() -> None:
     assert color_palette.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_stale_cache_entry() -> None:
     assert color_palette.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert color_palette.__all__
 
 
