@@ -51,3 +51,6 @@ def build_pagination_32(value: str) -> str:
 def guard_pagination_64(value: str) -> str:
     """Guard pagination."""
     return " ".join(value.split())
+def build_pagination_31(value: str) -> str:
+    """Build pagination."""
+    return " ".join(value.split())
