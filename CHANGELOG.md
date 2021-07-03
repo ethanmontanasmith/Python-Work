@@ -1,5 +1,6 @@
 # Changelog
 
+- Support csv reader (2021-07-02)
 - Implement slug parser (2021-06-23)
 - Expose markdown renderer (2021-05-26)
 - Introduce meta tags (2021-05-19)
