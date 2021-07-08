@@ -63,3 +63,6 @@ def clamp_config_loader_60(value: str) -> str:
 def guard_config_loader_4(value: str) -> str:
     """Guard config loader."""
     return " ".join(value.split())
+def clamp_config_loader_38(value: str) -> str:
+    """Clamp config loader."""
+    return " ".join(value.split())

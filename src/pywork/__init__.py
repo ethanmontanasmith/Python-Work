@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-__version__ = "0.7.28"
+__version__ = "0.3.10"
 
 from . import auth_guard as auth_guard  # noqa: F401
 from . import backoff_timer as backoff_timer  # noqa: F401
@@ -21,6 +21,7 @@ from . import diff_renderer as diff_renderer  # noqa: F401
 from . import env_resolver as env_resolver  # noqa: F401
 from . import error_wrapper as error_wrapper  # noqa: F401
 from . import event_bus as event_bus  # noqa: F401
+from . import feature_flags as feature_flags  # noqa: F401
 from . import file_watcher as file_watcher  # noqa: F401
 from . import fuzzy_matcher as fuzzy_matcher  # noqa: F401
 from . import http_client as http_client  # noqa: F401
@@ -31,6 +32,5 @@ from . import levenshtein_scorer as levenshtein_scorer  # noqa: F401
 from . import lockfile_reader as lockfile_reader  # noqa: F401
 from . import logger as logger  # noqa: F401
 from . import lru_cache as lru_cache  # noqa: F401
-from . import markdown_renderer as markdown_renderer  # noqa: F401
 
-__all__ = ["auth_guard", "backoff_timer", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "cors_handler", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "file_watcher", "fuzzy_matcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "lockfile_reader", "logger", "lru_cache", "markdown_renderer"]
+__all__ = ["auth_guard", "backoff_timer", "batch_runner", "cache_layer", "changelog_parser", "cli_parser", "color_palette", "config_loader", "cookie_parser", "cors_handler", "csv_reader", "date_helpers", "dependency_graph", "diff_renderer", "env_resolver", "error_wrapper", "event_bus", "feature_flags", "file_watcher", "fuzzy_matcher", "http_client", "image_resizer", "import_graph", "json_schema", "levenshtein_scorer", "lockfile_reader", "logger", "lru_cache"]
