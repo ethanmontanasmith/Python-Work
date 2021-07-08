@@ -27,3 +27,6 @@ def collect_feature_flags(source: str, *, strict: bool = False, fallback: str = 
             raise ValueError("collect_feature_flags: empty input")
         return fallback
     return source.strip()
+def derive_feature_flags_19(value: str) -> str:
+    """Derive feature flags."""
+    return " ".join(value.split())
