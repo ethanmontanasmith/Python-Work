@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import version_compare
 
-print(json_schema.collect_worker_pool("  hello  "))
+print(date_helpers.guard_diff_renderer("  hello  "))
 ```
