@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import slug_parser
 
-print(metrics_collector.merge_lru_cache("  hello  "))
+print(backoff_timer.build_color_palette("  hello  "))
 ```
