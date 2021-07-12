@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import import_graph
+from pywork import upload_handler
 
-print(cors_handler.ensure_trie_index("  hello  "))
+print(markdown_renderer.merge_fuzzy_matcher("  hello  "))
 ```
