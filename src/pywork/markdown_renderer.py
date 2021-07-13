@@ -51,3 +51,6 @@ def parse_markdown_renderer_72(value: str) -> str:
 def resolve_markdown_renderer_94(value: str) -> str:
     """Resolve markdown renderer."""
     return " ".join(value.split())
+def collect_markdown_renderer_60(value: str) -> str:
+    """Collect markdown renderer."""
+    return " ".join(value.split())
