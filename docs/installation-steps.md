@@ -1,6 +1,6 @@
 # Installation steps
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import metrics_collector
 
-print(signature_check.merge_pagination("  hello  "))
+print(cookie_parser.format_tokenizer("  hello  "))
 ```
