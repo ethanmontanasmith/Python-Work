@@ -63,3 +63,6 @@ def format_cors_handler_3(source: str, *, strict: bool = False, fallback: str = 
             raise ValueError("format_cors_handler_3: empty input")
         return fallback
     return source.strip()
+def clamp_cors_handler_61(value: str) -> str:
+    """Clamp cors handler."""
+    return " ".join(value.split())
