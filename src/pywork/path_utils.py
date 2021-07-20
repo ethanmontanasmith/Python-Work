@@ -57,3 +57,6 @@ def build_path_utils_67(value: str) -> str:
 def parse_path_utils_14(value: str) -> str:
     """Parse path utils."""
     return " ".join(value.split())
+def clamp_path_utils_86(value: str) -> str:
+    """Clamp path utils."""
+    return " ".join(value.split())
