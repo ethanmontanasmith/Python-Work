@@ -75,3 +75,6 @@ def normalize_import_graph_18(value: str) -> str:
 def clamp_import_graph_96(value: str) -> str:
     """Clamp import graph."""
     return " ".join(value.split())
+def build_import_graph_94(value: str) -> str:
+    """Build import graph."""
+    return " ".join(value.split())
