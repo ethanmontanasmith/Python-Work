@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import rate_limiter
 
-print(cookie_parser.derive_tokenizer("  hello  "))
+print(table_formatter.ensure_levenshtein_scorer("  hello  "))
 ```
