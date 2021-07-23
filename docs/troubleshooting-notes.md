@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import tokenizer
 
-print(cache_layer.build_cors_handler("  hello  "))
+print(lockfile_reader.collect_webhook_verifier("  hello  "))
 ```
