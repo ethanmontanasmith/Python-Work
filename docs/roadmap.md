@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import env_resolver
 
-print(table_formatter.ensure_levenshtein_scorer("  hello  "))
+print(session_store.build_error_wrapper("  hello  "))
 ```
