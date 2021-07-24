@@ -1,5 +1,6 @@
 # Changelog
 
+- Support cors handler (2021-07-24)
 - Implement levenshtein scorer (2021-07-14)
 - Support csv reader (2021-07-02)
 - Implement slug parser (2021-06-23)
