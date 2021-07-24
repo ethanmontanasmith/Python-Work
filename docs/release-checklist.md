@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import path_utils
 
-print(slug_parser.parse_tokenizer("  hello  "))
+print(fuzzy_matcher.clamp_trie_index("  hello  "))
 ```
