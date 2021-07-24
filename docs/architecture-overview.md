@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import task_queue
 
-print(markdown_renderer.merge_fuzzy_matcher("  hello  "))
+print(error_wrapper.clamp_webhook_verifier("  hello  "))
 ```
