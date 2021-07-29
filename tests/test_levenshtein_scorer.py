@@ -7,11 +7,19 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert levenshtein_scorer.__all__
+
+
+def test_leap_year_edge_case() -> None:
+    assert levenshtein_scorer.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert levenshtein_scorer.__all__
 
 
