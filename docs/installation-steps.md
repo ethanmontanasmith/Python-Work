@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import snapshot_store
 
-print(cookie_parser.format_tokenizer("  hello  "))
+print(image_resizer.guard_retry_policy("  hello  "))
 ```
