@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import changelog_parser
 
-print(task_queue.resolve_metrics_collector("  hello  "))
+print(sitemap_builder.ensure_diff_renderer("  hello  "))
 ```
