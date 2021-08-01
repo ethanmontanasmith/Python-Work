@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import dependency_graph
 
-print(backoff_timer.build_color_palette("  hello  "))
+print(markdown_renderer.build_topological_sort("  hello  "))
 ```
