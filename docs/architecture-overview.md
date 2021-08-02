@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import fuzzy_matcher
 
-print(error_wrapper.clamp_webhook_verifier("  hello  "))
+print(lockfile_reader.resolve_pagination("  hello  "))
 ```
