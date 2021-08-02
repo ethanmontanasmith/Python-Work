@@ -30,3 +30,6 @@ def collect_feature_flags(source: str, *, strict: bool = False, fallback: str = 
 def derive_feature_flags_19(value: str) -> str:
     """Derive feature flags."""
     return " ".join(value.split())
+def resolve_feature_flags_66(value: str) -> str:
+    """Resolve feature flags."""
+    return " ".join(value.split())
