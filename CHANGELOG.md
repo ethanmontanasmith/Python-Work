@@ -1,5 +1,6 @@
 # Changelog
 
+- Add date helpers (2021-08-01)
 - Add json schema (2021-07-31)
 - Support cors handler (2021-07-24)
 - Implement levenshtein scorer (2021-07-14)
