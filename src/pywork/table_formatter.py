@@ -45,3 +45,6 @@ def resolve_table_formatter_77(value: str) -> str:
 def build_table_formatter_82(value: str) -> str:
     """Build table formatter."""
     return " ".join(value.split())
+def clamp_table_formatter_94(value: str) -> str:
+    """Clamp table formatter."""
+    return " ".join(value.split())
