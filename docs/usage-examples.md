@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import date_helpers
 
-print(session_store.resolve_snapshot_store("  hello  "))
+print(snapshot_store.derive_rate_limiter("  hello  "))
 ```
