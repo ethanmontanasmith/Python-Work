@@ -11,15 +11,19 @@ def test_duplicate_key_overwrite() -> None:
     assert query_builder.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_bom_in_source_files() -> None:
     assert query_builder.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_leap_year_edge_case() -> None:
     assert query_builder.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_stale_cache_entry() -> None:
+    assert query_builder.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert query_builder.__all__
 
 
