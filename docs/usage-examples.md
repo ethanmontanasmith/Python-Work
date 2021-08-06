@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import date_helpers
 
-print(query_builder.merge_tokenizer("  hello  "))
+print(snapshot_store.derive_rate_limiter("  hello  "))
 ```
