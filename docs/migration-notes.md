@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import event_bus
 
-print(task_queue.collect_signature_check("  hello  "))
+print(topological_sort.derive_session_store("  hello  "))
 ```
