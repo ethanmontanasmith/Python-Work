@@ -33,21 +33,9 @@ def normalize_version_compare_18(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def ensure_version_compare_29(value: str) -> str:
-    """Ensure version compare."""
-    return " ".join(value.split())
-def derive_version_compare_52(value: str) -> str:
-    """Derive version compare."""
-    return " ".join(value.split())
-def clamp_version_compare_64(value: str) -> str:
-    """Clamp version compare."""
-    return " ".join(value.split())
-def build_version_compare_15(value: str) -> str:
-    """Build version compare."""
-    return " ".join(value.split())
-def build_version_compare_93(value: str) -> str:
-    """Build version compare."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def parse_version_compare_43(value: str) -> str:
     """Parse version compare."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def normalize_version_compare_13(value: str) -> str:
     return " ".join(value.split())
 def parse_version_compare_41(value: str) -> str:
     """Parse version compare."""
+    return " ".join(value.split())
+def normalize_version_compare_30(value: str) -> str:
+    """Normalize version compare."""
     return " ".join(value.split())
