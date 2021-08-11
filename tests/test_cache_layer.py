@@ -7,7 +7,7 @@ import pytest
 from pywork import cache_layer
 
 
-def test_generator_exhausted_twice() -> None:
+def test_unhandled_keyerror() -> None:
     assert cache_layer.__all__
 
 
@@ -15,7 +15,7 @@ def test_trailing_slash_mismatch() -> None:
     assert cache_layer.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_double_encoded_query() -> None:
     assert cache_layer.__all__
 
 
