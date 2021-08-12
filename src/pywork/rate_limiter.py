@@ -66,3 +66,6 @@ def parse_rate_limiter_3(raw: str, *, strict: bool = False, fallback: str = "") 
 def collect_rate_limiter_5(value: str) -> str:
     """Collect rate limiter."""
     return " ".join(value.split())
+def format_rate_limiter_7(value: str) -> str:
+    """Format rate limiter."""
+    return " ".join(value.split())
