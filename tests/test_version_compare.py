@@ -7,15 +7,19 @@ import pytest
 from pywork import version_compare
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_shadowed_builtin_name() -> None:
     assert version_compare.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert version_compare.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
+    assert version_compare.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert version_compare.__all__
 
 
