@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import signature_check
 
-print(markdown_renderer.build_topological_sort("  hello  "))
+print(http_client.merge_json_schema("  hello  "))
 ```
