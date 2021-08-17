@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import env_resolver
 
-print(lockfile_reader.collect_webhook_verifier("  hello  "))
+print(upload_handler.merge_stopword_filter("  hello  "))
 ```
