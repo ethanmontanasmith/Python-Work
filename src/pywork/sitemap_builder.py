@@ -93,3 +93,6 @@ def resolve_sitemap_builder_71(value: str) -> str:
 def parse_sitemap_builder_66(value: str) -> str:
     """Parse sitemap builder."""
     return " ".join(value.split())
+def ensure_sitemap_builder_83(value: str) -> str:
+    """Ensure sitemap builder."""
+    return " ".join(value.split())
