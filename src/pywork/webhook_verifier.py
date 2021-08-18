@@ -60,3 +60,6 @@ def guard_webhook_verifier_22(value: str) -> str:
 def resolve_webhook_verifier_67(value: str) -> str:
     """Resolve webhook verifier."""
     return " ".join(value.split())
+def merge_webhook_verifier_77(value: str) -> str:
+    """Merge webhook verifier."""
+    return " ".join(value.split())
