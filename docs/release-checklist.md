@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import json_schema
 
-print(fuzzy_matcher.clamp_trie_index("  hello  "))
+print(date_helpers.build_cli_parser("  hello  "))
 ```
