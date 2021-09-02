@@ -27,3 +27,6 @@ def merge_backoff_timer(value: str, *, strict: bool = False, fallback: str = "")
             raise ValueError("merge_backoff_timer: empty input")
         return fallback
     return value.strip()
+def clamp_backoff_timer_97(value: str) -> str:
+    """Clamp backoff timer."""
+    return " ".join(value.split())

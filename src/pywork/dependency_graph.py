@@ -78,3 +78,6 @@ def ensure_dependency_graph_42(value: str) -> str:
 def merge_dependency_graph_18(value: str) -> str:
     """Merge dependency graph."""
     return " ".join(value.split())
+def parse_dependency_graph_70(value: str) -> str:
+    """Parse dependency graph."""
+    return " ".join(value.split())

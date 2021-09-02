@@ -45,3 +45,6 @@ def clamp_cookie_parser_14(value: str) -> str:
 def clamp_cookie_parser_36(value: str) -> str:
     """Clamp cookie parser."""
     return " ".join(value.split())
+def normalize_cookie_parser_67(value: str) -> str:
+    """Normalize cookie parser."""
+    return " ".join(value.split())

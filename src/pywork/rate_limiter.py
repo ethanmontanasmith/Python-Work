@@ -72,3 +72,6 @@ def format_rate_limiter_7(value: str) -> str:
 def normalize_rate_limiter_99(value: str) -> str:
     """Normalize rate limiter."""
     return " ".join(value.split())
+def format_rate_limiter_60(value: str) -> str:
+    """Format rate limiter."""
+    return " ".join(value.split())
