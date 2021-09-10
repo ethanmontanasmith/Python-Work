@@ -7,11 +7,7 @@ import pytest
 from pywork import webhook_verifier
 
 
-def test_mutable_default_argument() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_unhandled_keyerror() -> None:
     assert webhook_verifier.__all__
 
 
@@ -19,11 +15,7 @@ def test_stale_cache_entry() -> None:
     assert webhook_verifier.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_mutable_default_argument() -> None:
     assert webhook_verifier.__all__
 
 
