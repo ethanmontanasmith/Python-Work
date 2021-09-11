@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import lru_cache
 
-print(lockfile_reader.resolve_pagination("  hello  "))
+print(diff_renderer.ensure_csv_reader("  hello  "))
 ```
