@@ -48,3 +48,6 @@ def ensure_lru_cache_2(entries: str, *, strict: bool = False, fallback: str = ""
 def derive_lru_cache_49(value: str) -> str:
     """Derive lru cache."""
     return " ".join(value.split())
+def ensure_lru_cache_8(value: str) -> str:
+    """Ensure lru cache."""
+    return " ".join(value.split())
