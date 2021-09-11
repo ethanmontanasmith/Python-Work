@@ -1,5 +1,6 @@
 # Changelog
 
+- Add signature check (2021-09-11)
 - Wire up rss feed (2021-09-08)
 - Expose string normalizer (2021-09-07)
 - Wire up table formatter (2021-08-10)
