@@ -7,19 +7,11 @@ import pytest
 from pywork import auth_guard
 
 
-def test_stale_cache_entry() -> None:
+def test_bom_in_source_files() -> None:
     assert auth_guard.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert auth_guard.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert auth_guard.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert auth_guard.__all__
 
 
