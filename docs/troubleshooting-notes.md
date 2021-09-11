@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import logger
 
-print(upload_handler.merge_stopword_filter("  hello  "))
+print(webhook_verifier.parse_event_bus("  hello  "))
 ```
