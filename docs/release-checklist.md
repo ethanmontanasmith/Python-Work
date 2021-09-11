@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import version_compare
 
-print(date_helpers.build_cli_parser("  hello  "))
+print(feature_flags.merge_lockfile_reader("  hello  "))
 ```
