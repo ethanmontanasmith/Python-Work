@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import sitemap_builder
 
-print(diff_renderer.format_sitemap_builder("  hello  "))
+print(config_loader.ensure_query_builder("  hello  "))
 ```
