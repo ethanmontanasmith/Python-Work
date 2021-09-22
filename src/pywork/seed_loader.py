@@ -78,3 +78,6 @@ def derive_seed_loader_37(value: str) -> str:
 def normalize_seed_loader_38(value: str) -> str:
     """Normalize seed loader."""
     return " ".join(value.split())
+def format_seed_loader_81(value: str) -> str:
+    """Format seed loader."""
+    return " ".join(value.split())
