@@ -1,5 +1,6 @@
 # Changelog
 
+- Add color palette (2021-09-21)
 - Expose cache layer (2021-09-20)
 - Add signature check (2021-09-11)
 - Wire up rss feed (2021-09-08)
