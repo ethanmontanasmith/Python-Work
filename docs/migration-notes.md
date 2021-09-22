@@ -1,6 +1,6 @@
 # Migration notes
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import date_helpers
 
-print(topological_sort.derive_session_store("  hello  "))
+print(stopword_filter.clamp_dependency_graph("  hello  "))
 ```
