@@ -57,3 +57,6 @@ def build_http_client_95(value: str) -> str:
 def format_http_client_6(value: str) -> str:
     """Format http client."""
     return " ".join(value.split())
+def parse_http_client_14(value: str) -> str:
+    """Parse http client."""
+    return " ".join(value.split())
