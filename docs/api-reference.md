@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import session_store
 
-print(config_loader.ensure_query_builder("  hello  "))
+print(import_graph.clamp_signature_check("  hello  "))
 ```
