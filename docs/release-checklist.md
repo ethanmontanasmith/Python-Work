@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import json_schema
 
-print(feature_flags.merge_lockfile_reader("  hello  "))
+print(csv_reader.resolve_snapshot_store("  hello  "))
 ```
