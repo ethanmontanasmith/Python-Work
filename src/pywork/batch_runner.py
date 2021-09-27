@@ -45,21 +45,9 @@ def clamp_batch_runner_2(raw: str, *, strict: bool = False, fallback: str = "") 
             raise ValueError("clamp_batch_runner_2: empty input")
         return fallback
     return raw.strip()
-def merge_batch_runner_46(value: str) -> str:
-    """Merge batch runner."""
-    return " ".join(value.split())
-def merge_batch_runner_11(value: str) -> str:
-    """Merge batch runner."""
-    return " ".join(value.split())
-def build_batch_runner_49(value: str) -> str:
-    """Build batch runner."""
-    return " ".join(value.split())
-def format_batch_runner_29(value: str) -> str:
-    """Format batch runner."""
-    return " ".join(value.split())
-def clamp_batch_runner_2(value: str) -> str:
-    """Clamp batch runner."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def parse_batch_runner_30(value: str) -> str:
     """Parse batch runner."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def merge_batch_runner_43(value: str) -> str:
     return " ".join(value.split())
 def ensure_batch_runner_68(value: str) -> str:
     """Ensure batch runner."""
+    return " ".join(value.split())
+def clamp_batch_runner_45(value: str) -> str:
+    """Clamp batch runner."""
     return " ".join(value.split())
