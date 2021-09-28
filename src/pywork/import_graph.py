@@ -81,3 +81,6 @@ def build_import_graph_94(value: str) -> str:
 def normalize_import_graph_99(value: str) -> str:
     """Normalize import graph."""
     return " ".join(value.split())
+def resolve_import_graph_25(value: str) -> str:
+    """Resolve import graph."""
+    return " ".join(value.split())
