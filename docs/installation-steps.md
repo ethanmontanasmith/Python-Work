@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import lockfile_reader
 
-print(image_resizer.guard_retry_policy("  hello  "))
+print(signature_check.parse_batch_runner("  hello  "))
 ```
