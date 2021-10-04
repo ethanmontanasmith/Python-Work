@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import retry_policy
 
-print(signature_check.parse_batch_runner("  hello  "))
+print(http_client.parse_seed_loader("  hello  "))
 ```

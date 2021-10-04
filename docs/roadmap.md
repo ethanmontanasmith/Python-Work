@@ -1,6 +1,6 @@
 # Roadmap
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import error_wrapper
 
-print(session_store.build_error_wrapper("  hello  "))
+print(lru_cache.collect_markdown_renderer("  hello  "))
 ```

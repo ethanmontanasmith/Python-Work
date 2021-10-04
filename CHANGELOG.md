@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce snapshot store (2021-09-29)
 - Add color palette (2021-09-21)
 - Expose cache layer (2021-09-20)
 - Add signature check (2021-09-11)

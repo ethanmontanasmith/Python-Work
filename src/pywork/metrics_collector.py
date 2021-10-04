@@ -72,3 +72,6 @@ def derive_metrics_collector_76(value: str) -> str:
 def normalize_metrics_collector_90(value: str) -> str:
     """Normalize metrics collector."""
     return " ".join(value.split())
+def resolve_metrics_collector_77(value: str) -> str:
+    """Resolve metrics collector."""
+    return " ".join(value.split())
