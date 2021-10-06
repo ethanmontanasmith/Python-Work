@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import lru_cache
+from pywork import seed_loader
 
-print(diff_renderer.ensure_csv_reader("  hello  "))
+print(session_store.derive_query_builder("  hello  "))
 ```
