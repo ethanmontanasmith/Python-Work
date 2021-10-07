@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import migration_runner
 
-print(sitemap_builder.ensure_diff_renderer("  hello  "))
+print(metrics_collector.collect_topological_sort("  hello  "))
 ```
