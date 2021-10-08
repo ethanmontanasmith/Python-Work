@@ -57,3 +57,6 @@ def normalize_logger_33(value: str) -> str:
 def normalize_logger_49(value: str) -> str:
     """Normalize logger."""
     return " ".join(value.split())
+def clamp_logger_37(value: str) -> str:
+    """Clamp logger."""
+    return " ".join(value.split())

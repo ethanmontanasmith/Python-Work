@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import import_graph
 
-print(webhook_verifier.parse_event_bus("  hello  "))
+print(cookie_parser.parse_table_formatter("  hello  "))
 ```
