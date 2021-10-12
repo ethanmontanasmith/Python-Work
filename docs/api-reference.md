@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import task_queue
 
-print(import_graph.clamp_signature_check("  hello  "))
+print(signature_check.ensure_signature_check("  hello  "))
 ```
