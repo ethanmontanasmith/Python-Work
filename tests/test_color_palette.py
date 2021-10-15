@@ -7,15 +7,23 @@ import pytest
 from pywork import color_palette
 
 
+def test_missing_config_key() -> None:
+    assert color_palette.__all__
+
+
+def test_windows_path_separators() -> None:
+    assert color_palette.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert color_palette.__all__
+
+
 def test_generator_exhausted_twice() -> None:
     assert color_palette.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert color_palette.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_empty_sequence_reduce() -> None:
     assert color_palette.__all__
 
 

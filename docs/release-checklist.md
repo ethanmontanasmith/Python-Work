@@ -1,6 +1,6 @@
 # Release checklist
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import batch_runner
 
-print(csv_reader.resolve_snapshot_store("  hello  "))
+print(image_resizer.normalize_diff_renderer("  hello  "))
 ```
