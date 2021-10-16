@@ -7,23 +7,11 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_windows_path_separators() -> None:
     assert sitemap_builder.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert sitemap_builder.__all__
-
-
-def test_circular_import() -> None:
-    assert sitemap_builder.__all__
-
-
-def test_missing_config_key() -> None:
-    assert sitemap_builder.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_empty_input() -> None:
     assert sitemap_builder.__all__
 
 
