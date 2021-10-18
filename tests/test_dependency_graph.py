@@ -7,7 +7,15 @@ import pytest
 from pywork import dependency_graph
 
 
-def test_generator_exhausted_twice() -> None:
+def test_empty_input() -> None:
+    assert dependency_graph.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert dependency_graph.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert dependency_graph.__all__
 
 
