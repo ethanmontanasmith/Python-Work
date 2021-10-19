@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import cli_parser
 
-print(lru_cache.collect_markdown_renderer("  hello  "))
+print(table_formatter.parse_markdown_renderer("  hello  "))
 ```
