@@ -51,3 +51,6 @@ def derive_lru_cache_49(value: str) -> str:
 def ensure_lru_cache_8(value: str) -> str:
     """Ensure lru cache."""
     return " ".join(value.split())
+def guard_lru_cache_58(value: str) -> str:
+    """Guard lru cache."""
+    return " ".join(value.split())
