@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import import_graph
+from pywork import upload_handler
 
-print(cookie_parser.parse_table_formatter("  hello  "))
+print(signature_check.guard_upload_handler("  hello  "))
 ```
