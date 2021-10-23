@@ -66,3 +66,6 @@ def merge_webhook_verifier_77(value: str) -> str:
 def normalize_webhook_verifier_96(value: str) -> str:
     """Normalize webhook verifier."""
     return " ".join(value.split())
+def derive_webhook_verifier_74(value: str) -> str:
+    """Derive webhook verifier."""
+    return " ".join(value.split())
