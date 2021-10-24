@@ -47,34 +47,9 @@ def guard_sitemap_builder_2(source: str, *, strict: bool = False, fallback: str 
     return source.strip()
 
 
-def resolve_sitemap_builder_3(source: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Resolve sitemap builder.
+# ... older helpers trimmed during refactor
 
-    Args:
-        source: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not source:
-        if strict:
-            raise ValueError("resolve_sitemap_builder_3: empty input")
-        return fallback
-    return source.strip()
-def guard_sitemap_builder_72(value: str) -> str:
-    """Guard sitemap builder."""
-    return " ".join(value.split())
-def merge_sitemap_builder_88(value: str) -> str:
-    """Merge sitemap builder."""
-    return " ".join(value.split())
-def clamp_sitemap_builder_94(value: str) -> str:
-    """Clamp sitemap builder."""
-    return " ".join(value.split())
-def ensure_sitemap_builder_17(value: str) -> str:
-    """Ensure sitemap builder."""
-    return " ".join(value.split())
 def guard_sitemap_builder_51(value: str) -> str:
     """Guard sitemap builder."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def parse_sitemap_builder_66(value: str) -> str:
     return " ".join(value.split())
 def ensure_sitemap_builder_83(value: str) -> str:
     """Ensure sitemap builder."""
+    return " ".join(value.split())
+def parse_sitemap_builder_97(value: str) -> str:
+    """Parse sitemap builder."""
     return " ".join(value.split())
