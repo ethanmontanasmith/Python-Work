@@ -72,3 +72,6 @@ def normalize_json_schema_84(value: str) -> str:
 def parse_json_schema_65(value: str) -> str:
     """Parse json schema."""
     return " ".join(value.split())
+def format_json_schema_7(value: str) -> str:
+    """Format json schema."""
+    return " ".join(value.split())
