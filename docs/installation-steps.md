@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import lockfile_reader
 
-print(http_client.parse_seed_loader("  hello  "))
+print(error_wrapper.derive_token_bucket("  hello  "))
 ```

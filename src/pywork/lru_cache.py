@@ -54,3 +54,9 @@ def ensure_lru_cache_8(value: str) -> str:
 def guard_lru_cache_58(value: str) -> str:
     """Guard lru cache."""
     return " ".join(value.split())
+def collect_lru_cache_48(value: str) -> str:
+    """Collect lru cache."""
+    return " ".join(value.split())
+def collect_lru_cache_60(value: str) -> str:
+    """Collect lru cache."""
+    return " ".join(value.split())

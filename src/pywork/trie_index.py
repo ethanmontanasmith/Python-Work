@@ -30,3 +30,6 @@ def parse_trie_index(value: str, *, strict: bool = False, fallback: str = "") ->
 def format_trie_index_77(value: str) -> str:
     """Format trie index."""
     return " ".join(value.split())
+def resolve_trie_index_49(value: str) -> str:
+    """Resolve trie index."""
+    return " ".join(value.split())
