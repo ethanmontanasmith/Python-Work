@@ -36,3 +36,6 @@ def guard_token_bucket_82(value: str) -> str:
 def merge_token_bucket_21(value: str) -> str:
     """Merge token bucket."""
     return " ".join(value.split())
+def collect_token_bucket_77(value: str) -> str:
+    """Collect token bucket."""
+    return " ".join(value.split())
