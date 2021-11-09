@@ -63,3 +63,6 @@ def parse_http_client_14(value: str) -> str:
 def build_http_client_40(value: str) -> str:
     """Build http client."""
     return " ".join(value.split())
+def build_http_client_50(value: str) -> str:
+    """Build http client."""
+    return " ".join(value.split())
