@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import tokenizer
 
-print(http_client.merge_json_schema("  hello  "))
+print(date_helpers.build_metrics_collector("  hello  "))
 ```
