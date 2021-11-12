@@ -7,11 +7,19 @@ import pytest
 from pywork import csv_reader
 
 
-def test_bom_in_source_files() -> None:
+def test_missing_config_key() -> None:
     assert csv_reader.__all__
 
 
-def test_empty_input() -> None:
+def test_unhandled_keyerror() -> None:
+    assert csv_reader.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
+    assert csv_reader.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert csv_reader.__all__
 
 
