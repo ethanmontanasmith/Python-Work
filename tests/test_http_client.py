@@ -7,15 +7,23 @@ import pytest
 from pywork import http_client
 
 
-def test_double_encoded_query() -> None:
-    assert http_client.__all__
-
-
 def test_duplicate_key_overwrite() -> None:
     assert http_client.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert http_client.__all__
+
+
+def test_bom_in_source_files() -> None:
+    assert http_client.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
+    assert http_client.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
     assert http_client.__all__
 
 

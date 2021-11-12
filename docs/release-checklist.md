@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import batch_runner
+from pywork import csv_reader
 
-print(image_resizer.normalize_diff_renderer("  hello  "))
+print(string_normalizer.merge_fuzzy_matcher("  hello  "))
 ```
