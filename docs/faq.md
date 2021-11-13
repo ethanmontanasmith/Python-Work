@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import migration_runner
+from pywork import string_normalizer
 
-print(metrics_collector.collect_topological_sort("  hello  "))
+print(snapshot_store.normalize_session_store("  hello  "))
 ```
