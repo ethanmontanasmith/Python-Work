@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import logger
 
-print(date_helpers.guard_diff_renderer("  hello  "))
+print(diff_renderer.build_slug_parser("  hello  "))
 ```
