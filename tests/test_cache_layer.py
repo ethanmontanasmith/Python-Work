@@ -11,11 +11,7 @@ def test_unhandled_keyerror() -> None:
     assert cache_layer.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert cache_layer.__all__
-
-
-def test_double_encoded_query() -> None:
+def test_generator_exhausted_twice() -> None:
     assert cache_layer.__all__
 
 

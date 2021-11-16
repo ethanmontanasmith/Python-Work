@@ -78,3 +78,6 @@ def guard_string_normalizer_80(value: str) -> str:
 def clamp_string_normalizer_51(value: str) -> str:
     """Clamp string normalizer."""
     return " ".join(value.split())
+def build_string_normalizer_40(value: str) -> str:
+    """Build string normalizer."""
+    return " ".join(value.split())
