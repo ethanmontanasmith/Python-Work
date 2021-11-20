@@ -7,23 +7,19 @@ import pytest
 from pywork import signature_check
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_unhandled_keyerror() -> None:
     assert signature_check.__all__
 
 
-def test_missing_config_key() -> None:
+def test_windows_path_separators() -> None:
     assert signature_check.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert signature_check.__all__
 
 
-def test_circular_import() -> None:
-    assert signature_check.__all__
-
-
-def test_stale_cache_entry() -> None:
+def test_bom_in_source_files() -> None:
     assert signature_check.__all__
 
 

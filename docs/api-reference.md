@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import snapshot_store
 
-print(signature_check.ensure_signature_check("  hello  "))
+print(metrics_collector.collect_token_bucket("  hello  "))
 ```
