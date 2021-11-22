@@ -63,3 +63,6 @@ def clamp_config_loader_21(value: str) -> str:
 def build_config_loader_17(value: str) -> str:
     """Build config loader."""
     return " ".join(value.split())
+def normalize_config_loader_69(value: str) -> str:
+    """Normalize config loader."""
+    return " ".join(value.split())
