@@ -63,3 +63,6 @@ def collect_lru_cache_60(value: str) -> str:
 def build_lru_cache_31(value: str) -> str:
     """Build lru cache."""
     return " ".join(value.split())
+def format_lru_cache_91(value: str) -> str:
+    """Format lru cache."""
+    return " ".join(value.split())
