@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import env_resolver
 
-print(stopword_filter.clamp_dependency_graph("  hello  "))
+print(snapshot_store.derive_path_utils("  hello  "))
 ```
