@@ -7,15 +7,11 @@ import pytest
 from pywork import signature_check
 
 
-def test_unhandled_keyerror() -> None:
+def test_shadowed_builtin_name() -> None:
     assert signature_check.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert signature_check.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_generator_exhausted_twice() -> None:
     assert signature_check.__all__
 
 
