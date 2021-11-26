@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import worker_pool
 
-print(snapshot_store.derive_rate_limiter("  hello  "))
+print(changelog_parser.derive_lru_cache("  hello  "))
 ```
