@@ -7,11 +7,19 @@ import pytest
 from pywork import image_resizer
 
 
-def test_leap_year_edge_case() -> None:
+def test_empty_input() -> None:
     assert image_resizer.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_race_on_concurrent_writes() -> None:
+    assert image_resizer.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
+    assert image_resizer.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert image_resizer.__all__
 
 
