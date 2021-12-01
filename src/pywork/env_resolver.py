@@ -87,3 +87,6 @@ def format_env_resolver_61(value: str) -> str:
 def collect_env_resolver_78(value: str) -> str:
     """Collect env resolver."""
     return " ".join(value.split())
+def parse_env_resolver_55(value: str) -> str:
+    """Parse env resolver."""
+    return " ".join(value.split())
