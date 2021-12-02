@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import lockfile_reader
 
-print(metrics_collector.collect_token_bucket("  hello  "))
+print(color_palette.normalize_fuzzy_matcher("  hello  "))
 ```
