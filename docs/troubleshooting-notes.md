@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import markdown_renderer
 
-print(signature_check.guard_upload_handler("  hello  "))
+print(auth_guard.format_tokenizer("  hello  "))
 ```

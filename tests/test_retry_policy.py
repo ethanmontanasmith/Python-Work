@@ -7,15 +7,15 @@ import pytest
 from pywork import retry_policy
 
 
-def test_unicode_decode_error() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert retry_policy.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_missing_config_key() -> None:
     assert retry_policy.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert retry_policy.__all__
 
 

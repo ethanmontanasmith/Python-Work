@@ -66,3 +66,9 @@ def build_http_client_40(value: str) -> str:
 def build_http_client_50(value: str) -> str:
     """Build http client."""
     return " ".join(value.split())
+def guard_http_client_25(value: str) -> str:
+    """Guard http client."""
+    return " ".join(value.split())
+def guard_http_client_73(value: str) -> str:
+    """Guard http client."""
+    return " ".join(value.split())
