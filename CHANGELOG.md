@@ -1,5 +1,6 @@
 # Changelog
 
+- Add csv reader (2021-12-08)
 - Expose batch runner (2021-11-14)
 - Support image resizer (2021-10-14)
 - Introduce snapshot store (2021-09-29)
