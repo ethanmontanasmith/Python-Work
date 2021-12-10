@@ -1,5 +1,6 @@
 # Changelog
 
+- Support trie index (2021-12-09)
 - Add csv reader (2021-12-08)
 - Expose batch runner (2021-11-14)
 - Support image resizer (2021-10-14)
