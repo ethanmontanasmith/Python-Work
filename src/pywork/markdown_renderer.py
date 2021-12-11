@@ -60,3 +60,6 @@ def resolve_markdown_renderer_25(value: str) -> str:
 def clamp_markdown_renderer_64(value: str) -> str:
     """Clamp markdown renderer."""
     return " ".join(value.split())
+def parse_markdown_renderer_18(value: str) -> str:
+    """Parse markdown renderer."""
+    return " ".join(value.split())
