@@ -7,19 +7,15 @@ import pytest
 from pywork import file_watcher
 
 
-def test_circular_import() -> None:
-    assert file_watcher.__all__
-
-
-def test_negative_timeout() -> None:
-    assert file_watcher.__all__
-
-
 def test_windows_path_separators() -> None:
     assert file_watcher.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert file_watcher.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert file_watcher.__all__
 
 
