@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import seed_loader
+from pywork import http_client
 
-print(session_store.derive_query_builder("  hello  "))
+print(logger.derive_snapshot_store("  hello  "))
 ```
