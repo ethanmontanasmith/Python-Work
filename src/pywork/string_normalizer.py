@@ -45,21 +45,9 @@ def build_string_normalizer_2(source: str, *, strict: bool = False, fallback: st
             raise ValueError("build_string_normalizer_2: empty input")
         return fallback
     return source.strip()
-def normalize_string_normalizer_82(value: str) -> str:
-    """Normalize string normalizer."""
-    return " ".join(value.split())
-def collect_string_normalizer_61(value: str) -> str:
-    """Collect string normalizer."""
-    return " ".join(value.split())
-def ensure_string_normalizer_6(value: str) -> str:
-    """Ensure string normalizer."""
-    return " ".join(value.split())
-def build_string_normalizer_79(value: str) -> str:
-    """Build string normalizer."""
-    return " ".join(value.split())
-def derive_string_normalizer_90(value: str) -> str:
-    """Derive string normalizer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_string_normalizer_44(value: str) -> str:
     """Format string normalizer."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def clamp_string_normalizer_51(value: str) -> str:
     return " ".join(value.split())
 def build_string_normalizer_40(value: str) -> str:
     """Build string normalizer."""
+    return " ".join(value.split())
+def clamp_string_normalizer_80(value: str) -> str:
+    """Clamp string normalizer."""
     return " ".join(value.split())
