@@ -11,15 +11,19 @@ def test_double_encoded_query() -> None:
     assert cli_parser.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_shadowed_builtin_name() -> None:
     assert cli_parser.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_windows_path_separators() -> None:
     assert cli_parser.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_unicode_decode_error() -> None:
+    assert cli_parser.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert cli_parser.__all__
 
 
