@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import sitemap_builder
 
-print(string_normalizer.merge_fuzzy_matcher("  hello  "))
+print(changelog_parser.guard_upload_handler("  hello  "))
 ```
