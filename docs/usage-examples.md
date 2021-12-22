@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import worker_pool
+from pywork import signature_check
 
-print(changelog_parser.derive_lru_cache("  hello  "))
+print(csv_reader.resolve_json_schema("  hello  "))
 ```
