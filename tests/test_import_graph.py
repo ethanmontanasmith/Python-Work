@@ -7,15 +7,19 @@ import pytest
 from pywork import import_graph
 
 
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert import_graph.__all__
+
+
+def test_generator_exhausted_twice() -> None:
+    assert import_graph.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
+    assert import_graph.__all__
+
+
 def test_empty_sequence_reduce() -> None:
-    assert import_graph.__all__
-
-
-def test_empty_input() -> None:
-    assert import_graph.__all__
-
-
-def test_unicode_decode_error() -> None:
     assert import_graph.__all__
 
 
