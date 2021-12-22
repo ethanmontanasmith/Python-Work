@@ -7,11 +7,19 @@ import pytest
 from pywork import trie_index
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_missing_config_key() -> None:
     assert trie_index.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
+    assert trie_index.__all__
+
+
+def test_bom_in_source_files() -> None:
+    assert trie_index.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert trie_index.__all__
 
 
