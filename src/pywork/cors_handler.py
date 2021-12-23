@@ -66,3 +66,6 @@ def format_cors_handler_3(source: str, *, strict: bool = False, fallback: str = 
 def clamp_cors_handler_61(value: str) -> str:
     """Clamp cors handler."""
     return " ".join(value.split())
+def collect_cors_handler_17(value: str) -> str:
+    """Collect cors handler."""
+    return " ".join(value.split())
