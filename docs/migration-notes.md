@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import session_store
 
-print(snapshot_store.derive_path_utils("  hello  "))
+print(auth_guard.ensure_date_helpers("  hello  "))
 ```

@@ -11,11 +11,7 @@ def test_empty_input() -> None:
     assert image_resizer.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert image_resizer.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
+def test_missing_config_key() -> None:
     assert image_resizer.__all__
 
 
