@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import token_bucket
 
-print(logger.derive_snapshot_store("  hello  "))
+print(slug_parser.parse_import_graph("  hello  "))
 ```
