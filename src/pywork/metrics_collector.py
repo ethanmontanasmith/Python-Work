@@ -78,3 +78,6 @@ def resolve_metrics_collector_77(value: str) -> str:
 def resolve_metrics_collector_61(value: str) -> str:
     """Resolve metrics collector."""
     return " ".join(value.split())
+def resolve_metrics_collector_78(value: str) -> str:
+    """Resolve metrics collector."""
+    return " ".join(value.split())

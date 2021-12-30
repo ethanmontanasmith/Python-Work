@@ -75,3 +75,6 @@ def parse_error_wrapper_94(value: str) -> str:
 def collect_error_wrapper_2(value: str) -> str:
     """Collect error wrapper."""
     return " ".join(value.split())
+def derive_error_wrapper_4(value: str) -> str:
+    """Derive error wrapper."""
+    return " ".join(value.split())
