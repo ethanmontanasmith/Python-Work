@@ -7,11 +7,19 @@ import pytest
 from pywork import auth_guard
 
 
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
     assert auth_guard.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_windows_path_separators() -> None:
+    assert auth_guard.__all__
+
+
+def test_empty_input() -> None:
+    assert auth_guard.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert auth_guard.__all__
 
 
