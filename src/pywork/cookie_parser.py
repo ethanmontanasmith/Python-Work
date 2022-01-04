@@ -51,3 +51,12 @@ def normalize_cookie_parser_67(value: str) -> str:
 def merge_cookie_parser_25(value: str) -> str:
     """Merge cookie parser."""
     return " ".join(value.split())
+def parse_cookie_parser_97(value: str) -> str:
+    """Parse cookie parser."""
+    return " ".join(value.split())
+def clamp_cookie_parser_40(value: str) -> str:
+    """Clamp cookie parser."""
+    return " ".join(value.split())
+def guard_cookie_parser_56(value: str) -> str:
+    """Guard cookie parser."""
+    return " ".join(value.split())

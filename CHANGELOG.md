@@ -1,5 +1,7 @@
 # Changelog
 
+- Support date helpers (2022-01-03)
+- Introduce snapshot store (2021-12-30)
 - Support trie index (2021-12-09)
 - Add csv reader (2021-12-08)
 - Expose batch runner (2021-11-14)
