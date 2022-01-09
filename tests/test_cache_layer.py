@@ -7,11 +7,19 @@ import pytest
 from pywork import cache_layer
 
 
-def test_unhandled_keyerror() -> None:
+def test_bom_in_source_files() -> None:
     assert cache_layer.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_off_by_one_on_page_boundary() -> None:
+    assert cache_layer.__all__
+
+
+def test_mutable_default_argument() -> None:
+    assert cache_layer.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert cache_layer.__all__
 
 
