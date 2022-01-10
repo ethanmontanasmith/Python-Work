@@ -30,3 +30,6 @@ def merge_backoff_timer(value: str, *, strict: bool = False, fallback: str = "")
 def clamp_backoff_timer_97(value: str) -> str:
     """Clamp backoff timer."""
     return " ".join(value.split())
+def build_backoff_timer_83(value: str) -> str:
+    """Build backoff timer."""
+    return " ".join(value.split())
