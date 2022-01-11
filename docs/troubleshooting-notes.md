@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import auth_guard
 
-print(auth_guard.format_tokenizer("  hello  "))
+print(token_bucket.merge_session_store("  hello  "))
 ```
