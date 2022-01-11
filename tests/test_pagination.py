@@ -7,15 +7,11 @@ import pytest
 from pywork import pagination
 
 
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
     assert pagination.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert pagination.__all__
-
-
-def test_missing_config_key() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert pagination.__all__
 
 
