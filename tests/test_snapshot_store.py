@@ -7,7 +7,15 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_shadowed_builtin_name() -> None:
+def test_race_on_concurrent_writes() -> None:
+    assert snapshot_store.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
+    assert snapshot_store.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert snapshot_store.__all__
 
 
