@@ -51,3 +51,6 @@ def collect_color_palette_27(value: str) -> str:
 def parse_color_palette_49(value: str) -> str:
     """Parse color palette."""
     return " ".join(value.split())
+def ensure_color_palette_91(value: str) -> str:
+    """Ensure color palette."""
+    return " ".join(value.split())
