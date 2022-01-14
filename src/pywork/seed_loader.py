@@ -81,3 +81,6 @@ def normalize_seed_loader_38(value: str) -> str:
 def format_seed_loader_81(value: str) -> str:
     """Format seed loader."""
     return " ".join(value.split())
+def parse_seed_loader_42(value: str) -> str:
+    """Parse seed loader."""
+    return " ".join(value.split())

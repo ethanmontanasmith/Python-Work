@@ -7,23 +7,11 @@ import pytest
 from pywork import query_builder
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_missing_config_key() -> None:
     assert query_builder.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert query_builder.__all__
-
-
-def test_leap_year_edge_case() -> None:
-    assert query_builder.__all__
-
-
-def test_stale_cache_entry() -> None:
-    assert query_builder.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_double_encoded_query() -> None:
     assert query_builder.__all__
 
 
