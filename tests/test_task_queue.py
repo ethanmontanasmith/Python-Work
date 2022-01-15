@@ -7,15 +7,11 @@ import pytest
 from pywork import task_queue
 
 
-def test_double_encoded_query() -> None:
+def test_bom_in_source_files() -> None:
     assert task_queue.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert task_queue.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert task_queue.__all__
 
 
