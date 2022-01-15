@@ -81,3 +81,6 @@ def derive_meta_tags_55(value: str) -> str:
 def guard_meta_tags_31(value: str) -> str:
     """Guard meta tags."""
     return " ".join(value.split())
+def derive_meta_tags_76(value: str) -> str:
+    """Derive meta tags."""
+    return " ".join(value.split())
