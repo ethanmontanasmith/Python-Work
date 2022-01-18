@@ -54,3 +54,6 @@ def normalize_event_bus_10(value: str) -> str:
 def resolve_event_bus_93(value: str) -> str:
     """Resolve event bus."""
     return " ".join(value.split())
+def resolve_event_bus_87(value: str) -> str:
+    """Resolve event bus."""
+    return " ".join(value.split())

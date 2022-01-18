@@ -7,23 +7,15 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_empty_input() -> None:
     assert string_normalizer.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert string_normalizer.__all__
 
 
-def test_missing_config_key() -> None:
-    assert string_normalizer.__all__
-
-
-def test_mutable_default_argument() -> None:
-    assert string_normalizer.__all__
-
-
-def test_negative_timeout() -> None:
+def test_empty_sequence_reduce() -> None:
     assert string_normalizer.__all__
 
 
