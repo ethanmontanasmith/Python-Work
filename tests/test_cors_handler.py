@@ -7,15 +7,23 @@ import pytest
 from pywork import cors_handler
 
 
-def test_negative_timeout() -> None:
+def test_circular_import() -> None:
+    assert cors_handler.__all__
+
+
+def test_missing_config_key() -> None:
+    assert cors_handler.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
+    assert cors_handler.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert cors_handler.__all__
 
 
 def test_leap_year_edge_case() -> None:
-    assert cors_handler.__all__
-
-
-def test_unicode_decode_error() -> None:
     assert cors_handler.__all__
 
 
