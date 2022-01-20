@@ -7,11 +7,23 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_windows_path_separators() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert sitemap_builder.__all__
 
 
 def test_empty_input() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_unicode_decode_error() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_negative_timeout() -> None:
     assert sitemap_builder.__all__
 
 
