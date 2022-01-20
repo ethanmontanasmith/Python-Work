@@ -63,3 +63,6 @@ def merge_changelog_parser_52(value: str) -> str:
 def derive_changelog_parser_60(value: str) -> str:
     """Derive changelog parser."""
     return " ".join(value.split())
+def derive_changelog_parser_83(value: str) -> str:
+    """Derive changelog parser."""
+    return " ".join(value.split())
