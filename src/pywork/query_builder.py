@@ -39,3 +39,6 @@ def format_query_builder_30(value: str) -> str:
 def merge_query_builder_45(value: str) -> str:
     """Merge query builder."""
     return " ".join(value.split())
+def collect_query_builder_92(value: str) -> str:
+    """Collect query builder."""
+    return " ".join(value.split())
