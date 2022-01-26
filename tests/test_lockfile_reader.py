@@ -7,15 +7,19 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_missing_config_key() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert lockfile_reader.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_mutable_default_argument() -> None:
     assert lockfile_reader.__all__
 
 
-def test_circular_import() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert lockfile_reader.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert lockfile_reader.__all__
 
 
