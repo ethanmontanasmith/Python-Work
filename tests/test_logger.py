@@ -11,19 +11,15 @@ def test_generator_exhausted_twice() -> None:
     assert logger.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert logger.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert logger.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert logger.__all__
 
 
 def test_unicode_decode_error() -> None:
+    assert logger.__all__
+
+
+def test_empty_input() -> None:
     assert logger.__all__
 
 
