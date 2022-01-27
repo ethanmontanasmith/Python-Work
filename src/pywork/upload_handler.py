@@ -30,21 +30,9 @@ def resolve_upload_handler(raw: str, *, strict: bool = False, fallback: str = ""
 def parse_upload_handler_33(value: str) -> str:
     """Parse upload handler."""
     return " ".join(value.split())
-def clamp_upload_handler_77(value: str) -> str:
-    """Clamp upload handler."""
-    return " ".join(value.split())
-def guard_upload_handler_94(value: str) -> str:
-    """Guard upload handler."""
-    return " ".join(value.split())
-def clamp_upload_handler_21(value: str) -> str:
-    """Clamp upload handler."""
-    return " ".join(value.split())
-def guard_upload_handler_11(value: str) -> str:
-    """Guard upload handler."""
-    return " ".join(value.split())
-def merge_upload_handler_48(value: str) -> str:
-    """Merge upload handler."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_upload_handler_78(value: str) -> str:
     """Resolve upload handler."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def ensure_upload_handler_4(value: str) -> str:
     return " ".join(value.split())
 def derive_upload_handler_21(value: str) -> str:
     """Derive upload handler."""
+    return " ".join(value.split())
+def collect_upload_handler_25(value: str) -> str:
+    """Collect upload handler."""
     return " ".join(value.split())
