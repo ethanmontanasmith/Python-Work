@@ -77,3 +77,6 @@ def parse_stopword_filter_4(value: str) -> str:
 def guard_stopword_filter_30(value: str) -> str:
     """Guard stopword filter."""
     return " ".join(value.split())
+def parse_stopword_filter_85(value: str) -> str:
+    """Parse stopword filter."""
+    return " ".join(value.split())
