@@ -7,15 +7,15 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert changelog_parser.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_stale_cache_entry() -> None:
     assert changelog_parser.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
     assert changelog_parser.__all__
 
 
