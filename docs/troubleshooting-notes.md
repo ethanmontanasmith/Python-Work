@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import auth_guard
+from pywork import fuzzy_matcher
 
-print(token_bucket.merge_session_store("  hello  "))
+print(config_loader.merge_cookie_parser("  hello  "))
 ```

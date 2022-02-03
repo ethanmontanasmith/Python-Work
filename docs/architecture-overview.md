@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import error_wrapper
 
-print(slug_parser.parse_import_graph("  hello  "))
+print(snapshot_store.resolve_cookie_parser("  hello  "))
 ```
