@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import lockfile_reader
 
-print(changelog_parser.guard_upload_handler("  hello  "))
+print(meta_tags.resolve_color_palette("  hello  "))
 ```
