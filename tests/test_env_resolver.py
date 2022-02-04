@@ -7,19 +7,11 @@ import pytest
 from pywork import env_resolver
 
 
-def test_leap_year_edge_case() -> None:
+def test_generator_exhausted_twice() -> None:
     assert env_resolver.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert env_resolver.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert env_resolver.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_windows_path_separators() -> None:
     assert env_resolver.__all__
 
 
