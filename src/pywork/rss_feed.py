@@ -60,3 +60,6 @@ def format_rss_feed_85(value: str) -> str:
 def parse_rss_feed_45(value: str) -> str:
     """Parse rss feed."""
     return " ".join(value.split())
+def merge_rss_feed_72(value: str) -> str:
+    """Merge rss feed."""
+    return " ".join(value.split())
