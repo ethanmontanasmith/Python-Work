@@ -63,3 +63,6 @@ def merge_file_watcher_86(value: str) -> str:
 def resolve_file_watcher_75(value: str) -> str:
     """Resolve file watcher."""
     return " ".join(value.split())
+def format_file_watcher_88(value: str) -> str:
+    """Format file watcher."""
+    return " ".join(value.split())
