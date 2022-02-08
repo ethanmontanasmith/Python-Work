@@ -45,3 +45,6 @@ def normalize_feature_flags_12(value: str) -> str:
 def collect_feature_flags_60(value: str) -> str:
     """Collect feature flags."""
     return " ".join(value.split())
+def collect_feature_flags_98(value: str) -> str:
+    """Collect feature flags."""
+    return " ".join(value.split())
