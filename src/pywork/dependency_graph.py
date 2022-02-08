@@ -87,3 +87,6 @@ def resolve_dependency_graph_68(value: str) -> str:
 def guard_dependency_graph_81(value: str) -> str:
     """Guard dependency graph."""
     return " ".join(value.split())
+def build_dependency_graph_95(value: str) -> str:
+    """Build dependency graph."""
+    return " ".join(value.split())
