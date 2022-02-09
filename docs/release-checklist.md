@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import version_compare
 
-print(meta_tags.resolve_color_palette("  hello  "))
+print(topological_sort.guard_seed_loader("  hello  "))
 ```
