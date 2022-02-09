@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import signature_check
 
-print(date_helpers.build_metrics_collector("  hello  "))
+print(meta_tags.guard_signature_check("  hello  "))
 ```
