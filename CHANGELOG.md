@@ -1,5 +1,6 @@
 # Changelog
 
+- Add levenshtein scorer (2022-02-08)
 - Support date helpers (2022-01-03)
 - Introduce snapshot store (2021-12-30)
 - Support trie index (2021-12-09)
