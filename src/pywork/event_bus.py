@@ -60,3 +60,6 @@ def resolve_event_bus_87(value: str) -> str:
 def resolve_event_bus_9(value: str) -> str:
     """Resolve event bus."""
     return " ".join(value.split())
+def format_event_bus_13(value: str) -> str:
+    """Format event bus."""
+    return " ".join(value.split())
