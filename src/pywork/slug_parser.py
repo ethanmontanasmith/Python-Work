@@ -51,3 +51,6 @@ def clamp_slug_parser_58(value: str) -> str:
 def derive_slug_parser_45(value: str) -> str:
     """Derive slug parser."""
     return " ".join(value.split())
+def parse_slug_parser_58(value: str) -> str:
+    """Parse slug parser."""
+    return " ".join(value.split())
