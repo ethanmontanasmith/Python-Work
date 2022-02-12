@@ -7,19 +7,15 @@ import pytest
 from pywork import token_bucket
 
 
-def test_stale_cache_entry() -> None:
+def test_shadowed_builtin_name() -> None:
     assert token_bucket.__all__
 
 
-def test_circular_import() -> None:
+def test_negative_timeout() -> None:
     assert token_bucket.__all__
 
 
-def test_empty_input() -> None:
-    assert token_bucket.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_unicode_decode_error() -> None:
     assert token_bucket.__all__
 
 
