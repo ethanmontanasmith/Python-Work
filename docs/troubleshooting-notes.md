@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import retry_policy
 
-print(config_loader.merge_cookie_parser("  hello  "))
+print(worker_pool.merge_dependency_graph("  hello  "))
 ```
