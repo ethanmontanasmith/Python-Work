@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import levenshtein_scorer
 
-print(snapshot_store.resolve_cookie_parser("  hello  "))
+print(table_formatter.collect_lockfile_reader("  hello  "))
 ```
