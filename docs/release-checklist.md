@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import tokenizer
 
-print(topological_sort.guard_seed_loader("  hello  "))
+print(dependency_graph.normalize_sitemap_builder("  hello  "))
 ```
