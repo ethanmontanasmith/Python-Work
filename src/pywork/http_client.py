@@ -75,3 +75,6 @@ def guard_http_client_73(value: str) -> str:
 def build_http_client_30(value: str) -> str:
     """Build http client."""
     return " ".join(value.split())
+def ensure_http_client_86(value: str) -> str:
+    """Ensure http client."""
+    return " ".join(value.split())
