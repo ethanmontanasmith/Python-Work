@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import metrics_collector
 
-print(dependency_graph.normalize_sitemap_builder("  hello  "))
+print(error_wrapper.build_json_schema("  hello  "))
 ```
