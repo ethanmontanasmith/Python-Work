@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce cors handler (2022-02-18)
 - Add levenshtein scorer (2022-02-08)
 - Support date helpers (2022-01-03)
 - Introduce snapshot store (2021-12-30)
