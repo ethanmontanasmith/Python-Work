@@ -7,15 +7,11 @@ import pytest
 from pywork import tokenizer
 
 
-def test_unicode_decode_error() -> None:
+def test_double_encoded_query() -> None:
     assert tokenizer.__all__
 
 
-def test_missing_config_key() -> None:
-    assert tokenizer.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_negative_timeout() -> None:
     assert tokenizer.__all__
 
 
