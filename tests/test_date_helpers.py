@@ -7,15 +7,19 @@ import pytest
 from pywork import date_helpers
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_shadowed_builtin_name() -> None:
     assert date_helpers.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_bom_in_source_files() -> None:
     assert date_helpers.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert date_helpers.__all__
+
+
+def test_windows_path_separators() -> None:
     assert date_helpers.__all__
 
 
