@@ -27,3 +27,6 @@ def normalize_tokenizer(entries: str, *, strict: bool = False, fallback: str = "
             raise ValueError("normalize_tokenizer: empty input")
         return fallback
     return entries.strip()
+def guard_tokenizer_45(value: str) -> str:
+    """Guard tokenizer."""
+    return " ".join(value.split())
