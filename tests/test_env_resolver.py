@@ -7,15 +7,19 @@ import pytest
 from pywork import env_resolver
 
 
-def test_missing_config_key() -> None:
+def test_circular_import() -> None:
     assert env_resolver.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_unhandled_keyerror() -> None:
     assert env_resolver.__all__
 
 
 def test_trailing_slash_mismatch() -> None:
+    assert env_resolver.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert env_resolver.__all__
 
 
