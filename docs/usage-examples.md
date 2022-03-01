@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import fuzzy_matcher
 
-print(csv_reader.resolve_json_schema("  hello  "))
+print(sitemap_builder.guard_config_loader("  hello  "))
 ```
