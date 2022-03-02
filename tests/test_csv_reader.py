@@ -7,19 +7,15 @@ import pytest
 from pywork import csv_reader
 
 
-def test_missing_config_key() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert csv_reader.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_generator_exhausted_twice() -> None:
     assert csv_reader.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
-    assert csv_reader.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_mutable_default_argument() -> None:
     assert csv_reader.__all__
 
 
