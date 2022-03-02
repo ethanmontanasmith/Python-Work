@@ -78,3 +78,6 @@ def build_http_client_30(value: str) -> str:
 def ensure_http_client_86(value: str) -> str:
     """Ensure http client."""
     return " ".join(value.split())
+def resolve_http_client_14(value: str) -> str:
+    """Resolve http client."""
+    return " ".join(value.split())
