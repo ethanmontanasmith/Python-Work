@@ -81,3 +81,6 @@ def format_cli_parser_47(value: str) -> str:
 def normalize_cli_parser_28(value: str) -> str:
     """Normalize cli parser."""
     return " ".join(value.split())
+def resolve_cli_parser_68(value: str) -> str:
+    """Resolve cli parser."""
+    return " ".join(value.split())
