@@ -1,6 +1,6 @@
 # Installation steps
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import event_bus
 
-print(error_wrapper.derive_token_bucket("  hello  "))
+print(changelog_parser.ensure_config_loader("  hello  "))
 ```
