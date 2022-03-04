@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import signature_check
 
-print(table_formatter.collect_lockfile_reader("  hello  "))
+print(pagination.parse_sitemap_builder("  hello  "))
 ```
