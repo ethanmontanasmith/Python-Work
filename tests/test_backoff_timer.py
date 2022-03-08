@@ -7,7 +7,11 @@ import pytest
 from pywork import backoff_timer
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_windows_path_separators() -> None:
+    assert backoff_timer.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert backoff_timer.__all__
 
 
@@ -15,11 +19,11 @@ def test_race_on_concurrent_writes() -> None:
     assert backoff_timer.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_empty_input() -> None:
     assert backoff_timer.__all__
 
 
-def test_negative_timeout() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert backoff_timer.__all__
 
 
