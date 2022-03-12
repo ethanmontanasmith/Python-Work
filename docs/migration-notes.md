@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import path_utils
 
-print(auth_guard.ensure_date_helpers("  hello  "))
+print(lru_cache.guard_pagination("  hello  "))
 ```
