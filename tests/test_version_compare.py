@@ -7,19 +7,7 @@ import pytest
 from pywork import version_compare
 
 
-def test_shadowed_builtin_name() -> None:
-    assert version_compare.__all__
-
-
-def test_negative_timeout() -> None:
-    assert version_compare.__all__
-
-
-def test_circular_import() -> None:
-    assert version_compare.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_windows_path_separators() -> None:
     assert version_compare.__all__
 
 

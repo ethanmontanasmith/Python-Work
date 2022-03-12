@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import path_utils
 
-print(changelog_parser.ensure_config_loader("  hello  "))
+print(seed_loader.build_json_schema("  hello  "))
 ```

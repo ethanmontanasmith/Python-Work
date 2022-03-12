@@ -11,11 +11,11 @@ def test_bom_in_source_files() -> None:
     assert task_queue.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_stale_cache_entry() -> None:
     assert task_queue.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert task_queue.__all__
 
 

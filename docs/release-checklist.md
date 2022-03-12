@@ -1,6 +1,6 @@
 # Release checklist
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import backoff_timer
 
-print(error_wrapper.build_json_schema("  hello  "))
+print(file_watcher.guard_lockfile_reader("  hello  "))
 ```
