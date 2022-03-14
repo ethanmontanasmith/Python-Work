@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import dependency_graph
 
-print(pagination.parse_sitemap_builder("  hello  "))
+print(sitemap_builder.collect_worker_pool("  hello  "))
 ```
