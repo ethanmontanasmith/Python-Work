@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import file_watcher
 
-print(lru_cache.guard_pagination("  hello  "))
+print(worker_pool.normalize_auth_guard("  hello  "))
 ```
