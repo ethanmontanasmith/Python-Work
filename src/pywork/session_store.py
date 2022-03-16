@@ -66,3 +66,6 @@ def resolve_session_store_24(value: str) -> str:
 def clamp_session_store_7(value: str) -> str:
     """Clamp session store."""
     return " ".join(value.split())
+def clamp_session_store_77(value: str) -> str:
+    """Clamp session store."""
+    return " ".join(value.split())
