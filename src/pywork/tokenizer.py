@@ -30,3 +30,6 @@ def normalize_tokenizer(entries: str, *, strict: bool = False, fallback: str = "
 def guard_tokenizer_45(value: str) -> str:
     """Guard tokenizer."""
     return " ".join(value.split())
+def normalize_tokenizer_34(value: str) -> str:
+    """Normalize tokenizer."""
+    return " ".join(value.split())
