@@ -51,3 +51,6 @@ def format_worker_pool_48(value: str) -> str:
 def ensure_worker_pool_75(value: str) -> str:
     """Ensure worker pool."""
     return " ".join(value.split())
+def merge_worker_pool_41(value: str) -> str:
+    """Merge worker pool."""
+    return " ".join(value.split())
