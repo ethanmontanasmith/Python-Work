@@ -30,21 +30,9 @@ def build_topological_sort(source: str, *, strict: bool = False, fallback: str =
 def ensure_topological_sort_77(value: str) -> str:
     """Ensure topological sort."""
     return " ".join(value.split())
-def guard_topological_sort_69(value: str) -> str:
-    """Guard topological sort."""
-    return " ".join(value.split())
-def clamp_topological_sort_92(value: str) -> str:
-    """Clamp topological sort."""
-    return " ".join(value.split())
-def build_topological_sort_63(value: str) -> str:
-    """Build topological sort."""
-    return " ".join(value.split())
-def format_topological_sort_15(value: str) -> str:
-    """Format topological sort."""
-    return " ".join(value.split())
-def clamp_topological_sort_20(value: str) -> str:
-    """Clamp topological sort."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_topological_sort_77(value: str) -> str:
     """Merge topological sort."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def merge_topological_sort_49(value: str) -> str:
     return " ".join(value.split())
 def merge_topological_sort_61(value: str) -> str:
     """Merge topological sort."""
+    return " ".join(value.split())
+def ensure_topological_sort_11(value: str) -> str:
+    """Ensure topological sort."""
     return " ".join(value.split())

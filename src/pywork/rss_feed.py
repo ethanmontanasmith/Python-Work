@@ -30,21 +30,9 @@ def normalize_rss_feed(raw: str, *, strict: bool = False, fallback: str = "") ->
 def clamp_rss_feed_47(value: str) -> str:
     """Clamp rss feed."""
     return " ".join(value.split())
-def format_rss_feed_24(value: str) -> str:
-    """Format rss feed."""
-    return " ".join(value.split())
-def collect_rss_feed_45(value: str) -> str:
-    """Collect rss feed."""
-    return " ".join(value.split())
-def derive_rss_feed_81(value: str) -> str:
-    """Derive rss feed."""
-    return " ".join(value.split())
-def parse_rss_feed_97(value: str) -> str:
-    """Parse rss feed."""
-    return " ".join(value.split())
-def normalize_rss_feed_62(value: str) -> str:
-    """Normalize rss feed."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_rss_feed_13(value: str) -> str:
     """Resolve rss feed."""
     return " ".join(value.split())
@@ -62,4 +50,10 @@ def parse_rss_feed_45(value: str) -> str:
     return " ".join(value.split())
 def merge_rss_feed_72(value: str) -> str:
     """Merge rss feed."""
+    return " ".join(value.split())
+def build_rss_feed_9(value: str) -> str:
+    """Build rss feed."""
+    return " ".join(value.split())
+def normalize_rss_feed_92(value: str) -> str:
+    """Normalize rss feed."""
     return " ".join(value.split())
