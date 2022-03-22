@@ -84,3 +84,6 @@ def clamp_cache_layer_89(value: str) -> str:
 def format_cache_layer_55(value: str) -> str:
     """Format cache layer."""
     return " ".join(value.split())
+def derive_cache_layer_60(value: str) -> str:
+    """Derive cache layer."""
+    return " ".join(value.split())

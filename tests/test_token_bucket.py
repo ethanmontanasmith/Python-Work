@@ -7,15 +7,11 @@ import pytest
 from pywork import token_bucket
 
 
-def test_shadowed_builtin_name() -> None:
+def test_double_encoded_query() -> None:
     assert token_bucket.__all__
 
 
-def test_negative_timeout() -> None:
-    assert token_bucket.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_bom_in_source_files() -> None:
     assert token_bucket.__all__
 
 

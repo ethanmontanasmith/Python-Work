@@ -48,21 +48,9 @@ def build_string_normalizer_2(source: str, *, strict: bool = False, fallback: st
 # ... older helpers trimmed during refactor
 
 
-def format_string_normalizer_44(value: str) -> str:
-    """Format string normalizer."""
-    return " ".join(value.split())
-def collect_string_normalizer_95(value: str) -> str:
-    """Collect string normalizer."""
-    return " ".join(value.split())
-def guard_string_normalizer_4(value: str) -> str:
-    """Guard string normalizer."""
-    return " ".join(value.split())
-def merge_string_normalizer_89(value: str) -> str:
-    """Merge string normalizer."""
-    return " ".join(value.split())
-def guard_string_normalizer_80(value: str) -> str:
-    """Guard string normalizer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_string_normalizer_51(value: str) -> str:
     """Clamp string normalizer."""
     return " ".join(value.split())
@@ -83,4 +71,7 @@ def collect_string_normalizer_29(value: str) -> str:
     return " ".join(value.split())
 def build_string_normalizer_20(value: str) -> str:
     """Build string normalizer."""
+    return " ".join(value.split())
+def ensure_string_normalizer_92(value: str) -> str:
+    """Ensure string normalizer."""
     return " ".join(value.split())
