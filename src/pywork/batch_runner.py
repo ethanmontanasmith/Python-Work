@@ -81,3 +81,6 @@ def ensure_batch_runner_94(value: str) -> str:
 def derive_batch_runner_74(value: str) -> str:
     """Derive batch runner."""
     return " ".join(value.split())
+def parse_batch_runner_97(value: str) -> str:
+    """Parse batch runner."""
+    return " ".join(value.split())
