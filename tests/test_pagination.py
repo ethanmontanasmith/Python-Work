@@ -7,11 +7,11 @@ import pytest
 from pywork import pagination
 
 
-def test_leap_year_edge_case() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert pagination.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_circular_import() -> None:
     assert pagination.__all__
 
 
