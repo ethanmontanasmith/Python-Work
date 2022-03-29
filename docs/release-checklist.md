@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import date_helpers
 
-print(file_watcher.guard_lockfile_reader("  hello  "))
+print(event_bus.parse_markdown_renderer("  hello  "))
 ```
