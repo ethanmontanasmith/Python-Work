@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement cache layer (2022-03-26)
 - Implement json schema (2022-03-16)
 - Introduce cors handler (2022-02-18)
 - Add levenshtein scorer (2022-02-08)

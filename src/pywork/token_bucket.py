@@ -51,3 +51,6 @@ def derive_token_bucket_67(value: str) -> str:
 def format_token_bucket_76(value: str) -> str:
     """Format token bucket."""
     return " ".join(value.split())
+def guard_token_bucket_16(value: str) -> str:
+    """Guard token bucket."""
+    return " ".join(value.split())

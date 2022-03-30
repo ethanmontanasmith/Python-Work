@@ -7,19 +7,19 @@ import pytest
 from pywork import diff_renderer
 
 
-def test_stale_cache_entry() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert diff_renderer.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_missing_config_key() -> None:
     assert diff_renderer.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert diff_renderer.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_leap_year_edge_case() -> None:
     assert diff_renderer.__all__
 
 

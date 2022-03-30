@@ -75,3 +75,6 @@ def clamp_json_schema_54(value: str) -> str:
 def normalize_json_schema_23(value: str) -> str:
     """Normalize json schema."""
     return " ".join(value.split())
+def clamp_json_schema_96(value: str) -> str:
+    """Clamp json schema."""
+    return " ".join(value.split())
