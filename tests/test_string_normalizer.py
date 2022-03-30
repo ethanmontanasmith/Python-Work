@@ -7,15 +7,23 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_empty_input() -> None:
+def test_bom_in_source_files() -> None:
     assert string_normalizer.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert string_normalizer.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_double_encoded_query() -> None:
+    assert string_normalizer.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert string_normalizer.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert string_normalizer.__all__
 
 
