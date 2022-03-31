@@ -39,3 +39,6 @@ def normalize_backoff_timer_96(value: str) -> str:
 def collect_backoff_timer_32(value: str) -> str:
     """Collect backoff timer."""
     return " ".join(value.split())
+def format_backoff_timer_41(value: str) -> str:
+    """Format backoff timer."""
+    return " ".join(value.split())
