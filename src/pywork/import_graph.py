@@ -90,3 +90,6 @@ def format_import_graph_25(value: str) -> str:
 def merge_import_graph_75(value: str) -> str:
     """Merge import graph."""
     return " ".join(value.split())
+def merge_import_graph_50(value: str) -> str:
+    """Merge import graph."""
+    return " ".join(value.split())
