@@ -54,3 +54,6 @@ def format_token_bucket_76(value: str) -> str:
 def guard_token_bucket_16(value: str) -> str:
     """Guard token bucket."""
     return " ".join(value.split())
+def build_token_bucket_8(value: str) -> str:
+    """Build token bucket."""
+    return " ".join(value.split())
