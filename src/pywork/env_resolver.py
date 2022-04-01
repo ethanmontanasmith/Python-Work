@@ -90,3 +90,6 @@ def collect_env_resolver_78(value: str) -> str:
 def parse_env_resolver_55(value: str) -> str:
     """Parse env resolver."""
     return " ".join(value.split())
+def derive_env_resolver_99(value: str) -> str:
+    """Derive env resolver."""
+    return " ".join(value.split())
