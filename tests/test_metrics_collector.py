@@ -7,19 +7,15 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_leap_year_edge_case() -> None:
+def test_unicode_decode_error() -> None:
     assert metrics_collector.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_stale_cache_entry() -> None:
     assert metrics_collector.__all__
 
 
-def test_missing_config_key() -> None:
-    assert metrics_collector.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert metrics_collector.__all__
 
 
