@@ -7,7 +7,7 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_missing_config_key() -> None:
+def test_shadowed_builtin_name() -> None:
     assert error_wrapper.__all__
 
 
@@ -15,11 +15,15 @@ def test_circular_import() -> None:
     assert error_wrapper.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert error_wrapper.__all__
 
 
 def test_generator_exhausted_twice() -> None:
+    assert error_wrapper.__all__
+
+
+def test_windows_path_separators() -> None:
     assert error_wrapper.__all__
 
 
