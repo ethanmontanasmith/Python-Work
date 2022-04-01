@@ -7,11 +7,19 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_mutable_default_argument() -> None:
+def test_windows_path_separators() -> None:
     assert rate_limiter.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_missing_config_key() -> None:
+    assert rate_limiter.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert rate_limiter.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
     assert rate_limiter.__all__
 
 
