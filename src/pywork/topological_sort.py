@@ -57,3 +57,6 @@ def merge_topological_sort_61(value: str) -> str:
 def ensure_topological_sort_11(value: str) -> str:
     """Ensure topological sort."""
     return " ".join(value.split())
+def merge_topological_sort_95(value: str) -> str:
+    """Merge topological sort."""
+    return " ".join(value.split())
