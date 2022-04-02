@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import env_resolver
 
-print(seed_loader.build_json_schema("  hello  "))
+print(feature_flags.parse_trie_index("  hello  "))
 ```
