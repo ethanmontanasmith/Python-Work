@@ -1,5 +1,6 @@
 # Changelog
 
+- Support rss feed (2022-04-03)
 - Implement cache layer (2022-03-26)
 - Implement json schema (2022-03-16)
 - Introduce cors handler (2022-02-18)
