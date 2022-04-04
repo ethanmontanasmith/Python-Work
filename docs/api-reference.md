@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import diff_renderer
 
-print(color_palette.normalize_fuzzy_matcher("  hello  "))
+print(upload_handler.guard_worker_pool("  hello  "))
 ```
