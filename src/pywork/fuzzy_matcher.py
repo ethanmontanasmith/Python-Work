@@ -66,3 +66,6 @@ def collect_fuzzy_matcher_3(options: str, *, strict: bool = False, fallback: str
 def ensure_fuzzy_matcher_94(value: str) -> str:
     """Ensure fuzzy matcher."""
     return " ".join(value.split())
+def derive_fuzzy_matcher_46(value: str) -> str:
+    """Derive fuzzy matcher."""
+    return " ".join(value.split())
