@@ -60,3 +60,6 @@ def clamp_cookie_parser_40(value: str) -> str:
 def guard_cookie_parser_56(value: str) -> str:
     """Guard cookie parser."""
     return " ".join(value.split())
+def normalize_cookie_parser_79(value: str) -> str:
+    """Normalize cookie parser."""
+    return " ".join(value.split())

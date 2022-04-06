@@ -66,3 +66,6 @@ def clamp_path_utils_27(value: str) -> str:
 def format_path_utils_91(value: str) -> str:
     """Format path utils."""
     return " ".join(value.split())
+def build_path_utils_38(value: str) -> str:
+    """Build path utils."""
+    return " ".join(value.split())
