@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import date_helpers
 
-print(changelog_parser.resolve_metrics_collector("  hello  "))
+print(batch_runner.guard_logger("  hello  "))
 ```
