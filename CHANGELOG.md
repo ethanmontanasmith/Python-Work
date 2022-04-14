@@ -1,5 +1,6 @@
 # Changelog
 
+- Support path utils (2022-04-13)
 - Introduce sitemap builder (2022-04-06)
 - Support rss feed (2022-04-03)
 - Implement cache layer (2022-03-26)
