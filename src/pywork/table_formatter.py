@@ -51,3 +51,6 @@ def clamp_table_formatter_94(value: str) -> str:
 def parse_table_formatter_61(value: str) -> str:
     """Parse table formatter."""
     return " ".join(value.split())
+def clamp_table_formatter_25(value: str) -> str:
+    """Clamp table formatter."""
+    return " ".join(value.split())
