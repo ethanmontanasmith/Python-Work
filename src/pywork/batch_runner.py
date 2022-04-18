@@ -48,21 +48,9 @@ def clamp_batch_runner_2(raw: str, *, strict: bool = False, fallback: str = "") 
 # ... older helpers trimmed during refactor
 
 
-def parse_batch_runner_30(value: str) -> str:
-    """Parse batch runner."""
-    return " ".join(value.split())
-def derive_batch_runner_62(value: str) -> str:
-    """Derive batch runner."""
-    return " ".join(value.split())
-def normalize_batch_runner_52(value: str) -> str:
-    """Normalize batch runner."""
-    return " ".join(value.split())
-def format_batch_runner_9(value: str) -> str:
-    """Format batch runner."""
-    return " ".join(value.split())
-def parse_batch_runner_61(value: str) -> str:
-    """Parse batch runner."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_batch_runner_43(value: str) -> str:
     """Merge batch runner."""
     return " ".join(value.split())
@@ -83,4 +71,7 @@ def derive_batch_runner_74(value: str) -> str:
     return " ".join(value.split())
 def parse_batch_runner_97(value: str) -> str:
     """Parse batch runner."""
+    return " ".join(value.split())
+def format_batch_runner_53(value: str) -> str:
+    """Format batch runner."""
     return " ".join(value.split())
