@@ -7,7 +7,7 @@ import pytest
 from pywork import rss_feed
 
 
-def test_empty_input() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert rss_feed.__all__
 
 
