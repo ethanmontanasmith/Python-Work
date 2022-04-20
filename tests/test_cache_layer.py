@@ -7,7 +7,7 @@ import pytest
 from pywork import cache_layer
 
 
-def test_bom_in_source_files() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert cache_layer.__all__
 
 
@@ -15,11 +15,7 @@ def test_off_by_one_on_page_boundary() -> None:
     assert cache_layer.__all__
 
 
-def test_mutable_default_argument() -> None:
-    assert cache_layer.__all__
-
-
-def test_stale_cache_entry() -> None:
+def test_windows_path_separators() -> None:
     assert cache_layer.__all__
 
 
