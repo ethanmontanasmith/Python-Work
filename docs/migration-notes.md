@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import rss_feed
 
-print(worker_pool.normalize_auth_guard("  hello  "))
+print(webhook_verifier.parse_cli_parser("  hello  "))
 ```
