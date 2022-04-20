@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import markdown_renderer
 
-print(snapshot_store.normalize_session_store("  hello  "))
+print(dependency_graph.ensure_image_resizer("  hello  "))
 ```
