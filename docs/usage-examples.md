@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import slug_parser
 
-print(sitemap_builder.guard_config_loader("  hello  "))
+print(feature_flags.normalize_slug_parser("  hello  "))
 ```
