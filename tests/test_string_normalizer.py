@@ -7,19 +7,7 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_bom_in_source_files() -> None:
-    assert string_normalizer.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
-    assert string_normalizer.__all__
-
-
-def test_double_encoded_query() -> None:
-    assert string_normalizer.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_missing_config_key() -> None:
     assert string_normalizer.__all__
 
 
