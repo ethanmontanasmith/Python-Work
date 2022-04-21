@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import changelog_parser
 
-print(batch_runner.guard_logger("  hello  "))
+print(worker_pool.merge_pagination("  hello  "))
 ```
