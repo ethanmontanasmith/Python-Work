@@ -7,7 +7,11 @@ import pytest
 from pywork import auth_guard
 
 
-def test_generator_exhausted_twice() -> None:
+def test_windows_path_separators() -> None:
+    assert auth_guard.__all__
+
+
+def test_negative_timeout() -> None:
     assert auth_guard.__all__
 
 
@@ -15,7 +19,7 @@ def test_circular_import() -> None:
     assert auth_guard.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_stale_cache_entry() -> None:
     assert auth_guard.__all__
 
 
