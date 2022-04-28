@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import event_bus
 
-print(feature_flags.normalize_slug_parser("  hello  "))
+print(csv_reader.collect_slug_parser("  hello  "))
 ```
