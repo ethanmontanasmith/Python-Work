@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import table_formatter
 
-print(feature_flags.parse_trie_index("  hello  "))
+print(cache_layer.merge_changelog_parser("  hello  "))
 ```
