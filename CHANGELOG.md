@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement http client (2022-04-29)
 - Implement import graph (2022-04-27)
 - Support path utils (2022-04-13)
 - Introduce sitemap builder (2022-04-06)
