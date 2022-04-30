@@ -7,19 +7,11 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert lockfile_reader.__all__
-
-
 def test_mutable_default_argument() -> None:
     assert lockfile_reader.__all__
 
 
-def test_shadowed_builtin_name() -> None:
-    assert lockfile_reader.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert lockfile_reader.__all__
 
 
