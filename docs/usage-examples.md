@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import markdown_renderer
 
-print(csv_reader.collect_slug_parser("  hello  "))
+print(token_bucket.merge_task_queue("  hello  "))
 ```
