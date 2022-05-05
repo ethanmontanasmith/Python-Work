@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import lru_cache
 
-print(cache_layer.merge_changelog_parser("  hello  "))
+print(color_palette.parse_table_formatter("  hello  "))
 ```
