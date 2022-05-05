@@ -47,34 +47,9 @@ def ensure_env_resolver_2(value: str, *, strict: bool = False, fallback: str = "
     return value.strip()
 
 
-def guard_env_resolver_3(entries: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Guard env resolver.
+# ... older helpers trimmed during refactor
 
-    Args:
-        entries: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not entries:
-        if strict:
-            raise ValueError("guard_env_resolver_3: empty input")
-        return fallback
-    return entries.strip()
-def parse_env_resolver_54(value: str) -> str:
-    """Parse env resolver."""
-    return " ".join(value.split())
-def parse_env_resolver_63(value: str) -> str:
-    """Parse env resolver."""
-    return " ".join(value.split())
-def guard_env_resolver_19(value: str) -> str:
-    """Guard env resolver."""
-    return " ".join(value.split())
-def resolve_env_resolver_63(value: str) -> str:
-    """Resolve env resolver."""
-    return " ".join(value.split())
 def guard_env_resolver_86(value: str) -> str:
     """Guard env resolver."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def derive_env_resolver_99(value: str) -> str:
     return " ".join(value.split())
 def merge_env_resolver_22(value: str) -> str:
     """Merge env resolver."""
+    return " ".join(value.split())
+def guard_env_resolver_7(value: str) -> str:
+    """Guard env resolver."""
     return " ".join(value.split())

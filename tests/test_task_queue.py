@@ -7,15 +7,23 @@ import pytest
 from pywork import task_queue
 
 
-def test_bom_in_source_files() -> None:
+def test_unhandled_keyerror() -> None:
     assert task_queue.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_shadowed_builtin_name() -> None:
     assert task_queue.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert task_queue.__all__
+
+
+def test_circular_import() -> None:
+    assert task_queue.__all__
+
+
+def test_negative_timeout() -> None:
     assert task_queue.__all__
 
 
