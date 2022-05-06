@@ -33,21 +33,9 @@ def guard_file_watcher_18(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def normalize_file_watcher_35(value: str) -> str:
-    """Normalize file watcher."""
-    return " ".join(value.split())
-def build_file_watcher_5(value: str) -> str:
-    """Build file watcher."""
-    return " ".join(value.split())
-def derive_file_watcher_23(value: str) -> str:
-    """Derive file watcher."""
-    return " ".join(value.split())
-def clamp_file_watcher_10(value: str) -> str:
-    """Clamp file watcher."""
-    return " ".join(value.split())
-def resolve_file_watcher_97(value: str) -> str:
-    """Resolve file watcher."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_file_watcher_36(value: str) -> str:
     """Resolve file watcher."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def format_file_watcher_88(value: str) -> str:
     return " ".join(value.split())
 def derive_file_watcher_94(value: str) -> str:
     """Derive file watcher."""
+    return " ".join(value.split())
+def normalize_file_watcher_91(value: str) -> str:
+    """Normalize file watcher."""
     return " ".join(value.split())
