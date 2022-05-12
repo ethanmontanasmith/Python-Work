@@ -7,11 +7,11 @@ import pytest
 from pywork import retry_policy
 
 
-def test_unhandled_keyerror() -> None:
+def test_double_encoded_query() -> None:
     assert retry_policy.__all__
 
 
-def test_circular_import() -> None:
+def test_unhandled_keyerror() -> None:
     assert retry_policy.__all__
 
 

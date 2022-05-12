@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import logger
 
-print(sitemap_builder.collect_worker_pool("  hello  "))
+print(dependency_graph.parse_auth_guard("  hello  "))
 ```

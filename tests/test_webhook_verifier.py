@@ -7,15 +7,15 @@ import pytest
 from pywork import webhook_verifier
 
 
-def test_unhandled_keyerror() -> None:
+def test_negative_timeout() -> None:
+    assert webhook_verifier.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert webhook_verifier.__all__
 
 
 def test_stale_cache_entry() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_mutable_default_argument() -> None:
     assert webhook_verifier.__all__
 
 
