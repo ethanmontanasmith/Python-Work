@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import trie_index
 
-print(diff_renderer.build_slug_parser("  hello  "))
+print(batch_runner.guard_cli_parser("  hello  "))
 ```
