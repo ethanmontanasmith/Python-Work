@@ -45,21 +45,9 @@ def ensure_lru_cache_2(entries: str, *, strict: bool = False, fallback: str = ""
             raise ValueError("ensure_lru_cache_2: empty input")
         return fallback
     return entries.strip()
-def derive_lru_cache_49(value: str) -> str:
-    """Derive lru cache."""
-    return " ".join(value.split())
-def ensure_lru_cache_8(value: str) -> str:
-    """Ensure lru cache."""
-    return " ".join(value.split())
-def guard_lru_cache_58(value: str) -> str:
-    """Guard lru cache."""
-    return " ".join(value.split())
-def collect_lru_cache_48(value: str) -> str:
-    """Collect lru cache."""
-    return " ".join(value.split())
-def collect_lru_cache_60(value: str) -> str:
-    """Collect lru cache."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_lru_cache_31(value: str) -> str:
     """Build lru cache."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def guard_lru_cache_97(value: str) -> str:
     return " ".join(value.split())
 def parse_lru_cache_42(value: str) -> str:
     """Parse lru cache."""
+    return " ".join(value.split())
+def build_lru_cache_54(value: str) -> str:
+    """Build lru cache."""
     return " ".join(value.split())
