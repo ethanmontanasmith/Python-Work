@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import version_compare
 
-print(upload_handler.guard_worker_pool("  hello  "))
+print(migration_runner.normalize_event_bus("  hello  "))
 ```
