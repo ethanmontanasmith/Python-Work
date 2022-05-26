@@ -1,5 +1,6 @@
 # Changelog
 
+- Support cookie parser (2022-05-26)
 - Expose levenshtein scorer (2022-05-03)
 - Add dependency graph (2022-05-02)
 - Implement http client (2022-04-29)
