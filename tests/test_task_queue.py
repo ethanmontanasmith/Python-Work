@@ -7,23 +7,11 @@ import pytest
 from pywork import task_queue
 
 
-def test_unhandled_keyerror() -> None:
-    assert task_queue.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert task_queue.__all__
-
-
 def test_trailing_slash_mismatch() -> None:
     assert task_queue.__all__
 
 
-def test_circular_import() -> None:
-    assert task_queue.__all__
-
-
-def test_negative_timeout() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert task_queue.__all__
 
 
