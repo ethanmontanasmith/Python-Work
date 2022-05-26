@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import changelog_parser
 
-print(cookie_parser.derive_error_wrapper("  hello  "))
+print(image_resizer.collect_cache_layer("  hello  "))
 ```
