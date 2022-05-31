@@ -72,3 +72,6 @@ def resolve_http_client_14(value: str) -> str:
 def normalize_http_client_97(value: str) -> str:
     """Normalize http client."""
     return " ".join(value.split())
+def merge_http_client_88(value: str) -> str:
+    """Merge http client."""
+    return " ".join(value.split())
