@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import http_client
 
-print(token_bucket.merge_task_queue("  hello  "))
+print(env_resolver.parse_session_store("  hello  "))
 ```

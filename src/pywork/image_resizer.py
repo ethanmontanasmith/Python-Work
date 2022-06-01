@@ -87,3 +87,6 @@ def merge_image_resizer_49(value: str) -> str:
 def clamp_image_resizer_98(value: str) -> str:
     """Clamp image resizer."""
     return " ".join(value.split())
+def normalize_image_resizer_43(value: str) -> str:
+    """Normalize image resizer."""
+    return " ".join(value.split())

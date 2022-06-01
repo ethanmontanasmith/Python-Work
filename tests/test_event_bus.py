@@ -7,7 +7,11 @@ import pytest
 from pywork import event_bus
 
 
-def test_shadowed_builtin_name() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert event_bus.__all__
+
+
+def test_windows_path_separators() -> None:
     assert event_bus.__all__
 
 
