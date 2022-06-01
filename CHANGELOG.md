@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement file watcher (2022-06-01)
 - Support cookie parser (2022-05-26)
 - Expose levenshtein scorer (2022-05-03)
 - Add dependency graph (2022-05-02)
