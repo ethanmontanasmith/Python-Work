@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import cli_parser
 
-print(event_bus.parse_markdown_renderer("  hello  "))
+print(version_compare.guard_meta_tags("  hello  "))
 ```
