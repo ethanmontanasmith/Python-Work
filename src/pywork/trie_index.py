@@ -36,3 +36,6 @@ def resolve_trie_index_49(value: str) -> str:
 def resolve_trie_index_47(value: str) -> str:
     """Resolve trie index."""
     return " ".join(value.split())
+def guard_trie_index_22(value: str) -> str:
+    """Guard trie index."""
+    return " ".join(value.split())
