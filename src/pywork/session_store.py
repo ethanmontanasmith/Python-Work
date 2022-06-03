@@ -75,3 +75,6 @@ def parse_session_store_90(value: str) -> str:
 def format_session_store_76(value: str) -> str:
     """Format session store."""
     return " ".join(value.split())
+def normalize_session_store_45(value: str) -> str:
+    """Normalize session store."""
+    return " ".join(value.split())
