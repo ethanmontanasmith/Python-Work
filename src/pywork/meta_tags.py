@@ -78,3 +78,6 @@ def normalize_meta_tags_51(value: str) -> str:
 def derive_meta_tags_77(value: str) -> str:
     """Derive meta tags."""
     return " ".join(value.split())
+def ensure_meta_tags_96(value: str) -> str:
+    """Ensure meta tags."""
+    return " ".join(value.split())
