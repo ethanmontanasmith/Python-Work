@@ -11,11 +11,7 @@ def test_off_by_one_on_page_boundary() -> None:
     assert changelog_parser.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert changelog_parser.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert changelog_parser.__all__
 
 
