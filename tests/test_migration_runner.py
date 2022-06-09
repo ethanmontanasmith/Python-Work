@@ -7,11 +7,11 @@ import pytest
 from pywork import migration_runner
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_unhandled_keyerror() -> None:
     assert migration_runner.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_double_encoded_query() -> None:
     assert migration_runner.__all__
 
 
