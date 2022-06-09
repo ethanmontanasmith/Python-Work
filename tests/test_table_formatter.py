@@ -7,11 +7,11 @@ import pytest
 from pywork import table_formatter
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_empty_input() -> None:
     assert table_formatter.__all__
 
 
-def test_missing_config_key() -> None:
+def test_negative_timeout() -> None:
     assert table_formatter.__all__
 
 
