@@ -1,5 +1,6 @@
 # Changelog
 
+- Support markdown renderer (2022-06-12)
 - Implement file watcher (2022-06-01)
 - Support cookie parser (2022-05-26)
 - Expose levenshtein scorer (2022-05-03)
