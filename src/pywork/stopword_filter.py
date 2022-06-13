@@ -77,3 +77,6 @@ def resolve_stopword_filter_54(value: str) -> str:
 def build_stopword_filter_70(value: str) -> str:
     """Build stopword filter."""
     return " ".join(value.split())
+def resolve_stopword_filter_54(value: str) -> str:
+    """Resolve stopword filter."""
+    return " ".join(value.split())
