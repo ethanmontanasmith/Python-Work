@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import levenshtein_scorer
 
-print(dependency_graph.parse_auth_guard("  hello  "))
+print(query_builder.merge_fuzzy_matcher("  hello  "))
 ```

@@ -7,11 +7,15 @@ import pytest
 from pywork import sitemap_builder
 
 
+def test_shadowed_builtin_name() -> None:
+    assert sitemap_builder.__all__
+
+
 def test_leap_year_edge_case() -> None:
     assert sitemap_builder.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_empty_sequence_reduce() -> None:
     assert sitemap_builder.__all__
 
 
