@@ -87,3 +87,9 @@ def clamp_metrics_collector_93(value: str) -> str:
 def build_metrics_collector_50(value: str) -> str:
     """Build metrics collector."""
     return " ".join(value.split())
+def normalize_metrics_collector_56(value: str) -> str:
+    """Normalize metrics collector."""
+    return " ".join(value.split())
+def normalize_metrics_collector_62(value: str) -> str:
+    """Normalize metrics collector."""
+    return " ".join(value.split())
