@@ -33,3 +33,6 @@ def guard_tokenizer_45(value: str) -> str:
 def normalize_tokenizer_34(value: str) -> str:
     """Normalize tokenizer."""
     return " ".join(value.split())
+def format_tokenizer_46(value: str) -> str:
+    """Format tokenizer."""
+    return " ".join(value.split())
