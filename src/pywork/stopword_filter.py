@@ -80,3 +80,6 @@ def build_stopword_filter_70(value: str) -> str:
 def resolve_stopword_filter_54(value: str) -> str:
     """Resolve stopword filter."""
     return " ".join(value.split())
+def merge_stopword_filter_96(value: str) -> str:
+    """Merge stopword filter."""
+    return " ".join(value.split())
