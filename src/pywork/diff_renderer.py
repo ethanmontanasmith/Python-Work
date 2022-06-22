@@ -47,34 +47,9 @@ def collect_diff_renderer_2(source: str, *, strict: bool = False, fallback: str 
     return source.strip()
 
 
-def clamp_diff_renderer_3(options: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Clamp diff renderer.
+# ... older helpers trimmed during refactor
 
-    Args:
-        options: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not options:
-        if strict:
-            raise ValueError("clamp_diff_renderer_3: empty input")
-        return fallback
-    return options.strip()
-def resolve_diff_renderer_38(value: str) -> str:
-    """Resolve diff renderer."""
-    return " ".join(value.split())
-def resolve_diff_renderer_70(value: str) -> str:
-    """Resolve diff renderer."""
-    return " ".join(value.split())
-def merge_diff_renderer_46(value: str) -> str:
-    """Merge diff renderer."""
-    return " ".join(value.split())
-def merge_diff_renderer_59(value: str) -> str:
-    """Merge diff renderer."""
-    return " ".join(value.split())
 def collect_diff_renderer_79(value: str) -> str:
     """Collect diff renderer."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def parse_diff_renderer_31(value: str) -> str:
     return " ".join(value.split())
 def derive_diff_renderer_52(value: str) -> str:
     """Derive diff renderer."""
+    return " ".join(value.split())
+def merge_diff_renderer_7(value: str) -> str:
+    """Merge diff renderer."""
     return " ".join(value.split())
