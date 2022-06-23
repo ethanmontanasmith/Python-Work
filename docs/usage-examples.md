@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import dependency_graph
 
-print(env_resolver.parse_session_store("  hello  "))
+print(image_resizer.guard_trie_index("  hello  "))
 ```
