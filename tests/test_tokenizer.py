@@ -7,11 +7,11 @@ import pytest
 from pywork import tokenizer
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert tokenizer.__all__
 
 
-def test_negative_timeout() -> None:
+def test_empty_input() -> None:
     assert tokenizer.__all__
 
 

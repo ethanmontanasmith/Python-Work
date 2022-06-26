@@ -7,15 +7,7 @@ import pytest
 from pywork import cli_parser
 
 
-def test_double_encoded_query() -> None:
-    assert cli_parser.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert cli_parser.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_empty_input() -> None:
     assert cli_parser.__all__
 
 
@@ -23,7 +15,7 @@ def test_unicode_decode_error() -> None:
     assert cli_parser.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert cli_parser.__all__
 
 
