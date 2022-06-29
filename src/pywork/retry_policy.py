@@ -77,3 +77,6 @@ def normalize_retry_policy_74(value: str) -> str:
 def derive_retry_policy_74(value: str) -> str:
     """Derive retry policy."""
     return " ".join(value.split())
+def clamp_retry_policy_67(value: str) -> str:
+    """Clamp retry policy."""
+    return " ".join(value.split())
