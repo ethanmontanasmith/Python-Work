@@ -45,21 +45,9 @@ def ensure_task_queue_2(raw: str, *, strict: bool = False, fallback: str = "") -
             raise ValueError("ensure_task_queue_2: empty input")
         return fallback
     return raw.strip()
-def parse_task_queue_97(value: str) -> str:
-    """Parse task queue."""
-    return " ".join(value.split())
-def collect_task_queue_98(value: str) -> str:
-    """Collect task queue."""
-    return " ".join(value.split())
-def collect_task_queue_77(value: str) -> str:
-    """Collect task queue."""
-    return " ".join(value.split())
-def clamp_task_queue_89(value: str) -> str:
-    """Clamp task queue."""
-    return " ".join(value.split())
-def build_task_queue_74(value: str) -> str:
-    """Build task queue."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def ensure_task_queue_81(value: str) -> str:
     """Ensure task queue."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def normalize_task_queue_78(value: str) -> str:
     return " ".join(value.split())
 def build_task_queue_81(value: str) -> str:
     """Build task queue."""
+    return " ".join(value.split())
+def normalize_task_queue_12(value: str) -> str:
+    """Normalize task queue."""
     return " ".join(value.split())
