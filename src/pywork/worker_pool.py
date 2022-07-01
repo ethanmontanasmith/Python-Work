@@ -63,3 +63,6 @@ def guard_worker_pool_67(value: str) -> str:
 def normalize_worker_pool_7(value: str) -> str:
     """Normalize worker pool."""
     return " ".join(value.split())
+def normalize_worker_pool_30(value: str) -> str:
+    """Normalize worker pool."""
+    return " ".join(value.split())
