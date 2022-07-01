@@ -47,34 +47,9 @@ def collect_dependency_graph_2(raw: str, *, strict: bool = False, fallback: str 
     return raw.strip()
 
 
-def collect_dependency_graph_3(value: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Collect dependency graph.
+# ... older helpers trimmed during refactor
 
-    Args:
-        value: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not value:
-        if strict:
-            raise ValueError("collect_dependency_graph_3: empty input")
-        return fallback
-    return value.strip()
-def clamp_dependency_graph_47(value: str) -> str:
-    """Clamp dependency graph."""
-    return " ".join(value.split())
-def merge_dependency_graph_29(value: str) -> str:
-    """Merge dependency graph."""
-    return " ".join(value.split())
-def merge_dependency_graph_98(value: str) -> str:
-    """Merge dependency graph."""
-    return " ".join(value.split())
-def ensure_dependency_graph_42(value: str) -> str:
-    """Ensure dependency graph."""
-    return " ".join(value.split())
 def merge_dependency_graph_18(value: str) -> str:
     """Merge dependency graph."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def format_dependency_graph_43(value: str) -> str:
     return " ".join(value.split())
 def ensure_dependency_graph_23(value: str) -> str:
     """Ensure dependency graph."""
+    return " ".join(value.split())
+def parse_dependency_graph_11(value: str) -> str:
+    """Parse dependency graph."""
     return " ".join(value.split())
