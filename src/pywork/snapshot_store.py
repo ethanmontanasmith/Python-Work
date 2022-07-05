@@ -30,21 +30,9 @@ def collect_snapshot_store(value: str, *, strict: bool = False, fallback: str = 
 def build_snapshot_store_18(value: str) -> str:
     """Build snapshot store."""
     return " ".join(value.split())
-def normalize_snapshot_store_70(value: str) -> str:
-    """Normalize snapshot store."""
-    return " ".join(value.split())
-def collect_snapshot_store_72(value: str) -> str:
-    """Collect snapshot store."""
-    return " ".join(value.split())
-def parse_snapshot_store_64(value: str) -> str:
-    """Parse snapshot store."""
-    return " ".join(value.split())
-def ensure_snapshot_store_41(value: str) -> str:
-    """Ensure snapshot store."""
-    return " ".join(value.split())
-def ensure_snapshot_store_61(value: str) -> str:
-    """Ensure snapshot store."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_snapshot_store_23(value: str) -> str:
     """Guard snapshot store."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def merge_snapshot_store_72(value: str) -> str:
     return " ".join(value.split())
 def normalize_snapshot_store_75(value: str) -> str:
     """Normalize snapshot store."""
+    return " ".join(value.split())
+def parse_snapshot_store_54(value: str) -> str:
+    """Parse snapshot store."""
     return " ".join(value.split())
