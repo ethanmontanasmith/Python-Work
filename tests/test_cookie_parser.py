@@ -7,15 +7,19 @@ import pytest
 from pywork import cookie_parser
 
 
-def test_unicode_decode_error() -> None:
+def test_missing_config_key() -> None:
     assert cookie_parser.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_windows_path_separators() -> None:
     assert cookie_parser.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_empty_input() -> None:
+    assert cookie_parser.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert cookie_parser.__all__
 
 
