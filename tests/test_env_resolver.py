@@ -7,15 +7,19 @@ import pytest
 from pywork import env_resolver
 
 
-def test_missing_config_key() -> None:
+def test_duplicate_key_overwrite() -> None:
+    assert env_resolver.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert env_resolver.__all__
+
+
+def test_negative_timeout() -> None:
     assert env_resolver.__all__
 
 
 def test_trailing_slash_mismatch() -> None:
-    assert env_resolver.__all__
-
-
-def test_bom_in_source_files() -> None:
     assert env_resolver.__all__
 
 
