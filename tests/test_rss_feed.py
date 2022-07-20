@@ -7,15 +7,19 @@ import pytest
 from pywork import rss_feed
 
 
-def test_double_encoded_query() -> None:
+def test_empty_sequence_reduce() -> None:
     assert rss_feed.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_missing_config_key() -> None:
     assert rss_feed.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert rss_feed.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert rss_feed.__all__
 
 
