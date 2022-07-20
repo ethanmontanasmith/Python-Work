@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import image_resizer
 
-print(dependency_graph.ensure_image_resizer("  hello  "))
+print(import_graph.parse_levenshtein_scorer("  hello  "))
 ```
