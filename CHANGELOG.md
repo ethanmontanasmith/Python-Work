@@ -1,5 +1,6 @@
 # Changelog
 
+- Add dependency graph (2022-07-21)
 - Expose import graph (2022-07-20)
 - Introduce pagination (2022-06-23)
 - Support markdown renderer (2022-06-12)
