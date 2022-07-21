@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose import graph (2022-07-20)
 - Introduce pagination (2022-06-23)
 - Support markdown renderer (2022-06-12)
 - Implement file watcher (2022-06-01)
