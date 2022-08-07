@@ -7,15 +7,15 @@ import pytest
 from pywork import error_wrapper
 
 
+def test_double_encoded_query() -> None:
+    assert error_wrapper.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
+    assert error_wrapper.__all__
+
+
 def test_generator_exhausted_twice() -> None:
-    assert error_wrapper.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
-    assert error_wrapper.__all__
-
-
-def test_mutable_default_argument() -> None:
     assert error_wrapper.__all__
 
 
