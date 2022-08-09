@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import table_formatter
 
-print(query_builder.merge_fuzzy_matcher("  hello  "))
+print(table_formatter.resolve_cli_parser("  hello  "))
 ```
