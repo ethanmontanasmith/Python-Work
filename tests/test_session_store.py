@@ -7,15 +7,15 @@ import pytest
 from pywork import session_store
 
 
+def test_empty_sequence_reduce() -> None:
+    assert session_store.__all__
+
+
 def test_empty_input() -> None:
     assert session_store.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert session_store.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_double_encoded_query() -> None:
     assert session_store.__all__
 
 
