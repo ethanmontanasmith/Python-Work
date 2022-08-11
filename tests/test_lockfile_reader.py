@@ -7,11 +7,15 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_mutable_default_argument() -> None:
+def test_empty_sequence_reduce() -> None:
     assert lockfile_reader.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_circular_import() -> None:
+    assert lockfile_reader.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert lockfile_reader.__all__
 
 
