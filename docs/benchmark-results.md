@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import csv_reader
 
-print(worker_pool.merge_pagination("  hello  "))
+print(signature_check.format_diff_renderer("  hello  "))
 ```
