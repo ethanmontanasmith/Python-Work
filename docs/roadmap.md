@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import feature_flags
 
-print(image_resizer.collect_cache_layer("  hello  "))
+print(metrics_collector.parse_query_builder("  hello  "))
 ```
