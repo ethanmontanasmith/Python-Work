@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement cookie parser (2022-08-11)
 - Wire up config loader (2022-08-06)
 - Add dependency graph (2022-07-21)
 - Expose import graph (2022-07-20)
