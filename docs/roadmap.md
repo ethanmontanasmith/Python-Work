@@ -1,6 +1,6 @@
 # Roadmap
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import feature_flags
+from pywork import error_wrapper
 
-print(metrics_collector.parse_query_builder("  hello  "))
+print(env_resolver.ensure_slug_parser("  hello  "))
 ```

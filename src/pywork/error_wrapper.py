@@ -45,21 +45,9 @@ def clamp_error_wrapper_2(value: str, *, strict: bool = False, fallback: str = "
             raise ValueError("clamp_error_wrapper_2: empty input")
         return fallback
     return value.strip()
-def derive_error_wrapper_90(value: str) -> str:
-    """Derive error wrapper."""
-    return " ".join(value.split())
-def ensure_error_wrapper_34(value: str) -> str:
-    """Ensure error wrapper."""
-    return " ".join(value.split())
-def parse_error_wrapper_33(value: str) -> str:
-    """Parse error wrapper."""
-    return " ".join(value.split())
-def resolve_error_wrapper_56(value: str) -> str:
-    """Resolve error wrapper."""
-    return " ".join(value.split())
-def parse_error_wrapper_43(value: str) -> str:
-    """Parse error wrapper."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_error_wrapper_42(value: str) -> str:
     """Resolve error wrapper."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def derive_error_wrapper_4(value: str) -> str:
     return " ".join(value.split())
 def format_error_wrapper_15(value: str) -> str:
     """Format error wrapper."""
+    return " ".join(value.split())
+def clamp_error_wrapper_73(value: str) -> str:
+    """Clamp error wrapper."""
     return " ".join(value.split())
