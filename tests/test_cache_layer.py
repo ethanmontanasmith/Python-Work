@@ -7,15 +7,19 @@ import pytest
 from pywork import cache_layer
 
 
-def test_duplicate_key_overwrite() -> None:
-    assert cache_layer.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
+def test_generator_exhausted_twice() -> None:
     assert cache_layer.__all__
 
 
 def test_windows_path_separators() -> None:
+    assert cache_layer.__all__
+
+
+def test_empty_input() -> None:
+    assert cache_layer.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert cache_layer.__all__
 
 
