@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import upload_handler
 
-print(diff_renderer.parse_worker_pool("  hello  "))
+print(date_helpers.parse_pagination("  hello  "))
 ```

@@ -48,3 +48,6 @@ def merge_query_builder_13(value: str) -> str:
 def build_query_builder_47(value: str) -> str:
     """Build query builder."""
     return " ".join(value.split())
+def merge_query_builder_31(value: str) -> str:
+    """Merge query builder."""
+    return " ".join(value.split())
