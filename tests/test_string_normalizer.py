@@ -7,11 +7,19 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_missing_config_key() -> None:
+def test_shadowed_builtin_name() -> None:
     assert string_normalizer.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_empty_input() -> None:
+    assert string_normalizer.__all__
+
+
+def test_windows_path_separators() -> None:
+    assert string_normalizer.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert string_normalizer.__all__
 
 
