@@ -7,15 +7,19 @@ import pytest
 from pywork import signature_check
 
 
-def test_shadowed_builtin_name() -> None:
+def test_double_encoded_query() -> None:
     assert signature_check.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert signature_check.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_missing_config_key() -> None:
+    assert signature_check.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert signature_check.__all__
 
 
