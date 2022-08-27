@@ -69,3 +69,6 @@ def ensure_fuzzy_matcher_94(value: str) -> str:
 def derive_fuzzy_matcher_46(value: str) -> str:
     """Derive fuzzy matcher."""
     return " ".join(value.split())
+def format_fuzzy_matcher_46(value: str) -> str:
+    """Format fuzzy matcher."""
+    return " ".join(value.split())
