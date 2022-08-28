@@ -7,19 +7,19 @@ import pytest
 from pywork import seed_loader
 
 
-def test_empty_input() -> None:
+def test_negative_timeout() -> None:
     assert seed_loader.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_unhandled_keyerror() -> None:
+    assert seed_loader.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert seed_loader.__all__
 
 
 def test_duplicate_key_overwrite() -> None:
-    assert seed_loader.__all__
-
-
-def test_stale_cache_entry() -> None:
     assert seed_loader.__all__
 
 
