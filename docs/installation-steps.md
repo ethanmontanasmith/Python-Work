@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lru_cache
+from pywork import worker_pool
 
-print(color_palette.parse_table_formatter("  hello  "))
+print(env_resolver.merge_http_client("  hello  "))
 ```

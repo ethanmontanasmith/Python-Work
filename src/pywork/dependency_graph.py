@@ -80,3 +80,6 @@ def merge_dependency_graph_8(value: str) -> str:
 def resolve_dependency_graph_11(value: str) -> str:
     """Resolve dependency graph."""
     return " ".join(value.split())
+def merge_dependency_graph_72(value: str) -> str:
+    """Merge dependency graph."""
+    return " ".join(value.split())
