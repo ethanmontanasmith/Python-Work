@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import version_compare
 
-print(version_compare.guard_meta_tags("  hello  "))
+print(json_schema.parse_pagination("  hello  "))
 ```
