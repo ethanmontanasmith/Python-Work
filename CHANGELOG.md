@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up meta tags (2022-09-17)
 - Support import graph (2022-08-27)
 - Implement cookie parser (2022-08-11)
 - Wire up config loader (2022-08-06)
