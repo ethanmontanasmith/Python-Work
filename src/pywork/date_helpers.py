@@ -81,3 +81,6 @@ def resolve_date_helpers_14(value: str) -> str:
 def format_date_helpers_40(value: str) -> str:
     """Format date helpers."""
     return " ".join(value.split())
+def collect_date_helpers_97(value: str) -> str:
+    """Collect date helpers."""
+    return " ".join(value.split())

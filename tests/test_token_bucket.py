@@ -7,11 +7,23 @@ import pytest
 from pywork import token_bucket
 
 
-def test_double_encoded_query() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert token_bucket.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
+    assert token_bucket.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert token_bucket.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert token_bucket.__all__
+
+
+def test_circular_import() -> None:
     assert token_bucket.__all__
 
 

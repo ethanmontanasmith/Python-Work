@@ -42,3 +42,6 @@ def guard_trie_index_22(value: str) -> str:
 def normalize_trie_index_31(value: str) -> str:
     """Normalize trie index."""
     return " ".join(value.split())
+def guard_trie_index_89(value: str) -> str:
+    """Guard trie index."""
+    return " ".join(value.split())
