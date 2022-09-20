@@ -60,3 +60,6 @@ def clamp_slug_parser_29(value: str) -> str:
 def parse_slug_parser_66(value: str) -> str:
     """Parse slug parser."""
     return " ".join(value.split())
+def guard_slug_parser_74(value: str) -> str:
+    """Guard slug parser."""
+    return " ".join(value.split())
