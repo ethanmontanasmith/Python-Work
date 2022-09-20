@@ -7,15 +7,15 @@ import pytest
 from pywork import cli_parser
 
 
-def test_empty_input() -> None:
+def test_generator_exhausted_twice() -> None:
     assert cli_parser.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert cli_parser.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_missing_config_key() -> None:
     assert cli_parser.__all__
 
 
