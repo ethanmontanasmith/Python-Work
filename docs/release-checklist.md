@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import config_loader
 
-print(json_schema.parse_pagination("  hello  "))
+print(metrics_collector.merge_cache_layer("  hello  "))
 ```
