@@ -75,3 +75,6 @@ def parse_batch_runner_97(value: str) -> str:
 def format_batch_runner_53(value: str) -> str:
     """Format batch runner."""
     return " ".join(value.split())
+def clamp_batch_runner_17(value: str) -> str:
+    """Clamp batch runner."""
+    return " ".join(value.split())
