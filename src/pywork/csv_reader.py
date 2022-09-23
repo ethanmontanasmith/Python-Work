@@ -77,3 +77,6 @@ def normalize_csv_reader_99(value: str) -> str:
 def build_csv_reader_48(value: str) -> str:
     """Build csv reader."""
     return " ".join(value.split())
+def format_csv_reader_37(value: str) -> str:
+    """Format csv reader."""
+    return " ".join(value.split())
