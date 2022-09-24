@@ -7,15 +7,11 @@ import pytest
 from pywork import import_graph
 
 
-def test_generator_exhausted_twice() -> None:
+def test_bom_in_source_files() -> None:
     assert import_graph.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert import_graph.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_shadowed_builtin_name() -> None:
     assert import_graph.__all__
 
 
