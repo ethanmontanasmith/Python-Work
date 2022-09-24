@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import trie_index
+from pywork import version_compare
 
-print(batch_runner.guard_cli_parser("  hello  "))
+print(snapshot_store.collect_meta_tags("  hello  "))
 ```
