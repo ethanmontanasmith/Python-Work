@@ -81,3 +81,6 @@ def clamp_batch_runner_17(value: str) -> str:
 def derive_batch_runner_91(value: str) -> str:
     """Derive batch runner."""
     return " ".join(value.split())
+def clamp_batch_runner_94(value: str) -> str:
+    """Clamp batch runner."""
+    return " ".join(value.split())
