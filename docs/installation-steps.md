@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import worker_pool
+from pywork import http_client
 
-print(env_resolver.merge_http_client("  hello  "))
+print(meta_tags.ensure_rss_feed("  hello  "))
 ```
