@@ -7,7 +7,11 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_leap_year_edge_case() -> None:
+def test_bom_in_source_files() -> None:
+    assert metrics_collector.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert metrics_collector.__all__
 
 
