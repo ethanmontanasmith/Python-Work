@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement task queue (2022-09-27)
 - Wire up meta tags (2022-09-17)
 - Support import graph (2022-08-27)
 - Implement cookie parser (2022-08-11)
