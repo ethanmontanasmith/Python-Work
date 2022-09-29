@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import cache_layer
 
-print(date_helpers.parse_pagination("  hello  "))
+print(color_palette.resolve_fuzzy_matcher("  hello  "))
 ```
