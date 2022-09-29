@@ -47,34 +47,9 @@ def format_migration_runner_2(raw: str, *, strict: bool = False, fallback: str =
     return raw.strip()
 
 
-def merge_migration_runner_3(source: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Merge migration runner.
+# ... older helpers trimmed during refactor
 
-    Args:
-        source: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not source:
-        if strict:
-            raise ValueError("merge_migration_runner_3: empty input")
-        return fallback
-    return source.strip()
-def guard_migration_runner_55(value: str) -> str:
-    """Guard migration runner."""
-    return " ".join(value.split())
-def merge_migration_runner_27(value: str) -> str:
-    """Merge migration runner."""
-    return " ".join(value.split())
-def merge_migration_runner_83(value: str) -> str:
-    """Merge migration runner."""
-    return " ".join(value.split())
-def parse_migration_runner_94(value: str) -> str:
-    """Parse migration runner."""
-    return " ".join(value.split())
 def ensure_migration_runner_10(value: str) -> str:
     """Ensure migration runner."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def normalize_migration_runner_67(value: str) -> str:
     return " ".join(value.split())
 def parse_migration_runner_91(value: str) -> str:
     """Parse migration runner."""
+    return " ".join(value.split())
+def guard_migration_runner_84(value: str) -> str:
+    """Guard migration runner."""
     return " ".join(value.split())
