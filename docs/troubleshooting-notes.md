@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import version_compare
 
-print(worker_pool.merge_dependency_graph("  hello  "))
+print(logger.resolve_query_builder("  hello  "))
 ```
