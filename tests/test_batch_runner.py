@@ -7,11 +7,15 @@ import pytest
 from pywork import batch_runner
 
 
-def test_mutable_default_argument() -> None:
+def test_leap_year_edge_case() -> None:
     assert batch_runner.__all__
 
 
-def test_negative_timeout() -> None:
+def test_missing_config_key() -> None:
+    assert batch_runner.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert batch_runner.__all__
 
 
