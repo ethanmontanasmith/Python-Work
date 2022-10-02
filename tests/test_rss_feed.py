@@ -7,19 +7,11 @@ import pytest
 from pywork import rss_feed
 
 
+def test_bom_in_source_files() -> None:
+    assert rss_feed.__all__
+
+
 def test_empty_sequence_reduce() -> None:
-    assert rss_feed.__all__
-
-
-def test_missing_config_key() -> None:
-    assert rss_feed.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert rss_feed.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
     assert rss_feed.__all__
 
 
