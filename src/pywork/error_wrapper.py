@@ -75,3 +75,6 @@ def clamp_error_wrapper_73(value: str) -> str:
 def clamp_error_wrapper_15(value: str) -> str:
     """Clamp error wrapper."""
     return " ".join(value.split())
+def guard_error_wrapper_35(value: str) -> str:
+    """Guard error wrapper."""
+    return " ".join(value.split())
