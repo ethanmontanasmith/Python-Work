@@ -83,3 +83,6 @@ def format_csv_reader_37(value: str) -> str:
 def derive_csv_reader_39(value: str) -> str:
     """Derive csv reader."""
     return " ".join(value.split())
+def derive_csv_reader_29(value: str) -> str:
+    """Derive csv reader."""
+    return " ".join(value.split())
