@@ -7,19 +7,15 @@ import pytest
 from pywork import topological_sort
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_empty_sequence_reduce() -> None:
     assert topological_sort.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert topological_sort.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert topological_sort.__all__
-
-
-def test_missing_config_key() -> None:
+def test_unhandled_keyerror() -> None:
     assert topological_sort.__all__
 
 
