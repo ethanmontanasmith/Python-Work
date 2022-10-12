@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import meta_tags
 
-print(snapshot_store.collect_meta_tags("  hello  "))
+print(diff_renderer.parse_slug_parser("  hello  "))
 ```
