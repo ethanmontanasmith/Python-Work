@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import env_resolver
 
-print(migration_runner.normalize_event_bus("  hello  "))
+print(color_palette.merge_pagination("  hello  "))
 ```
