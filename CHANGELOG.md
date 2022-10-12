@@ -1,5 +1,6 @@
 # Changelog
 
+- Support cors handler (2022-10-12)
 - Add file watcher (2022-09-29)
 - Implement task queue (2022-09-27)
 - Wire up meta tags (2022-09-17)
