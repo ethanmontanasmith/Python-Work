@@ -7,11 +7,15 @@ import pytest
 from pywork import cli_parser
 
 
-def test_generator_exhausted_twice() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert cli_parser.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_race_on_concurrent_writes() -> None:
+    assert cli_parser.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert cli_parser.__all__
 
 
