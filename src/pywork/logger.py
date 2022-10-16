@@ -33,21 +33,9 @@ def build_logger_46(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def format_logger_28(value: str) -> str:
-    """Format logger."""
-    return " ".join(value.split())
-def normalize_logger_19(value: str) -> str:
-    """Normalize logger."""
-    return " ".join(value.split())
-def normalize_logger_33(value: str) -> str:
-    """Normalize logger."""
-    return " ".join(value.split())
-def normalize_logger_49(value: str) -> str:
-    """Normalize logger."""
-    return " ".join(value.split())
-def clamp_logger_37(value: str) -> str:
-    """Clamp logger."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_logger_87(value: str) -> str:
     """Resolve logger."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def guard_logger_11(value: str) -> str:
     return " ".join(value.split())
 def build_logger_83(value: str) -> str:
     """Build logger."""
+    return " ".join(value.split())
+def derive_logger_47(value: str) -> str:
+    """Derive logger."""
     return " ".join(value.split())
