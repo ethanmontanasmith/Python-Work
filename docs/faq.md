@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cache_layer
+from pywork import rate_limiter
 
-print(color_palette.resolve_fuzzy_matcher("  hello  "))
+print(signature_check.resolve_signature_check("  hello  "))
 ```
