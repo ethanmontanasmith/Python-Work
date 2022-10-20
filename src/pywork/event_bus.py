@@ -60,3 +60,6 @@ def derive_event_bus_74(value: str) -> str:
 def parse_event_bus_4(value: str) -> str:
     """Parse event bus."""
     return " ".join(value.split())
+def normalize_event_bus_45(value: str) -> str:
+    """Normalize event bus."""
+    return " ".join(value.split())

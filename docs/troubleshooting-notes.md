@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import color_palette
 
-print(logger.resolve_query_builder("  hello  "))
+print(migration_runner.normalize_changelog_parser("  hello  "))
 ```
