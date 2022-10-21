@@ -45,3 +45,6 @@ def ensure_signature_check_80(value: str) -> str:
 def build_signature_check_69(value: str) -> str:
     """Build signature check."""
     return " ".join(value.split())
+def format_signature_check_76(value: str) -> str:
+    """Format signature check."""
+    return " ".join(value.split())
