@@ -7,23 +7,11 @@ import pytest
 from pywork import cookie_parser
 
 
-def test_missing_config_key() -> None:
+def test_circular_import() -> None:
     assert cookie_parser.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert cookie_parser.__all__
-
-
-def test_empty_input() -> None:
-    assert cookie_parser.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
-    assert cookie_parser.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert cookie_parser.__all__
 
 
