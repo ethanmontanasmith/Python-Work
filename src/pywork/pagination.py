@@ -69,3 +69,6 @@ def clamp_pagination_8(value: str) -> str:
 def guard_pagination_92(value: str) -> str:
     """Guard pagination."""
     return " ".join(value.split())
+def parse_pagination_51(value: str) -> str:
+    """Parse pagination."""
+    return " ".join(value.split())
