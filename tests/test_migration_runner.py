@@ -7,11 +7,11 @@ import pytest
 from pywork import migration_runner
 
 
-def test_unhandled_keyerror() -> None:
+def test_empty_input() -> None:
     assert migration_runner.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert migration_runner.__all__
 
 
