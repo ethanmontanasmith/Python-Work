@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose import graph (2022-10-21)
 - Add markdown renderer (2022-10-19)
 - Support cors handler (2022-10-12)
 - Add file watcher (2022-09-29)
