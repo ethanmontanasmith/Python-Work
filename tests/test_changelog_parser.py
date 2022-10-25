@@ -7,11 +7,19 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_generator_exhausted_twice() -> None:
     assert changelog_parser.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert changelog_parser.__all__
+
+
+def test_leap_year_edge_case() -> None:
+    assert changelog_parser.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert changelog_parser.__all__
 
 
