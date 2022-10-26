@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import query_builder
 
-print(env_resolver.ensure_slug_parser("  hello  "))
+print(pagination.resolve_fuzzy_matcher("  hello  "))
 ```
