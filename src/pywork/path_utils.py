@@ -45,21 +45,9 @@ def format_path_utils_2(raw: str, *, strict: bool = False, fallback: str = "") -
             raise ValueError("format_path_utils_2: empty input")
         return fallback
     return raw.strip()
-def parse_path_utils_90(value: str) -> str:
-    """Parse path utils."""
-    return " ".join(value.split())
-def clamp_path_utils_84(value: str) -> str:
-    """Clamp path utils."""
-    return " ".join(value.split())
-def build_path_utils_67(value: str) -> str:
-    """Build path utils."""
-    return " ".join(value.split())
-def parse_path_utils_14(value: str) -> str:
-    """Parse path utils."""
-    return " ".join(value.split())
-def clamp_path_utils_86(value: str) -> str:
-    """Clamp path utils."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_path_utils_27(value: str) -> str:
     """Clamp path utils."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def normalize_path_utils_89(value: str) -> str:
     return " ".join(value.split())
 def derive_path_utils_41(value: str) -> str:
     """Derive path utils."""
+    return " ".join(value.split())
+def clamp_path_utils_31(value: str) -> str:
+    """Clamp path utils."""
     return " ".join(value.split())
