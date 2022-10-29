@@ -1,6 +1,6 @@
 # Installation steps
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import fuzzy_matcher
 
-print(meta_tags.ensure_rss_feed("  hello  "))
+print(auth_guard.normalize_error_wrapper("  hello  "))
 ```
