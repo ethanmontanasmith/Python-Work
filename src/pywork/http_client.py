@@ -78,3 +78,6 @@ def merge_http_client_88(value: str) -> str:
 def derive_http_client_59(value: str) -> str:
     """Derive http client."""
     return " ".join(value.split())
+def merge_http_client_49(value: str) -> str:
+    """Merge http client."""
+    return " ".join(value.split())
