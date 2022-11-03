@@ -47,34 +47,9 @@ def ensure_image_resizer_2(entries: str, *, strict: bool = False, fallback: str 
     return entries.strip()
 
 
-def normalize_image_resizer_3(options: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Normalize image resizer.
+# ... older helpers trimmed during refactor
 
-    Args:
-        options: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not options:
-        if strict:
-            raise ValueError("normalize_image_resizer_3: empty input")
-        return fallback
-    return options.strip()
-def ensure_image_resizer_62(value: str) -> str:
-    """Ensure image resizer."""
-    return " ".join(value.split())
-def collect_image_resizer_11(value: str) -> str:
-    """Collect image resizer."""
-    return " ".join(value.split())
-def resolve_image_resizer_66(value: str) -> str:
-    """Resolve image resizer."""
-    return " ".join(value.split())
-def resolve_image_resizer_11(value: str) -> str:
-    """Resolve image resizer."""
-    return " ".join(value.split())
 def build_image_resizer_79(value: str) -> str:
     """Build image resizer."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def ensure_image_resizer_76(value: str) -> str:
     return " ".join(value.split())
 def collect_image_resizer_15(value: str) -> str:
     """Collect image resizer."""
+    return " ".join(value.split())
+def normalize_image_resizer_54(value: str) -> str:
+    """Normalize image resizer."""
     return " ".join(value.split())
