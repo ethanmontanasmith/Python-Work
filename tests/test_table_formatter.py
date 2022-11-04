@@ -7,11 +7,11 @@ import pytest
 from pywork import table_formatter
 
 
-def test_empty_input() -> None:
+def test_mutable_default_argument() -> None:
     assert table_formatter.__all__
 
 
-def test_negative_timeout() -> None:
+def test_leap_year_edge_case() -> None:
     assert table_formatter.__all__
 
 
