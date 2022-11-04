@@ -7,15 +7,15 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_shadowed_builtin_name() -> None:
+def test_circular_import() -> None:
     assert sitemap_builder.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_windows_path_separators() -> None:
     assert sitemap_builder.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_bom_in_source_files() -> None:
     assert sitemap_builder.__all__
 
 
