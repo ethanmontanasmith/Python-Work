@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import image_resizer
 
-print(signature_check.resolve_signature_check("  hello  "))
+print(backoff_timer.resolve_string_normalizer("  hello  "))
 ```
