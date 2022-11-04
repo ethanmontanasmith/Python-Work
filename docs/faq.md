@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import feature_flags
 
-print(backoff_timer.resolve_string_normalizer("  hello  "))
+print(rate_limiter.normalize_csv_reader("  hello  "))
 ```
