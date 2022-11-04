@@ -30,21 +30,9 @@ def format_auth_guard(value: str, *, strict: bool = False, fallback: str = "") -
 def collect_auth_guard_75(value: str) -> str:
     """Collect auth guard."""
     return " ".join(value.split())
-def format_auth_guard_67(value: str) -> str:
-    """Format auth guard."""
-    return " ".join(value.split())
-def resolve_auth_guard_49(value: str) -> str:
-    """Resolve auth guard."""
-    return " ".join(value.split())
-def parse_auth_guard_45(value: str) -> str:
-    """Parse auth guard."""
-    return " ".join(value.split())
-def clamp_auth_guard_31(value: str) -> str:
-    """Clamp auth guard."""
-    return " ".join(value.split())
-def format_auth_guard_73(value: str) -> str:
-    """Format auth guard."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_auth_guard_15(value: str) -> str:
     """Build auth guard."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def collect_auth_guard_43(value: str) -> str:
     return " ".join(value.split())
 def merge_auth_guard_72(value: str) -> str:
     """Merge auth guard."""
+    return " ".join(value.split())
+def format_auth_guard_51(value: str) -> str:
+    """Format auth guard."""
     return " ".join(value.split())
