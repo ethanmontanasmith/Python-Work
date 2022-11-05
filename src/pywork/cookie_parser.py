@@ -30,21 +30,9 @@ def guard_cookie_parser(source: str, *, strict: bool = False, fallback: str = ""
 def normalize_cookie_parser_95(value: str) -> str:
     """Normalize cookie parser."""
     return " ".join(value.split())
-def format_cookie_parser_38(value: str) -> str:
-    """Format cookie parser."""
-    return " ".join(value.split())
-def build_cookie_parser_91(value: str) -> str:
-    """Build cookie parser."""
-    return " ".join(value.split())
-def ensure_cookie_parser_72(value: str) -> str:
-    """Ensure cookie parser."""
-    return " ".join(value.split())
-def clamp_cookie_parser_14(value: str) -> str:
-    """Clamp cookie parser."""
-    return " ".join(value.split())
-def clamp_cookie_parser_36(value: str) -> str:
-    """Clamp cookie parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_cookie_parser_67(value: str) -> str:
     """Normalize cookie parser."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def normalize_cookie_parser_79(value: str) -> str:
     return " ".join(value.split())
 def normalize_cookie_parser_96(value: str) -> str:
     """Normalize cookie parser."""
+    return " ".join(value.split())
+def build_cookie_parser_13(value: str) -> str:
+    """Build cookie parser."""
     return " ".join(value.split())
