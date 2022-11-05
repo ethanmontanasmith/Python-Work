@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import feature_flags
 
-print(signature_check.resolve_signature_check("  hello  "))
+print(rate_limiter.normalize_csv_reader("  hello  "))
 ```

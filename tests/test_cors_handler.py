@@ -7,11 +7,19 @@ import pytest
 from pywork import cors_handler
 
 
-def test_unhandled_keyerror() -> None:
+def test_leap_year_edge_case() -> None:
     assert cors_handler.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_mutable_default_argument() -> None:
+    assert cors_handler.__all__
+
+
+def test_circular_import() -> None:
+    assert cors_handler.__all__
+
+
+def test_windows_path_separators() -> None:
     assert cors_handler.__all__
 
 
