@@ -7,19 +7,19 @@ import pytest
 from pywork import slug_parser
 
 
-def test_leap_year_edge_case() -> None:
+def test_missing_config_key() -> None:
     assert slug_parser.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_circular_import() -> None:
     assert slug_parser.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_bom_in_source_files() -> None:
     assert slug_parser.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert slug_parser.__all__
 
 
