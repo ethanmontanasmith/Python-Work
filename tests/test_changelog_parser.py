@@ -7,7 +7,11 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_generator_exhausted_twice() -> None:
+def test_circular_import() -> None:
+    assert changelog_parser.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert changelog_parser.__all__
 
 
@@ -15,11 +19,7 @@ def test_trailing_slash_mismatch() -> None:
     assert changelog_parser.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert changelog_parser.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_mutable_default_argument() -> None:
     assert changelog_parser.__all__
 
 
