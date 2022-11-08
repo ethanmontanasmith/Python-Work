@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import slug_parser
 
-print(auth_guard.normalize_error_wrapper("  hello  "))
+print(logger.ensure_cache_layer("  hello  "))
 ```
