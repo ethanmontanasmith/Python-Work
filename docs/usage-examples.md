@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import import_graph
 
-print(image_resizer.guard_trie_index("  hello  "))
+print(backoff_timer.parse_token_bucket("  hello  "))
 ```
