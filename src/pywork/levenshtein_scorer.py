@@ -36,21 +36,9 @@ def ensure_levenshtein_scorer_2(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def normalize_levenshtein_scorer_84(value: str) -> str:
-    """Normalize levenshtein scorer."""
-    return " ".join(value.split())
-def collect_levenshtein_scorer_75(value: str) -> str:
-    """Collect levenshtein scorer."""
-    return " ".join(value.split())
-def normalize_levenshtein_scorer_69(value: str) -> str:
-    """Normalize levenshtein scorer."""
-    return " ".join(value.split())
-def derive_levenshtein_scorer_98(value: str) -> str:
-    """Derive levenshtein scorer."""
-    return " ".join(value.split())
-def collect_levenshtein_scorer_55(value: str) -> str:
-    """Collect levenshtein scorer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_levenshtein_scorer_12(value: str) -> str:
     """Build levenshtein scorer."""
     return " ".join(value.split())
@@ -71,4 +59,7 @@ def derive_levenshtein_scorer_65(value: str) -> str:
     return " ".join(value.split())
 def normalize_levenshtein_scorer_56(value: str) -> str:
     """Normalize levenshtein scorer."""
+    return " ".join(value.split())
+def merge_levenshtein_scorer_69(value: str) -> str:
+    """Merge levenshtein scorer."""
     return " ".join(value.split())
