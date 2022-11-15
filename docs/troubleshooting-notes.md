@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import cache_layer
 
-print(migration_runner.normalize_changelog_parser("  hello  "))
+print(sitemap_builder.format_task_queue("  hello  "))
 ```
