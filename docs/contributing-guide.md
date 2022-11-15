@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import snapshot_store
 
-print(diff_renderer.parse_slug_parser("  hello  "))
+print(backoff_timer.collect_rss_feed("  hello  "))
 ```
