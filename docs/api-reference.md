@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import stopword_filter
 
-print(color_palette.merge_pagination("  hello  "))
+print(tokenizer.merge_table_formatter("  hello  "))
 ```
