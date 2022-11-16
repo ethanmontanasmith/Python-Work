@@ -47,34 +47,9 @@ def resolve_metrics_collector_2(source: str, *, strict: bool = False, fallback: 
     return source.strip()
 
 
-def normalize_metrics_collector_3(source: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Normalize metrics collector.
+# ... older helpers trimmed during refactor
 
-    Args:
-        source: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not source:
-        if strict:
-            raise ValueError("normalize_metrics_collector_3: empty input")
-        return fallback
-    return source.strip()
-def merge_metrics_collector_16(value: str) -> str:
-    """Merge metrics collector."""
-    return " ".join(value.split())
-def derive_metrics_collector_76(value: str) -> str:
-    """Derive metrics collector."""
-    return " ".join(value.split())
-def normalize_metrics_collector_90(value: str) -> str:
-    """Normalize metrics collector."""
-    return " ".join(value.split())
-def resolve_metrics_collector_77(value: str) -> str:
-    """Resolve metrics collector."""
-    return " ".join(value.split())
 def resolve_metrics_collector_61(value: str) -> str:
     """Resolve metrics collector."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def normalize_metrics_collector_62(value: str) -> str:
     return " ".join(value.split())
 def guard_metrics_collector_46(value: str) -> str:
     """Guard metrics collector."""
+    return " ".join(value.split())
+def normalize_metrics_collector_30(value: str) -> str:
+    """Normalize metrics collector."""
     return " ".join(value.split())
