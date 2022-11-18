@@ -57,3 +57,6 @@ def normalize_cookie_parser_96(value: str) -> str:
 def build_cookie_parser_13(value: str) -> str:
     """Build cookie parser."""
     return " ".join(value.split())
+def format_cookie_parser_28(value: str) -> str:
+    """Format cookie parser."""
+    return " ".join(value.split())
