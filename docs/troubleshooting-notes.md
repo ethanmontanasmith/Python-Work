@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cache_layer
+from pywork import backoff_timer
 
-print(sitemap_builder.format_task_queue("  hello  "))
+print(meta_tags.ensure_task_queue("  hello  "))
 ```
