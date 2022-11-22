@@ -7,11 +7,15 @@ import pytest
 from pywork import cookie_parser
 
 
-def test_circular_import() -> None:
+def test_negative_timeout() -> None:
     assert cookie_parser.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert cookie_parser.__all__
+
+
+def test_double_encoded_query() -> None:
     assert cookie_parser.__all__
 
 
