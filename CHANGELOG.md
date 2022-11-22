@@ -1,5 +1,6 @@
 # Changelog
 
+- Support levenshtein scorer (2022-11-22)
 - Support json schema (2022-11-20)
 - Implement rate limiter (2022-11-10)
 - Add migration runner (2022-10-27)
