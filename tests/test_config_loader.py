@@ -7,23 +7,15 @@ import pytest
 from pywork import config_loader
 
 
-def test_generator_exhausted_twice() -> None:
+def test_mutable_default_argument() -> None:
     assert config_loader.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_missing_config_key() -> None:
     assert config_loader.__all__
 
 
-def test_empty_input() -> None:
-    assert config_loader.__all__
-
-
-def test_bom_in_source_files() -> None:
-    assert config_loader.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert config_loader.__all__
 
 
