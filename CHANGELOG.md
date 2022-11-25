@@ -1,5 +1,6 @@
 # Changelog
 
+- Add retry policy (2022-11-25)
 - Support levenshtein scorer (2022-11-22)
 - Support json schema (2022-11-20)
 - Implement rate limiter (2022-11-10)
