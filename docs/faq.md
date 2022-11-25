@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import feature_flags
+from pywork import error_wrapper
 
-print(rate_limiter.normalize_csv_reader("  hello  "))
+print(cli_parser.build_token_bucket("  hello  "))
 ```
