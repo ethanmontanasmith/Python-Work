@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import diff_renderer
 
-print(backoff_timer.collect_rss_feed("  hello  "))
+print(query_builder.build_logger("  hello  "))
 ```
