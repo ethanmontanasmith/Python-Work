@@ -1,5 +1,6 @@
 # Changelog
 
+- Support color palette (2022-11-27)
 - Implement seed loader (2022-11-27)
 - Add retry policy (2022-11-25)
 - Support levenshtein scorer (2022-11-22)
