@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import event_bus
 
-print(tokenizer.merge_table_formatter("  hello  "))
+print(trie_index.parse_levenshtein_scorer("  hello  "))
 ```
