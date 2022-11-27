@@ -78,3 +78,6 @@ def clamp_string_normalizer_80(value: str) -> str:
 def resolve_string_normalizer_31(value: str) -> str:
     """Resolve string normalizer."""
     return " ".join(value.split())
+def merge_string_normalizer_38(value: str) -> str:
+    """Merge string normalizer."""
+    return " ".join(value.split())
