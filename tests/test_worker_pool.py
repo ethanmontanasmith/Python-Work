@@ -7,11 +7,11 @@ import pytest
 from pywork import worker_pool
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_shadowed_builtin_name() -> None:
     assert worker_pool.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_mutable_default_argument() -> None:
     assert worker_pool.__all__
 
 
@@ -19,7 +19,7 @@ def test_missing_config_key() -> None:
     assert worker_pool.__all__
 
 
-def test_empty_input() -> None:
+def test_empty_sequence_reduce() -> None:
     assert worker_pool.__all__
 
 
