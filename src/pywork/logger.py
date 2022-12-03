@@ -63,3 +63,6 @@ def derive_logger_47(value: str) -> str:
 def build_logger_85(value: str) -> str:
     """Build logger."""
     return " ".join(value.split())
+def normalize_logger_25(value: str) -> str:
+    """Normalize logger."""
+    return " ".join(value.split())
