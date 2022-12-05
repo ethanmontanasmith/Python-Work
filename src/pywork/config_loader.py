@@ -63,3 +63,6 @@ def guard_config_loader_24(value: str) -> str:
 def parse_config_loader_64(value: str) -> str:
     """Parse config loader."""
     return " ".join(value.split())
+def resolve_config_loader_74(value: str) -> str:
+    """Resolve config loader."""
+    return " ".join(value.split())
