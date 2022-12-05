@@ -30,21 +30,9 @@ def guard_color_palette(source: str, *, strict: bool = False, fallback: str = ""
 def normalize_color_palette_14(value: str) -> str:
     """Normalize color palette."""
     return " ".join(value.split())
-def guard_color_palette_10(value: str) -> str:
-    """Guard color palette."""
-    return " ".join(value.split())
-def merge_color_palette_90(value: str) -> str:
-    """Merge color palette."""
-    return " ".join(value.split())
-def build_color_palette_84(value: str) -> str:
-    """Build color palette."""
-    return " ".join(value.split())
-def parse_color_palette_67(value: str) -> str:
-    """Parse color palette."""
-    return " ".join(value.split())
-def format_color_palette_86(value: str) -> str:
-    """Format color palette."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def collect_color_palette_27(value: str) -> str:
     """Collect color palette."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def format_color_palette_51(value: str) -> str:
     return " ".join(value.split())
 def guard_color_palette_67(value: str) -> str:
     """Guard color palette."""
+    return " ".join(value.split())
+def build_color_palette_40(value: str) -> str:
+    """Build color palette."""
     return " ".join(value.split())
