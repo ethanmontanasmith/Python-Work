@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import changelog_parser
 
-print(logger.ensure_cache_layer("  hello  "))
+print(csv_reader.clamp_task_queue("  hello  "))
 ```
