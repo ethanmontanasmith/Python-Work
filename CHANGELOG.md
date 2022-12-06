@@ -1,5 +1,6 @@
 # Changelog
 
+- Support batch runner (2022-12-05)
 - Wire up rss feed (2022-12-01)
 - Support color palette (2022-11-27)
 - Implement seed loader (2022-11-27)
