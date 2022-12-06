@@ -7,11 +7,15 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_negative_timeout() -> None:
     assert snapshot_store.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unhandled_keyerror() -> None:
+    assert snapshot_store.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert snapshot_store.__all__
 
 
