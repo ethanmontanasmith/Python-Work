@@ -75,3 +75,6 @@ def merge_changelog_parser_79(value: str) -> str:
 def clamp_changelog_parser_24(value: str) -> str:
     """Clamp changelog parser."""
     return " ".join(value.split())
+def guard_changelog_parser_80(value: str) -> str:
+    """Guard changelog parser."""
+    return " ".join(value.split())
