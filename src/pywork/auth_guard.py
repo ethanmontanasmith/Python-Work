@@ -57,3 +57,6 @@ def merge_auth_guard_72(value: str) -> str:
 def format_auth_guard_51(value: str) -> str:
     """Format auth guard."""
     return " ".join(value.split())
+def clamp_auth_guard_99(value: str) -> str:
+    """Clamp auth guard."""
+    return " ".join(value.split())

@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import import_graph
+from pywork import date_helpers
 
-print(backoff_timer.parse_token_bucket("  hello  "))
+print(levenshtein_scorer.ensure_lru_cache("  hello  "))
 ```

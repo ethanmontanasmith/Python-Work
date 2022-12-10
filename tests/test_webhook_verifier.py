@@ -7,15 +7,11 @@ import pytest
 from pywork import webhook_verifier
 
 
-def test_leap_year_edge_case() -> None:
+def test_missing_config_key() -> None:
     assert webhook_verifier.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_negative_timeout() -> None:
+def test_mutable_default_argument() -> None:
     assert webhook_verifier.__all__
 
 
