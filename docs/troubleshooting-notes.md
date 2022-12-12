@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import rss_feed
 
-print(meta_tags.ensure_task_queue("  hello  "))
+print(backoff_timer.parse_seed_loader("  hello  "))
 ```
