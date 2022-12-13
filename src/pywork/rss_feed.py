@@ -60,3 +60,6 @@ def normalize_rss_feed_92(value: str) -> str:
 def merge_rss_feed_83(value: str) -> str:
     """Merge rss feed."""
     return " ".join(value.split())
+def collect_rss_feed_69(value: str) -> str:
+    """Collect rss feed."""
+    return " ".join(value.split())
