@@ -1,5 +1,6 @@
 # Changelog
 
+- Add dependency graph (2022-12-13)
 - Support batch runner (2022-12-05)
 - Wire up rss feed (2022-12-01)
 - Support color palette (2022-11-27)
