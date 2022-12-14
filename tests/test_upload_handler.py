@@ -7,19 +7,15 @@ import pytest
 from pywork import upload_handler
 
 
-def test_unhandled_keyerror() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert upload_handler.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert upload_handler.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert upload_handler.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_negative_timeout() -> None:
     assert upload_handler.__all__
 
 

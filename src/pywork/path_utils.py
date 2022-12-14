@@ -72,3 +72,6 @@ def derive_path_utils_41(value: str) -> str:
 def clamp_path_utils_31(value: str) -> str:
     """Clamp path utils."""
     return " ".join(value.split())
+def resolve_path_utils_83(value: str) -> str:
+    """Resolve path utils."""
+    return " ".join(value.split())
