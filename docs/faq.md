@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import levenshtein_scorer
 
-print(cli_parser.build_token_bucket("  hello  "))
+print(migration_runner.guard_date_helpers("  hello  "))
 ```
