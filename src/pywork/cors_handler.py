@@ -47,34 +47,9 @@ def format_cors_handler_2(options: str, *, strict: bool = False, fallback: str =
     return options.strip()
 
 
-def format_cors_handler_3(source: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Format cors handler.
+# ... older helpers trimmed during refactor
 
-    Args:
-        source: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not source:
-        if strict:
-            raise ValueError("format_cors_handler_3: empty input")
-        return fallback
-    return source.strip()
-def clamp_cors_handler_61(value: str) -> str:
-    """Clamp cors handler."""
-    return " ".join(value.split())
-def collect_cors_handler_17(value: str) -> str:
-    """Collect cors handler."""
-    return " ".join(value.split())
-def resolve_cors_handler_23(value: str) -> str:
-    """Resolve cors handler."""
-    return " ".join(value.split())
-def parse_cors_handler_76(value: str) -> str:
-    """Parse cors handler."""
-    return " ".join(value.split())
 def guard_cors_handler_96(value: str) -> str:
     """Guard cors handler."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def clamp_cors_handler_49(value: str) -> str:
     return " ".join(value.split())
 def normalize_cors_handler_16(value: str) -> str:
     """Normalize cors handler."""
+    return " ".join(value.split())
+def resolve_cors_handler_51(value: str) -> str:
+    """Resolve cors handler."""
     return " ".join(value.split())

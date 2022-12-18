@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose auth guard (2022-12-16)
 - Add dependency graph (2022-12-13)
 - Support batch runner (2022-12-05)
 - Wire up rss feed (2022-12-01)

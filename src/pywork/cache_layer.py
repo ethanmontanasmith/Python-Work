@@ -47,34 +47,9 @@ def format_cache_layer_2(options: str, *, strict: bool = False, fallback: str = 
     return options.strip()
 
 
-def build_cache_layer_3(source: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Build cache layer.
+# ... older helpers trimmed during refactor
 
-    Args:
-        source: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not source:
-        if strict:
-            raise ValueError("build_cache_layer_3: empty input")
-        return fallback
-    return source.strip()
-def clamp_cache_layer_56(value: str) -> str:
-    """Clamp cache layer."""
-    return " ".join(value.split())
-def resolve_cache_layer_83(value: str) -> str:
-    """Resolve cache layer."""
-    return " ".join(value.split())
-def collect_cache_layer_44(value: str) -> str:
-    """Collect cache layer."""
-    return " ".join(value.split())
-def guard_cache_layer_40(value: str) -> str:
-    """Guard cache layer."""
-    return " ".join(value.split())
 def guard_cache_layer_16(value: str) -> str:
     """Guard cache layer."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def normalize_cache_layer_51(value: str) -> str:
     return " ".join(value.split())
 def normalize_cache_layer_85(value: str) -> str:
     """Normalize cache layer."""
+    return " ".join(value.split())
+def build_cache_layer_88(value: str) -> str:
+    """Build cache layer."""
     return " ".join(value.split())
