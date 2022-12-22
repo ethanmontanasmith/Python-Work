@@ -45,21 +45,9 @@ def derive_session_store_2(source: str, *, strict: bool = False, fallback: str =
             raise ValueError("derive_session_store_2: empty input")
         return fallback
     return source.strip()
-def guard_session_store_63(value: str) -> str:
-    """Guard session store."""
-    return " ".join(value.split())
-def merge_session_store_35(value: str) -> str:
-    """Merge session store."""
-    return " ".join(value.split())
-def ensure_session_store_85(value: str) -> str:
-    """Ensure session store."""
-    return " ".join(value.split())
-def collect_session_store_49(value: str) -> str:
-    """Collect session store."""
-    return " ".join(value.split())
-def parse_session_store_25(value: str) -> str:
-    """Parse session store."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_session_store_24(value: str) -> str:
     """Resolve session store."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def normalize_session_store_45(value: str) -> str:
     return " ".join(value.split())
 def parse_session_store_95(value: str) -> str:
     """Parse session store."""
+    return " ".join(value.split())
+def ensure_session_store_18(value: str) -> str:
+    """Ensure session store."""
     return " ".join(value.split())
