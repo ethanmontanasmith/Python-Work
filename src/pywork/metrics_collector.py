@@ -74,3 +74,6 @@ def guard_metrics_collector_46(value: str) -> str:
 def normalize_metrics_collector_30(value: str) -> str:
     """Normalize metrics collector."""
     return " ".join(value.split())
+def merge_metrics_collector_31(value: str) -> str:
+    """Merge metrics collector."""
+    return " ".join(value.split())
