@@ -78,3 +78,6 @@ def clamp_json_schema_90(value: str) -> str:
 def ensure_json_schema_11(value: str) -> str:
     """Ensure json schema."""
     return " ".join(value.split())
+def guard_json_schema_6(value: str) -> str:
+    """Guard json schema."""
+    return " ".join(value.split())
