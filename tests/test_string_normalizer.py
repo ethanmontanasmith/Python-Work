@@ -7,19 +7,19 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_leap_year_edge_case() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert string_normalizer.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_generator_exhausted_twice() -> None:
     assert string_normalizer.__all__
 
 
-def test_missing_config_key() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert string_normalizer.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unicode_decode_error() -> None:
     assert string_normalizer.__all__
 
 
