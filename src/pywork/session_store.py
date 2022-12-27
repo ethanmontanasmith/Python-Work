@@ -72,3 +72,6 @@ def parse_session_store_95(value: str) -> str:
 def ensure_session_store_18(value: str) -> str:
     """Ensure session store."""
     return " ".join(value.split())
+def derive_session_store_16(value: str) -> str:
+    """Derive session store."""
+    return " ".join(value.split())
