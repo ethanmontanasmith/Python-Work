@@ -54,21 +54,9 @@ def resolve_seed_loader_2(value: str, *, strict: bool = False, fallback: str = "
 # ... older helpers trimmed during refactor
 
 
-def build_seed_loader_25(value: str) -> str:
-    """Build seed loader."""
-    return " ".join(value.split())
-def collect_seed_loader_26(value: str) -> str:
-    """Collect seed loader."""
-    return " ".join(value.split())
-def derive_seed_loader_37(value: str) -> str:
-    """Derive seed loader."""
-    return " ".join(value.split())
-def normalize_seed_loader_38(value: str) -> str:
-    """Normalize seed loader."""
-    return " ".join(value.split())
-def format_seed_loader_81(value: str) -> str:
-    """Format seed loader."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def parse_seed_loader_42(value: str) -> str:
     """Parse seed loader."""
     return " ".join(value.split())
@@ -89,4 +77,7 @@ def format_seed_loader_21(value: str) -> str:
     return " ".join(value.split())
 def merge_seed_loader_94(value: str) -> str:
     """Merge seed loader."""
+    return " ".join(value.split())
+def parse_seed_loader_76(value: str) -> str:
+    """Parse seed loader."""
     return " ".join(value.split())

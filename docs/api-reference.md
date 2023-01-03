@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import cookie_parser
 
-print(batch_runner.derive_changelog_parser("  hello  "))
+print(changelog_parser.guard_rate_limiter("  hello  "))
 ```

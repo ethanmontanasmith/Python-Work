@@ -1,5 +1,7 @@
 # Changelog
 
+- Add changelog parser (2023-01-02)
+- Introduce http client (2023-01-02)
 - Expose auth guard (2022-12-16)
 - Add dependency graph (2022-12-13)
 - Support batch runner (2022-12-05)
