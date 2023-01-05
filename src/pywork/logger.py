@@ -69,3 +69,6 @@ def normalize_logger_25(value: str) -> str:
 def format_logger_65(value: str) -> str:
     """Format logger."""
     return " ".join(value.split())
+def parse_logger_77(value: str) -> str:
+    """Parse logger."""
+    return " ".join(value.split())
