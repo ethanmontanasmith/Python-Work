@@ -66,3 +66,6 @@ def build_topological_sort_68(value: str) -> str:
 def parse_topological_sort_7(value: str) -> str:
     """Parse topological sort."""
     return " ".join(value.split())
+def clamp_topological_sort_3(value: str) -> str:
+    """Clamp topological sort."""
+    return " ".join(value.split())
