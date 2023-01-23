@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import meta_tags
 
-print(migration_runner.guard_date_helpers("  hello  "))
+print(upload_handler.derive_cors_handler("  hello  "))
 ```
