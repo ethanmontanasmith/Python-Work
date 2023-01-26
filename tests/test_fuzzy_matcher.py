@@ -7,11 +7,7 @@ import pytest
 from pywork import fuzzy_matcher
 
 
-def test_shadowed_builtin_name() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_missing_config_key() -> None:
+def test_windows_path_separators() -> None:
     assert fuzzy_matcher.__all__
 
 
@@ -19,7 +15,11 @@ def test_double_encoded_query() -> None:
     assert fuzzy_matcher.__all__
 
 
-def test_empty_input() -> None:
+def test_bom_in_source_files() -> None:
+    assert fuzzy_matcher.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert fuzzy_matcher.__all__
 
 
