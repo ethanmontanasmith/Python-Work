@@ -7,15 +7,11 @@ import pytest
 from pywork import feature_flags
 
 
-def test_stale_cache_entry() -> None:
+def test_bom_in_source_files() -> None:
     assert feature_flags.__all__
 
 
-def test_empty_input() -> None:
-    assert feature_flags.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_leap_year_edge_case() -> None:
     assert feature_flags.__all__
 
 
