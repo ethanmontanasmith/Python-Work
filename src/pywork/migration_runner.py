@@ -77,3 +77,6 @@ def guard_migration_runner_84(value: str) -> str:
 def derive_migration_runner_17(value: str) -> str:
     """Derive migration runner."""
     return " ".join(value.split())
+def parse_migration_runner_97(value: str) -> str:
+    """Parse migration runner."""
+    return " ".join(value.split())
