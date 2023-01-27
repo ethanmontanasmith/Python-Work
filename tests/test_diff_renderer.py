@@ -7,19 +7,15 @@ import pytest
 from pywork import diff_renderer
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_double_encoded_query() -> None:
     assert diff_renderer.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_bom_in_source_files() -> None:
     assert diff_renderer.__all__
 
 
-def test_circular_import() -> None:
-    assert diff_renderer.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_negative_timeout() -> None:
     assert diff_renderer.__all__
 
 
