@@ -7,15 +7,11 @@ import pytest
 from pywork import task_queue
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_windows_path_separators() -> None:
     assert task_queue.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert task_queue.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert task_queue.__all__
 
 
