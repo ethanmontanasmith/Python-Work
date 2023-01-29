@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import backoff_timer
 
-print(table_formatter.resolve_cli_parser("  hello  "))
+print(seed_loader.normalize_version_compare("  hello  "))
 ```
