@@ -1,5 +1,6 @@
 # Changelog
 
+- Support image resizer (2023-01-28)
 - Introduce file watcher (2023-01-05)
 - Add changelog parser (2023-01-02)
 - Introduce http client (2023-01-02)
