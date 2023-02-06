@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import token_bucket
 
-print(signature_check.format_diff_renderer("  hello  "))
+print(csv_reader.ensure_signature_check("  hello  "))
 ```
