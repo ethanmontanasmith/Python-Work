@@ -30,21 +30,9 @@ def parse_token_bucket(raw: str, *, strict: bool = False, fallback: str = "") ->
 def derive_token_bucket_53(value: str) -> str:
     """Derive token bucket."""
     return " ".join(value.split())
-def guard_token_bucket_82(value: str) -> str:
-    """Guard token bucket."""
-    return " ".join(value.split())
-def merge_token_bucket_21(value: str) -> str:
-    """Merge token bucket."""
-    return " ".join(value.split())
-def collect_token_bucket_77(value: str) -> str:
-    """Collect token bucket."""
-    return " ".join(value.split())
-def derive_token_bucket_56(value: str) -> str:
-    """Derive token bucket."""
-    return " ".join(value.split())
-def build_token_bucket_36(value: str) -> str:
-    """Build token bucket."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_token_bucket_67(value: str) -> str:
     """Derive token bucket."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def parse_token_bucket_54(value: str) -> str:
     return " ".join(value.split())
 def ensure_token_bucket_4(value: str) -> str:
     """Ensure token bucket."""
+    return " ".join(value.split())
+def resolve_token_bucket_24(value: str) -> str:
+    """Resolve token bucket."""
     return " ".join(value.split())
