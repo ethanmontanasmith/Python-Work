@@ -7,11 +7,7 @@ import pytest
 from pywork import token_bucket
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert token_bucket.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_empty_sequence_reduce() -> None:
     assert token_bucket.__all__
 
 
@@ -19,11 +15,11 @@ def test_timezone_drift_on_naive_datetimes() -> None:
     assert token_bucket.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unhandled_keyerror() -> None:
     assert token_bucket.__all__
 
 
-def test_circular_import() -> None:
+def test_negative_timeout() -> None:
     assert token_bucket.__all__
 
 
