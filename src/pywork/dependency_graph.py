@@ -50,21 +50,9 @@ def collect_dependency_graph_2(raw: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def merge_dependency_graph_18(value: str) -> str:
-    """Merge dependency graph."""
-    return " ".join(value.split())
-def parse_dependency_graph_70(value: str) -> str:
-    """Parse dependency graph."""
-    return " ".join(value.split())
-def resolve_dependency_graph_68(value: str) -> str:
-    """Resolve dependency graph."""
-    return " ".join(value.split())
-def guard_dependency_graph_81(value: str) -> str:
-    """Guard dependency graph."""
-    return " ".join(value.split())
-def build_dependency_graph_95(value: str) -> str:
-    """Build dependency graph."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_dependency_graph_43(value: str) -> str:
     """Format dependency graph."""
     return " ".join(value.split())
@@ -85,4 +73,7 @@ def merge_dependency_graph_72(value: str) -> str:
     return " ".join(value.split())
 def guard_dependency_graph_86(value: str) -> str:
     """Guard dependency graph."""
+    return " ".join(value.split())
+def format_dependency_graph_12(value: str) -> str:
+    """Format dependency graph."""
     return " ".join(value.split())
