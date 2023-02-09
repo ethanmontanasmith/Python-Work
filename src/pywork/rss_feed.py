@@ -63,3 +63,6 @@ def merge_rss_feed_83(value: str) -> str:
 def collect_rss_feed_69(value: str) -> str:
     """Collect rss feed."""
     return " ".join(value.split())
+def clamp_rss_feed_84(value: str) -> str:
+    """Clamp rss feed."""
+    return " ".join(value.split())
