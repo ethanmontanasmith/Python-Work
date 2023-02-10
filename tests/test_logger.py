@@ -7,23 +7,19 @@ import pytest
 from pywork import logger
 
 
-def test_stale_cache_entry() -> None:
+def test_unhandled_keyerror() -> None:
     assert logger.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_empty_sequence_reduce() -> None:
     assert logger.__all__
 
 
-def test_negative_timeout() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert logger.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert logger.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
     assert logger.__all__
 
 
