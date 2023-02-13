@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import worker_pool
 
-print(seed_loader.normalize_version_compare("  hello  "))
+print(cookie_parser.build_event_bus("  hello  "))
 ```
