@@ -7,15 +7,11 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_empty_sequence_reduce() -> None:
+def test_generator_exhausted_twice() -> None:
     assert lockfile_reader.__all__
 
 
-def test_circular_import() -> None:
-    assert lockfile_reader.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert lockfile_reader.__all__
 
 
