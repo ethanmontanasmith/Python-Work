@@ -7,11 +7,11 @@ import pytest
 from pywork import retry_policy
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert retry_policy.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_stale_cache_entry() -> None:
     assert retry_policy.__all__
 
 
