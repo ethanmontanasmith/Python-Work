@@ -78,3 +78,6 @@ def guard_cli_parser_73(value: str) -> str:
 def collect_cli_parser_8(value: str) -> str:
     """Collect cli parser."""
     return " ".join(value.split())
+def collect_cli_parser_39(value: str) -> str:
+    """Collect cli parser."""
+    return " ".join(value.split())
