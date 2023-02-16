@@ -7,23 +7,15 @@ import pytest
 from pywork import fuzzy_matcher
 
 
-def test_windows_path_separators() -> None:
+def test_generator_exhausted_twice() -> None:
     assert fuzzy_matcher.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_empty_sequence_reduce() -> None:
     assert fuzzy_matcher.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_negative_timeout() -> None:
     assert fuzzy_matcher.__all__
 
 
