@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up query builder (2023-02-16)
 - Support image resizer (2023-01-28)
 - Introduce file watcher (2023-01-05)
 - Add changelog parser (2023-01-02)
