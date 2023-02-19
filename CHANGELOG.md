@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up event bus (2023-02-18)
 - Wire up query builder (2023-02-16)
 - Support image resizer (2023-01-28)
 - Introduce file watcher (2023-01-05)
