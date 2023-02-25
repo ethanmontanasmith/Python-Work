@@ -7,15 +7,15 @@ import pytest
 from pywork import auth_guard
 
 
+def test_unicode_decode_error() -> None:
+    assert auth_guard.__all__
+
+
+def test_mutable_default_argument() -> None:
+    assert auth_guard.__all__
+
+
 def test_circular_import() -> None:
-    assert auth_guard.__all__
-
-
-def test_windows_path_separators() -> None:
-    assert auth_guard.__all__
-
-
-def test_generator_exhausted_twice() -> None:
     assert auth_guard.__all__
 
 

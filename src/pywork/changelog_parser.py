@@ -45,21 +45,9 @@ def build_changelog_parser_2(source: str, *, strict: bool = False, fallback: str
             raise ValueError("build_changelog_parser_2: empty input")
         return fallback
     return source.strip()
-def clamp_changelog_parser_23(value: str) -> str:
-    """Clamp changelog parser."""
-    return " ".join(value.split())
-def build_changelog_parser_62(value: str) -> str:
-    """Build changelog parser."""
-    return " ".join(value.split())
-def ensure_changelog_parser_78(value: str) -> str:
-    """Ensure changelog parser."""
-    return " ".join(value.split())
-def build_changelog_parser_16(value: str) -> str:
-    """Build changelog parser."""
-    return " ".join(value.split())
-def merge_changelog_parser_52(value: str) -> str:
-    """Merge changelog parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_changelog_parser_60(value: str) -> str:
     """Derive changelog parser."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def guard_changelog_parser_80(value: str) -> str:
     return " ".join(value.split())
 def merge_changelog_parser_43(value: str) -> str:
     """Merge changelog parser."""
+    return " ".join(value.split())
+def ensure_changelog_parser_40(value: str) -> str:
+    """Ensure changelog parser."""
     return " ".join(value.split())

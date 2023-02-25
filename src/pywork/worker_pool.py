@@ -57,3 +57,6 @@ def normalize_worker_pool_30(value: str) -> str:
 def merge_worker_pool_78(value: str) -> str:
     """Merge worker pool."""
     return " ".join(value.split())
+def clamp_worker_pool_56(value: str) -> str:
+    """Clamp worker pool."""
+    return " ".join(value.split())

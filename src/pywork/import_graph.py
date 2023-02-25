@@ -47,34 +47,9 @@ def resolve_import_graph_2(options: str, *, strict: bool = False, fallback: str 
     return options.strip()
 
 
-def derive_import_graph_3(entries: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Derive import graph.
+# ... older helpers trimmed during refactor
 
-    Args:
-        entries: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not entries:
-        if strict:
-            raise ValueError("derive_import_graph_3: empty input")
-        return fallback
-    return entries.strip()
-def clamp_import_graph_10(value: str) -> str:
-    """Clamp import graph."""
-    return " ".join(value.split())
-def format_import_graph_17(value: str) -> str:
-    """Format import graph."""
-    return " ".join(value.split())
-def normalize_import_graph_18(value: str) -> str:
-    """Normalize import graph."""
-    return " ".join(value.split())
-def clamp_import_graph_96(value: str) -> str:
-    """Clamp import graph."""
-    return " ".join(value.split())
 def build_import_graph_94(value: str) -> str:
     """Build import graph."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def merge_import_graph_50(value: str) -> str:
     return " ".join(value.split())
 def parse_import_graph_53(value: str) -> str:
     """Parse import graph."""
+    return " ".join(value.split())
+def ensure_import_graph_99(value: str) -> str:
+    """Ensure import graph."""
     return " ".join(value.split())

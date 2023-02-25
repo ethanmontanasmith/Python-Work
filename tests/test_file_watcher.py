@@ -7,15 +7,11 @@ import pytest
 from pywork import file_watcher
 
 
-def test_windows_path_separators() -> None:
-    assert file_watcher.__all__
-
-
-def test_generator_exhausted_twice() -> None:
-    assert file_watcher.__all__
-
-
 def test_leap_year_edge_case() -> None:
+    assert file_watcher.__all__
+
+
+def test_empty_input() -> None:
     assert file_watcher.__all__
 
 
