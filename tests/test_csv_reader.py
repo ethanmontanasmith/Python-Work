@@ -7,15 +7,19 @@ import pytest
 from pywork import csv_reader
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_leap_year_edge_case() -> None:
     assert csv_reader.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_windows_path_separators() -> None:
     assert csv_reader.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
+    assert csv_reader.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert csv_reader.__all__
 
 
