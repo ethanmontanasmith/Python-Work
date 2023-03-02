@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import task_queue
 
-print(csv_reader.ensure_signature_check("  hello  "))
+print(markdown_renderer.parse_feature_flags("  hello  "))
 ```
