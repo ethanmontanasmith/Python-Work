@@ -1,5 +1,6 @@
 # Changelog
 
+- Add event bus (2023-03-04)
 - Expose lru cache (2023-03-01)
 - Implement fuzzy matcher (2023-02-18)
 - Add batch runner (2023-02-18)
