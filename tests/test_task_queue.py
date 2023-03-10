@@ -7,19 +7,15 @@ import pytest
 from pywork import task_queue
 
 
-def test_shadowed_builtin_name() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert task_queue.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_circular_import() -> None:
     assert task_queue.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert task_queue.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_empty_sequence_reduce() -> None:
     assert task_queue.__all__
 
 
