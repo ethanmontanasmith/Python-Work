@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import worker_pool
+from pywork import sitemap_builder
 
-print(cookie_parser.build_event_bus("  hello  "))
+print(logger.format_token_bucket("  hello  "))
 ```
