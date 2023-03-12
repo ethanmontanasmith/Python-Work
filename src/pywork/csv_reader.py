@@ -53,21 +53,9 @@ def resolve_csv_reader_2(options: str, *, strict: bool = False, fallback: str = 
 # ... older helpers trimmed during refactor
 
 
-def parse_csv_reader_40(value: str) -> str:
-    """Parse csv reader."""
-    return " ".join(value.split())
-def format_csv_reader_92(value: str) -> str:
-    """Format csv reader."""
-    return " ".join(value.split())
-def collect_csv_reader_54(value: str) -> str:
-    """Collect csv reader."""
-    return " ".join(value.split())
-def clamp_csv_reader_47(value: str) -> str:
-    """Clamp csv reader."""
-    return " ".join(value.split())
-def collect_csv_reader_79(value: str) -> str:
-    """Collect csv reader."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_csv_reader_10(value: str) -> str:
     """Build csv reader."""
     return " ".join(value.split())
@@ -88,4 +76,7 @@ def derive_csv_reader_29(value: str) -> str:
     return " ".join(value.split())
 def clamp_csv_reader_74(value: str) -> str:
     """Clamp csv reader."""
+    return " ".join(value.split())
+def format_csv_reader_42(value: str) -> str:
+    """Format csv reader."""
     return " ".join(value.split())
