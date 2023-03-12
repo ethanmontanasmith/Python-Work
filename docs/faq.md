@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import metrics_collector
 
-print(upload_handler.derive_cors_handler("  hello  "))
+print(seed_loader.clamp_rate_limiter("  hello  "))
 ```
