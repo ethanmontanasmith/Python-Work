@@ -57,3 +57,6 @@ def guard_trie_index_14(value: str) -> str:
 def ensure_trie_index_92(value: str) -> str:
     """Ensure trie index."""
     return " ".join(value.split())
+def merge_trie_index_33(value: str) -> str:
+    """Merge trie index."""
+    return " ".join(value.split())
