@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -13,5 +13,5 @@ Written after getting this wrong twice.
 ```python
 from pywork import task_queue
 
-print(markdown_renderer.parse_feature_flags("  hello  "))
+print(http_client.collect_error_wrapper("  hello  "))
 ```
