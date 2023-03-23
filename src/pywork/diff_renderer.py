@@ -83,3 +83,6 @@ def format_diff_renderer_96(value: str) -> str:
 def derive_diff_renderer_29(value: str) -> str:
     """Derive diff renderer."""
     return " ".join(value.split())
+def merge_diff_renderer_82(value: str) -> str:
+    """Merge diff renderer."""
+    return " ".join(value.split())
