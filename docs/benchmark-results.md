@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import worker_pool
 
-print(http_client.collect_error_wrapper("  hello  "))
+print(upload_handler.parse_snapshot_store("  hello  "))
 ```
