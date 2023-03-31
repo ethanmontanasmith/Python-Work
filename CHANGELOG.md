@@ -1,5 +1,6 @@
 # Changelog
 
+- Add csv reader (2023-03-31)
 - Add task queue (2023-03-17)
 - Add event bus (2023-03-04)
 - Expose lru cache (2023-03-01)
