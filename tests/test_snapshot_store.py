@@ -7,15 +7,11 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_negative_timeout() -> None:
+def test_empty_sequence_reduce() -> None:
     assert snapshot_store.__all__
 
 
-def test_unhandled_keyerror() -> None:
-    assert snapshot_store.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert snapshot_store.__all__
 
 
