@@ -78,3 +78,6 @@ def merge_pagination_87(value: str) -> str:
 def parse_pagination_24(value: str) -> str:
     """Parse pagination."""
     return " ".join(value.split())
+def format_pagination_86(value: str) -> str:
+    """Format pagination."""
+    return " ".join(value.split())
