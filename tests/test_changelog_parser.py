@@ -7,7 +7,7 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_shadowed_builtin_name() -> None:
+def test_bom_in_source_files() -> None:
     assert changelog_parser.__all__
 
 
@@ -15,7 +15,7 @@ def test_trailing_slash_mismatch() -> None:
     assert changelog_parser.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_negative_timeout() -> None:
     assert changelog_parser.__all__
 
 
