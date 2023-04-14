@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import cli_parser
 
-print(logger.format_token_bucket("  hello  "))
+print(seed_loader.normalize_sitemap_builder("  hello  "))
 ```
