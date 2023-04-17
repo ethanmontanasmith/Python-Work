@@ -7,11 +7,11 @@ import pytest
 from pywork import table_formatter
 
 
-def test_mutable_default_argument() -> None:
+def test_unicode_decode_error() -> None:
     assert table_formatter.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_circular_import() -> None:
     assert table_formatter.__all__
 
 
