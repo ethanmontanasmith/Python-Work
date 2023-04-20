@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import worker_pool
+from pywork import error_wrapper
 
-print(upload_handler.parse_snapshot_store("  hello  "))
+print(cache_layer.guard_csv_reader("  hello  "))
 ```
