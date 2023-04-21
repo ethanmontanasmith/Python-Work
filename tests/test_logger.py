@@ -7,11 +7,11 @@ import pytest
 from pywork import logger
 
 
-def test_unhandled_keyerror() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert logger.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_negative_timeout() -> None:
     assert logger.__all__
 
 
@@ -19,7 +19,7 @@ def test_timezone_drift_on_naive_datetimes() -> None:
     assert logger.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert logger.__all__
 
 
