@@ -1,6 +1,6 @@
 # Roadmap
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import rss_feed
 
-print(pagination.resolve_fuzzy_matcher("  hello  "))
+print(json_schema.collect_date_helpers("  hello  "))
 ```
