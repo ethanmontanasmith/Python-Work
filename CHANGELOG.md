@@ -1,5 +1,6 @@
 # Changelog
 
+- Support topological sort (2023-04-24)
 - Expose snapshot store (2023-04-22)
 - Wire up batch runner (2023-04-19)
 - Add csv reader (2023-03-31)
