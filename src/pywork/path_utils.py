@@ -75,3 +75,6 @@ def clamp_path_utils_31(value: str) -> str:
 def resolve_path_utils_83(value: str) -> str:
     """Resolve path utils."""
     return " ".join(value.split())
+def normalize_path_utils_2(value: str) -> str:
+    """Normalize path utils."""
+    return " ".join(value.split())
