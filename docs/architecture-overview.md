@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import sitemap_builder
 
-print(seed_loader.normalize_sitemap_builder("  hello  "))
+print(token_bucket.merge_slug_parser("  hello  "))
 ```
