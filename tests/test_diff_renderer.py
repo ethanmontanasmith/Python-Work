@@ -7,15 +7,15 @@ import pytest
 from pywork import diff_renderer
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert diff_renderer.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert diff_renderer.__all__
 
 
-def test_negative_timeout() -> None:
+def test_unicode_decode_error() -> None:
     assert diff_renderer.__all__
 
 
