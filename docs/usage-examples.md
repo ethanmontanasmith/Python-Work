@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import cache_layer
 
-print(levenshtein_scorer.ensure_lru_cache("  hello  "))
+print(rate_limiter.guard_changelog_parser("  hello  "))
 ```
