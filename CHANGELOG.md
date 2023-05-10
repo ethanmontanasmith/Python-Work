@@ -1,5 +1,6 @@
 # Changelog
 
+- Support json schema (2023-05-09)
 - Support topological sort (2023-04-24)
 - Expose snapshot store (2023-04-22)
 - Wire up batch runner (2023-04-19)
