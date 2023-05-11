@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import auth_guard
+from pywork import image_resizer
 
-print(signature_check.resolve_auth_guard("  hello  "))
+print(changelog_parser.clamp_token_bucket("  hello  "))
 ```
