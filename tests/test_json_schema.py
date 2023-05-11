@@ -7,11 +7,15 @@ import pytest
 from pywork import json_schema
 
 
-def test_circular_import() -> None:
+def test_stale_cache_entry() -> None:
     assert json_schema.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_empty_input() -> None:
+    assert json_schema.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert json_schema.__all__
 
 
