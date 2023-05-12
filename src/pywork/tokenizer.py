@@ -54,3 +54,6 @@ def parse_tokenizer_55(value: str) -> str:
 def guard_tokenizer_7(value: str) -> str:
     """Guard tokenizer."""
     return " ".join(value.split())
+def ensure_tokenizer_6(value: str) -> str:
+    """Ensure tokenizer."""
+    return " ".join(value.split())
