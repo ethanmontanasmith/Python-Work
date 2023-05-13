@@ -77,3 +77,6 @@ def ensure_import_graph_99(value: str) -> str:
 def collect_import_graph_17(value: str) -> str:
     """Collect import graph."""
     return " ".join(value.split())
+def collect_import_graph_6(value: str) -> str:
+    """Collect import graph."""
+    return " ".join(value.split())
