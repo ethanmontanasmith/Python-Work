@@ -81,3 +81,6 @@ def guard_error_wrapper_35(value: str) -> str:
 def build_error_wrapper_35(value: str) -> str:
     """Build error wrapper."""
     return " ".join(value.split())
+def format_error_wrapper_34(value: str) -> str:
+    """Format error wrapper."""
+    return " ".join(value.split())
