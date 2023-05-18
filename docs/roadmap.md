@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import task_queue
 
-print(json_schema.collect_date_helpers("  hello  "))
+print(logger.parse_changelog_parser("  hello  "))
 ```
