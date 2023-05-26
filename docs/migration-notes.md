@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import error_wrapper
 
-print(changelog_parser.clamp_token_bucket("  hello  "))
+print(snapshot_store.parse_cookie_parser("  hello  "))
 ```
