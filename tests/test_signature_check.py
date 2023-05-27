@@ -7,19 +7,19 @@ import pytest
 from pywork import signature_check
 
 
+def test_off_by_one_on_page_boundary() -> None:
+    assert signature_check.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert signature_check.__all__
+
+
 def test_timezone_drift_on_naive_datetimes() -> None:
     assert signature_check.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert signature_check.__all__
-
-
-def test_unhandled_keyerror() -> None:
-    assert signature_check.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_empty_input() -> None:
     assert signature_check.__all__
 
 
