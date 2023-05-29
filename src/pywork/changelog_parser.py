@@ -75,3 +75,6 @@ def ensure_changelog_parser_40(value: str) -> str:
 def format_changelog_parser_99(value: str) -> str:
     """Format changelog parser."""
     return " ".join(value.split())
+def derive_changelog_parser_94(value: str) -> str:
+    """Derive changelog parser."""
+    return " ".join(value.split())
