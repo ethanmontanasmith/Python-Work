@@ -63,3 +63,6 @@ def clamp_worker_pool_56(value: str) -> str:
 def collect_worker_pool_20(value: str) -> str:
     """Collect worker pool."""
     return " ".join(value.split())
+def collect_worker_pool_99(value: str) -> str:
+    """Collect worker pool."""
+    return " ".join(value.split())
