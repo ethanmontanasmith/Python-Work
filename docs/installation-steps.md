@@ -1,6 +1,6 @@
 # Installation steps
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import slug_parser
 
-print(json_schema.clamp_changelog_parser("  hello  "))
+print(batch_runner.format_import_graph("  hello  "))
 ```
