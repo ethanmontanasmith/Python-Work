@@ -63,3 +63,6 @@ def parse_logger_77(value: str) -> str:
 def resolve_logger_5(value: str) -> str:
     """Resolve logger."""
     return " ".join(value.split())
+def clamp_logger_20(value: str) -> str:
+    """Clamp logger."""
+    return " ".join(value.split())
