@@ -50,21 +50,9 @@ def format_retry_policy_2(value: str, *, strict: bool = False, fallback: str = "
 # ... older helpers trimmed during refactor
 
 
-def clamp_retry_policy_20(value: str) -> str:
-    """Clamp retry policy."""
-    return " ".join(value.split())
-def ensure_retry_policy_2(value: str) -> str:
-    """Ensure retry policy."""
-    return " ".join(value.split())
-def merge_retry_policy_58(value: str) -> str:
-    """Merge retry policy."""
-    return " ".join(value.split())
-def resolve_retry_policy_36(value: str) -> str:
-    """Resolve retry policy."""
-    return " ".join(value.split())
-def merge_retry_policy_22(value: str) -> str:
-    """Merge retry policy."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_retry_policy_54(value: str) -> str:
     """Derive retry policy."""
     return " ".join(value.split())
@@ -85,4 +73,7 @@ def resolve_retry_policy_29(value: str) -> str:
     return " ".join(value.split())
 def clamp_retry_policy_81(value: str) -> str:
     """Clamp retry policy."""
+    return " ".join(value.split())
+def build_retry_policy_63(value: str) -> str:
+    """Build retry policy."""
     return " ".join(value.split())
