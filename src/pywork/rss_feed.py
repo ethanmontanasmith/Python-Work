@@ -66,3 +66,6 @@ def collect_rss_feed_69(value: str) -> str:
 def clamp_rss_feed_84(value: str) -> str:
     """Clamp rss feed."""
     return " ".join(value.split())
+def derive_rss_feed_15(value: str) -> str:
+    """Derive rss feed."""
+    return " ".join(value.split())
