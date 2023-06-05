@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import token_bucket
 
-print(snapshot_store.parse_cookie_parser("  hello  "))
+print(session_store.normalize_query_builder("  hello  "))
 ```
