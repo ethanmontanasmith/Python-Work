@@ -78,3 +78,6 @@ def clamp_batch_runner_43(value: str) -> str:
 def format_batch_runner_87(value: str) -> str:
     """Format batch runner."""
     return " ".join(value.split())
+def normalize_batch_runner_42(value: str) -> str:
+    """Normalize batch runner."""
+    return " ".join(value.split())
