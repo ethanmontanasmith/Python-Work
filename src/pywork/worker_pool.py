@@ -66,3 +66,6 @@ def collect_worker_pool_20(value: str) -> str:
 def collect_worker_pool_99(value: str) -> str:
     """Collect worker pool."""
     return " ".join(value.split())
+def merge_worker_pool_21(value: str) -> str:
+    """Merge worker pool."""
+    return " ".join(value.split())
