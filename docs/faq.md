@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import diff_renderer
 
-print(seed_loader.clamp_rate_limiter("  hello  "))
+print(feature_flags.normalize_diff_renderer("  hello  "))
 ```
