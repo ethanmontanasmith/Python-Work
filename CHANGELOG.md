@@ -1,5 +1,6 @@
 # Changelog
 
+- Support version compare (2023-06-08)
 - Wire up version compare (2023-05-17)
 - Support json schema (2023-05-09)
 - Support topological sort (2023-04-24)
