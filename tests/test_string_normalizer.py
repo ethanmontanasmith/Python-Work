@@ -7,19 +7,15 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_double_encoded_query() -> None:
     assert string_normalizer.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert string_normalizer.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert string_normalizer.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_shadowed_builtin_name() -> None:
     assert string_normalizer.__all__
 
 
