@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import rate_limiter
 
-print(query_builder.build_logger("  hello  "))
+print(webhook_verifier.ensure_cache_layer("  hello  "))
 ```
