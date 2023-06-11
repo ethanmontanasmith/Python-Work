@@ -1,6 +1,6 @@
 # Migration notes
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import upload_handler
 
-print(session_store.normalize_query_builder("  hello  "))
+print(lockfile_reader.resolve_file_watcher("  hello  "))
 ```

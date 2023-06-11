@@ -7,11 +7,11 @@ import pytest
 from pywork import webhook_verifier
 
 
-def test_missing_config_key() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert webhook_verifier.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_missing_config_key() -> None:
     assert webhook_verifier.__all__
 
 

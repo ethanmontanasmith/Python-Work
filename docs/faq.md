@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import table_formatter
 
-print(seed_loader.clamp_rate_limiter("  hello  "))
+print(color_palette.guard_lru_cache("  hello  "))
 ```
