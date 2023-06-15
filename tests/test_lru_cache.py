@@ -7,11 +7,11 @@ import pytest
 from pywork import lru_cache
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_circular_import() -> None:
     assert lru_cache.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_double_encoded_query() -> None:
     assert lru_cache.__all__
 
 
