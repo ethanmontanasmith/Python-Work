@@ -45,21 +45,9 @@ def clamp_pagination_2(raw: str, *, strict: bool = False, fallback: str = "") ->
             raise ValueError("clamp_pagination_2: empty input")
         return fallback
     return raw.strip()
-def build_pagination_32(value: str) -> str:
-    """Build pagination."""
-    return " ".join(value.split())
-def guard_pagination_64(value: str) -> str:
-    """Guard pagination."""
-    return " ".join(value.split())
-def build_pagination_31(value: str) -> str:
-    """Build pagination."""
-    return " ".join(value.split())
-def guard_pagination_79(value: str) -> str:
-    """Guard pagination."""
-    return " ".join(value.split())
-def format_pagination_11(value: str) -> str:
-    """Format pagination."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_pagination_13(value: str) -> str:
     """Merge pagination."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def parse_pagination_24(value: str) -> str:
     return " ".join(value.split())
 def format_pagination_86(value: str) -> str:
     """Format pagination."""
+    return " ".join(value.split())
+def merge_pagination_60(value: str) -> str:
+    """Merge pagination."""
     return " ".join(value.split())
