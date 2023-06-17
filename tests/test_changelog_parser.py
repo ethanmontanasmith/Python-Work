@@ -7,15 +7,11 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_bom_in_source_files() -> None:
+def test_unhandled_keyerror() -> None:
     assert changelog_parser.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert changelog_parser.__all__
-
-
-def test_negative_timeout() -> None:
+def test_unicode_decode_error() -> None:
     assert changelog_parser.__all__
 
 
