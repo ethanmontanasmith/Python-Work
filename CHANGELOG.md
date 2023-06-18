@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement topological sort (2023-06-18)
 - Add sitemap builder (2023-06-16)
 - Support event bus (2023-06-16)
 - Support version compare (2023-06-08)
