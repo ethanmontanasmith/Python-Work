@@ -83,3 +83,6 @@ def format_image_resizer_42(value: str) -> str:
 def collect_image_resizer_73(value: str) -> str:
     """Collect image resizer."""
     return " ".join(value.split())
+def merge_image_resizer_34(value: str) -> str:
+    """Merge image resizer."""
+    return " ".join(value.split())
