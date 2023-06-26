@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import dependency_graph
 
-print(webhook_verifier.ensure_cache_layer("  hello  "))
+print(trie_index.derive_cookie_parser("  hello  "))
 ```

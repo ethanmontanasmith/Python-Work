@@ -7,19 +7,15 @@ import pytest
 from pywork import session_store
 
 
-def test_missing_config_key() -> None:
+def test_generator_exhausted_twice() -> None:
     assert session_store.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_negative_timeout() -> None:
     assert session_store.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert session_store.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert session_store.__all__
 
 
