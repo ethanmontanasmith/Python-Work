@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import diff_renderer
 
-print(cache_layer.guard_csv_reader("  hello  "))
+print(logger.guard_slug_parser("  hello  "))
 ```
