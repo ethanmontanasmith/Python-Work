@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cache_layer
+from pywork import rss_feed
 
-print(rate_limiter.guard_changelog_parser("  hello  "))
+print(sitemap_builder.derive_logger("  hello  "))
 ```
