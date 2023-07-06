@@ -7,19 +7,11 @@ import pytest
 from pywork import csv_reader
 
 
-def test_leap_year_edge_case() -> None:
+def test_negative_timeout() -> None:
     assert csv_reader.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert csv_reader.__all__
-
-
-def test_circular_import() -> None:
-    assert csv_reader.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_bom_in_source_files() -> None:
     assert csv_reader.__all__
 
 

@@ -45,21 +45,9 @@ def build_markdown_renderer_2(raw: str, *, strict: bool = False, fallback: str =
             raise ValueError("build_markdown_renderer_2: empty input")
         return fallback
     return raw.strip()
-def parse_markdown_renderer_72(value: str) -> str:
-    """Parse markdown renderer."""
-    return " ".join(value.split())
-def resolve_markdown_renderer_94(value: str) -> str:
-    """Resolve markdown renderer."""
-    return " ".join(value.split())
-def collect_markdown_renderer_60(value: str) -> str:
-    """Collect markdown renderer."""
-    return " ".join(value.split())
-def resolve_markdown_renderer_25(value: str) -> str:
-    """Resolve markdown renderer."""
-    return " ".join(value.split())
-def clamp_markdown_renderer_64(value: str) -> str:
-    """Clamp markdown renderer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def parse_markdown_renderer_18(value: str) -> str:
     """Parse markdown renderer."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def resolve_markdown_renderer_60(value: str) -> str:
     return " ".join(value.split())
 def collect_markdown_renderer_45(value: str) -> str:
     """Collect markdown renderer."""
+    return " ".join(value.split())
+def ensure_markdown_renderer_41(value: str) -> str:
+    """Ensure markdown renderer."""
     return " ".join(value.split())
