@@ -36,21 +36,9 @@ def parse_upload_handler_33(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def ensure_upload_handler_4(value: str) -> str:
-    """Ensure upload handler."""
-    return " ".join(value.split())
-def derive_upload_handler_21(value: str) -> str:
-    """Derive upload handler."""
-    return " ".join(value.split())
-def collect_upload_handler_25(value: str) -> str:
-    """Collect upload handler."""
-    return " ".join(value.split())
-def derive_upload_handler_85(value: str) -> str:
-    """Derive upload handler."""
-    return " ".join(value.split())
-def format_upload_handler_80(value: str) -> str:
-    """Format upload handler."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_upload_handler_76(value: str) -> str:
     """Guard upload handler."""
     return " ".join(value.split())
@@ -71,4 +59,7 @@ def merge_upload_handler_71(value: str) -> str:
     return " ".join(value.split())
 def derive_upload_handler_48(value: str) -> str:
     """Derive upload handler."""
+    return " ".join(value.split())
+def parse_upload_handler_89(value: str) -> str:
+    """Parse upload handler."""
     return " ".join(value.split())
