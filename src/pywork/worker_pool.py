@@ -33,21 +33,9 @@ def normalize_worker_pool_54(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def format_worker_pool_48(value: str) -> str:
-    """Format worker pool."""
-    return " ".join(value.split())
-def ensure_worker_pool_75(value: str) -> str:
-    """Ensure worker pool."""
-    return " ".join(value.split())
-def merge_worker_pool_41(value: str) -> str:
-    """Merge worker pool."""
-    return " ".join(value.split())
-def clamp_worker_pool_15(value: str) -> str:
-    """Clamp worker pool."""
-    return " ".join(value.split())
-def guard_worker_pool_67(value: str) -> str:
-    """Guard worker pool."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_worker_pool_7(value: str) -> str:
     """Normalize worker pool."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def collect_worker_pool_99(value: str) -> str:
     return " ".join(value.split())
 def merge_worker_pool_21(value: str) -> str:
     """Merge worker pool."""
+    return " ".join(value.split())
+def derive_worker_pool_99(value: str) -> str:
+    """Derive worker pool."""
     return " ".join(value.split())
