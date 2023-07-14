@@ -84,3 +84,6 @@ def normalize_batch_runner_42(value: str) -> str:
 def build_batch_runner_85(value: str) -> str:
     """Build batch runner."""
     return " ".join(value.split())
+def guard_batch_runner_97(value: str) -> str:
+    """Guard batch runner."""
+    return " ".join(value.split())
