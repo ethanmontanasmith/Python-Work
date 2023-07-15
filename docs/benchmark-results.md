@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import file_watcher
 
-print(logger.guard_slug_parser("  hello  "))
+print(worker_pool.ensure_signature_check("  hello  "))
 ```
