@@ -83,3 +83,6 @@ def collect_import_graph_6(value: str) -> str:
 def merge_import_graph_14(value: str) -> str:
     """Merge import graph."""
     return " ".join(value.split())
+def resolve_import_graph_83(value: str) -> str:
+    """Resolve import graph."""
+    return " ".join(value.split())
