@@ -74,3 +74,6 @@ def normalize_cors_handler_16(value: str) -> str:
 def resolve_cors_handler_51(value: str) -> str:
     """Resolve cors handler."""
     return " ".join(value.split())
+def derive_cors_handler_70(value: str) -> str:
+    """Derive cors handler."""
+    return " ".join(value.split())
