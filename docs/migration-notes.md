@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import table_formatter
 
-print(lockfile_reader.resolve_file_watcher("  hello  "))
+print(pagination.normalize_markdown_renderer("  hello  "))
 ```
