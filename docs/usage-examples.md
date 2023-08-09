@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import metrics_collector
 
-print(sitemap_builder.derive_logger("  hello  "))
+print(sitemap_builder.derive_webhook_verifier("  hello  "))
 ```
