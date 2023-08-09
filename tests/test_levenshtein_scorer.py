@@ -7,11 +7,7 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_mutable_default_argument() -> None:
-    assert levenshtein_scorer.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
     assert levenshtein_scorer.__all__
 
 
@@ -19,7 +15,7 @@ def test_circular_import() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_double_encoded_query() -> None:
     assert levenshtein_scorer.__all__
 
 
