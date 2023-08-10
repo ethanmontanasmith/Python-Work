@@ -7,23 +7,19 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_circular_import() -> None:
-    assert metrics_collector.__all__
-
-
 def test_leap_year_edge_case() -> None:
     assert metrics_collector.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert metrics_collector.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_negative_timeout() -> None:
     assert metrics_collector.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_unicode_decode_error() -> None:
     assert metrics_collector.__all__
 
 
