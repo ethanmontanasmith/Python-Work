@@ -11,15 +11,19 @@ def test_off_by_one_on_page_boundary() -> None:
     assert rate_limiter.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_stale_cache_entry() -> None:
     assert rate_limiter.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_unicode_decode_error() -> None:
     assert rate_limiter.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_double_encoded_query() -> None:
+    assert rate_limiter.__all__
+
+
+def test_shadowed_builtin_name() -> None:
     assert rate_limiter.__all__
 
 

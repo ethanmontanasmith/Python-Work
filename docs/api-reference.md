@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import string_normalizer
 
-print(lru_cache.format_cors_handler("  hello  "))
+print(http_client.build_topological_sort("  hello  "))
 ```

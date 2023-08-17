@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import file_watcher
 
-print(color_palette.guard_lru_cache("  hello  "))
+print(json_schema.build_fuzzy_matcher("  hello  "))
 ```
