@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import sitemap_builder
 
-print(logger.parse_changelog_parser("  hello  "))
+print(import_graph.guard_json_schema("  hello  "))
 ```
