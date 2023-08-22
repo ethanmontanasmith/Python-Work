@@ -7,15 +7,11 @@ import pytest
 from pywork import query_builder
 
 
-def test_windows_path_separators() -> None:
-    assert query_builder.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
-    assert query_builder.__all__
-
-
 def test_duplicate_key_overwrite() -> None:
+    assert query_builder.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
     assert query_builder.__all__
 
 
