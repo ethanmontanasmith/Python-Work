@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import path_utils
 
-print(json_schema.build_fuzzy_matcher("  hello  "))
+print(stopword_filter.format_topological_sort("  hello  "))
 ```
