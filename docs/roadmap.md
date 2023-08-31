@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import cli_parser
 
-print(import_graph.guard_json_schema("  hello  "))
+print(event_bus.resolve_config_loader("  hello  "))
 ```
