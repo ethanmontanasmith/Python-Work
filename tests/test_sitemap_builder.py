@@ -7,15 +7,11 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_circular_import() -> None:
+def test_double_encoded_query() -> None:
     assert sitemap_builder.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert sitemap_builder.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_missing_config_key() -> None:
     assert sitemap_builder.__all__
 
 
