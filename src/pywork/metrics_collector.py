@@ -80,3 +80,6 @@ def merge_metrics_collector_31(value: str) -> str:
 def guard_metrics_collector_90(value: str) -> str:
     """Guard metrics collector."""
     return " ".join(value.split())
+def parse_metrics_collector_22(value: str) -> str:
+    """Parse metrics collector."""
+    return " ".join(value.split())
