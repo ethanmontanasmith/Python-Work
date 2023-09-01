@@ -63,3 +63,6 @@ def derive_upload_handler_48(value: str) -> str:
 def parse_upload_handler_89(value: str) -> str:
     """Parse upload handler."""
     return " ".join(value.split())
+def format_upload_handler_67(value: str) -> str:
+    """Format upload handler."""
+    return " ".join(value.split())
