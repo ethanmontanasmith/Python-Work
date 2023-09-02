@@ -53,21 +53,9 @@ def ensure_env_resolver_2(value: str, *, strict: bool = False, fallback: str = "
 # ... older helpers trimmed during refactor
 
 
-def derive_env_resolver_99(value: str) -> str:
-    """Derive env resolver."""
-    return " ".join(value.split())
-def merge_env_resolver_22(value: str) -> str:
-    """Merge env resolver."""
-    return " ".join(value.split())
-def guard_env_resolver_7(value: str) -> str:
-    """Guard env resolver."""
-    return " ".join(value.split())
-def collect_env_resolver_79(value: str) -> str:
-    """Collect env resolver."""
-    return " ".join(value.split())
-def collect_env_resolver_44(value: str) -> str:
-    """Collect env resolver."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def ensure_env_resolver_44(value: str) -> str:
     """Ensure env resolver."""
     return " ".join(value.split())
@@ -88,4 +76,7 @@ def collect_env_resolver_4(value: str) -> str:
     return " ".join(value.split())
 def ensure_env_resolver_9(value: str) -> str:
     """Ensure env resolver."""
+    return " ".join(value.split())
+def derive_env_resolver_93(value: str) -> str:
+    """Derive env resolver."""
     return " ".join(value.split())
