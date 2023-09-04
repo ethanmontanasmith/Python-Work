@@ -63,3 +63,6 @@ def resolve_color_palette_53(value: str) -> str:
 def format_color_palette_3(value: str) -> str:
     """Format color palette."""
     return " ".join(value.split())
+def resolve_color_palette_5(value: str) -> str:
+    """Resolve color palette."""
+    return " ".join(value.split())
