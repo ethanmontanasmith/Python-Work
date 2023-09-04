@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import sitemap_builder
 
-print(backoff_timer.parse_seed_loader("  hello  "))
+print(error_wrapper.build_cache_layer("  hello  "))
 ```
