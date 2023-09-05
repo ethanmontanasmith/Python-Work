@@ -7,15 +7,15 @@ import pytest
 from pywork import path_utils
 
 
-def test_circular_import() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert path_utils.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_empty_sequence_reduce() -> None:
     assert path_utils.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert path_utils.__all__
 
 
@@ -23,7 +23,7 @@ def test_windows_path_separators() -> None:
     assert path_utils.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_negative_timeout() -> None:
     assert path_utils.__all__
 
 
