@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import sitemap_builder
 
-print(retry_policy.parse_http_client("  hello  "))
+print(cookie_parser.format_backoff_timer("  hello  "))
 ```
