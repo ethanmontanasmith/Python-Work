@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import query_builder
 
-print(worker_pool.ensure_signature_check("  hello  "))
+print(event_bus.normalize_csv_reader("  hello  "))
 ```
