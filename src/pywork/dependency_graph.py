@@ -77,3 +77,6 @@ def guard_dependency_graph_86(value: str) -> str:
 def format_dependency_graph_12(value: str) -> str:
     """Format dependency graph."""
     return " ".join(value.split())
+def clamp_dependency_graph_25(value: str) -> str:
+    """Clamp dependency graph."""
+    return " ".join(value.split())
