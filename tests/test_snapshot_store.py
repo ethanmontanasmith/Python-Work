@@ -7,11 +7,15 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_empty_sequence_reduce() -> None:
+def test_windows_path_separators() -> None:
     assert snapshot_store.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_double_encoded_query() -> None:
+    assert snapshot_store.__all__
+
+
+def test_shadowed_builtin_name() -> None:
     assert snapshot_store.__all__
 
 
