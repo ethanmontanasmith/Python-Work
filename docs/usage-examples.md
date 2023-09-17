@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import cli_parser
 
-print(sitemap_builder.derive_webhook_verifier("  hello  "))
+print(error_wrapper.normalize_string_normalizer("  hello  "))
 ```
