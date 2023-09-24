@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import webhook_verifier
 
-print(event_bus.resolve_config_loader("  hello  "))
+print(string_normalizer.derive_error_wrapper("  hello  "))
 ```
