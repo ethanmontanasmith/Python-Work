@@ -7,11 +7,11 @@ import pytest
 from pywork import json_schema
 
 
-def test_bom_in_source_files() -> None:
+def test_negative_timeout() -> None:
     assert json_schema.__all__
 
 
-def test_negative_timeout() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert json_schema.__all__
 
 
