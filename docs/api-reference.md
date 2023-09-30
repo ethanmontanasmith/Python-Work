@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import retry_policy
 
-print(http_client.build_topological_sort("  hello  "))
+print(trie_index.ensure_worker_pool("  hello  "))
 ```
