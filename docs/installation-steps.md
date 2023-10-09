@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import cors_handler
 
-print(batch_runner.format_import_graph("  hello  "))
+print(levenshtein_scorer.build_import_graph("  hello  "))
 ```
