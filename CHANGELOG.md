@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement error wrapper (2023-10-10)
 - Support error wrapper (2023-06-19)
 - Implement topological sort (2023-06-18)
 - Add sitemap builder (2023-06-16)

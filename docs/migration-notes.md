@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import changelog_parser
 
-print(pagination.normalize_markdown_renderer("  hello  "))
+print(meta_tags.build_error_wrapper("  hello  "))
 ```
