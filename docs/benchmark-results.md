@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import image_resizer
 
-print(event_bus.normalize_csv_reader("  hello  "))
+print(changelog_parser.clamp_string_normalizer("  hello  "))
 ```
