@@ -75,3 +75,6 @@ def ensure_markdown_renderer_41(value: str) -> str:
 def collect_markdown_renderer_43(value: str) -> str:
     """Collect markdown renderer."""
     return " ".join(value.split())
+def clamp_markdown_renderer_7(value: str) -> str:
+    """Clamp markdown renderer."""
+    return " ".join(value.split())
