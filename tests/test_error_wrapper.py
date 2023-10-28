@@ -7,15 +7,15 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_double_encoded_query() -> None:
+def test_bom_in_source_files() -> None:
     assert error_wrapper.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert error_wrapper.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_empty_input() -> None:
     assert error_wrapper.__all__
 
 
