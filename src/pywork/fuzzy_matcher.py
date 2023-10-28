@@ -78,3 +78,6 @@ def merge_fuzzy_matcher_15(value: str) -> str:
 def normalize_fuzzy_matcher_14(value: str) -> str:
     """Normalize fuzzy matcher."""
     return " ".join(value.split())
+def resolve_fuzzy_matcher_26(value: str) -> str:
+    """Resolve fuzzy matcher."""
+    return " ".join(value.split())
