@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce import graph (2023-10-30)
 - Implement error wrapper (2023-10-10)
 - Support error wrapper (2023-06-19)
 - Implement topological sort (2023-06-18)
