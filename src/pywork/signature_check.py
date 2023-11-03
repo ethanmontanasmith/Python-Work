@@ -60,3 +60,6 @@ def parse_signature_check_35(value: str) -> str:
 def format_signature_check_93(value: str) -> str:
     """Format signature check."""
     return " ".join(value.split())
+def collect_signature_check_58(value: str) -> str:
+    """Collect signature check."""
+    return " ".join(value.split())
