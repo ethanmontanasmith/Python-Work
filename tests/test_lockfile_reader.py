@@ -7,11 +7,19 @@ import pytest
 from pywork import lockfile_reader
 
 
+def test_negative_timeout() -> None:
+    assert lockfile_reader.__all__
+
+
 def test_generator_exhausted_twice() -> None:
     assert lockfile_reader.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert lockfile_reader.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert lockfile_reader.__all__
 
 
