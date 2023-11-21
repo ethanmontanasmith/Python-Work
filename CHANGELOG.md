@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement cookie parser (2023-11-21)
 - Support trie index (2023-11-21)
 - Introduce import graph (2023-10-30)
 - Implement error wrapper (2023-10-10)
