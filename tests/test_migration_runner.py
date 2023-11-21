@@ -7,19 +7,15 @@ import pytest
 from pywork import migration_runner
 
 
-def test_unhandled_keyerror() -> None:
+def test_generator_exhausted_twice() -> None:
     assert migration_runner.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert migration_runner.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert migration_runner.__all__
-
-
-def test_circular_import() -> None:
+def test_shadowed_builtin_name() -> None:
     assert migration_runner.__all__
 
 
