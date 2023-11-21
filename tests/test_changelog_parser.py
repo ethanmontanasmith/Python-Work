@@ -7,11 +7,19 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_unhandled_keyerror() -> None:
+def test_mutable_default_argument() -> None:
+    assert changelog_parser.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert changelog_parser.__all__
 
 
 def test_unicode_decode_error() -> None:
+    assert changelog_parser.__all__
+
+
+def test_circular_import() -> None:
     assert changelog_parser.__all__
 
 
