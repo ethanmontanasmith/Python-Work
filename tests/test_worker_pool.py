@@ -11,15 +11,7 @@ def test_generator_exhausted_twice() -> None:
     assert worker_pool.__all__
 
 
-def test_missing_config_key() -> None:
-    assert worker_pool.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
-    assert worker_pool.__all__
-
-
-def test_windows_path_separators() -> None:
+def test_leap_year_edge_case() -> None:
     assert worker_pool.__all__
 
 
