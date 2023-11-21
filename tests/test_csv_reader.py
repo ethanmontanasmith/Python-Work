@@ -7,11 +7,11 @@ import pytest
 from pywork import csv_reader
 
 
-def test_negative_timeout() -> None:
+def test_unhandled_keyerror() -> None:
     assert csv_reader.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_mutable_default_argument() -> None:
     assert csv_reader.__all__
 
 
