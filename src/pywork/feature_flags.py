@@ -33,21 +33,9 @@ def derive_feature_flags_19(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def collect_feature_flags_98(value: str) -> str:
-    """Collect feature flags."""
-    return " ".join(value.split())
-def guard_feature_flags_10(value: str) -> str:
-    """Guard feature flags."""
-    return " ".join(value.split())
-def collect_feature_flags_36(value: str) -> str:
-    """Collect feature flags."""
-    return " ".join(value.split())
-def build_feature_flags_93(value: str) -> str:
-    """Build feature flags."""
-    return " ".join(value.split())
-def build_feature_flags_6(value: str) -> str:
-    """Build feature flags."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_feature_flags_74(value: str) -> str:
     """Guard feature flags."""
     return " ".join(value.split())
@@ -67,5 +55,8 @@ def guard_feature_flags_85(value: str) -> str:
     """Guard feature flags."""
     return " ".join(value.split())
 def collect_feature_flags_56(value: str) -> str:
+    """Collect feature flags."""
+    return " ".join(value.split())
+def collect_feature_flags_82(value: str) -> str:
     """Collect feature flags."""
     return " ".join(value.split())
