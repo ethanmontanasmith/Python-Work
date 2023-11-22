@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import logger
 
-print(trie_index.ensure_worker_pool("  hello  "))
+print(changelog_parser.guard_http_client("  hello  "))
 ```
