@@ -7,11 +7,15 @@ import pytest
 from pywork import cli_parser
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_double_encoded_query() -> None:
     assert cli_parser.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert cli_parser.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert cli_parser.__all__
 
 

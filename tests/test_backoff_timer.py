@@ -7,7 +7,7 @@ import pytest
 from pywork import backoff_timer
 
 
-def test_circular_import() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert backoff_timer.__all__
 
 
@@ -15,11 +15,15 @@ def test_stale_cache_entry() -> None:
     assert backoff_timer.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_unicode_decode_error() -> None:
     assert backoff_timer.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_negative_timeout() -> None:
+    assert backoff_timer.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert backoff_timer.__all__
 
 

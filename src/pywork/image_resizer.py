@@ -77,3 +77,6 @@ def merge_image_resizer_34(value: str) -> str:
 def build_image_resizer_42(value: str) -> str:
     """Build image resizer."""
     return " ".join(value.split())
+def guard_image_resizer_72(value: str) -> str:
+    """Guard image resizer."""
+    return " ".join(value.split())

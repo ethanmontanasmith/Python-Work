@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import retry_policy
 
-print(stopword_filter.format_topological_sort("  hello  "))
+print(session_store.merge_rate_limiter("  hello  "))
 ```
