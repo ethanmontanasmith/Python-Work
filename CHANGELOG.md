@@ -1,5 +1,6 @@
 # Changelog
 
+- Add cli parser (2023-12-09)
 - Implement cookie parser (2023-11-21)
 - Support trie index (2023-11-21)
 - Introduce import graph (2023-10-30)
