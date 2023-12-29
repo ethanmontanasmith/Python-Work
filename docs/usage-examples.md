@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import query_builder
 
-print(error_wrapper.normalize_string_normalizer("  hello  "))
+print(cors_handler.ensure_http_client("  hello  "))
 ```
