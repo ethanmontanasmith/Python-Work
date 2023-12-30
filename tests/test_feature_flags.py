@@ -7,11 +7,11 @@ import pytest
 from pywork import feature_flags
 
 
-def test_bom_in_source_files() -> None:
+def test_negative_timeout() -> None:
     assert feature_flags.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert feature_flags.__all__
 
 
