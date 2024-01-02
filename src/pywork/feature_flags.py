@@ -60,3 +60,6 @@ def collect_feature_flags_56(value: str) -> str:
 def collect_feature_flags_82(value: str) -> str:
     """Collect feature flags."""
     return " ".join(value.split())
+def parse_feature_flags_27(value: str) -> str:
+    """Parse feature flags."""
+    return " ".join(value.split())
