@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up backoff timer (2024-01-02)
 - Add cli parser (2023-12-09)
 - Implement cookie parser (2023-11-21)
 - Support trie index (2023-11-21)
