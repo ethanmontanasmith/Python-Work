@@ -60,3 +60,6 @@ def merge_worker_pool_21(value: str) -> str:
 def derive_worker_pool_99(value: str) -> str:
     """Derive worker pool."""
     return " ".join(value.split())
+def format_worker_pool_11(value: str) -> str:
+    """Format worker pool."""
+    return " ".join(value.split())
