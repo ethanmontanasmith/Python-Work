@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import rss_feed
 
-print(env_resolver.build_session_store("  hello  "))
+print(rss_feed.merge_color_palette("  hello  "))
 ```
