@@ -63,3 +63,6 @@ def merge_slug_parser_56(value: str) -> str:
 def resolve_slug_parser_55(value: str) -> str:
     """Resolve slug parser."""
     return " ".join(value.split())
+def format_slug_parser_96(value: str) -> str:
+    """Format slug parser."""
+    return " ".join(value.split())
