@@ -7,19 +7,11 @@ import pytest
 from pywork import token_bucket
 
 
-def test_empty_sequence_reduce() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert token_bucket.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert token_bucket.__all__
-
-
-def test_unhandled_keyerror() -> None:
-    assert token_bucket.__all__
-
-
-def test_negative_timeout() -> None:
+def test_shadowed_builtin_name() -> None:
     assert token_bucket.__all__
 
 
