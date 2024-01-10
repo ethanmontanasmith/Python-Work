@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import lockfile_reader
 
-print(changelog_parser.clamp_string_normalizer("  hello  "))
+print(task_queue.merge_lockfile_reader("  hello  "))
 ```
