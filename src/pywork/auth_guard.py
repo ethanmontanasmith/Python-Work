@@ -63,3 +63,6 @@ def format_auth_guard_55(value: str) -> str:
 def normalize_auth_guard_60(value: str) -> str:
     """Normalize auth guard."""
     return " ".join(value.split())
+def derive_auth_guard_45(value: str) -> str:
+    """Derive auth guard."""
+    return " ".join(value.split())
