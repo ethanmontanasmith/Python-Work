@@ -7,15 +7,15 @@ import pytest
 from pywork import topological_sort
 
 
-def test_empty_sequence_reduce() -> None:
+def test_shadowed_builtin_name() -> None:
     assert topological_sort.__all__
 
 
-def test_negative_timeout() -> None:
+def test_double_encoded_query() -> None:
     assert topological_sort.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert topological_sort.__all__
 
 
