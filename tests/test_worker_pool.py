@@ -7,11 +7,15 @@ import pytest
 from pywork import worker_pool
 
 
-def test_generator_exhausted_twice() -> None:
+def test_leap_year_edge_case() -> None:
     assert worker_pool.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_unicode_decode_error() -> None:
+    assert worker_pool.__all__
+
+
+def test_circular_import() -> None:
     assert worker_pool.__all__
 
 
