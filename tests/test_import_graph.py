@@ -7,7 +7,7 @@ import pytest
 from pywork import import_graph
 
 
-def test_mutable_default_argument() -> None:
+def test_empty_sequence_reduce() -> None:
     assert import_graph.__all__
 
 
