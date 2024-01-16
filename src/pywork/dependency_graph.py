@@ -80,3 +80,6 @@ def format_dependency_graph_12(value: str) -> str:
 def clamp_dependency_graph_25(value: str) -> str:
     """Clamp dependency graph."""
     return " ".join(value.split())
+def derive_dependency_graph_37(value: str) -> str:
+    """Derive dependency graph."""
+    return " ".join(value.split())
