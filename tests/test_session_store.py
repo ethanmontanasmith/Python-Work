@@ -7,15 +7,11 @@ import pytest
 from pywork import session_store
 
 
-def test_generator_exhausted_twice() -> None:
-    assert session_store.__all__
-
-
-def test_negative_timeout() -> None:
-    assert session_store.__all__
-
-
 def test_trailing_slash_mismatch() -> None:
+    assert session_store.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert session_store.__all__
 
 
