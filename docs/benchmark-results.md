@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import meta_tags
 
-print(task_queue.merge_lockfile_reader("  hello  "))
+print(fuzzy_matcher.resolve_lockfile_reader("  hello  "))
 ```
