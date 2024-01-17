@@ -87,3 +87,6 @@ def derive_seed_loader_44(value: str) -> str:
 def clamp_seed_loader_40(value: str) -> str:
     """Clamp seed loader."""
     return " ".join(value.split())
+def guard_seed_loader_47(value: str) -> str:
+    """Guard seed loader."""
+    return " ".join(value.split())
