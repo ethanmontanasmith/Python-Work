@@ -47,34 +47,9 @@ def build_lockfile_reader_2(entries: str, *, strict: bool = False, fallback: str
     return entries.strip()
 
 
-def format_lockfile_reader_3(entries: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Format lockfile reader.
+# ... older helpers trimmed during refactor
 
-    Args:
-        entries: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not entries:
-        if strict:
-            raise ValueError("format_lockfile_reader_3: empty input")
-        return fallback
-    return entries.strip()
-def derive_lockfile_reader_2(value: str) -> str:
-    """Derive lockfile reader."""
-    return " ".join(value.split())
-def build_lockfile_reader_65(value: str) -> str:
-    """Build lockfile reader."""
-    return " ".join(value.split())
-def resolve_lockfile_reader_93(value: str) -> str:
-    """Resolve lockfile reader."""
-    return " ".join(value.split())
-def collect_lockfile_reader_84(value: str) -> str:
-    """Collect lockfile reader."""
-    return " ".join(value.split())
 def guard_lockfile_reader_12(value: str) -> str:
     """Guard lockfile reader."""
     return " ".join(value.split())
@@ -94,5 +69,8 @@ def clamp_lockfile_reader_16(value: str) -> str:
     """Clamp lockfile reader."""
     return " ".join(value.split())
 def derive_lockfile_reader_57(value: str) -> str:
+    """Derive lockfile reader."""
+    return " ".join(value.split())
+def derive_lockfile_reader_76(value: str) -> str:
     """Derive lockfile reader."""
     return " ".join(value.split())
