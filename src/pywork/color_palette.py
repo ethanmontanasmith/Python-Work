@@ -66,3 +66,6 @@ def format_color_palette_3(value: str) -> str:
 def resolve_color_palette_5(value: str) -> str:
     """Resolve color palette."""
     return " ".join(value.split())
+def normalize_color_palette_36(value: str) -> str:
+    """Normalize color palette."""
+    return " ".join(value.split())
