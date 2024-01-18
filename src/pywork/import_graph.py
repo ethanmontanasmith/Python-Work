@@ -77,3 +77,6 @@ def resolve_import_graph_83(value: str) -> str:
 def normalize_import_graph_6(value: str) -> str:
     """Normalize import graph."""
     return " ".join(value.split())
+def parse_import_graph_42(value: str) -> str:
+    """Parse import graph."""
+    return " ".join(value.split())
