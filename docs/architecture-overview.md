@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import seed_loader
 
-print(token_bucket.merge_slug_parser("  hello  "))
+print(task_queue.merge_fuzzy_matcher("  hello  "))
 ```
