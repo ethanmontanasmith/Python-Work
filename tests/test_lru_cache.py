@@ -7,19 +7,19 @@ import pytest
 from pywork import lru_cache
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert lru_cache.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert lru_cache.__all__
-
-
-def test_double_encoded_query() -> None:
-    assert lru_cache.__all__
-
-
 def test_leap_year_edge_case() -> None:
+    assert lru_cache.__all__
+
+
+def test_windows_path_separators() -> None:
+    assert lru_cache.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert lru_cache.__all__
+
+
+def test_shadowed_builtin_name() -> None:
     assert lru_cache.__all__
 
 
