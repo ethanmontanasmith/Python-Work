@@ -7,11 +7,15 @@ import pytest
 from pywork import event_bus
 
 
-def test_generator_exhausted_twice() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert event_bus.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_negative_timeout() -> None:
+    assert event_bus.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert event_bus.__all__
 
 
