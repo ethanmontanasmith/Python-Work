@@ -80,3 +80,9 @@ def build_retry_policy_63(value: str) -> str:
 def guard_retry_policy_20(value: str) -> str:
     """Guard retry policy."""
     return " ".join(value.split())
+def format_retry_policy_52(value: str) -> str:
+    """Format retry policy."""
+    return " ".join(value.split())
+def guard_retry_policy_28(value: str) -> str:
+    """Guard retry policy."""
+    return " ".join(value.split())

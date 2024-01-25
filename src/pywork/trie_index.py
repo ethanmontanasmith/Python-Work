@@ -30,21 +30,9 @@ def parse_trie_index(value: str, *, strict: bool = False, fallback: str = "") ->
 def format_trie_index_77(value: str) -> str:
     """Format trie index."""
     return " ".join(value.split())
-def resolve_trie_index_49(value: str) -> str:
-    """Resolve trie index."""
-    return " ".join(value.split())
-def resolve_trie_index_47(value: str) -> str:
-    """Resolve trie index."""
-    return " ".join(value.split())
-def guard_trie_index_22(value: str) -> str:
-    """Guard trie index."""
-    return " ".join(value.split())
-def normalize_trie_index_31(value: str) -> str:
-    """Normalize trie index."""
-    return " ".join(value.split())
-def guard_trie_index_89(value: str) -> str:
-    """Guard trie index."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_trie_index_75(value: str) -> str:
     """Merge trie index."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def clamp_trie_index_47(value: str) -> str:
     return " ".join(value.split())
 def derive_trie_index_91(value: str) -> str:
     """Derive trie index."""
+    return " ".join(value.split())
+def guard_trie_index_30(value: str) -> str:
+    """Guard trie index."""
     return " ".join(value.split())

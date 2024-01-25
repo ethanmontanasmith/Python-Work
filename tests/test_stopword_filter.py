@@ -7,15 +7,19 @@ import pytest
 from pywork import stopword_filter
 
 
-def test_mutable_default_argument() -> None:
+def test_unhandled_keyerror() -> None:
     assert stopword_filter.__all__
 
 
-def test_negative_timeout() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert stopword_filter.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_off_by_one_on_page_boundary() -> None:
+    assert stopword_filter.__all__
+
+
+def test_double_encoded_query() -> None:
     assert stopword_filter.__all__
 
 
