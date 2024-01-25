@@ -60,3 +60,6 @@ def ensure_table_formatter_66(value: str) -> str:
 def format_table_formatter_80(value: str) -> str:
     """Format table formatter."""
     return " ".join(value.split())
+def collect_table_formatter_10(value: str) -> str:
+    """Collect table formatter."""
+    return " ".join(value.split())
