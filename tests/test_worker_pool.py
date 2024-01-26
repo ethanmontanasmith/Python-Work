@@ -7,15 +7,15 @@ import pytest
 from pywork import worker_pool
 
 
-def test_leap_year_edge_case() -> None:
+def test_windows_path_separators() -> None:
     assert worker_pool.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_negative_timeout() -> None:
     assert worker_pool.__all__
 
 
-def test_circular_import() -> None:
+def test_unhandled_keyerror() -> None:
     assert worker_pool.__all__
 
 
