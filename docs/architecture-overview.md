@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import seed_loader
+from pywork import error_wrapper
 
-print(task_queue.merge_fuzzy_matcher("  hello  "))
+print(rate_limiter.merge_upload_handler("  hello  "))
 ```
