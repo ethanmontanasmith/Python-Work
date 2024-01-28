@@ -11,19 +11,7 @@ def test_trailing_slash_mismatch() -> None:
     assert backoff_timer.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert backoff_timer.__all__
-
-
-def test_unicode_decode_error() -> None:
-    assert backoff_timer.__all__
-
-
-def test_negative_timeout() -> None:
-    assert backoff_timer.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_missing_config_key() -> None:
     assert backoff_timer.__all__
 
 
