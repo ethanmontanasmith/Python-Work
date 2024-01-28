@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import color_palette
 
-print(fuzzy_matcher.resolve_lockfile_reader("  hello  "))
+print(feature_flags.build_dependency_graph("  hello  "))
 ```
