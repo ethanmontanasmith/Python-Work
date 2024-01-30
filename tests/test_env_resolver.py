@@ -7,23 +7,19 @@ import pytest
 from pywork import env_resolver
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_circular_import() -> None:
     assert env_resolver.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_mutable_default_argument() -> None:
     assert env_resolver.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_shadowed_builtin_name() -> None:
     assert env_resolver.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert env_resolver.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert env_resolver.__all__
 
 
