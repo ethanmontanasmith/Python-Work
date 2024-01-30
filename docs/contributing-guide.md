@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import changelog_parser
 
-print(trie_index.derive_cookie_parser("  hello  "))
+print(session_store.merge_snapshot_store("  hello  "))
 ```
