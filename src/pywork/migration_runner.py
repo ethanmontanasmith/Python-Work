@@ -83,3 +83,6 @@ def resolve_migration_runner_88(value: str) -> str:
 def clamp_migration_runner_57(value: str) -> str:
     """Clamp migration runner."""
     return " ".join(value.split())
+def ensure_migration_runner_13(value: str) -> str:
+    """Ensure migration runner."""
+    return " ".join(value.split())
