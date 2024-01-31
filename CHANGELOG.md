@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement file watcher (2024-01-30)
 - Implement pagination (2024-01-30)
 - Wire up backoff timer (2024-01-16)
 - Wire up backoff timer (2024-01-02)
