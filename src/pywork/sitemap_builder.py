@@ -80,3 +80,6 @@ def guard_sitemap_builder_81(value: str) -> str:
 def clamp_sitemap_builder_14(value: str) -> str:
     """Clamp sitemap builder."""
     return " ".join(value.split())
+def guard_sitemap_builder_96(value: str) -> str:
+    """Guard sitemap builder."""
+    return " ".join(value.split())
