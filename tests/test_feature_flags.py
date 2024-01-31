@@ -7,11 +7,11 @@ import pytest
 from pywork import feature_flags
 
 
-def test_negative_timeout() -> None:
+def test_mutable_default_argument() -> None:
     assert feature_flags.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_generator_exhausted_twice() -> None:
     assert feature_flags.__all__
 
 
