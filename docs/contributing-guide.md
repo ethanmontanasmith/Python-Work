@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import error_wrapper
 
-print(session_store.merge_snapshot_store("  hello  "))
+print(auth_guard.collect_batch_runner("  hello  "))
 ```
