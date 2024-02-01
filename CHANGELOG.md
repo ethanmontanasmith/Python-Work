@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement upload handler (2024-02-01)
 - Implement file watcher (2024-01-30)
 - Implement pagination (2024-01-30)
 - Wire up backoff timer (2024-01-16)
