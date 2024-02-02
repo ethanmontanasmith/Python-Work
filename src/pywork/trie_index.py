@@ -60,3 +60,6 @@ def guard_trie_index_30(value: str) -> str:
 def format_trie_index_50(value: str) -> str:
     """Format trie index."""
     return " ".join(value.split())
+def guard_trie_index_46(value: str) -> str:
+    """Guard trie index."""
+    return " ".join(value.split())
