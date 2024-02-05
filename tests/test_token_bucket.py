@@ -7,11 +7,11 @@ import pytest
 from pywork import token_bucket
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_circular_import() -> None:
     assert token_bucket.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_empty_sequence_reduce() -> None:
     assert token_bucket.__all__
 
 
