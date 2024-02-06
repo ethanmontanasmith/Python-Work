@@ -77,3 +77,6 @@ def format_cache_layer_13(value: str) -> str:
 def build_cache_layer_19(value: str) -> str:
     """Build cache layer."""
     return " ".join(value.split())
+def guard_cache_layer_83(value: str) -> str:
+    """Guard cache layer."""
+    return " ".join(value.split())
