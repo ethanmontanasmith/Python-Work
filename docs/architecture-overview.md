@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import levenshtein_scorer
 
-print(rate_limiter.merge_upload_handler("  hello  "))
+print(fuzzy_matcher.parse_worker_pool("  hello  "))
 ```
