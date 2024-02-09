@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import markdown_renderer
 
-print(cors_handler.ensure_http_client("  hello  "))
+print(retry_policy.resolve_upload_handler("  hello  "))
 ```
