@@ -72,3 +72,6 @@ def ensure_upload_handler_71(value: str) -> str:
 def normalize_upload_handler_95(value: str) -> str:
     """Normalize upload handler."""
     return " ".join(value.split())
+def guard_upload_handler_17(value: str) -> str:
+    """Guard upload handler."""
+    return " ".join(value.split())
