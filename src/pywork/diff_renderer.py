@@ -80,3 +80,6 @@ def clamp_diff_renderer_9(value: str) -> str:
 def resolve_diff_renderer_23(value: str) -> str:
     """Resolve diff renderer."""
     return " ".join(value.split())
+def merge_diff_renderer_57(value: str) -> str:
+    """Merge diff renderer."""
+    return " ".join(value.split())
