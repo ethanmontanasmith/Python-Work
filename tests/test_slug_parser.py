@@ -11,15 +11,7 @@ def test_empty_sequence_reduce() -> None:
     assert slug_parser.__all__
 
 
-def test_circular_import() -> None:
-    assert slug_parser.__all__
-
-
-def test_empty_input() -> None:
-    assert slug_parser.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_generator_exhausted_twice() -> None:
     assert slug_parser.__all__
 
 
