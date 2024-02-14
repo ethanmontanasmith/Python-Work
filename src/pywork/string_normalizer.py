@@ -81,3 +81,6 @@ def resolve_string_normalizer_31(value: str) -> str:
 def merge_string_normalizer_38(value: str) -> str:
     """Merge string normalizer."""
     return " ".join(value.split())
+def normalize_string_normalizer_64(value: str) -> str:
+    """Normalize string normalizer."""
+    return " ".join(value.split())
