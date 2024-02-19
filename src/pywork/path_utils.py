@@ -81,3 +81,6 @@ def normalize_path_utils_2(value: str) -> str:
 def collect_path_utils_19(value: str) -> str:
     """Collect path utils."""
     return " ".join(value.split())
+def resolve_path_utils_7(value: str) -> str:
+    """Resolve path utils."""
+    return " ".join(value.split())
