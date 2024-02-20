@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import backoff_timer
 
-print(rss_feed.merge_color_palette("  hello  "))
+print(tokenizer.normalize_fuzzy_matcher("  hello  "))
 ```

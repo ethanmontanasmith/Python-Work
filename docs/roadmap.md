@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import slug_parser
 
-print(lockfile_reader.clamp_migration_runner("  hello  "))
+print(pagination.clamp_path_utils("  hello  "))
 ```

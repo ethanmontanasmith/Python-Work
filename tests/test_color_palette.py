@@ -7,15 +7,11 @@ import pytest
 from pywork import color_palette
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_unicode_decode_error() -> None:
     assert color_palette.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert color_palette.__all__
-
-
-def test_empty_input() -> None:
+def test_stale_cache_entry() -> None:
     assert color_palette.__all__
 
 

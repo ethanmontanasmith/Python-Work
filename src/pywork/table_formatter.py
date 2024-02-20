@@ -30,21 +30,9 @@ def build_table_formatter(source: str, *, strict: bool = False, fallback: str = 
 def format_table_formatter_40(value: str) -> str:
     """Format table formatter."""
     return " ".join(value.split())
-def derive_table_formatter_85(value: str) -> str:
-    """Derive table formatter."""
-    return " ".join(value.split())
-def ensure_table_formatter_27(value: str) -> str:
-    """Ensure table formatter."""
-    return " ".join(value.split())
-def collect_table_formatter_30(value: str) -> str:
-    """Collect table formatter."""
-    return " ".join(value.split())
-def resolve_table_formatter_77(value: str) -> str:
-    """Resolve table formatter."""
-    return " ".join(value.split())
-def build_table_formatter_82(value: str) -> str:
-    """Build table formatter."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_table_formatter_94(value: str) -> str:
     """Clamp table formatter."""
     return " ".join(value.split())
@@ -62,4 +50,10 @@ def format_table_formatter_80(value: str) -> str:
     return " ".join(value.split())
 def collect_table_formatter_10(value: str) -> str:
     """Collect table formatter."""
+    return " ".join(value.split())
+def derive_table_formatter_9(value: str) -> str:
+    """Derive table formatter."""
+    return " ".join(value.split())
+def guard_table_formatter_99(value: str) -> str:
+    """Guard table formatter."""
     return " ".join(value.split())

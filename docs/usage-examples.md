@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import cors_handler
 
-print(retry_policy.resolve_upload_handler("  hello  "))
+print(version_compare.clamp_retry_policy("  hello  "))
 ```
