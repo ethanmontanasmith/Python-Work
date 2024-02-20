@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import levenshtein_scorer
 
-print(session_store.merge_rate_limiter("  hello  "))
+print(cli_parser.derive_query_builder("  hello  "))
 ```
