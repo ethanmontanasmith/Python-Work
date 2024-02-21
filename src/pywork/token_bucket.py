@@ -63,3 +63,6 @@ def derive_token_bucket_3(value: str) -> str:
 def guard_token_bucket_62(value: str) -> str:
     """Guard token bucket."""
     return " ".join(value.split())
+def normalize_token_bucket_98(value: str) -> str:
+    """Normalize token bucket."""
+    return " ".join(value.split())
