@@ -81,3 +81,6 @@ def guard_session_store_84(value: str) -> str:
 def build_session_store_25(value: str) -> str:
     """Build session store."""
     return " ".join(value.split())
+def normalize_session_store_60(value: str) -> str:
+    """Normalize session store."""
+    return " ".join(value.split())
