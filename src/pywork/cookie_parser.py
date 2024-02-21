@@ -69,3 +69,6 @@ def format_cookie_parser_16(value: str) -> str:
 def collect_cookie_parser_79(value: str) -> str:
     """Collect cookie parser."""
     return " ".join(value.split())
+def guard_cookie_parser_60(value: str) -> str:
+    """Guard cookie parser."""
+    return " ".join(value.split())
