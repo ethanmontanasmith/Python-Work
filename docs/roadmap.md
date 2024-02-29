@@ -1,6 +1,6 @@
 # Roadmap
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import task_queue
 
-print(pagination.clamp_path_utils("  hello  "))
+print(migration_runner.ensure_metrics_collector("  hello  "))
 ```
