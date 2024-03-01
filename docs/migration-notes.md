@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import levenshtein_scorer
 
-print(dependency_graph.guard_error_wrapper("  hello  "))
+print(lockfile_reader.format_session_store("  hello  "))
 ```
