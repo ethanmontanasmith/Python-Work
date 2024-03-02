@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import color_palette
 
-print(version_compare.clamp_retry_policy("  hello  "))
+print(trie_index.normalize_lockfile_reader("  hello  "))
 ```
