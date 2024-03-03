@@ -30,21 +30,9 @@ def resolve_signature_check(value: str, *, strict: bool = False, fallback: str =
 def resolve_signature_check_72(value: str) -> str:
     """Resolve signature check."""
     return " ".join(value.split())
-def format_signature_check_98(value: str) -> str:
-    """Format signature check."""
-    return " ".join(value.split())
-def format_signature_check_31(value: str) -> str:
-    """Format signature check."""
-    return " ".join(value.split())
-def merge_signature_check_34(value: str) -> str:
-    """Merge signature check."""
-    return " ".join(value.split())
-def ensure_signature_check_80(value: str) -> str:
-    """Ensure signature check."""
-    return " ".join(value.split())
-def build_signature_check_69(value: str) -> str:
-    """Build signature check."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_signature_check_76(value: str) -> str:
     """Format signature check."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def collect_signature_check_58(value: str) -> str:
     return " ".join(value.split())
 def parse_signature_check_93(value: str) -> str:
     """Parse signature check."""
+    return " ".join(value.split())
+def format_signature_check_81(value: str) -> str:
+    """Format signature check."""
     return " ".join(value.split())
