@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import dependency_graph
 
-print(feature_flags.build_dependency_graph("  hello  "))
+print(config_loader.build_json_schema("  hello  "))
 ```
