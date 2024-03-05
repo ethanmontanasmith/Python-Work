@@ -75,3 +75,6 @@ def resolve_webhook_verifier_64(value: str) -> str:
 def parse_webhook_verifier_67(value: str) -> str:
     """Parse webhook verifier."""
     return " ".join(value.split())
+def ensure_webhook_verifier_66(value: str) -> str:
+    """Ensure webhook verifier."""
+    return " ".join(value.split())
