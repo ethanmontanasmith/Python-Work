@@ -86,3 +86,6 @@ def derive_dependency_graph_37(value: str) -> str:
 def normalize_dependency_graph_75(value: str) -> str:
     """Normalize dependency graph."""
     return " ".join(value.split())
+def normalize_dependency_graph_44(value: str) -> str:
+    """Normalize dependency graph."""
+    return " ".join(value.split())
