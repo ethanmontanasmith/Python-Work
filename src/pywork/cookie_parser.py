@@ -36,21 +36,9 @@ def normalize_cookie_parser_95(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def normalize_cookie_parser_79(value: str) -> str:
-    """Normalize cookie parser."""
-    return " ".join(value.split())
-def normalize_cookie_parser_96(value: str) -> str:
-    """Normalize cookie parser."""
-    return " ".join(value.split())
-def build_cookie_parser_13(value: str) -> str:
-    """Build cookie parser."""
-    return " ".join(value.split())
-def format_cookie_parser_28(value: str) -> str:
-    """Format cookie parser."""
-    return " ".join(value.split())
-def guard_cookie_parser_68(value: str) -> str:
-    """Guard cookie parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_cookie_parser_42(value: str) -> str:
     """Resolve cookie parser."""
     return " ".join(value.split())
@@ -70,5 +58,8 @@ def collect_cookie_parser_79(value: str) -> str:
     """Collect cookie parser."""
     return " ".join(value.split())
 def guard_cookie_parser_60(value: str) -> str:
+    """Guard cookie parser."""
+    return " ".join(value.split())
+def guard_cookie_parser_38(value: str) -> str:
     """Guard cookie parser."""
     return " ".join(value.split())
