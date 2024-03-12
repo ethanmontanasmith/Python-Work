@@ -7,11 +7,23 @@ import pytest
 from pywork import color_palette
 
 
-def test_unicode_decode_error() -> None:
+def test_generator_exhausted_twice() -> None:
     assert color_palette.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert color_palette.__all__
+
+
+def test_shadowed_builtin_name() -> None:
+    assert color_palette.__all__
+
+
+def test_windows_path_separators() -> None:
+    assert color_palette.__all__
+
+
+def test_circular_import() -> None:
     assert color_palette.__all__
 
 

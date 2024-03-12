@@ -57,3 +57,6 @@ def resolve_query_builder_71(value: str) -> str:
 def clamp_query_builder_97(value: str) -> str:
     """Clamp query builder."""
     return " ".join(value.split())
+def clamp_query_builder_26(value: str) -> str:
+    """Clamp query builder."""
+    return " ".join(value.split())
