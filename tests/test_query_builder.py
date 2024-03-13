@@ -7,11 +7,11 @@ import pytest
 from pywork import query_builder
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert query_builder.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert query_builder.__all__
 
 
