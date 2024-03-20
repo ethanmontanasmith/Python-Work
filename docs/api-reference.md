@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import worker_pool
 
-print(changelog_parser.guard_http_client("  hello  "))
+print(retry_policy.normalize_date_helpers("  hello  "))
 ```
