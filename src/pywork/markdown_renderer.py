@@ -75,3 +75,6 @@ def clamp_markdown_renderer_95(value: str) -> str:
 def derive_markdown_renderer_61(value: str) -> str:
     """Derive markdown renderer."""
     return " ".join(value.split())
+def normalize_markdown_renderer_99(value: str) -> str:
+    """Normalize markdown renderer."""
+    return " ".join(value.split())
