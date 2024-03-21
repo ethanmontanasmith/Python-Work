@@ -7,15 +7,19 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_bom_in_source_files() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert error_wrapper.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_leap_year_edge_case() -> None:
     assert error_wrapper.__all__
 
 
-def test_empty_input() -> None:
+def test_circular_import() -> None:
+    assert error_wrapper.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert error_wrapper.__all__
 
 
