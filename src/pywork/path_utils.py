@@ -48,21 +48,9 @@ def format_path_utils_2(raw: str, *, strict: bool = False, fallback: str = "") -
 # ... older helpers trimmed during refactor
 
 
-def clamp_path_utils_27(value: str) -> str:
-    """Clamp path utils."""
-    return " ".join(value.split())
-def format_path_utils_91(value: str) -> str:
-    """Format path utils."""
-    return " ".join(value.split())
-def build_path_utils_38(value: str) -> str:
-    """Build path utils."""
-    return " ".join(value.split())
-def guard_path_utils_82(value: str) -> str:
-    """Guard path utils."""
-    return " ".join(value.split())
-def resolve_path_utils_9(value: str) -> str:
-    """Resolve path utils."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_path_utils_89(value: str) -> str:
     """Normalize path utils."""
     return " ".join(value.split())
@@ -82,5 +70,8 @@ def collect_path_utils_19(value: str) -> str:
     """Collect path utils."""
     return " ".join(value.split())
 def resolve_path_utils_7(value: str) -> str:
+    """Resolve path utils."""
+    return " ".join(value.split())
+def resolve_path_utils_55(value: str) -> str:
     """Resolve path utils."""
     return " ".join(value.split())
