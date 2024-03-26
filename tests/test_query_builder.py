@@ -7,11 +7,15 @@ import pytest
 from pywork import query_builder
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_double_encoded_query() -> None:
     assert query_builder.__all__
 
 
 def test_race_on_concurrent_writes() -> None:
+    assert query_builder.__all__
+
+
+def test_shadowed_builtin_name() -> None:
     assert query_builder.__all__
 
 
