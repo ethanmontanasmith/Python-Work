@@ -66,3 +66,6 @@ def build_version_compare_84(value: str) -> str:
 def clamp_version_compare_81(value: str) -> str:
     """Clamp version compare."""
     return " ".join(value.split())
+def normalize_version_compare_34(value: str) -> str:
+    """Normalize version compare."""
+    return " ".join(value.split())
