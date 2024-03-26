@@ -7,7 +7,7 @@ import pytest
 from pywork import worker_pool
 
 
-def test_windows_path_separators() -> None:
+def test_stale_cache_entry() -> None:
     assert worker_pool.__all__
 
 
@@ -15,7 +15,7 @@ def test_negative_timeout() -> None:
     assert worker_pool.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_double_encoded_query() -> None:
     assert worker_pool.__all__
 
 
