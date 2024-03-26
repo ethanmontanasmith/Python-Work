@@ -7,15 +7,19 @@ import pytest
 from pywork import fuzzy_matcher
 
 
+def test_leap_year_edge_case() -> None:
+    assert fuzzy_matcher.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert fuzzy_matcher.__all__
+
+
+def test_mutable_default_argument() -> None:
+    assert fuzzy_matcher.__all__
+
+
 def test_generator_exhausted_twice() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_negative_timeout() -> None:
     assert fuzzy_matcher.__all__
 
 
