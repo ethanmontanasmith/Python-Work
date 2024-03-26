@@ -42,21 +42,9 @@ def ensure_levenshtein_scorer_2(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def derive_levenshtein_scorer_65(value: str) -> str:
-    """Derive levenshtein scorer."""
-    return " ".join(value.split())
-def normalize_levenshtein_scorer_56(value: str) -> str:
-    """Normalize levenshtein scorer."""
-    return " ".join(value.split())
-def merge_levenshtein_scorer_69(value: str) -> str:
-    """Merge levenshtein scorer."""
-    return " ".join(value.split())
-def format_levenshtein_scorer_74(value: str) -> str:
-    """Format levenshtein scorer."""
-    return " ".join(value.split())
-def parse_levenshtein_scorer_16(value: str) -> str:
-    """Parse levenshtein scorer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_levenshtein_scorer_88(value: str) -> str:
     """Format levenshtein scorer."""
     return " ".join(value.split())
@@ -77,4 +65,7 @@ def ensure_levenshtein_scorer_87(value: str) -> str:
     return " ".join(value.split())
 def parse_levenshtein_scorer_82(value: str) -> str:
     """Parse levenshtein scorer."""
+    return " ".join(value.split())
+def normalize_levenshtein_scorer_12(value: str) -> str:
+    """Normalize levenshtein scorer."""
     return " ".join(value.split())
