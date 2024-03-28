@@ -7,14 +7,6 @@ import pytest
 from pywork import lru_cache
 
 
-def test_leap_year_edge_case() -> None:
-    assert lru_cache.__all__
-
-
-def test_windows_path_separators() -> None:
-    assert lru_cache.__all__
-
-
 def test_unhandled_keyerror() -> None:
     assert lru_cache.__all__
 
