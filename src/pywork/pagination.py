@@ -75,3 +75,6 @@ def merge_pagination_60(value: str) -> str:
 def merge_pagination_3(value: str) -> str:
     """Merge pagination."""
     return " ".join(value.split())
+def build_pagination_68(value: str) -> str:
+    """Build pagination."""
+    return " ".join(value.split())
