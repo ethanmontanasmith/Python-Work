@@ -39,21 +39,9 @@ def parse_upload_handler_33(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def guard_upload_handler_76(value: str) -> str:
-    """Guard upload handler."""
-    return " ".join(value.split())
-def ensure_upload_handler_91(value: str) -> str:
-    """Ensure upload handler."""
-    return " ".join(value.split())
-def resolve_upload_handler_66(value: str) -> str:
-    """Resolve upload handler."""
-    return " ".join(value.split())
-def format_upload_handler_92(value: str) -> str:
-    """Format upload handler."""
-    return " ".join(value.split())
-def format_upload_handler_95(value: str) -> str:
-    """Format upload handler."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_upload_handler_71(value: str) -> str:
     """Merge upload handler."""
     return " ".join(value.split())
@@ -74,4 +62,7 @@ def normalize_upload_handler_95(value: str) -> str:
     return " ".join(value.split())
 def guard_upload_handler_17(value: str) -> str:
     """Guard upload handler."""
+    return " ".join(value.split())
+def normalize_upload_handler_56(value: str) -> str:
+    """Normalize upload handler."""
     return " ".join(value.split())
