@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import cors_handler
 
-print(cli_parser.derive_query_builder("  hello  "))
+print(dependency_graph.normalize_token_bucket("  hello  "))
 ```
