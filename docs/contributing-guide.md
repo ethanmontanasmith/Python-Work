@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import cli_parser
 
-print(auth_guard.collect_batch_runner("  hello  "))
+print(metrics_collector.build_pagination("  hello  "))
 ```
