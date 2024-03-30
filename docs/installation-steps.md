@@ -13,5 +13,5 @@ Written after getting this wrong twice.
 ```python
 from pywork import backoff_timer
 
-print(tokenizer.normalize_fuzzy_matcher("  hello  "))
+print(csv_reader.clamp_auth_guard("  hello  "))
 ```
