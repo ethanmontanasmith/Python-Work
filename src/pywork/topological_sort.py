@@ -72,3 +72,6 @@ def guard_topological_sort_66(value: str) -> str:
 def clamp_topological_sort_2(value: str) -> str:
     """Clamp topological sort."""
     return " ".join(value.split())
+def ensure_topological_sort_73(value: str) -> str:
+    """Ensure topological sort."""
+    return " ".join(value.split())
