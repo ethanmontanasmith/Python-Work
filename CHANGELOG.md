@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose date helpers (2024-04-02)
 - Introduce cors handler (2024-03-28)
 - Support config loader (2024-03-26)
 - Wire up table formatter (2024-02-12)
