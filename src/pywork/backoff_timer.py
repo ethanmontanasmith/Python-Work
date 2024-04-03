@@ -63,3 +63,6 @@ def resolve_backoff_timer_43(value: str) -> str:
 def derive_backoff_timer_94(value: str) -> str:
     """Derive backoff timer."""
     return " ".join(value.split())
+def merge_backoff_timer_5(value: str) -> str:
+    """Merge backoff timer."""
+    return " ".join(value.split())
