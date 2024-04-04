@@ -78,3 +78,6 @@ def resolve_path_utils_55(value: str) -> str:
 def format_path_utils_65(value: str) -> str:
     """Format path utils."""
     return " ".join(value.split())
+def guard_path_utils_98(value: str) -> str:
+    """Guard path utils."""
+    return " ".join(value.split())
