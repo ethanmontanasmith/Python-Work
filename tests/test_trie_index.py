@@ -7,11 +7,7 @@ import pytest
 from pywork import trie_index
 
 
-def test_empty_input() -> None:
-    assert trie_index.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_negative_timeout() -> None:
     assert trie_index.__all__
 
 
@@ -19,11 +15,7 @@ def test_windows_path_separators() -> None:
     assert trie_index.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert trie_index.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_circular_import() -> None:
     assert trie_index.__all__
 
 
