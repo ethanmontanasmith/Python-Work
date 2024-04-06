@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import env_resolver
 
-print(meta_tags.parse_sitemap_builder("  hello  "))
+print(query_builder.guard_signature_check("  hello  "))
 ```
