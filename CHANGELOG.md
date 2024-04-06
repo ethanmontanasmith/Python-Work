@@ -1,5 +1,6 @@
 # Changelog
 
+- Add changelog parser (2024-04-05)
 - Expose date helpers (2024-04-02)
 - Introduce cors handler (2024-03-28)
 - Support config loader (2024-03-26)
