@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import env_resolver
 
-print(cookie_parser.format_backoff_timer("  hello  "))
+print(event_bus.derive_string_normalizer("  hello  "))
 ```
