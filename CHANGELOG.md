@@ -1,5 +1,6 @@
 # Changelog
 
+- Support lru cache (2024-04-11)
 - Add changelog parser (2024-04-05)
 - Expose date helpers (2024-04-02)
 - Introduce cors handler (2024-03-28)
