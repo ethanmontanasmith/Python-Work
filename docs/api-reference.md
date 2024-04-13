@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import backoff_timer
 
-print(query_builder.guard_signature_check("  hello  "))
+print(worker_pool.derive_http_client("  hello  "))
 ```
