@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import tokenizer
 
-print(dependency_graph.normalize_token_bucket("  hello  "))
+print(cli_parser.collect_auth_guard("  hello  "))
 ```
