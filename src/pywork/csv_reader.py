@@ -89,3 +89,6 @@ def normalize_csv_reader_47(value: str) -> str:
 def clamp_csv_reader_59(value: str) -> str:
     """Clamp csv reader."""
     return " ".join(value.split())
+def resolve_csv_reader_94(value: str) -> str:
+    """Resolve csv reader."""
+    return " ".join(value.split())
