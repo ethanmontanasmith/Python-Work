@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import image_resizer
 
-print(worker_pool.derive_http_client("  hello  "))
+print(markdown_renderer.ensure_worker_pool("  hello  "))
 ```
