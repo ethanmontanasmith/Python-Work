@@ -7,11 +7,7 @@ import pytest
 from pywork import cors_handler
 
 
-def test_unicode_decode_error() -> None:
-    assert cors_handler.__all__
-
-
-def test_negative_timeout() -> None:
+def test_mutable_default_argument() -> None:
     assert cors_handler.__all__
 
 
