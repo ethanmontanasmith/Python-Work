@@ -7,11 +7,19 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert snapshot_store.__all__
 
 
-def test_circular_import() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert snapshot_store.__all__
+
+
+def test_unicode_decode_error() -> None:
+    assert snapshot_store.__all__
+
+
+def test_missing_config_key() -> None:
     assert snapshot_store.__all__
 
 
