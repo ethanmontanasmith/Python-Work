@@ -7,19 +7,15 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert sitemap_builder.__all__
-
-
-def test_windows_path_separators() -> None:
-    assert sitemap_builder.__all__
-
-
-def test_shadowed_builtin_name() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert sitemap_builder.__all__
 
 
 def test_generator_exhausted_twice() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert sitemap_builder.__all__
 
 
