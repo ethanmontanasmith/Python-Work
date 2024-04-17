@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import lockfile_reader
 
-print(cli_parser.collect_auth_guard("  hello  "))
+print(webhook_verifier.resolve_migration_runner("  hello  "))
 ```

@@ -7,11 +7,15 @@ import pytest
 from pywork import retry_policy
 
 
-def test_shadowed_builtin_name() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert retry_policy.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert retry_policy.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert retry_policy.__all__
 
 
