@@ -84,3 +84,6 @@ def derive_date_helpers_10(value: str) -> str:
 def build_date_helpers_37(value: str) -> str:
     """Build date helpers."""
     return " ".join(value.split())
+def ensure_date_helpers_39(value: str) -> str:
+    """Ensure date helpers."""
+    return " ".join(value.split())
