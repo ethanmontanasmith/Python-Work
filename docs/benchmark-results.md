@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import event_bus
 
-print(config_loader.build_json_schema("  hello  "))
+print(version_compare.guard_error_wrapper("  hello  "))
 ```
