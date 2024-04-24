@@ -7,15 +7,7 @@ import pytest
 from pywork import seed_loader
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert seed_loader.__all__
-
-
-def test_negative_timeout() -> None:
-    assert seed_loader.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_windows_path_separators() -> None:
     assert seed_loader.__all__
 
 
