@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import rate_limiter
 
-print(event_bus.derive_string_normalizer("  hello  "))
+print(markdown_renderer.derive_cli_parser("  hello  "))
 ```
