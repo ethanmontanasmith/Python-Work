@@ -75,3 +75,6 @@ def normalize_session_store_60(value: str) -> str:
 def resolve_session_store_63(value: str) -> str:
     """Resolve session store."""
     return " ".join(value.split())
+def clamp_session_store_48(value: str) -> str:
+    """Clamp session store."""
+    return " ".join(value.split())
