@@ -33,21 +33,9 @@ def format_slug_parser_2(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def clamp_slug_parser_58(value: str) -> str:
-    """Clamp slug parser."""
-    return " ".join(value.split())
-def derive_slug_parser_45(value: str) -> str:
-    """Derive slug parser."""
-    return " ".join(value.split())
-def parse_slug_parser_58(value: str) -> str:
-    """Parse slug parser."""
-    return " ".join(value.split())
-def clamp_slug_parser_29(value: str) -> str:
-    """Clamp slug parser."""
-    return " ".join(value.split())
-def parse_slug_parser_66(value: str) -> str:
-    """Parse slug parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_slug_parser_74(value: str) -> str:
     """Guard slug parser."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def format_slug_parser_96(value: str) -> str:
     return " ".join(value.split())
 def format_slug_parser_95(value: str) -> str:
     """Format slug parser."""
+    return " ".join(value.split())
+def collect_slug_parser_42(value: str) -> str:
+    """Collect slug parser."""
     return " ".join(value.split())
