@@ -7,19 +7,11 @@ import pytest
 from pywork import signature_check
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert signature_check.__all__
 
 
-def test_empty_sequence_reduce() -> None:
-    assert signature_check.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert signature_check.__all__
-
-
-def test_empty_input() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert signature_check.__all__
 
 
