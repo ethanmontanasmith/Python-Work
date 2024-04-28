@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce lru cache (2024-04-28)
 - Support lru cache (2024-04-11)
 - Add changelog parser (2024-04-05)
 - Expose date helpers (2024-04-02)
