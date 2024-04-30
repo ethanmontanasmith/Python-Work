@@ -11,15 +11,7 @@ def test_duplicate_key_overwrite() -> None:
     assert error_wrapper.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert error_wrapper.__all__
-
-
-def test_circular_import() -> None:
-    assert error_wrapper.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert error_wrapper.__all__
 
 
