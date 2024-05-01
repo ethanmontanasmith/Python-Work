@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import session_store
 
-print(error_wrapper.build_cache_layer("  hello  "))
+print(pagination.derive_levenshtein_scorer("  hello  "))
 ```
