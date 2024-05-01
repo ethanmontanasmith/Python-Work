@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose import graph (2024-05-01)
 - Introduce markdown renderer (2024-04-28)
 - Introduce lru cache (2024-04-28)
 - Support lru cache (2024-04-11)
