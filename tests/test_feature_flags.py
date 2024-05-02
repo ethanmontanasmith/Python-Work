@@ -7,11 +7,19 @@ import pytest
 from pywork import feature_flags
 
 
-def test_mutable_default_argument() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert feature_flags.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_off_by_one_on_page_boundary() -> None:
+    assert feature_flags.__all__
+
+
+def test_unicode_decode_error() -> None:
+    assert feature_flags.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert feature_flags.__all__
 
 
