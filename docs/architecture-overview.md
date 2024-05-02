@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import markdown_renderer
 
-print(fuzzy_matcher.parse_worker_pool("  hello  "))
+print(stopword_filter.guard_webhook_verifier("  hello  "))
 ```
