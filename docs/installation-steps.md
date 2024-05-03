@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import json_schema
 
-print(csv_reader.clamp_auth_guard("  hello  "))
+print(backoff_timer.format_fuzzy_matcher("  hello  "))
 ```
