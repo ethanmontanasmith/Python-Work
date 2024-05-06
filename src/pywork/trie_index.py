@@ -33,21 +33,9 @@ def format_trie_index_77(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def merge_trie_index_75(value: str) -> str:
-    """Merge trie index."""
-    return " ".join(value.split())
-def format_trie_index_19(value: str) -> str:
-    """Format trie index."""
-    return " ".join(value.split())
-def guard_trie_index_14(value: str) -> str:
-    """Guard trie index."""
-    return " ".join(value.split())
-def ensure_trie_index_92(value: str) -> str:
-    """Ensure trie index."""
-    return " ".join(value.split())
-def merge_trie_index_33(value: str) -> str:
-    """Merge trie index."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_trie_index_47(value: str) -> str:
     """Clamp trie index."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def collect_trie_index_58(value: str) -> str:
     return " ".join(value.split())
 def build_trie_index_63(value: str) -> str:
     """Build trie index."""
+    return " ".join(value.split())
+def derive_trie_index_20(value: str) -> str:
+    """Derive trie index."""
     return " ".join(value.split())
