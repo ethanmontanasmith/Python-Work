@@ -7,15 +7,15 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_leap_year_edge_case() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_circular_import() -> None:
+def test_missing_config_key() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert levenshtein_scorer.__all__
 
 
