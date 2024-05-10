@@ -86,3 +86,6 @@ def build_retry_policy_90(value: str) -> str:
 def clamp_retry_policy_22(value: str) -> str:
     """Clamp retry policy."""
     return " ".join(value.split())
+def resolve_retry_policy_90(value: str) -> str:
+    """Resolve retry policy."""
+    return " ".join(value.split())
