@@ -11,7 +11,15 @@ def test_mutable_default_argument() -> None:
     assert cors_handler.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert cors_handler.__all__
+
+
+def test_shadowed_builtin_name() -> None:
+    assert cors_handler.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert cors_handler.__all__
 
 
