@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up config loader (2024-05-12)
 - Support event bus (2024-05-09)
 - Expose import graph (2024-05-01)
 - Introduce markdown renderer (2024-04-28)
