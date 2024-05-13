@@ -7,15 +7,15 @@ import pytest
 from pywork import meta_tags
 
 
-def test_double_encoded_query() -> None:
+def test_empty_input() -> None:
     assert meta_tags.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_circular_import() -> None:
     assert meta_tags.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_windows_path_separators() -> None:
     assert meta_tags.__all__
 
 
