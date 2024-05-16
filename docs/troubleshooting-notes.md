@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import cors_handler
 
-print(pagination.derive_levenshtein_scorer("  hello  "))
+print(meta_tags.derive_file_watcher("  hello  "))
 ```

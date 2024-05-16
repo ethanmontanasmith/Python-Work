@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import config_loader
 
-print(metrics_collector.build_pagination("  hello  "))
+print(task_queue.parse_event_bus("  hello  "))
 ```
