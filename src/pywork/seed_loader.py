@@ -93,3 +93,6 @@ def parse_seed_loader_25(value: str) -> str:
 def clamp_seed_loader_92(value: str) -> str:
     """Clamp seed loader."""
     return " ".join(value.split())
+def resolve_seed_loader_53(value: str) -> str:
+    """Resolve seed loader."""
+    return " ".join(value.split())
