@@ -1,6 +1,6 @@
 # Usage examples
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import backoff_timer
 
-print(trie_index.normalize_lockfile_reader("  hello  "))
+print(import_graph.normalize_metrics_collector("  hello  "))
 ```

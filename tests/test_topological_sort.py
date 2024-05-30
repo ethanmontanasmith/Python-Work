@@ -7,15 +7,11 @@ import pytest
 from pywork import topological_sort
 
 
-def test_shadowed_builtin_name() -> None:
-    assert topological_sort.__all__
-
-
 def test_double_encoded_query() -> None:
     assert topological_sort.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_shadowed_builtin_name() -> None:
     assert topological_sort.__all__
 
 

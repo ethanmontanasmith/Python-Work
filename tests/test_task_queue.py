@@ -7,15 +7,15 @@ import pytest
 from pywork import task_queue
 
 
-def test_missing_config_key() -> None:
+def test_empty_input() -> None:
+    assert task_queue.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert task_queue.__all__
 
 
 def test_unicode_decode_error() -> None:
-    assert task_queue.__all__
-
-
-def test_mutable_default_argument() -> None:
     assert task_queue.__all__
 
 
