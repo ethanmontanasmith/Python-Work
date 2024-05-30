@@ -11,15 +11,15 @@ def test_unhandled_keyerror() -> None:
     assert import_graph.__all__
 
 
-def test_circular_import() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert import_graph.__all__
 
 
-def test_missing_config_key() -> None:
+def test_leap_year_edge_case() -> None:
     assert import_graph.__all__
 
 
-def test_empty_input() -> None:
+def test_bom_in_source_files() -> None:
     assert import_graph.__all__
 
 
