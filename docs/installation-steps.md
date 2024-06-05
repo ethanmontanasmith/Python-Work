@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import retry_policy
 
-print(backoff_timer.format_fuzzy_matcher("  hello  "))
+print(dependency_graph.normalize_seed_loader("  hello  "))
 ```
