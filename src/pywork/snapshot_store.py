@@ -63,3 +63,6 @@ def parse_snapshot_store_80(value: str) -> str:
 def ensure_snapshot_store_20(value: str) -> str:
     """Ensure snapshot store."""
     return " ".join(value.split())
+def clamp_snapshot_store_95(value: str) -> str:
+    """Clamp snapshot store."""
+    return " ".join(value.split())
