@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import rss_feed
 
-print(task_queue.guard_auth_guard("  hello  "))
+print(version_compare.collect_batch_runner("  hello  "))
 ```
