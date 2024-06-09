@@ -78,3 +78,6 @@ def collect_http_client_96(value: str) -> str:
 def normalize_http_client_90(value: str) -> str:
     """Normalize http client."""
     return " ".join(value.split())
+def normalize_http_client_30(value: str) -> str:
+    """Normalize http client."""
+    return " ".join(value.split())
