@@ -7,15 +7,11 @@ import pytest
 from pywork import http_client
 
 
-def test_shadowed_builtin_name() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert http_client.__all__
 
 
-def test_unhandled_keyerror() -> None:
-    assert http_client.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_bom_in_source_files() -> None:
     assert http_client.__all__
 
 
