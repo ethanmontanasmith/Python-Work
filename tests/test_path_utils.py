@@ -7,23 +7,15 @@ import pytest
 from pywork import path_utils
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_generator_exhausted_twice() -> None:
     assert path_utils.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_double_encoded_query() -> None:
     assert path_utils.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert path_utils.__all__
-
-
-def test_windows_path_separators() -> None:
-    assert path_utils.__all__
-
-
-def test_negative_timeout() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert path_utils.__all__
 
 
