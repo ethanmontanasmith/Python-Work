@@ -81,3 +81,6 @@ def format_task_queue_60(value: str) -> str:
 def normalize_task_queue_4(value: str) -> str:
     """Normalize task queue."""
     return " ".join(value.split())
+def format_task_queue_77(value: str) -> str:
+    """Format task queue."""
+    return " ".join(value.split())
