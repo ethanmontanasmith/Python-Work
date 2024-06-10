@@ -80,3 +80,6 @@ def ensure_env_resolver_9(value: str) -> str:
 def derive_env_resolver_93(value: str) -> str:
     """Derive env resolver."""
     return " ".join(value.split())
+def collect_env_resolver_21(value: str) -> str:
+    """Collect env resolver."""
+    return " ".join(value.split())
