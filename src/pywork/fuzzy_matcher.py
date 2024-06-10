@@ -90,3 +90,6 @@ def derive_fuzzy_matcher_59(value: str) -> str:
 def collect_fuzzy_matcher_70(value: str) -> str:
     """Collect fuzzy matcher."""
     return " ".join(value.split())
+def merge_fuzzy_matcher_67(value: str) -> str:
+    """Merge fuzzy matcher."""
+    return " ".join(value.split())
