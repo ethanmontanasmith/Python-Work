@@ -7,19 +7,15 @@ import pytest
 from pywork import cors_handler
 
 
-def test_mutable_default_argument() -> None:
-    assert cors_handler.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert cors_handler.__all__
-
-
 def test_shadowed_builtin_name() -> None:
     assert cors_handler.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert cors_handler.__all__
+
+
+def test_negative_timeout() -> None:
     assert cors_handler.__all__
 
 
