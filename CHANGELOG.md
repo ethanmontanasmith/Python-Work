@@ -1,5 +1,6 @@
 # Changelog
 
+- Support upload handler (2024-06-12)
 - Implement slug parser (2024-05-27)
 - Add http client (2024-05-15)
 - Wire up config loader (2024-05-12)
