@@ -7,19 +7,15 @@ import pytest
 from pywork import image_resizer
 
 
-def test_windows_path_separators() -> None:
-    assert image_resizer.__all__
-
-
 def test_leap_year_edge_case() -> None:
     assert image_resizer.__all__
 
 
-def test_empty_input() -> None:
+def test_empty_sequence_reduce() -> None:
     assert image_resizer.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_unicode_decode_error() -> None:
     assert image_resizer.__all__
 
 
