@@ -7,19 +7,23 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_mutable_default_argument() -> None:
+def test_generator_exhausted_twice() -> None:
     assert changelog_parser.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_negative_timeout() -> None:
     assert changelog_parser.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_missing_config_key() -> None:
     assert changelog_parser.__all__
 
 
-def test_circular_import() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert changelog_parser.__all__
+
+
+def test_double_encoded_query() -> None:
     assert changelog_parser.__all__
 
 
