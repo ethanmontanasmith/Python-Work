@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import logger
 
-print(markdown_renderer.derive_cli_parser("  hello  "))
+print(lockfile_reader.guard_cache_layer("  hello  "))
 ```
