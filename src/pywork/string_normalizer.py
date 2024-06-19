@@ -81,3 +81,6 @@ def build_string_normalizer_41(value: str) -> str:
 def build_string_normalizer_25(value: str) -> str:
     """Build string normalizer."""
     return " ".join(value.split())
+def parse_string_normalizer_8(value: str) -> str:
+    """Parse string normalizer."""
+    return " ".join(value.split())

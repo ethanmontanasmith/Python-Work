@@ -7,11 +7,11 @@ import pytest
 from pywork import signature_check
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_circular_import() -> None:
     assert signature_check.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_windows_path_separators() -> None:
     assert signature_check.__all__
 
 
