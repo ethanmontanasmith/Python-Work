@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import stopword_filter
 
-print(import_graph.normalize_metrics_collector("  hello  "))
+print(worker_pool.resolve_date_helpers("  hello  "))
 ```
