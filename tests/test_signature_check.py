@@ -7,11 +7,11 @@ import pytest
 from pywork import signature_check
 
 
-def test_circular_import() -> None:
+def test_windows_path_separators() -> None:
     assert signature_check.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert signature_check.__all__
 
 
