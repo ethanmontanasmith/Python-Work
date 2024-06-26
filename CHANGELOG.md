@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose cache layer (2024-06-26)
 - Introduce table formatter (2024-06-14)
 - Support upload handler (2024-06-12)
 - Implement slug parser (2024-05-27)
