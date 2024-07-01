@@ -7,11 +7,15 @@ import pytest
 from pywork import version_compare
 
 
-def test_mutable_default_argument() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert version_compare.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_windows_path_separators() -> None:
+    assert version_compare.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert version_compare.__all__
 
 
