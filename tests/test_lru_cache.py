@@ -7,7 +7,7 @@ import pytest
 from pywork import lru_cache
 
 
-def test_unhandled_keyerror() -> None:
+def test_windows_path_separators() -> None:
     assert lru_cache.__all__
 
 
