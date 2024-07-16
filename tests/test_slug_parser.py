@@ -7,19 +7,11 @@ import pytest
 from pywork import slug_parser
 
 
-def test_windows_path_separators() -> None:
+def test_empty_sequence_reduce() -> None:
     assert slug_parser.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert slug_parser.__all__
-
-
-def test_circular_import() -> None:
-    assert slug_parser.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_shadowed_builtin_name() -> None:
     assert slug_parser.__all__
 
 
