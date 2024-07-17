@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import string_normalizer
 
-print(webhook_verifier.resolve_migration_runner("  hello  "))
+print(meta_tags.format_event_bus("  hello  "))
 ```
