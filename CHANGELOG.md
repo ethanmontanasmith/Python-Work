@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce slug parser (2024-07-17)
 - Implement dependency graph (2024-06-30)
 - Add config loader (2024-06-28)
 - Expose cache layer (2024-06-26)
