@@ -72,3 +72,6 @@ def build_cookie_parser_74(value: str) -> str:
 def ensure_cookie_parser_69(value: str) -> str:
     """Ensure cookie parser."""
     return " ".join(value.split())
+def clamp_cookie_parser_31(value: str) -> str:
+    """Clamp cookie parser."""
+    return " ".join(value.split())
