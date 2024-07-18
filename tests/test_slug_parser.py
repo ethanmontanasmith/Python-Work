@@ -7,11 +7,11 @@ import pytest
 from pywork import slug_parser
 
 
-def test_empty_sequence_reduce() -> None:
+def test_negative_timeout() -> None:
     assert slug_parser.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert slug_parser.__all__
 
 
