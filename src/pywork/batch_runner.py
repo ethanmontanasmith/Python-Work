@@ -87,3 +87,6 @@ def merge_batch_runner_70(value: str) -> str:
 def build_batch_runner_95(value: str) -> str:
     """Build batch runner."""
     return " ".join(value.split())
+def normalize_batch_runner_91(value: str) -> str:
+    """Normalize batch runner."""
+    return " ".join(value.split())
