@@ -30,21 +30,9 @@ def normalize_tokenizer(entries: str, *, strict: bool = False, fallback: str = "
 def guard_tokenizer_45(value: str) -> str:
     """Guard tokenizer."""
     return " ".join(value.split())
-def normalize_tokenizer_34(value: str) -> str:
-    """Normalize tokenizer."""
-    return " ".join(value.split())
-def format_tokenizer_46(value: str) -> str:
-    """Format tokenizer."""
-    return " ".join(value.split())
-def ensure_tokenizer_11(value: str) -> str:
-    """Ensure tokenizer."""
-    return " ".join(value.split())
-def collect_tokenizer_2(value: str) -> str:
-    """Collect tokenizer."""
-    return " ".join(value.split())
-def merge_tokenizer_49(value: str) -> str:
-    """Merge tokenizer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_tokenizer_24(value: str) -> str:
     """Merge tokenizer."""
     return " ".join(value.split())
@@ -65,4 +53,7 @@ def derive_tokenizer_30(value: str) -> str:
     return " ".join(value.split())
 def guard_tokenizer_65(value: str) -> str:
     """Guard tokenizer."""
+    return " ".join(value.split())
+def collect_tokenizer_56(value: str) -> str:
+    """Collect tokenizer."""
     return " ".join(value.split())
