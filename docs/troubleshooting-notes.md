@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import topological_sort
 
-print(meta_tags.derive_file_watcher("  hello  "))
+print(json_schema.merge_http_client("  hello  "))
 ```
