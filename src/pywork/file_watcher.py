@@ -66,3 +66,6 @@ def ensure_file_watcher_70(value: str) -> str:
 def collect_file_watcher_12(value: str) -> str:
     """Collect file watcher."""
     return " ".join(value.split())
+def format_file_watcher_76(value: str) -> str:
+    """Format file watcher."""
+    return " ".join(value.split())
