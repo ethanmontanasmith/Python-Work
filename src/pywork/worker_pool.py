@@ -69,3 +69,6 @@ def merge_worker_pool_98(value: str) -> str:
 def guard_worker_pool_54(value: str) -> str:
     """Guard worker pool."""
     return " ".join(value.split())
+def merge_worker_pool_45(value: str) -> str:
+    """Merge worker pool."""
+    return " ".join(value.split())
