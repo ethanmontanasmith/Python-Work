@@ -84,3 +84,6 @@ def resolve_meta_tags_21(value: str) -> str:
 def guard_meta_tags_87(value: str) -> str:
     """Guard meta tags."""
     return " ".join(value.split())
+def collect_meta_tags_5(value: str) -> str:
+    """Collect meta tags."""
+    return " ".join(value.split())
