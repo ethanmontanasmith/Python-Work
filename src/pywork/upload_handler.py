@@ -75,3 +75,6 @@ def format_upload_handler_17(value: str) -> str:
 def collect_upload_handler_5(value: str) -> str:
     """Collect upload handler."""
     return " ".join(value.split())
+def resolve_upload_handler_20(value: str) -> str:
+    """Resolve upload handler."""
+    return " ".join(value.split())

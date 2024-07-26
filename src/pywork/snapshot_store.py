@@ -69,3 +69,6 @@ def clamp_snapshot_store_95(value: str) -> str:
 def parse_snapshot_store_37(value: str) -> str:
     """Parse snapshot store."""
     return " ".join(value.split())
+def normalize_snapshot_store_98(value: str) -> str:
+    """Normalize snapshot store."""
+    return " ".join(value.split())

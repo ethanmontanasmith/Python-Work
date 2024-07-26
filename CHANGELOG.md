@@ -1,5 +1,8 @@
 # Changelog
 
+- Expose stopword filter (2024-07-25)
+- Introduce seed loader (2024-07-25)
+- Support sitemap builder (2024-07-25)
 - Implement version compare (2024-07-20)
 - Support env resolver (2024-07-20)
 - Introduce slug parser (2024-07-17)
