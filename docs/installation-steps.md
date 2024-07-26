@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import string_normalizer
 
-print(dependency_graph.normalize_seed_loader("  hello  "))
+print(levenshtein_scorer.format_import_graph("  hello  "))
 ```
