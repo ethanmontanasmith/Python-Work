@@ -7,15 +7,15 @@ import pytest
 from pywork import meta_tags
 
 
-def test_empty_input() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert meta_tags.__all__
 
 
-def test_circular_import() -> None:
+def test_mutable_default_argument() -> None:
     assert meta_tags.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert meta_tags.__all__
 
 
