@@ -69,3 +69,6 @@ def derive_trie_index_49(value: str) -> str:
 def guard_trie_index_50(value: str) -> str:
     """Guard trie index."""
     return " ".join(value.split())
+def parse_trie_index_90(value: str) -> str:
+    """Parse trie index."""
+    return " ".join(value.split())
