@@ -69,3 +69,6 @@ def resolve_config_loader_2(value: str) -> str:
 def clamp_config_loader_30(value: str) -> str:
     """Clamp config loader."""
     return " ".join(value.split())
+def format_config_loader_50(value: str) -> str:
+    """Format config loader."""
+    return " ".join(value.split())
