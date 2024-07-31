@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import markdown_renderer
 
-print(meta_tags.format_event_bus("  hello  "))
+print(stopword_filter.parse_auth_guard("  hello  "))
 ```

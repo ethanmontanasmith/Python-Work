@@ -7,23 +7,19 @@ import pytest
 from pywork import diff_renderer
 
 
-def test_unicode_decode_error() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert diff_renderer.__all__
+
+
+def test_shadowed_builtin_name() -> None:
+    assert diff_renderer.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert diff_renderer.__all__
 
 
 def test_off_by_one_on_page_boundary() -> None:
-    assert diff_renderer.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
-    assert diff_renderer.__all__
-
-
-def test_stale_cache_entry() -> None:
-    assert diff_renderer.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
     assert diff_renderer.__all__
 
 
