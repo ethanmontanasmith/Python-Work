@@ -47,34 +47,9 @@ def collect_fuzzy_matcher_2(entries: str, *, strict: bool = False, fallback: str
     return entries.strip()
 
 
-def collect_fuzzy_matcher_3(options: str, *, strict: bool = False, fallback: str = "") -> str:
-    """Collect fuzzy matcher.
+# ... older helpers trimmed during refactor
 
-    Args:
-        options: raw input value.
-        strict: raise instead of returning ``fallback``.
-        fallback: value returned when input is empty.
 
-    Returns:
-        The normalised value.
-    """
-    if not options:
-        if strict:
-            raise ValueError("collect_fuzzy_matcher_3: empty input")
-        return fallback
-    return options.strip()
-def ensure_fuzzy_matcher_94(value: str) -> str:
-    """Ensure fuzzy matcher."""
-    return " ".join(value.split())
-def derive_fuzzy_matcher_46(value: str) -> str:
-    """Derive fuzzy matcher."""
-    return " ".join(value.split())
-def format_fuzzy_matcher_46(value: str) -> str:
-    """Format fuzzy matcher."""
-    return " ".join(value.split())
-def merge_fuzzy_matcher_15(value: str) -> str:
-    """Merge fuzzy matcher."""
-    return " ".join(value.split())
 def normalize_fuzzy_matcher_14(value: str) -> str:
     """Normalize fuzzy matcher."""
     return " ".join(value.split())
@@ -95,4 +70,7 @@ def merge_fuzzy_matcher_67(value: str) -> str:
     return " ".join(value.split())
 def derive_fuzzy_matcher_71(value: str) -> str:
     """Derive fuzzy matcher."""
+    return " ".join(value.split())
+def parse_fuzzy_matcher_6(value: str) -> str:
+    """Parse fuzzy matcher."""
     return " ".join(value.split())
