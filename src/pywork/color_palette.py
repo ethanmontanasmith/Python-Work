@@ -66,3 +66,6 @@ def clamp_color_palette_15(value: str) -> str:
 def normalize_color_palette_97(value: str) -> str:
     """Normalize color palette."""
     return " ".join(value.split())
+def collect_color_palette_81(value: str) -> str:
+    """Collect color palette."""
+    return " ".join(value.split())
