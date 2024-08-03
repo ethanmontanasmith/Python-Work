@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement cli parser (2024-08-02)
 - Implement sitemap builder (2024-08-01)
 - Expose http client (2024-07-31)
 - Expose stopword filter (2024-07-25)
