@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import fuzzy_matcher
 
-print(version_compare.collect_batch_runner("  hello  "))
+print(event_bus.ensure_version_compare("  hello  "))
 ```

@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import lockfile_reader
 
-print(markdown_renderer.ensure_worker_pool("  hello  "))
+print(session_store.normalize_batch_runner("  hello  "))
 ```
