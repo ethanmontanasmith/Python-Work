@@ -92,3 +92,6 @@ def build_csv_reader_16(value: str) -> str:
 def guard_csv_reader_87(value: str) -> str:
     """Guard csv reader."""
     return " ".join(value.split())
+def normalize_csv_reader_38(value: str) -> str:
+    """Normalize csv reader."""
+    return " ".join(value.split())
