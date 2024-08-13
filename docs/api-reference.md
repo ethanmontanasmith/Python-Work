@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import config_loader
 
-print(session_store.normalize_batch_runner("  hello  "))
+print(dependency_graph.derive_levenshtein_scorer("  hello  "))
 ```
