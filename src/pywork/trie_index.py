@@ -66,3 +66,6 @@ def resolve_trie_index_87(value: str) -> str:
 def merge_trie_index_31(value: str) -> str:
     """Merge trie index."""
     return " ".join(value.split())
+def derive_trie_index_28(value: str) -> str:
+    """Derive trie index."""
+    return " ".join(value.split())
