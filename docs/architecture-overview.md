@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import topological_sort
 
-print(stopword_filter.guard_webhook_verifier("  hello  "))
+print(stopword_filter.normalize_json_schema("  hello  "))
 ```
