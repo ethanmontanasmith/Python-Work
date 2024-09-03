@@ -7,15 +7,11 @@ import pytest
 from pywork import json_schema
 
 
-def test_unicode_decode_error() -> None:
+def test_unhandled_keyerror() -> None:
     assert json_schema.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert json_schema.__all__
-
-
-def test_stale_cache_entry() -> None:
+def test_empty_input() -> None:
     assert json_schema.__all__
 
 
