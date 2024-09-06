@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import session_store
 
-print(version_compare.guard_error_wrapper("  hello  "))
+print(seed_loader.clamp_session_store("  hello  "))
 ```
