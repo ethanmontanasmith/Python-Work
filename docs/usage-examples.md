@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import markdown_renderer
 
-print(worker_pool.resolve_date_helpers("  hello  "))
+print(cli_parser.normalize_upload_handler("  hello  "))
 ```
