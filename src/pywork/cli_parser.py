@@ -81,3 +81,6 @@ def merge_cli_parser_22(value: str) -> str:
 def collect_cli_parser_31(value: str) -> str:
     """Collect cli parser."""
     return " ".join(value.split())
+def build_cli_parser_56(value: str) -> str:
+    """Build cli parser."""
+    return " ".join(value.split())

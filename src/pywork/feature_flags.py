@@ -69,3 +69,6 @@ def format_feature_flags_95(value: str) -> str:
 def build_feature_flags_41(value: str) -> str:
     """Build feature flags."""
     return " ".join(value.split())
+def collect_feature_flags_68(value: str) -> str:
+    """Collect feature flags."""
+    return " ".join(value.split())
