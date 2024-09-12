@@ -11,11 +11,15 @@ def test_circular_import() -> None:
     assert rss_feed.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert rss_feed.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_double_encoded_query() -> None:
+    assert rss_feed.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert rss_feed.__all__
 
 
