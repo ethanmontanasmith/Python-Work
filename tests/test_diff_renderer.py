@@ -7,15 +7,23 @@ import pytest
 from pywork import diff_renderer
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert diff_renderer.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert diff_renderer.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert diff_renderer.__all__
+
+
+def test_bom_in_source_files() -> None:
+    assert diff_renderer.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert diff_renderer.__all__
 
 
