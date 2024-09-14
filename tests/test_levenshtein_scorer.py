@@ -7,11 +7,15 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_leap_year_edge_case() -> None:
+def test_empty_input() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_negative_timeout() -> None:
+def test_mutable_default_argument() -> None:
+    assert levenshtein_scorer.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert levenshtein_scorer.__all__
 
 
