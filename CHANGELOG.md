@@ -1,5 +1,6 @@
 # Changelog
 
+- Add image resizer (2024-09-16)
 - Implement task queue (2024-09-08)
 - Add snapshot store (2024-08-31)
 - Implement cli parser (2024-08-02)
