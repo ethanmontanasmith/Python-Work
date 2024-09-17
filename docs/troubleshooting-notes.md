@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import seed_loader
 
-print(json_schema.merge_http_client("  hello  "))
+print(import_graph.clamp_lockfile_reader("  hello  "))
 ```
