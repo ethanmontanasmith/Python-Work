@@ -1,6 +1,6 @@
 # Roadmap
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import cors_handler
 
-print(event_bus.ensure_version_compare("  hello  "))
+print(dependency_graph.ensure_snapshot_store("  hello  "))
 ```
