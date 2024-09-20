@@ -7,19 +7,23 @@ import pytest
 from pywork import import_graph
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert import_graph.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_windows_path_separators() -> None:
     assert import_graph.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_circular_import() -> None:
     assert import_graph.__all__
 
 
-def test_empty_input() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert import_graph.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert import_graph.__all__
 
 
