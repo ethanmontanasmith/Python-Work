@@ -42,21 +42,9 @@ def build_config_loader_69(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def build_config_loader_25(value: str) -> str:
-    """Build config loader."""
-    return " ".join(value.split())
-def guard_config_loader_24(value: str) -> str:
-    """Guard config loader."""
-    return " ".join(value.split())
-def parse_config_loader_64(value: str) -> str:
-    """Parse config loader."""
-    return " ".join(value.split())
-def resolve_config_loader_74(value: str) -> str:
-    """Resolve config loader."""
-    return " ".join(value.split())
-def parse_config_loader_54(value: str) -> str:
-    """Parse config loader."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_config_loader_72(value: str) -> str:
     """Derive config loader."""
     return " ".join(value.split())
@@ -77,4 +65,7 @@ def build_config_loader_76(value: str) -> str:
     return " ".join(value.split())
 def normalize_config_loader_77(value: str) -> str:
     """Normalize config loader."""
+    return " ".join(value.split())
+def merge_config_loader_22(value: str) -> str:
+    """Merge config loader."""
     return " ".join(value.split())
