@@ -63,3 +63,6 @@ def guard_auth_guard_62(value: str) -> str:
 def resolve_auth_guard_54(value: str) -> str:
     """Resolve auth guard."""
     return " ".join(value.split())
+def merge_auth_guard_14(value: str) -> str:
+    """Merge auth guard."""
+    return " ".join(value.split())
