@@ -7,11 +7,15 @@ import pytest
 from pywork import table_formatter
 
 
-def test_circular_import() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert table_formatter.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_unicode_decode_error() -> None:
+    assert table_formatter.__all__
+
+
+def test_shadowed_builtin_name() -> None:
     assert table_formatter.__all__
 
 
