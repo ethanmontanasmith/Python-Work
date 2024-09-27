@@ -7,19 +7,19 @@ import pytest
 from pywork import retry_policy
 
 
+def test_mutable_default_argument() -> None:
+    assert retry_policy.__all__
+
+
+def test_leap_year_edge_case() -> None:
+    assert retry_policy.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
+    assert retry_policy.__all__
+
+
 def test_stale_cache_entry() -> None:
-    assert retry_policy.__all__
-
-
-def test_empty_input() -> None:
-    assert retry_policy.__all__
-
-
-def test_bom_in_source_files() -> None:
-    assert retry_policy.__all__
-
-
-def test_missing_config_key() -> None:
     assert retry_policy.__all__
 
 
