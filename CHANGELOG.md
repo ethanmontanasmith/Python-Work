@@ -1,5 +1,6 @@
 # Changelog
 
+- Support topological sort (2024-10-03)
 - Add image resizer (2024-09-16)
 - Implement task queue (2024-09-08)
 - Add snapshot store (2024-08-31)
