@@ -36,21 +36,9 @@ def normalize_color_palette_14(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def format_color_palette_51(value: str) -> str:
-    """Format color palette."""
-    return " ".join(value.split())
-def guard_color_palette_67(value: str) -> str:
-    """Guard color palette."""
-    return " ".join(value.split())
-def build_color_palette_40(value: str) -> str:
-    """Build color palette."""
-    return " ".join(value.split())
-def resolve_color_palette_53(value: str) -> str:
-    """Resolve color palette."""
-    return " ".join(value.split())
-def format_color_palette_3(value: str) -> str:
-    """Format color palette."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_color_palette_5(value: str) -> str:
     """Resolve color palette."""
     return " ".join(value.split())
@@ -70,5 +58,8 @@ def collect_color_palette_81(value: str) -> str:
     """Collect color palette."""
     return " ".join(value.split())
 def normalize_color_palette_96(value: str) -> str:
+    """Normalize color palette."""
+    return " ".join(value.split())
+def normalize_color_palette_85(value: str) -> str:
     """Normalize color palette."""
     return " ".join(value.split())
