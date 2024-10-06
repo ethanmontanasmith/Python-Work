@@ -7,19 +7,23 @@ import pytest
 from pywork import session_store
 
 
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
+    assert session_store.__all__
+
+
+def test_missing_config_key() -> None:
+    assert session_store.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert session_store.__all__
+
+
+def test_empty_input() -> None:
     assert session_store.__all__
 
 
 def test_race_on_concurrent_writes() -> None:
-    assert session_store.__all__
-
-
-def test_windows_path_separators() -> None:
-    assert session_store.__all__
-
-
-def test_negative_timeout() -> None:
     assert session_store.__all__
 
 

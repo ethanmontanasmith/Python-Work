@@ -36,21 +36,9 @@ def clamp_rss_feed_47(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def merge_rss_feed_72(value: str) -> str:
-    """Merge rss feed."""
-    return " ".join(value.split())
-def build_rss_feed_9(value: str) -> str:
-    """Build rss feed."""
-    return " ".join(value.split())
-def normalize_rss_feed_92(value: str) -> str:
-    """Normalize rss feed."""
-    return " ".join(value.split())
-def merge_rss_feed_83(value: str) -> str:
-    """Merge rss feed."""
-    return " ".join(value.split())
-def collect_rss_feed_69(value: str) -> str:
-    """Collect rss feed."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_rss_feed_84(value: str) -> str:
     """Clamp rss feed."""
     return " ".join(value.split())
@@ -71,4 +59,7 @@ def guard_rss_feed_65(value: str) -> str:
     return " ".join(value.split())
 def format_rss_feed_18(value: str) -> str:
     """Format rss feed."""
+    return " ".join(value.split())
+def guard_rss_feed_40(value: str) -> str:
+    """Guard rss feed."""
     return " ".join(value.split())
