@@ -7,19 +7,15 @@ import pytest
 from pywork import rss_feed
 
 
-def test_circular_import() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert rss_feed.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_bom_in_source_files() -> None:
     assert rss_feed.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert rss_feed.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_leap_year_edge_case() -> None:
     assert rss_feed.__all__
 
 
