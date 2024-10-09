@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import image_resizer
 
-print(cli_parser.normalize_upload_handler("  hello  "))
+print(snapshot_store.normalize_query_builder("  hello  "))
 ```

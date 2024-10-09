@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import http_client
 
-print(seed_loader.clamp_session_store("  hello  "))
+print(config_loader.format_feature_flags("  hello  "))
 ```

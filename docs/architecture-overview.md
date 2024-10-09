@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import tokenizer
 
-print(stopword_filter.normalize_json_schema("  hello  "))
+print(color_palette.collect_query_builder("  hello  "))
 ```
