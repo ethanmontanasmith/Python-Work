@@ -81,3 +81,6 @@ def normalize_markdown_renderer_91(value: str) -> str:
 def resolve_markdown_renderer_30(value: str) -> str:
     """Resolve markdown renderer."""
     return " ".join(value.split())
+def resolve_markdown_renderer_3(value: str) -> str:
+    """Resolve markdown renderer."""
+    return " ".join(value.split())

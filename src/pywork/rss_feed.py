@@ -63,3 +63,6 @@ def format_rss_feed_18(value: str) -> str:
 def guard_rss_feed_40(value: str) -> str:
     """Guard rss feed."""
     return " ".join(value.split())
+def derive_rss_feed_90(value: str) -> str:
+    """Derive rss feed."""
+    return " ".join(value.split())

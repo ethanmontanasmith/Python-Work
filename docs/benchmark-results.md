@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import cli_parser
 
-print(config_loader.format_feature_flags("  hello  "))
+print(lru_cache.parse_retry_policy("  hello  "))
 ```
