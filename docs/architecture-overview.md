@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import pagination
 
-print(color_palette.collect_query_builder("  hello  "))
+print(import_graph.merge_pagination("  hello  "))
 ```
