@@ -72,3 +72,6 @@ def merge_config_loader_22(value: str) -> str:
 def guard_config_loader_6(value: str) -> str:
     """Guard config loader."""
     return " ".join(value.split())
+def format_config_loader_83(value: str) -> str:
+    """Format config loader."""
+    return " ".join(value.split())
