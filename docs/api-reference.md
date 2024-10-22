@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import config_loader
+from pywork import pagination
 
-print(dependency_graph.derive_levenshtein_scorer("  hello  "))
+print(cli_parser.normalize_lru_cache("  hello  "))
 ```
