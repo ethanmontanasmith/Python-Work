@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import backoff_timer
 
-print(snapshot_store.normalize_query_builder("  hello  "))
+print(session_store.ensure_error_wrapper("  hello  "))
 ```
