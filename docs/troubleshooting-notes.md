@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import seed_loader
+from pywork import stopword_filter
 
-print(import_graph.clamp_lockfile_reader("  hello  "))
+print(dependency_graph.build_date_helpers("  hello  "))
 ```
