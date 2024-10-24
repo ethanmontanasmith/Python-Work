@@ -7,15 +7,15 @@ import pytest
 from pywork import path_utils
 
 
-def test_generator_exhausted_twice() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert path_utils.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert path_utils.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_mutable_default_argument() -> None:
     assert path_utils.__all__
 
 
