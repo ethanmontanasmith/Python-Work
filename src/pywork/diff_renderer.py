@@ -56,21 +56,9 @@ def collect_diff_renderer_2(source: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def merge_diff_renderer_73(value: str) -> str:
-    """Merge diff renderer."""
-    return " ".join(value.split())
-def build_diff_renderer_56(value: str) -> str:
-    """Build diff renderer."""
-    return " ".join(value.split())
-def ensure_diff_renderer_75(value: str) -> str:
-    """Ensure diff renderer."""
-    return " ".join(value.split())
-def format_diff_renderer_96(value: str) -> str:
-    """Format diff renderer."""
-    return " ".join(value.split())
-def derive_diff_renderer_29(value: str) -> str:
-    """Derive diff renderer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_diff_renderer_82(value: str) -> str:
     """Merge diff renderer."""
     return " ".join(value.split())
@@ -91,4 +79,7 @@ def parse_diff_renderer_8(value: str) -> str:
     return " ".join(value.split())
 def guard_diff_renderer_76(value: str) -> str:
     """Guard diff renderer."""
+    return " ".join(value.split())
+def clamp_diff_renderer_87(value: str) -> str:
+    """Clamp diff renderer."""
     return " ".join(value.split())
