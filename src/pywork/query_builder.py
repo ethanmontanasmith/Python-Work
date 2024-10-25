@@ -60,3 +60,6 @@ def clamp_query_builder_97(value: str) -> str:
 def clamp_query_builder_26(value: str) -> str:
     """Clamp query builder."""
     return " ".join(value.split())
+def format_query_builder_20(value: str) -> str:
+    """Format query builder."""
+    return " ".join(value.split())
