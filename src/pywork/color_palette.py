@@ -63,3 +63,6 @@ def normalize_color_palette_96(value: str) -> str:
 def normalize_color_palette_85(value: str) -> str:
     """Normalize color palette."""
     return " ".join(value.split())
+def ensure_color_palette_23(value: str) -> str:
+    """Ensure color palette."""
+    return " ".join(value.split())
