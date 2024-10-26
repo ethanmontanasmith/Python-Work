@@ -87,3 +87,6 @@ def resolve_seed_loader_53(value: str) -> str:
 def build_seed_loader_12(value: str) -> str:
     """Build seed loader."""
     return " ".join(value.split())
+def ensure_seed_loader_36(value: str) -> str:
+    """Ensure seed loader."""
+    return " ".join(value.split())
