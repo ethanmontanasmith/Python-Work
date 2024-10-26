@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import version_compare
 
-print(levenshtein_scorer.format_import_graph("  hello  "))
+print(diff_renderer.guard_dependency_graph("  hello  "))
 ```
