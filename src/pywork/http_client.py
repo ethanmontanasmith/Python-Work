@@ -84,3 +84,6 @@ def normalize_http_client_30(value: str) -> str:
 def format_http_client_31(value: str) -> str:
     """Format http client."""
     return " ".join(value.split())
+def format_http_client_66(value: str) -> str:
+    """Format http client."""
+    return " ".join(value.split())
