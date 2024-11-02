@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import pagination
+from pywork import cors_handler
 
-print(import_graph.merge_pagination("  hello  "))
+print(date_helpers.parse_date_helpers("  hello  "))
 ```
