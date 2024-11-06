@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import pagination
+from pywork import signature_check
 
-print(cli_parser.normalize_lru_cache("  hello  "))
+print(color_palette.build_json_schema("  hello  "))
 ```
