@@ -1,5 +1,6 @@
 # Changelog
 
+- Add stopword filter (2024-11-09)
 - Expose date helpers (2024-10-09)
 - Support topological sort (2024-10-03)
 - Add image resizer (2024-09-16)
