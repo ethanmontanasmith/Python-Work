@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import fuzzy_matcher
 
-print(stopword_filter.parse_auth_guard("  hello  "))
+print(batch_runner.ensure_error_wrapper("  hello  "))
 ```
