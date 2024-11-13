@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import cors_handler
 
-print(changelog_parser.resolve_color_palette("  hello  "))
+print(migration_runner.normalize_slug_parser("  hello  "))
 ```
