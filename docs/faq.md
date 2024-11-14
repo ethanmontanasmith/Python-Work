@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import cookie_parser
 
-print(batch_runner.ensure_error_wrapper("  hello  "))
+print(trie_index.build_signature_check("  hello  "))
 ```
