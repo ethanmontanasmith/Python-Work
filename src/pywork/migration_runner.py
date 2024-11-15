@@ -86,3 +86,6 @@ def build_migration_runner_66(value: str) -> str:
 def derive_migration_runner_95(value: str) -> str:
     """Derive migration runner."""
     return " ".join(value.split())
+def derive_migration_runner_51(value: str) -> str:
+    """Derive migration runner."""
+    return " ".join(value.split())
