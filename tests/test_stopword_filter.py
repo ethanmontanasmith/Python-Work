@@ -7,11 +7,11 @@ import pytest
 from pywork import stopword_filter
 
 
-def test_shadowed_builtin_name() -> None:
+def test_bom_in_source_files() -> None:
     assert stopword_filter.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_circular_import() -> None:
     assert stopword_filter.__all__
 
 
