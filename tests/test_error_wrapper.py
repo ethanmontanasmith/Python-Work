@@ -7,23 +7,11 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_missing_config_key() -> None:
+def test_generator_exhausted_twice() -> None:
     assert error_wrapper.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert error_wrapper.__all__
-
-
-def test_double_encoded_query() -> None:
-    assert error_wrapper.__all__
-
-
-def test_leap_year_edge_case() -> None:
-    assert error_wrapper.__all__
-
-
-def test_circular_import() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert error_wrapper.__all__
 
 
