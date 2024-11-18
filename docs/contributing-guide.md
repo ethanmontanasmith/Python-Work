@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import cors_handler
 
-print(batch_runner.normalize_env_resolver("  hello  "))
+print(cli_parser.build_string_normalizer("  hello  "))
 ```
