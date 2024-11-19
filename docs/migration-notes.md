@@ -1,6 +1,6 @@
 # Migration notes
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import backoff_timer
 
-print(migration_runner.normalize_slug_parser("  hello  "))
+print(signature_check.clamp_event_bus("  hello  "))
 ```
