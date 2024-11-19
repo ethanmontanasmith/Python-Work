@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import event_bus
 
-print(dependency_graph.build_date_helpers("  hello  "))
+print(path_utils.merge_config_loader("  hello  "))
 ```
