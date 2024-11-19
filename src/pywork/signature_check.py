@@ -60,3 +60,6 @@ def format_signature_check_81(value: str) -> str:
 def clamp_signature_check_65(value: str) -> str:
     """Clamp signature check."""
     return " ".join(value.split())
+def derive_signature_check_98(value: str) -> str:
+    """Derive signature check."""
+    return " ".join(value.split())

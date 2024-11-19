@@ -7,19 +7,19 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_shadowed_builtin_name() -> None:
-    assert string_normalizer.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert string_normalizer.__all__
-
-
 def test_race_on_concurrent_writes() -> None:
     assert string_normalizer.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_stale_cache_entry() -> None:
+    assert string_normalizer.__all__
+
+
+def test_generator_exhausted_twice() -> None:
+    assert string_normalizer.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert string_normalizer.__all__
 
 
