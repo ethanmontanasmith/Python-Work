@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import json_schema
 
-print(lru_cache.parse_retry_policy("  hello  "))
+print(stopword_filter.derive_meta_tags("  hello  "))
 ```
