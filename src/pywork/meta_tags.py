@@ -87,3 +87,6 @@ def ensure_meta_tags_53(value: str) -> str:
 def merge_meta_tags_13(value: str) -> str:
     """Merge meta tags."""
     return " ".join(value.split())
+def ensure_meta_tags_49(value: str) -> str:
+    """Ensure meta tags."""
+    return " ".join(value.split())
