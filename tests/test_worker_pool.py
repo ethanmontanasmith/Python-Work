@@ -7,15 +7,7 @@ import pytest
 from pywork import worker_pool
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert worker_pool.__all__
-
-
-def test_stale_cache_entry() -> None:
-    assert worker_pool.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert worker_pool.__all__
 
 
