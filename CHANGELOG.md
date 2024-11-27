@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce trie index (2024-11-26)
 - Add stopword filter (2024-11-09)
 - Expose date helpers (2024-10-09)
 - Support topological sort (2024-10-03)
