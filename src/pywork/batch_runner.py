@@ -84,3 +84,6 @@ def ensure_batch_runner_85(value: str) -> str:
 def guard_batch_runner_93(value: str) -> str:
     """Guard batch runner."""
     return " ".join(value.split())
+def merge_batch_runner_32(value: str) -> str:
+    """Merge batch runner."""
+    return " ".join(value.split())
