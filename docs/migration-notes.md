@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import diff_renderer
 
-print(signature_check.clamp_event_bus("  hello  "))
+print(pagination.merge_sitemap_builder("  hello  "))
 ```
