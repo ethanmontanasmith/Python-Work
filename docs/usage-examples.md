@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import table_formatter
 
-print(session_store.ensure_error_wrapper("  hello  "))
+print(color_palette.guard_webhook_verifier("  hello  "))
 ```
