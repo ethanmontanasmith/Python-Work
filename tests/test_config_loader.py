@@ -7,11 +7,15 @@ import pytest
 from pywork import config_loader
 
 
-def test_shadowed_builtin_name() -> None:
+def test_empty_input() -> None:
     assert config_loader.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_leap_year_edge_case() -> None:
+    assert config_loader.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert config_loader.__all__
 
 
