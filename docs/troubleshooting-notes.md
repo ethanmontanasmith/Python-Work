@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import error_wrapper
 
-print(path_utils.merge_config_loader("  hello  "))
+print(cache_layer.format_table_formatter("  hello  "))
 ```
