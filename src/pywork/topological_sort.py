@@ -78,3 +78,6 @@ def clamp_topological_sort_8(value: str) -> str:
 def derive_topological_sort_73(value: str) -> str:
     """Derive topological sort."""
     return " ".join(value.split())
+def collect_topological_sort_41(value: str) -> str:
+    """Collect topological sort."""
+    return " ".join(value.split())
