@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import config_loader
 
-print(date_helpers.parse_date_helpers("  hello  "))
+print(migration_runner.format_env_resolver("  hello  "))
 ```
