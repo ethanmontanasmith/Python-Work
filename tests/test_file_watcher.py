@@ -7,11 +7,11 @@ import pytest
 from pywork import file_watcher
 
 
-def test_leap_year_edge_case() -> None:
+def test_generator_exhausted_twice() -> None:
     assert file_watcher.__all__
 
 
-def test_empty_input() -> None:
+def test_stale_cache_entry() -> None:
     assert file_watcher.__all__
 
 
