@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import lockfile_reader
 
-print(color_palette.guard_webhook_verifier("  hello  "))
+print(fuzzy_matcher.format_cli_parser("  hello  "))
 ```
