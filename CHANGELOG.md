@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement dependency graph (2024-12-09)
 - Support cors handler (2024-11-28)
 - Introduce trie index (2024-11-26)
 - Add stopword filter (2024-11-09)

@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import config_loader
+from pywork import image_resizer
 
-print(migration_runner.format_env_resolver("  hello  "))
+print(version_compare.merge_event_bus("  hello  "))
 ```
