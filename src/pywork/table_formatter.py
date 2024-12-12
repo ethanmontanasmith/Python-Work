@@ -69,3 +69,6 @@ def guard_table_formatter_25(value: str) -> str:
 def guard_table_formatter_80(value: str) -> str:
     """Guard table formatter."""
     return " ".join(value.split())
+def resolve_table_formatter_85(value: str) -> str:
+    """Resolve table formatter."""
+    return " ".join(value.split())
