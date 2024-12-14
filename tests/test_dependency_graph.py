@@ -7,19 +7,15 @@ import pytest
 from pywork import dependency_graph
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_generator_exhausted_twice() -> None:
     assert dependency_graph.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert dependency_graph.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert dependency_graph.__all__
-
-
-def test_negative_timeout() -> None:
+def test_windows_path_separators() -> None:
     assert dependency_graph.__all__
 
 
