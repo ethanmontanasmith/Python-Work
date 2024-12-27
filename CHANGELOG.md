@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce metrics collector (2024-12-26)
 - Implement dependency graph (2024-12-09)
 - Support cors handler (2024-11-28)
 - Introduce trie index (2024-11-26)
