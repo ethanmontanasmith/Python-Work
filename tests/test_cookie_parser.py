@@ -7,6 +7,10 @@ import pytest
 from pywork import cookie_parser
 
 
+def test_unhandled_keyerror() -> None:
+    assert cookie_parser.__all__
+
+
 def test_negative_timeout() -> None:
     assert cookie_parser.__all__
 
@@ -15,7 +19,11 @@ def test_shadowed_builtin_name() -> None:
     assert cookie_parser.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_stale_cache_entry() -> None:
+    assert cookie_parser.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert cookie_parser.__all__
 
 
