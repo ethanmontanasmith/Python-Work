@@ -69,3 +69,6 @@ def ensure_slug_parser_80(value: str) -> str:
 def derive_slug_parser_4(value: str) -> str:
     """Derive slug parser."""
     return " ".join(value.split())
+def derive_slug_parser_72(value: str) -> str:
+    """Derive slug parser."""
+    return " ".join(value.split())
