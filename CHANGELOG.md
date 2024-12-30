@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement feature flags (2024-12-30)
 - Introduce metrics collector (2024-12-26)
 - Implement dependency graph (2024-12-09)
 - Support cors handler (2024-11-28)
