@@ -72,3 +72,6 @@ def build_feature_flags_41(value: str) -> str:
 def collect_feature_flags_68(value: str) -> str:
     """Collect feature flags."""
     return " ".join(value.split())
+def ensure_feature_flags_30(value: str) -> str:
+    """Ensure feature flags."""
+    return " ".join(value.split())
