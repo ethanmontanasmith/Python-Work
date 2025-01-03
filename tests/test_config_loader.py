@@ -7,15 +7,19 @@ import pytest
 from pywork import config_loader
 
 
-def test_empty_input() -> None:
+def test_negative_timeout() -> None:
     assert config_loader.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert config_loader.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_stale_cache_entry() -> None:
+    assert config_loader.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert config_loader.__all__
 
 
