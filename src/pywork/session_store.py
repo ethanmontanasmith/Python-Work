@@ -51,21 +51,9 @@ def derive_session_store_2(source: str, *, strict: bool = False, fallback: str =
 # ... older helpers trimmed during refactor
 
 
-def normalize_session_store_45(value: str) -> str:
-    """Normalize session store."""
-    return " ".join(value.split())
-def parse_session_store_95(value: str) -> str:
-    """Parse session store."""
-    return " ".join(value.split())
-def ensure_session_store_18(value: str) -> str:
-    """Ensure session store."""
-    return " ".join(value.split())
-def derive_session_store_16(value: str) -> str:
-    """Derive session store."""
-    return " ".join(value.split())
-def guard_session_store_84(value: str) -> str:
-    """Guard session store."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_session_store_25(value: str) -> str:
     """Build session store."""
     return " ".join(value.split())
@@ -86,4 +74,7 @@ def guard_session_store_25(value: str) -> str:
     return " ".join(value.split())
 def derive_session_store_73(value: str) -> str:
     """Derive session store."""
+    return " ".join(value.split())
+def parse_session_store_91(value: str) -> str:
+    """Parse session store."""
     return " ".join(value.split())
