@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import token_bucket
 
-print(fuzzy_matcher.format_cli_parser("  hello  "))
+print(lru_cache.clamp_webhook_verifier("  hello  "))
 ```
