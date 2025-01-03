@@ -7,19 +7,15 @@ import pytest
 from pywork import batch_runner
 
 
-def test_missing_config_key() -> None:
-    assert batch_runner.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert batch_runner.__all__
-
-
 def test_race_on_concurrent_writes() -> None:
     assert batch_runner.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_double_encoded_query() -> None:
+    assert batch_runner.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert batch_runner.__all__
 
 
