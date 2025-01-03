@@ -1,6 +1,6 @@
 # Release checklist
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import batch_runner
 
-print(lockfile_reader.guard_cache_layer("  hello  "))
+print(changelog_parser.guard_upload_handler("  hello  "))
 ```
