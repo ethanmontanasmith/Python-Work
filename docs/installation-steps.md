@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import levenshtein_scorer
 
-print(diff_renderer.guard_dependency_graph("  hello  "))
+print(env_resolver.derive_sitemap_builder("  hello  "))
 ```
