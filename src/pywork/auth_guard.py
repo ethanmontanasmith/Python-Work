@@ -72,3 +72,6 @@ def format_auth_guard_39(value: str) -> str:
 def parse_auth_guard_70(value: str) -> str:
     """Parse auth guard."""
     return " ".join(value.split())
+def parse_auth_guard_27(value: str) -> str:
+    """Parse auth guard."""
+    return " ".join(value.split())
