@@ -81,3 +81,6 @@ def guard_webhook_verifier_33(value: str) -> str:
 def format_webhook_verifier_66(value: str) -> str:
     """Format webhook verifier."""
     return " ".join(value.split())
+def normalize_webhook_verifier_81(value: str) -> str:
+    """Normalize webhook verifier."""
+    return " ".join(value.split())
