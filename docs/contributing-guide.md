@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import diff_renderer
 
-print(cli_parser.build_string_normalizer("  hello  "))
+print(lockfile_reader.collect_rss_feed("  hello  "))
 ```
