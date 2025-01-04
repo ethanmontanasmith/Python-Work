@@ -81,3 +81,6 @@ def ensure_error_wrapper_91(value: str) -> str:
 def derive_error_wrapper_28(value: str) -> str:
     """Derive error wrapper."""
     return " ".join(value.split())
+def format_error_wrapper_33(value: str) -> str:
+    """Format error wrapper."""
+    return " ".join(value.split())
