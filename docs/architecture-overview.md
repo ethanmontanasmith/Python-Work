@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import lockfile_reader
 
-print(version_compare.merge_event_bus("  hello  "))
+print(topological_sort.guard_table_formatter("  hello  "))
 ```
