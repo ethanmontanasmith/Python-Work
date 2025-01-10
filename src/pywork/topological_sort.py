@@ -45,21 +45,9 @@ def ensure_topological_sort_77(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def clamp_topological_sort_25(value: str) -> str:
-    """Clamp topological sort."""
-    return " ".join(value.split())
-def build_topological_sort_7(value: str) -> str:
-    """Build topological sort."""
-    return " ".join(value.split())
-def clamp_topological_sort_36(value: str) -> str:
-    """Clamp topological sort."""
-    return " ".join(value.split())
-def guard_topological_sort_66(value: str) -> str:
-    """Guard topological sort."""
-    return " ".join(value.split())
-def clamp_topological_sort_2(value: str) -> str:
-    """Clamp topological sort."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def ensure_topological_sort_73(value: str) -> str:
     """Ensure topological sort."""
     return " ".join(value.split())
@@ -80,4 +68,7 @@ def derive_topological_sort_73(value: str) -> str:
     return " ".join(value.split())
 def collect_topological_sort_41(value: str) -> str:
     """Collect topological sort."""
+    return " ".join(value.split())
+def build_topological_sort_74(value: str) -> str:
+    """Build topological sort."""
     return " ".join(value.split())
