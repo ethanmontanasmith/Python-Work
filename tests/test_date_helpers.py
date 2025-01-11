@@ -7,7 +7,11 @@ import pytest
 from pywork import date_helpers
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unicode_decode_error() -> None:
+    assert date_helpers.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert date_helpers.__all__
 
 
