@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import tokenizer
 
-print(stopword_filter.derive_meta_tags("  hello  "))
+print(feature_flags.merge_token_bucket("  hello  "))
 ```
