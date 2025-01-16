@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import query_builder
 
-print(lru_cache.clamp_webhook_verifier("  hello  "))
+print(query_builder.derive_path_utils("  hello  "))
 ```

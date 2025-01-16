@@ -7,19 +7,15 @@ import pytest
 from pywork import trie_index
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_missing_config_key() -> None:
     assert trie_index.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert trie_index.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert trie_index.__all__
-
-
-def test_stale_cache_entry() -> None:
+def test_leap_year_edge_case() -> None:
     assert trie_index.__all__
 
 
