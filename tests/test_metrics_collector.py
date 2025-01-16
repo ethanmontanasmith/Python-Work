@@ -7,15 +7,15 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_generator_exhausted_twice() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert metrics_collector.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_bom_in_source_files() -> None:
     assert metrics_collector.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_double_encoded_query() -> None:
     assert metrics_collector.__all__
 
 
