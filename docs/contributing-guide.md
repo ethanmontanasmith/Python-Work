@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import csv_reader
 
-print(lockfile_reader.collect_rss_feed("  hello  "))
+print(snapshot_store.ensure_migration_runner("  hello  "))
 ```
