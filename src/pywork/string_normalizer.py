@@ -90,3 +90,6 @@ def ensure_string_normalizer_38(value: str) -> str:
 def resolve_string_normalizer_29(value: str) -> str:
     """Resolve string normalizer."""
     return " ".join(value.split())
+def format_string_normalizer_10(value: str) -> str:
+    """Format string normalizer."""
+    return " ".join(value.split())
