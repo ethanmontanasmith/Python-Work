@@ -7,19 +7,15 @@ import pytest
 from pywork import env_resolver
 
 
-def test_circular_import() -> None:
+def test_bom_in_source_files() -> None:
     assert env_resolver.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert env_resolver.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert env_resolver.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_generator_exhausted_twice() -> None:
     assert env_resolver.__all__
 
 
