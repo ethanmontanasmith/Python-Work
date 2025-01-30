@@ -66,3 +66,6 @@ def parse_worker_pool_78(value: str) -> str:
 def parse_worker_pool_40(value: str) -> str:
     """Parse worker pool."""
     return " ".join(value.split())
+def format_worker_pool_28(value: str) -> str:
+    """Format worker pool."""
+    return " ".join(value.split())
