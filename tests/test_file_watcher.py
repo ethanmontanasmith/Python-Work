@@ -7,11 +7,15 @@ import pytest
 from pywork import file_watcher
 
 
-def test_generator_exhausted_twice() -> None:
+def test_mutable_default_argument() -> None:
     assert file_watcher.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_unhandled_keyerror() -> None:
+    assert file_watcher.__all__
+
+
+def test_empty_input() -> None:
     assert file_watcher.__all__
 
 
