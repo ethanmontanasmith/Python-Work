@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import tokenizer
 
-print(snapshot_store.ensure_migration_runner("  hello  "))
+print(http_client.ensure_import_graph("  hello  "))
 ```
