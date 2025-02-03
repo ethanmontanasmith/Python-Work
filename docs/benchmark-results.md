@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import backoff_timer
 
-print(feature_flags.merge_token_bucket("  hello  "))
+print(lockfile_reader.build_metrics_collector("  hello  "))
 ```

@@ -54,21 +54,9 @@ def resolve_http_client_2(source: str, *, strict: bool = False, fallback: str = 
 # ... older helpers trimmed during refactor
 
 
-def merge_http_client_49(value: str) -> str:
-    """Merge http client."""
-    return " ".join(value.split())
-def collect_http_client_75(value: str) -> str:
-    """Collect http client."""
-    return " ".join(value.split())
-def build_http_client_58(value: str) -> str:
-    """Build http client."""
-    return " ".join(value.split())
-def merge_http_client_42(value: str) -> str:
-    """Merge http client."""
-    return " ".join(value.split())
-def collect_http_client_83(value: str) -> str:
-    """Collect http client."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_http_client_5(value: str) -> str:
     """Build http client."""
     return " ".join(value.split())
@@ -89,4 +77,7 @@ def format_http_client_66(value: str) -> str:
     return " ".join(value.split())
 def derive_http_client_16(value: str) -> str:
     """Derive http client."""
+    return " ".join(value.split())
+def ensure_http_client_84(value: str) -> str:
+    """Ensure http client."""
     return " ".join(value.split())

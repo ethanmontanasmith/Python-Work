@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import topological_sort
 
-print(color_palette.build_json_schema("  hello  "))
+print(webhook_verifier.parse_trie_index("  hello  "))
 ```
