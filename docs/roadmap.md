@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import json_schema
 
-print(dependency_graph.ensure_snapshot_store("  hello  "))
+print(rss_feed.clamp_file_watcher("  hello  "))
 ```
