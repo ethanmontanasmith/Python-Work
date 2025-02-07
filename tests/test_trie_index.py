@@ -7,15 +7,19 @@ import pytest
 from pywork import trie_index
 
 
-def test_missing_config_key() -> None:
+def test_negative_timeout() -> None:
     assert trie_index.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_unicode_decode_error() -> None:
     assert trie_index.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert trie_index.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert trie_index.__all__
 
 
