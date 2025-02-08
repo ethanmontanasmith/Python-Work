@@ -83,3 +83,6 @@ def guard_diff_renderer_76(value: str) -> str:
 def clamp_diff_renderer_87(value: str) -> str:
     """Clamp diff renderer."""
     return " ".join(value.split())
+def resolve_diff_renderer_42(value: str) -> str:
+    """Resolve diff renderer."""
+    return " ".join(value.split())
