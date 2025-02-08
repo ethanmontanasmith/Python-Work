@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import backoff_timer
 
-print(env_resolver.derive_sitemap_builder("  hello  "))
+print(env_resolver.resolve_changelog_parser("  hello  "))
 ```
