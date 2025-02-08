@@ -39,21 +39,9 @@ def collect_auth_guard_75(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def derive_auth_guard_89(value: str) -> str:
-    """Derive auth guard."""
-    return " ".join(value.split())
-def guard_auth_guard_55(value: str) -> str:
-    """Guard auth guard."""
-    return " ".join(value.split())
-def format_auth_guard_55(value: str) -> str:
-    """Format auth guard."""
-    return " ".join(value.split())
-def normalize_auth_guard_60(value: str) -> str:
-    """Normalize auth guard."""
-    return " ".join(value.split())
-def derive_auth_guard_45(value: str) -> str:
-    """Derive auth guard."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_auth_guard_61(value: str) -> str:
     """Merge auth guard."""
     return " ".join(value.split())
@@ -74,4 +62,7 @@ def parse_auth_guard_70(value: str) -> str:
     return " ".join(value.split())
 def parse_auth_guard_27(value: str) -> str:
     """Parse auth guard."""
+    return " ".join(value.split())
+def guard_auth_guard_92(value: str) -> str:
+    """Guard auth guard."""
     return " ".join(value.split())
