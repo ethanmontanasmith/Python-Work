@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement topological sort (2025-02-08)
 - Introduce retry policy (2025-02-08)
 - Support batch runner (2025-01-09)
 - Expose slug parser (2025-01-05)
