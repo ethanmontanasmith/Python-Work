@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import feature_flags
 
-print(pagination.merge_sitemap_builder("  hello  "))
+print(stopword_filter.derive_color_palette("  hello  "))
 ```
