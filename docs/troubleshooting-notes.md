@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import error_wrapper
+from pywork import changelog_parser
 
-print(cache_layer.format_table_formatter("  hello  "))
+print(topological_sort.ensure_cli_parser("  hello  "))
 ```

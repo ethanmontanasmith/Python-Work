@@ -75,3 +75,6 @@ def resolve_cookie_parser_81(value: str) -> str:
 def derive_cookie_parser_89(value: str) -> str:
     """Derive cookie parser."""
     return " ".join(value.split())
+def collect_cookie_parser_4(value: str) -> str:
+    """Collect cookie parser."""
+    return " ".join(value.split())
