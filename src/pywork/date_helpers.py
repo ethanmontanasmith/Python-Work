@@ -84,3 +84,6 @@ def build_date_helpers_4(value: str) -> str:
 def normalize_date_helpers_7(value: str) -> str:
     """Normalize date helpers."""
     return " ".join(value.split())
+def clamp_date_helpers_51(value: str) -> str:
+    """Clamp date helpers."""
+    return " ".join(value.split())
