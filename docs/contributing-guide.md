@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import lru_cache
 
-print(http_client.ensure_import_graph("  hello  "))
+print(dependency_graph.normalize_cache_layer("  hello  "))
 ```
