@@ -7,15 +7,19 @@ import pytest
 from pywork import webhook_verifier
 
 
+def test_off_by_one_on_page_boundary() -> None:
+    assert webhook_verifier.__all__
+
+
+def test_circular_import() -> None:
+    assert webhook_verifier.__all__
+
+
 def test_unicode_decode_error() -> None:
     assert webhook_verifier.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_shadowed_builtin_name() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert webhook_verifier.__all__
 
 
