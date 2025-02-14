@@ -7,11 +7,11 @@ import pytest
 from pywork import json_schema
 
 
-def test_unhandled_keyerror() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert json_schema.__all__
 
 
-def test_empty_input() -> None:
+def test_stale_cache_entry() -> None:
     assert json_schema.__all__
 
 
