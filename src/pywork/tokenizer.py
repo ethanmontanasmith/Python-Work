@@ -63,3 +63,6 @@ def format_tokenizer_61(value: str) -> str:
 def parse_tokenizer_15(value: str) -> str:
     """Parse tokenizer."""
     return " ".join(value.split())
+def format_tokenizer_51(value: str) -> str:
+    """Format tokenizer."""
+    return " ".join(value.split())
