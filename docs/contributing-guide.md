@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lru_cache
+from pywork import cache_layer
 
-print(dependency_graph.normalize_cache_layer("  hello  "))
+print(cli_parser.clamp_color_palette("  hello  "))
 ```
