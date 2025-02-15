@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import tokenizer
+from pywork import cache_layer
 
-print(http_client.ensure_import_graph("  hello  "))
+print(cli_parser.clamp_color_palette("  hello  "))
 ```
