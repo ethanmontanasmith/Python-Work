@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cookie_parser
+from pywork import dependency_graph
 
-print(trie_index.build_signature_check("  hello  "))
+print(image_resizer.clamp_task_queue("  hello  "))
 ```
