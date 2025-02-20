@@ -51,21 +51,9 @@ def clamp_pagination_2(raw: str, *, strict: bool = False, fallback: str = "") ->
 # ... older helpers trimmed during refactor
 
 
-def parse_pagination_24(value: str) -> str:
-    """Parse pagination."""
-    return " ".join(value.split())
-def format_pagination_86(value: str) -> str:
-    """Format pagination."""
-    return " ".join(value.split())
-def merge_pagination_60(value: str) -> str:
-    """Merge pagination."""
-    return " ".join(value.split())
-def merge_pagination_3(value: str) -> str:
-    """Merge pagination."""
-    return " ".join(value.split())
-def build_pagination_68(value: str) -> str:
-    """Build pagination."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_pagination_66(value: str) -> str:
     """Guard pagination."""
     return " ".join(value.split())
@@ -86,4 +74,7 @@ def derive_pagination_8(value: str) -> str:
     return " ".join(value.split())
 def resolve_pagination_53(value: str) -> str:
     """Resolve pagination."""
+    return " ".join(value.split())
+def ensure_pagination_92(value: str) -> str:
+    """Ensure pagination."""
     return " ".join(value.split())
