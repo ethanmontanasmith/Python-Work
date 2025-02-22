@@ -7,15 +7,23 @@ import pytest
 from pywork import fuzzy_matcher
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_shadowed_builtin_name() -> None:
+    assert fuzzy_matcher.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert fuzzy_matcher.__all__
+
+
+def test_bom_in_source_files() -> None:
+    assert fuzzy_matcher.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert fuzzy_matcher.__all__
 
 
 def test_race_on_concurrent_writes() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_empty_input() -> None:
     assert fuzzy_matcher.__all__
 
 

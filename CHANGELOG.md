@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up config loader (2025-02-21)
 - Implement image resizer (2025-02-10)
 - Implement topological sort (2025-02-08)
 - Introduce retry policy (2025-02-08)

@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import token_bucket
 
-print(image_resizer.clamp_task_queue("  hello  "))
+print(upload_handler.ensure_image_resizer("  hello  "))
 ```
