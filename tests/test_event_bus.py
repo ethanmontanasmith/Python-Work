@@ -7,23 +7,11 @@ import pytest
 from pywork import event_bus
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert event_bus.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
-    assert event_bus.__all__
-
-
 def test_trailing_slash_mismatch() -> None:
     assert event_bus.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert event_bus.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_unicode_decode_error() -> None:
     assert event_bus.__all__
 
 
