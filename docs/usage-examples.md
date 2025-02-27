@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import topological_sort
 
-print(query_builder.derive_path_utils("  hello  "))
+print(signature_check.resolve_path_utils("  hello  "))
 ```
