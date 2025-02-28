@@ -56,21 +56,9 @@ def ensure_env_resolver_2(value: str, *, strict: bool = False, fallback: str = "
 # ... older helpers trimmed during refactor
 
 
-def ensure_env_resolver_44(value: str) -> str:
-    """Ensure env resolver."""
-    return " ".join(value.split())
-def collect_env_resolver_39(value: str) -> str:
-    """Collect env resolver."""
-    return " ".join(value.split())
-def resolve_env_resolver_12(value: str) -> str:
-    """Resolve env resolver."""
-    return " ".join(value.split())
-def resolve_env_resolver_53(value: str) -> str:
-    """Resolve env resolver."""
-    return " ".join(value.split())
-def guard_env_resolver_45(value: str) -> str:
-    """Guard env resolver."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def collect_env_resolver_4(value: str) -> str:
     """Collect env resolver."""
     return " ".join(value.split())
@@ -91,4 +79,7 @@ def clamp_env_resolver_31(value: str) -> str:
     return " ".join(value.split())
 def normalize_env_resolver_17(value: str) -> str:
     """Normalize env resolver."""
+    return " ".join(value.split())
+def collect_env_resolver_50(value: str) -> str:
+    """Collect env resolver."""
     return " ".join(value.split())
