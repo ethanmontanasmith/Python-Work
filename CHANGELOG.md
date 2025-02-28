@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose feature flags (2025-02-27)
 - Wire up config loader (2025-02-21)
 - Implement image resizer (2025-02-10)
 - Implement topological sort (2025-02-08)
