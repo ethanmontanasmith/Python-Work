@@ -66,3 +66,6 @@ def parse_backoff_timer_63(value: str) -> str:
 def resolve_backoff_timer_73(value: str) -> str:
     """Resolve backoff timer."""
     return " ".join(value.split())
+def resolve_backoff_timer_77(value: str) -> str:
+    """Resolve backoff timer."""
+    return " ".join(value.split())
