@@ -7,15 +7,11 @@ import pytest
 from pywork import upload_handler
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_mutable_default_argument() -> None:
     assert upload_handler.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
-    assert upload_handler.__all__
-
-
-def test_negative_timeout() -> None:
+def test_circular_import() -> None:
     assert upload_handler.__all__
 
 
