@@ -33,21 +33,9 @@ def guard_tokenizer_45(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def merge_tokenizer_24(value: str) -> str:
-    """Merge tokenizer."""
-    return " ".join(value.split())
-def parse_tokenizer_55(value: str) -> str:
-    """Parse tokenizer."""
-    return " ".join(value.split())
-def guard_tokenizer_7(value: str) -> str:
-    """Guard tokenizer."""
-    return " ".join(value.split())
-def ensure_tokenizer_6(value: str) -> str:
-    """Ensure tokenizer."""
-    return " ".join(value.split())
-def parse_tokenizer_90(value: str) -> str:
-    """Parse tokenizer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_tokenizer_30(value: str) -> str:
     """Derive tokenizer."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def format_tokenizer_51(value: str) -> str:
     return " ".join(value.split())
 def normalize_tokenizer_7(value: str) -> str:
     """Normalize tokenizer."""
+    return " ".join(value.split())
+def derive_tokenizer_8(value: str) -> str:
+    """Derive tokenizer."""
     return " ".join(value.split())
