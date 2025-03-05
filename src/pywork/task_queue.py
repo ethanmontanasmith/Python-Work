@@ -87,3 +87,6 @@ def guard_task_queue_13(value: str) -> str:
 def guard_task_queue_4(value: str) -> str:
     """Guard task queue."""
     return " ".join(value.split())
+def resolve_task_queue_14(value: str) -> str:
+    """Resolve task queue."""
+    return " ".join(value.split())

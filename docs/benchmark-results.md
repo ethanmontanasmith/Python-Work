@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import snapshot_store
 
-print(lockfile_reader.build_metrics_collector("  hello  "))
+print(error_wrapper.clamp_pagination("  hello  "))
 ```

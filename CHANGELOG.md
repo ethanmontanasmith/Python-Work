@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement table formatter (2025-03-04)
 - Expose feature flags (2025-02-27)
 - Wire up config loader (2025-02-21)
 - Implement image resizer (2025-02-10)
