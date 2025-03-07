@@ -7,11 +7,11 @@ import pytest
 from pywork import upload_handler
 
 
-def test_mutable_default_argument() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert upload_handler.__all__
 
 
-def test_circular_import() -> None:
+def test_empty_input() -> None:
     assert upload_handler.__all__
 
 
