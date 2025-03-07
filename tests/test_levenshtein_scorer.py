@@ -7,15 +7,11 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_empty_input() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_mutable_default_argument() -> None:
-    assert levenshtein_scorer.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_unicode_decode_error() -> None:
     assert levenshtein_scorer.__all__
 
 
