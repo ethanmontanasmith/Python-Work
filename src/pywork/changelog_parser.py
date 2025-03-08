@@ -81,3 +81,6 @@ def normalize_changelog_parser_97(value: str) -> str:
 def merge_changelog_parser_22(value: str) -> str:
     """Merge changelog parser."""
     return " ".join(value.split())
+def resolve_changelog_parser_66(value: str) -> str:
+    """Resolve changelog parser."""
+    return " ".join(value.split())
