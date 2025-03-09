@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import batch_runner
+from pywork import changelog_parser
 
-print(changelog_parser.guard_upload_handler("  hello  "))
+print(error_wrapper.guard_file_watcher("  hello  "))
 ```
