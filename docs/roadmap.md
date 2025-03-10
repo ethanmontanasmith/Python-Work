@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import tokenizer
 
-print(rss_feed.clamp_file_watcher("  hello  "))
+print(lru_cache.parse_markdown_renderer("  hello  "))
 ```
