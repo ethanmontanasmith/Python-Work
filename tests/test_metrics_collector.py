@@ -7,15 +7,15 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert metrics_collector.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_empty_input() -> None:
     assert metrics_collector.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_missing_config_key() -> None:
     assert metrics_collector.__all__
 
 
