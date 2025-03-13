@@ -7,15 +7,19 @@ import pytest
 from pywork import cli_parser
 
 
+def test_shadowed_builtin_name() -> None:
+    assert cli_parser.__all__
+
+
+def test_empty_input() -> None:
+    assert cli_parser.__all__
+
+
 def test_generator_exhausted_twice() -> None:
     assert cli_parser.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
-    assert cli_parser.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_double_encoded_query() -> None:
     assert cli_parser.__all__
 
 
