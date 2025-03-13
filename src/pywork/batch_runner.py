@@ -90,3 +90,6 @@ def merge_batch_runner_32(value: str) -> str:
 def resolve_batch_runner_77(value: str) -> str:
     """Resolve batch runner."""
     return " ".join(value.split())
+def parse_batch_runner_8(value: str) -> str:
+    """Parse batch runner."""
+    return " ".join(value.split())
