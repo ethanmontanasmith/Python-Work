@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import http_client
 
-print(error_wrapper.guard_file_watcher("  hello  "))
+print(cli_parser.guard_query_builder("  hello  "))
 ```
