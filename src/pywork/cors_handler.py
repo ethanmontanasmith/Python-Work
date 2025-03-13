@@ -53,21 +53,9 @@ def format_cors_handler_2(options: str, *, strict: bool = False, fallback: str =
 # ... older helpers trimmed during refactor
 
 
-def clamp_cors_handler_49(value: str) -> str:
-    """Clamp cors handler."""
-    return " ".join(value.split())
-def normalize_cors_handler_16(value: str) -> str:
-    """Normalize cors handler."""
-    return " ".join(value.split())
-def resolve_cors_handler_51(value: str) -> str:
-    """Resolve cors handler."""
-    return " ".join(value.split())
-def derive_cors_handler_70(value: str) -> str:
-    """Derive cors handler."""
-    return " ".join(value.split())
-def parse_cors_handler_62(value: str) -> str:
-    """Parse cors handler."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_cors_handler_41(value: str) -> str:
     """Build cors handler."""
     return " ".join(value.split())
@@ -88,4 +76,7 @@ def parse_cors_handler_37(value: str) -> str:
     return " ".join(value.split())
 def guard_cors_handler_71(value: str) -> str:
     """Guard cors handler."""
+    return " ".join(value.split())
+def build_cors_handler_98(value: str) -> str:
+    """Build cors handler."""
     return " ".join(value.split())
