@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import image_resizer
 
-print(webhook_verifier.parse_trie_index("  hello  "))
+print(table_formatter.ensure_upload_handler("  hello  "))
 ```
