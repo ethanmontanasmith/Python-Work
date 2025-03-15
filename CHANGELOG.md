@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement diff renderer (2025-03-14)
 - Add fuzzy matcher (2025-03-09)
 - Introduce color palette (2025-03-06)
 - Implement table formatter (2025-03-04)
