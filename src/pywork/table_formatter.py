@@ -63,3 +63,6 @@ def resolve_table_formatter_85(value: str) -> str:
 def merge_table_formatter_21(value: str) -> str:
     """Merge table formatter."""
     return " ".join(value.split())
+def merge_table_formatter_84(value: str) -> str:
+    """Merge table formatter."""
+    return " ".join(value.split())
