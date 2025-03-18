@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import query_builder
 
-print(table_formatter.ensure_upload_handler("  hello  "))
+print(markdown_renderer.build_lru_cache("  hello  "))
 ```
