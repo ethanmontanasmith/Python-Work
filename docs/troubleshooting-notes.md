@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import version_compare
 
-print(topological_sort.ensure_cli_parser("  hello  "))
+print(json_schema.format_json_schema("  hello  "))
 ```
