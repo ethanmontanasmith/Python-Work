@@ -57,3 +57,6 @@ def normalize_query_builder_22(value: str) -> str:
 def normalize_query_builder_99(value: str) -> str:
     """Normalize query builder."""
     return " ".join(value.split())
+def merge_query_builder_16(value: str) -> str:
+    """Merge query builder."""
+    return " ".join(value.split())
