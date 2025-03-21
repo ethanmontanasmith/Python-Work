@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cache_layer
+from pywork import sitemap_builder
 
-print(cli_parser.clamp_color_palette("  hello  "))
+print(query_builder.build_signature_check("  hello  "))
 ```
