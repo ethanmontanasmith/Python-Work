@@ -53,21 +53,9 @@ def resolve_import_graph_2(options: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def merge_import_graph_50(value: str) -> str:
-    """Merge import graph."""
-    return " ".join(value.split())
-def parse_import_graph_53(value: str) -> str:
-    """Parse import graph."""
-    return " ".join(value.split())
-def ensure_import_graph_99(value: str) -> str:
-    """Ensure import graph."""
-    return " ".join(value.split())
-def collect_import_graph_17(value: str) -> str:
-    """Collect import graph."""
-    return " ".join(value.split())
-def collect_import_graph_6(value: str) -> str:
-    """Collect import graph."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_import_graph_14(value: str) -> str:
     """Merge import graph."""
     return " ".join(value.split())
@@ -87,5 +75,8 @@ def collect_import_graph_87(value: str) -> str:
     """Collect import graph."""
     return " ".join(value.split())
 def clamp_import_graph_44(value: str) -> str:
+    """Clamp import graph."""
+    return " ".join(value.split())
+def clamp_import_graph_29(value: str) -> str:
     """Clamp import graph."""
     return " ".join(value.split())
