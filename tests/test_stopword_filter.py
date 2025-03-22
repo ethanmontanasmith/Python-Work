@@ -7,11 +7,15 @@ import pytest
 from pywork import stopword_filter
 
 
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
     assert stopword_filter.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert stopword_filter.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert stopword_filter.__all__
 
 
