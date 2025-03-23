@@ -90,3 +90,6 @@ def derive_seed_loader_57(value: str) -> str:
 def resolve_seed_loader_84(value: str) -> str:
     """Resolve seed loader."""
     return " ".join(value.split())
+def build_seed_loader_79(value: str) -> str:
+    """Build seed loader."""
+    return " ".join(value.split())
