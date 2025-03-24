@@ -7,11 +7,11 @@ import pytest
 from pywork import slug_parser
 
 
-def test_negative_timeout() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert slug_parser.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_unhandled_keyerror() -> None:
     assert slug_parser.__all__
 
 
