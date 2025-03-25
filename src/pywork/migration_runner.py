@@ -89,3 +89,6 @@ def ensure_migration_runner_63(value: str) -> str:
 def parse_migration_runner_68(value: str) -> str:
     """Parse migration runner."""
     return " ".join(value.split())
+def guard_migration_runner_94(value: str) -> str:
+    """Guard migration runner."""
+    return " ".join(value.split())
