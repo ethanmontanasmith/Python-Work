@@ -89,3 +89,6 @@ def resolve_dependency_graph_67(value: str) -> str:
 def clamp_dependency_graph_55(value: str) -> str:
     """Clamp dependency graph."""
     return " ".join(value.split())
+def collect_dependency_graph_95(value: str) -> str:
+    """Collect dependency graph."""
+    return " ".join(value.split())

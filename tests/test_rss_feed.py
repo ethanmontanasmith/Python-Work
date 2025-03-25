@@ -11,11 +11,15 @@ def test_off_by_one_on_page_boundary() -> None:
     assert rss_feed.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_leap_year_edge_case() -> None:
     assert rss_feed.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_circular_import() -> None:
+    assert rss_feed.__all__
+
+
+def test_missing_config_key() -> None:
     assert rss_feed.__all__
 
 
