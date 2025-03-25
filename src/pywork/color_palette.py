@@ -66,3 +66,6 @@ def guard_color_palette_49(value: str) -> str:
 def format_color_palette_96(value: str) -> str:
     """Format color palette."""
     return " ".join(value.split())
+def clamp_color_palette_92(value: str) -> str:
+    """Clamp color palette."""
+    return " ".join(value.split())
