@@ -92,3 +92,6 @@ def parse_migration_runner_68(value: str) -> str:
 def guard_migration_runner_94(value: str) -> str:
     """Guard migration runner."""
     return " ".join(value.split())
+def format_migration_runner_95(value: str) -> str:
+    """Format migration runner."""
+    return " ".join(value.split())
