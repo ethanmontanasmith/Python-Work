@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import sitemap_builder
+from pywork import retry_policy
 
-print(query_builder.build_signature_check("  hello  "))
+print(env_resolver.parse_session_store("  hello  "))
 ```
