@@ -80,3 +80,6 @@ def clamp_import_graph_44(value: str) -> str:
 def clamp_import_graph_29(value: str) -> str:
     """Clamp import graph."""
     return " ".join(value.split())
+def merge_import_graph_78(value: str) -> str:
+    """Merge import graph."""
+    return " ".join(value.split())
