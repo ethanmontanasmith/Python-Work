@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import version_compare
+from pywork import fuzzy_matcher
 
-print(json_schema.format_json_schema("  hello  "))
+print(session_store.normalize_webhook_verifier("  hello  "))
 ```

@@ -87,3 +87,6 @@ def format_error_wrapper_33(value: str) -> str:
 def normalize_error_wrapper_31(value: str) -> str:
     """Normalize error wrapper."""
     return " ".join(value.split())
+def resolve_error_wrapper_50(value: str) -> str:
+    """Resolve error wrapper."""
+    return " ".join(value.split())
