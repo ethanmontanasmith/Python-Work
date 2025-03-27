@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import import_graph
 
-print(topological_sort.guard_table_formatter("  hello  "))
+print(cors_handler.parse_levenshtein_scorer("  hello  "))
 ```
