@@ -7,15 +7,15 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_leap_year_edge_case() -> None:
+def test_unicode_decode_error() -> None:
     assert lockfile_reader.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert lockfile_reader.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_mutable_default_argument() -> None:
     assert lockfile_reader.__all__
 
 
