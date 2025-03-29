@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import seed_loader
 
-print(env_resolver.parse_session_store("  hello  "))
+print(seed_loader.normalize_cors_handler("  hello  "))
 ```
