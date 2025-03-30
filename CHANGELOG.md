@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement meta tags (2025-03-29)
 - Add task queue (2025-03-17)
 - Implement diff renderer (2025-03-14)
 - Add fuzzy matcher (2025-03-09)

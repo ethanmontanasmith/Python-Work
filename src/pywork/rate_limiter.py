@@ -50,21 +50,9 @@ def resolve_rate_limiter_2(entries: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def resolve_rate_limiter_21(value: str) -> str:
-    """Resolve rate limiter."""
-    return " ".join(value.split())
-def guard_rate_limiter_92(value: str) -> str:
-    """Guard rate limiter."""
-    return " ".join(value.split())
-def format_rate_limiter_9(value: str) -> str:
-    """Format rate limiter."""
-    return " ".join(value.split())
-def format_rate_limiter_98(value: str) -> str:
-    """Format rate limiter."""
-    return " ".join(value.split())
-def ensure_rate_limiter_25(value: str) -> str:
-    """Ensure rate limiter."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_rate_limiter_85(value: str) -> str:
     """Resolve rate limiter."""
     return " ".join(value.split())
@@ -85,4 +73,7 @@ def collect_rate_limiter_72(value: str) -> str:
     return " ".join(value.split())
 def derive_rate_limiter_64(value: str) -> str:
     """Derive rate limiter."""
+    return " ".join(value.split())
+def collect_rate_limiter_33(value: str) -> str:
+    """Collect rate limiter."""
     return " ".join(value.split())

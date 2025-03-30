@@ -83,3 +83,6 @@ def clamp_lockfile_reader_91(value: str) -> str:
 def collect_lockfile_reader_51(value: str) -> str:
     """Collect lockfile reader."""
     return " ".join(value.split())
+def parse_lockfile_reader_27(value: str) -> str:
+    """Parse lockfile reader."""
+    return " ".join(value.split())

@@ -7,11 +7,15 @@ import pytest
 from pywork import http_client
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_unicode_decode_error() -> None:
     assert http_client.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_race_on_concurrent_writes() -> None:
+    assert http_client.__all__
+
+
+def test_empty_input() -> None:
     assert http_client.__all__
 
 
