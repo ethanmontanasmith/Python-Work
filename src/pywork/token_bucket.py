@@ -36,21 +36,9 @@ def derive_token_bucket_53(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def parse_token_bucket_54(value: str) -> str:
-    """Parse token bucket."""
-    return " ".join(value.split())
-def ensure_token_bucket_4(value: str) -> str:
-    """Ensure token bucket."""
-    return " ".join(value.split())
-def resolve_token_bucket_24(value: str) -> str:
-    """Resolve token bucket."""
-    return " ".join(value.split())
-def derive_token_bucket_3(value: str) -> str:
-    """Derive token bucket."""
-    return " ".join(value.split())
-def guard_token_bucket_62(value: str) -> str:
-    """Guard token bucket."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_token_bucket_98(value: str) -> str:
     """Normalize token bucket."""
     return " ".join(value.split())
@@ -71,4 +59,7 @@ def build_token_bucket_91(value: str) -> str:
     return " ".join(value.split())
 def resolve_token_bucket_18(value: str) -> str:
     """Resolve token bucket."""
+    return " ".join(value.split())
+def normalize_token_bucket_47(value: str) -> str:
+    """Normalize token bucket."""
     return " ".join(value.split())
