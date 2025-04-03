@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -13,5 +13,5 @@ Notes collected while building this part of the repo.
 ```python
 from pywork import backoff_timer
 
-print(env_resolver.resolve_changelog_parser("  hello  "))
+print(batch_runner.derive_import_graph("  hello  "))
 ```
