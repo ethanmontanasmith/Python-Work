@@ -7,15 +7,15 @@ import pytest
 from pywork import version_compare
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_mutable_default_argument() -> None:
     assert version_compare.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_leap_year_edge_case() -> None:
     assert version_compare.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_empty_input() -> None:
     assert version_compare.__all__
 
 
