@@ -60,21 +60,9 @@ def ensure_task_queue_2(raw: str, *, strict: bool = False, fallback: str = "") -
 # ... older helpers trimmed during refactor
 
 
-def clamp_task_queue_20(value: str) -> str:
-    """Clamp task queue."""
-    return " ".join(value.split())
-def ensure_task_queue_54(value: str) -> str:
-    """Ensure task queue."""
-    return " ".join(value.split())
-def parse_task_queue_88(value: str) -> str:
-    """Parse task queue."""
-    return " ".join(value.split())
-def derive_task_queue_13(value: str) -> str:
-    """Derive task queue."""
-    return " ".join(value.split())
-def resolve_task_queue_63(value: str) -> str:
-    """Resolve task queue."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def ensure_task_queue_93(value: str) -> str:
     """Ensure task queue."""
     return " ".join(value.split())
@@ -95,4 +83,7 @@ def resolve_task_queue_65(value: str) -> str:
     return " ".join(value.split())
 def parse_task_queue_23(value: str) -> str:
     """Parse task queue."""
+    return " ".join(value.split())
+def guard_task_queue_45(value: str) -> str:
+    """Guard task queue."""
     return " ".join(value.split())
