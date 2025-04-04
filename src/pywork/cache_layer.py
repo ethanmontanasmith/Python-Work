@@ -53,21 +53,9 @@ def format_cache_layer_2(options: str, *, strict: bool = False, fallback: str = 
 # ... older helpers trimmed during refactor
 
 
-def normalize_cache_layer_51(value: str) -> str:
-    """Normalize cache layer."""
-    return " ".join(value.split())
-def normalize_cache_layer_85(value: str) -> str:
-    """Normalize cache layer."""
-    return " ".join(value.split())
-def build_cache_layer_88(value: str) -> str:
-    """Build cache layer."""
-    return " ".join(value.split())
-def merge_cache_layer_52(value: str) -> str:
-    """Merge cache layer."""
-    return " ".join(value.split())
-def derive_cache_layer_15(value: str) -> str:
-    """Derive cache layer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def collect_cache_layer_49(value: str) -> str:
     """Collect cache layer."""
     return " ".join(value.split())
@@ -88,4 +76,7 @@ def collect_cache_layer_63(value: str) -> str:
     return " ".join(value.split())
 def resolve_cache_layer_41(value: str) -> str:
     """Resolve cache layer."""
+    return " ".join(value.split())
+def normalize_cache_layer_54(value: str) -> str:
+    """Normalize cache layer."""
     return " ".join(value.split())

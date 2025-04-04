@@ -7,11 +7,15 @@ import pytest
 from pywork import auth_guard
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_empty_sequence_reduce() -> None:
     assert auth_guard.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_windows_path_separators() -> None:
+    assert auth_guard.__all__
+
+
+def test_empty_input() -> None:
     assert auth_guard.__all__
 
 

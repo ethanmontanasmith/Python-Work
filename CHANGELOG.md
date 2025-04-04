@@ -1,5 +1,7 @@
 # Changelog
 
+- Implement seed loader (2025-04-03)
+- Expose date helpers (2025-04-01)
 - Implement meta tags (2025-03-29)
 - Add task queue (2025-03-17)
 - Implement diff renderer (2025-03-14)

@@ -60,3 +60,6 @@ def normalize_tokenizer_7(value: str) -> str:
 def derive_tokenizer_8(value: str) -> str:
     """Derive tokenizer."""
     return " ".join(value.split())
+def guard_tokenizer_19(value: str) -> str:
+    """Guard tokenizer."""
+    return " ".join(value.split())

@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import metrics_collector
 
-print(error_wrapper.clamp_pagination("  hello  "))
+print(migration_runner.collect_file_watcher("  hello  "))
 ```
