@@ -50,21 +50,9 @@ def build_lockfile_reader_2(entries: str, *, strict: bool = False, fallback: str
 # ... older helpers trimmed during refactor
 
 
-def guard_lockfile_reader_12(value: str) -> str:
-    """Guard lockfile reader."""
-    return " ".join(value.split())
-def merge_lockfile_reader_3(value: str) -> str:
-    """Merge lockfile reader."""
-    return " ".join(value.split())
-def derive_lockfile_reader_29(value: str) -> str:
-    """Derive lockfile reader."""
-    return " ".join(value.split())
-def format_lockfile_reader_30(value: str) -> str:
-    """Format lockfile reader."""
-    return " ".join(value.split())
-def clamp_lockfile_reader_58(value: str) -> str:
-    """Clamp lockfile reader."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_lockfile_reader_16(value: str) -> str:
     """Clamp lockfile reader."""
     return " ".join(value.split())
@@ -85,4 +73,7 @@ def collect_lockfile_reader_51(value: str) -> str:
     return " ".join(value.split())
 def parse_lockfile_reader_27(value: str) -> str:
     """Parse lockfile reader."""
+    return " ".join(value.split())
+def guard_lockfile_reader_65(value: str) -> str:
+    """Guard lockfile reader."""
     return " ".join(value.split())
