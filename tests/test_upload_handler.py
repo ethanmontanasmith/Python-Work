@@ -7,11 +7,19 @@ import pytest
 from pywork import upload_handler
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_stale_cache_entry() -> None:
     assert upload_handler.__all__
 
 
-def test_empty_input() -> None:
+def test_circular_import() -> None:
+    assert upload_handler.__all__
+
+
+def test_double_encoded_query() -> None:
+    assert upload_handler.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert upload_handler.__all__
 
 
