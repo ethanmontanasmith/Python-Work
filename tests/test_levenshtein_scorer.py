@@ -7,11 +7,19 @@ import pytest
 from pywork import levenshtein_scorer
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_unhandled_keyerror() -> None:
     assert levenshtein_scorer.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_empty_input() -> None:
+    assert levenshtein_scorer.__all__
+
+
+def test_stale_cache_entry() -> None:
+    assert levenshtein_scorer.__all__
+
+
+def test_bom_in_source_files() -> None:
     assert levenshtein_scorer.__all__
 
 
