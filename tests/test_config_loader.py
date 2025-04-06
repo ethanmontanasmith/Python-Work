@@ -7,7 +7,7 @@ import pytest
 from pywork import config_loader
 
 
-def test_negative_timeout() -> None:
+def test_leap_year_edge_case() -> None:
     assert config_loader.__all__
 
 
@@ -15,11 +15,11 @@ def test_off_by_one_on_page_boundary() -> None:
     assert config_loader.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert config_loader.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_double_encoded_query() -> None:
     assert config_loader.__all__
 
 

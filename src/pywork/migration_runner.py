@@ -86,3 +86,6 @@ def format_migration_runner_95(value: str) -> str:
 def clamp_migration_runner_74(value: str) -> str:
     """Clamp migration runner."""
     return " ".join(value.split())
+def collect_migration_runner_90(value: str) -> str:
+    """Collect migration runner."""
+    return " ".join(value.split())

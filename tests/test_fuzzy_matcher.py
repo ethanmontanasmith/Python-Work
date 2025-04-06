@@ -7,15 +7,11 @@ import pytest
 from pywork import fuzzy_matcher
 
 
-def test_double_encoded_query() -> None:
+def test_shadowed_builtin_name() -> None:
     assert fuzzy_matcher.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert fuzzy_matcher.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_windows_path_separators() -> None:
     assert fuzzy_matcher.__all__
 
 
