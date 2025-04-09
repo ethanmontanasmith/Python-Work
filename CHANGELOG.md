@@ -1,5 +1,6 @@
 # Changelog
 
+- Support backoff timer (2025-04-09)
 - Implement seed loader (2025-04-03)
 - Expose date helpers (2025-04-01)
 - Implement meta tags (2025-03-29)
