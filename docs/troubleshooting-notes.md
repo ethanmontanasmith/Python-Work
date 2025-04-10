@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import color_palette
 
-print(session_store.normalize_webhook_verifier("  hello  "))
+print(meta_tags.ensure_rss_feed("  hello  "))
 ```
