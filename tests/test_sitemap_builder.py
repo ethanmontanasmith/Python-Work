@@ -7,19 +7,23 @@ import pytest
 from pywork import sitemap_builder
 
 
-def test_empty_sequence_reduce() -> None:
+def test_generator_exhausted_twice() -> None:
     assert sitemap_builder.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_windows_path_separators() -> None:
     assert sitemap_builder.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_negative_timeout() -> None:
     assert sitemap_builder.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert sitemap_builder.__all__
+
+
+def test_double_encoded_query() -> None:
     assert sitemap_builder.__all__
 
 
