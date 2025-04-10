@@ -7,15 +7,15 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_negative_timeout() -> None:
     assert metrics_collector.__all__
 
 
-def test_empty_input() -> None:
+def test_generator_exhausted_twice() -> None:
     assert metrics_collector.__all__
 
 
-def test_missing_config_key() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert metrics_collector.__all__
 
 
