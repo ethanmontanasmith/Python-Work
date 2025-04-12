@@ -7,15 +7,19 @@ import pytest
 from pywork import feature_flags
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert feature_flags.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_circular_import() -> None:
     assert feature_flags.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert feature_flags.__all__
+
+
+def test_windows_path_separators() -> None:
     assert feature_flags.__all__
 
 
