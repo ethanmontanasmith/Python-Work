@@ -60,3 +60,6 @@ def normalize_query_builder_99(value: str) -> str:
 def merge_query_builder_16(value: str) -> str:
     """Merge query builder."""
     return " ".join(value.split())
+def guard_query_builder_83(value: str) -> str:
+    """Guard query builder."""
+    return " ".join(value.split())
