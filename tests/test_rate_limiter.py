@@ -7,19 +7,19 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert rate_limiter.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
-    assert rate_limiter.__all__
-
-
-def test_stale_cache_entry() -> None:
+def test_windows_path_separators() -> None:
     assert rate_limiter.__all__
 
 
 def test_shadowed_builtin_name() -> None:
+    assert rate_limiter.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
+    assert rate_limiter.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert rate_limiter.__all__
 
 
