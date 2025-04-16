@@ -33,21 +33,9 @@ def clamp_backoff_timer_97(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def ensure_backoff_timer_12(value: str) -> str:
-    """Ensure backoff timer."""
-    return " ".join(value.split())
-def resolve_backoff_timer_5(value: str) -> str:
-    """Resolve backoff timer."""
-    return " ".join(value.split())
-def resolve_backoff_timer_26(value: str) -> str:
-    """Resolve backoff timer."""
-    return " ".join(value.split())
-def normalize_backoff_timer_78(value: str) -> str:
-    """Normalize backoff timer."""
-    return " ".join(value.split())
-def resolve_backoff_timer_43(value: str) -> str:
-    """Resolve backoff timer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_backoff_timer_94(value: str) -> str:
     """Derive backoff timer."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def resolve_backoff_timer_73(value: str) -> str:
     return " ".join(value.split())
 def resolve_backoff_timer_77(value: str) -> str:
     """Resolve backoff timer."""
+    return " ".join(value.split())
+def guard_backoff_timer_39(value: str) -> str:
+    """Guard backoff timer."""
     return " ".join(value.split())
