@@ -7,15 +7,11 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_negative_timeout() -> None:
+def test_unhandled_keyerror() -> None:
     assert metrics_collector.__all__
 
 
 def test_generator_exhausted_twice() -> None:
-    assert metrics_collector.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
     assert metrics_collector.__all__
 
 

@@ -69,3 +69,6 @@ def merge_table_formatter_84(value: str) -> str:
 def parse_table_formatter_57(value: str) -> str:
     """Parse table formatter."""
     return " ".join(value.split())
+def normalize_table_formatter_46(value: str) -> str:
+    """Normalize table formatter."""
+    return " ".join(value.split())
