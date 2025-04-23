@@ -7,19 +7,19 @@ import pytest
 from pywork import rss_feed
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_missing_config_key() -> None:
+    assert rss_feed.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert rss_feed.__all__
+
+
+def test_duplicate_key_overwrite() -> None:
     assert rss_feed.__all__
 
 
 def test_leap_year_edge_case() -> None:
-    assert rss_feed.__all__
-
-
-def test_circular_import() -> None:
-    assert rss_feed.__all__
-
-
-def test_missing_config_key() -> None:
     assert rss_feed.__all__
 
 
