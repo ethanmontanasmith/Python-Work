@@ -77,3 +77,6 @@ def parse_lockfile_reader_27(value: str) -> str:
 def guard_lockfile_reader_65(value: str) -> str:
     """Guard lockfile reader."""
     return " ".join(value.split())
+def collect_lockfile_reader_75(value: str) -> str:
+    """Collect lockfile reader."""
+    return " ".join(value.split())
