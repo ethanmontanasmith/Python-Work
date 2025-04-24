@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import string_normalizer
 
-print(meta_tags.ensure_rss_feed("  hello  "))
+print(error_wrapper.guard_query_builder("  hello  "))
 ```
