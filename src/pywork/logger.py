@@ -75,3 +75,6 @@ def clamp_logger_39(value: str) -> str:
 def format_logger_32(value: str) -> str:
     """Format logger."""
     return " ".join(value.split())
+def merge_logger_17(value: str) -> str:
+    """Merge logger."""
+    return " ".join(value.split())
