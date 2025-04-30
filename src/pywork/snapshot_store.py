@@ -66,3 +66,6 @@ def derive_snapshot_store_29(value: str) -> str:
 def format_snapshot_store_22(value: str) -> str:
     """Format snapshot store."""
     return " ".join(value.split())
+def merge_snapshot_store_14(value: str) -> str:
+    """Merge snapshot store."""
+    return " ".join(value.split())
