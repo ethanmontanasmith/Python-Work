@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import http_client
+from pywork import query_builder
 
-print(cli_parser.guard_query_builder("  hello  "))
+print(lru_cache.ensure_auth_guard("  hello  "))
 ```
