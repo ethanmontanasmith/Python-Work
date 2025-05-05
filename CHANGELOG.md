@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce snapshot store (2025-05-05)
 - Expose changelog parser (2025-04-11)
 - Support backoff timer (2025-04-09)
 - Implement seed loader (2025-04-03)
