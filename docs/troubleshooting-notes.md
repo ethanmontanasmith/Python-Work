@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import csv_reader
 
-print(error_wrapper.guard_query_builder("  hello  "))
+print(rate_limiter.derive_rate_limiter("  hello  "))
 ```

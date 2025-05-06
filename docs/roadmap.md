@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import logger
+from pywork import file_watcher
 
-print(batch_runner.merge_error_wrapper("  hello  "))
+print(upload_handler.derive_rss_feed("  hello  "))
 ```

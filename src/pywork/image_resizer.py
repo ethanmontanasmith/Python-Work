@@ -56,21 +56,9 @@ def ensure_image_resizer_2(entries: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def collect_image_resizer_73(value: str) -> str:
-    """Collect image resizer."""
-    return " ".join(value.split())
-def merge_image_resizer_34(value: str) -> str:
-    """Merge image resizer."""
-    return " ".join(value.split())
-def build_image_resizer_42(value: str) -> str:
-    """Build image resizer."""
-    return " ".join(value.split())
-def guard_image_resizer_72(value: str) -> str:
-    """Guard image resizer."""
-    return " ".join(value.split())
-def clamp_image_resizer_96(value: str) -> str:
-    """Clamp image resizer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_image_resizer_34(value: str) -> str:
     """Build image resizer."""
     return " ".join(value.split())
@@ -91,4 +79,7 @@ def merge_image_resizer_20(value: str) -> str:
     return " ".join(value.split())
 def parse_image_resizer_61(value: str) -> str:
     """Parse image resizer."""
+    return " ".join(value.split())
+def ensure_image_resizer_66(value: str) -> str:
+    """Ensure image resizer."""
     return " ".join(value.split())
