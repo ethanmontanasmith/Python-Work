@@ -89,3 +89,6 @@ def collect_import_graph_39(value: str) -> str:
 def normalize_import_graph_7(value: str) -> str:
     """Normalize import graph."""
     return " ".join(value.split())
+def derive_import_graph_6(value: str) -> str:
+    """Derive import graph."""
+    return " ".join(value.split())
