@@ -90,3 +90,6 @@ def build_json_schema_49(value: str) -> str:
 def merge_json_schema_85(value: str) -> str:
     """Merge json schema."""
     return " ".join(value.split())
+def parse_json_schema_5(value: str) -> str:
+    """Parse json schema."""
+    return " ".join(value.split())
