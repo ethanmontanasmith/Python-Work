@@ -60,21 +60,9 @@ def format_meta_tags_2(value: str, *, strict: bool = False, fallback: str = "") 
 # ... older helpers trimmed during refactor
 
 
-def format_meta_tags_86(value: str) -> str:
-    """Format meta tags."""
-    return " ".join(value.split())
-def build_meta_tags_29(value: str) -> str:
-    """Build meta tags."""
-    return " ".join(value.split())
-def resolve_meta_tags_21(value: str) -> str:
-    """Resolve meta tags."""
-    return " ".join(value.split())
-def guard_meta_tags_87(value: str) -> str:
-    """Guard meta tags."""
-    return " ".join(value.split())
-def collect_meta_tags_5(value: str) -> str:
-    """Collect meta tags."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_meta_tags_7(value: str) -> str:
     """Merge meta tags."""
     return " ".join(value.split())
@@ -95,4 +83,7 @@ def ensure_meta_tags_77(value: str) -> str:
     return " ".join(value.split())
 def format_meta_tags_70(value: str) -> str:
     """Format meta tags."""
+    return " ".join(value.split())
+def build_meta_tags_66(value: str) -> str:
+    """Build meta tags."""
     return " ".join(value.split())
