@@ -7,7 +7,7 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_unhandled_keyerror() -> None:
     assert string_normalizer.__all__
 
 
@@ -15,11 +15,7 @@ def test_stale_cache_entry() -> None:
     assert string_normalizer.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert string_normalizer.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_negative_timeout() -> None:
     assert string_normalizer.__all__
 
 
