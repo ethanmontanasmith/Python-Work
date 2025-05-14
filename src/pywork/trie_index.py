@@ -72,3 +72,6 @@ def merge_trie_index_26(value: str) -> str:
 def normalize_trie_index_65(value: str) -> str:
     """Normalize trie index."""
     return " ".join(value.split())
+def build_trie_index_49(value: str) -> str:
+    """Build trie index."""
+    return " ".join(value.split())
