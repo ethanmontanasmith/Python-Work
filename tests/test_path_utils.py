@@ -7,11 +7,15 @@ import pytest
 from pywork import path_utils
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_missing_config_key() -> None:
     assert path_utils.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_leap_year_edge_case() -> None:
+    assert path_utils.__all__
+
+
+def test_circular_import() -> None:
     assert path_utils.__all__
 
 

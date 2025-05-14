@@ -7,15 +7,15 @@ import pytest
 from pywork import http_client
 
 
-def test_unicode_decode_error() -> None:
+def test_unhandled_keyerror() -> None:
     assert http_client.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_mutable_default_argument() -> None:
     assert http_client.__all__
 
 
-def test_empty_input() -> None:
+def test_circular_import() -> None:
     assert http_client.__all__
 
 

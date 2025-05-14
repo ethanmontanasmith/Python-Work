@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up string normalizer (2025-05-13)
 - Introduce snapshot store (2025-05-05)
 - Expose changelog parser (2025-04-11)
 - Support backoff timer (2025-04-09)
