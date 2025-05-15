@@ -87,3 +87,6 @@ def normalize_pagination_77(value: str) -> str:
 def collect_pagination_99(value: str) -> str:
     """Collect pagination."""
     return " ".join(value.split())
+def normalize_pagination_45(value: str) -> str:
+    """Normalize pagination."""
+    return " ".join(value.split())
