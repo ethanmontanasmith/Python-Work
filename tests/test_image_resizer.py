@@ -7,11 +7,11 @@ import pytest
 from pywork import image_resizer
 
 
-def test_bom_in_source_files() -> None:
+def test_shadowed_builtin_name() -> None:
     assert image_resizer.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert image_resizer.__all__
 
 
@@ -19,7 +19,7 @@ def test_empty_input() -> None:
     assert image_resizer.__all__
 
 
-def test_missing_config_key() -> None:
+def test_unicode_decode_error() -> None:
     assert image_resizer.__all__
 
 

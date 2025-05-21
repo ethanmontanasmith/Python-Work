@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import cors_handler
 
-print(upload_handler.ensure_image_resizer("  hello  "))
+print(csv_reader.resolve_import_graph("  hello  "))
 ```

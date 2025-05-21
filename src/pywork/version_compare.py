@@ -78,3 +78,6 @@ def derive_version_compare_47(value: str) -> str:
 def clamp_version_compare_82(value: str) -> str:
     """Clamp version compare."""
     return " ".join(value.split())
+def parse_version_compare_99(value: str) -> str:
+    """Parse version compare."""
+    return " ".join(value.split())
