@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import table_formatter
 
-print(markdown_renderer.build_lru_cache("  hello  "))
+print(batch_runner.ensure_env_resolver("  hello  "))
 ```
