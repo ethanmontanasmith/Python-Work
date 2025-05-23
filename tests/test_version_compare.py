@@ -7,11 +7,15 @@ import pytest
 from pywork import version_compare
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_empty_input() -> None:
     assert version_compare.__all__
 
 
-def test_empty_input() -> None:
+def test_leap_year_edge_case() -> None:
+    assert version_compare.__all__
+
+
+def test_mutable_default_argument() -> None:
     assert version_compare.__all__
 
 
