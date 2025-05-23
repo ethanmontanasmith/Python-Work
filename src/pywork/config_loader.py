@@ -75,3 +75,6 @@ def merge_config_loader_17(value: str) -> str:
 def normalize_config_loader_93(value: str) -> str:
     """Normalize config loader."""
     return " ".join(value.split())
+def derive_config_loader_58(value: str) -> str:
+    """Derive config loader."""
+    return " ".join(value.split())
