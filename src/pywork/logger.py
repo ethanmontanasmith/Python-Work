@@ -69,3 +69,6 @@ def merge_logger_17(value: str) -> str:
 def merge_logger_45(value: str) -> str:
     """Merge logger."""
     return " ".join(value.split())
+def normalize_logger_24(value: str) -> str:
+    """Normalize logger."""
+    return " ".join(value.split())
