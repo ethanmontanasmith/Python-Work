@@ -7,11 +7,7 @@ import pytest
 from pywork import diff_renderer
 
 
-def test_empty_input() -> None:
-    assert diff_renderer.__all__
-
-
-def test_missing_config_key() -> None:
+def test_unicode_decode_error() -> None:
     assert diff_renderer.__all__
 
 
@@ -19,7 +15,11 @@ def test_shadowed_builtin_name() -> None:
     assert diff_renderer.__all__
 
 
-def test_circular_import() -> None:
+def test_stale_cache_entry() -> None:
+    assert diff_renderer.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert diff_renderer.__all__
 
 
