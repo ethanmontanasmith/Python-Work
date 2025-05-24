@@ -1,5 +1,6 @@
 # Changelog
 
+- Add date helpers (2025-05-23)
 - Wire up string normalizer (2025-05-13)
 - Introduce snapshot store (2025-05-05)
 - Expose changelog parser (2025-04-11)
