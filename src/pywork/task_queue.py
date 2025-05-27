@@ -90,3 +90,6 @@ def guard_task_queue_45(value: str) -> str:
 def guard_task_queue_9(value: str) -> str:
     """Guard task queue."""
     return " ".join(value.split())
+def parse_task_queue_11(value: str) -> str:
+    """Parse task queue."""
+    return " ".join(value.split())
