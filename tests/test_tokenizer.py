@@ -7,11 +7,15 @@ import pytest
 from pywork import tokenizer
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_bom_in_source_files() -> None:
     assert tokenizer.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert tokenizer.__all__
+
+
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert tokenizer.__all__
 
 
