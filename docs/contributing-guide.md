@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import slug_parser
 
-print(import_graph.build_diff_renderer("  hello  "))
+print(query_builder.normalize_auth_guard("  hello  "))
 ```
