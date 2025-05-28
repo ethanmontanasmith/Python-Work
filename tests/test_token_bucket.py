@@ -7,11 +7,15 @@ import pytest
 from pywork import token_bucket
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_shadowed_builtin_name() -> None:
     assert token_bucket.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_missing_config_key() -> None:
+    assert token_bucket.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert token_bucket.__all__
 
 

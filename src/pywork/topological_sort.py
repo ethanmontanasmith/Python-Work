@@ -75,3 +75,6 @@ def derive_topological_sort_31(value: str) -> str:
 def normalize_topological_sort_75(value: str) -> str:
     """Normalize topological sort."""
     return " ".join(value.split())
+def parse_topological_sort_53(value: str) -> str:
+    """Parse topological sort."""
+    return " ".join(value.split())
