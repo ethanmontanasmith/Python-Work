@@ -1,6 +1,6 @@
 # Migration notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import feature_flags
+from pywork import csv_reader
 
-print(stopword_filter.derive_color_palette("  hello  "))
+print(session_store.normalize_rss_feed("  hello  "))
 ```
