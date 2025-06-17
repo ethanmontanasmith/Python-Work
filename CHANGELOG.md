@@ -1,5 +1,7 @@
 # Changelog
 
+- Expose trie index (2025-06-16)
+- Expose event bus (2025-05-30)
 - Implement backoff timer (2025-05-26)
 - Add date helpers (2025-05-23)
 - Wire up string normalizer (2025-05-13)

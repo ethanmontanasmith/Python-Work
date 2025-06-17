@@ -1,6 +1,6 @@
 # Faq
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import dependency_graph
 
-print(csv_reader.resolve_import_graph("  hello  "))
+print(pagination.normalize_upload_handler("  hello  "))
 ```

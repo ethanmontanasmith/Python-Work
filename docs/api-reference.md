@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import table_formatter
+from pywork import slug_parser
 
-print(batch_runner.ensure_env_resolver("  hello  "))
+print(lru_cache.ensure_event_bus("  hello  "))
 ```

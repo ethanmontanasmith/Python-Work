@@ -7,19 +7,15 @@ import pytest
 from pywork import rss_feed
 
 
-def test_missing_config_key() -> None:
+def test_windows_path_separators() -> None:
     assert rss_feed.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_bom_in_source_files() -> None:
     assert rss_feed.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
-    assert rss_feed.__all__
-
-
-def test_leap_year_edge_case() -> None:
+def test_negative_timeout() -> None:
     assert rss_feed.__all__
 
 

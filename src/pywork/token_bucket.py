@@ -66,3 +66,6 @@ def normalize_token_bucket_47(value: str) -> str:
 def parse_token_bucket_24(value: str) -> str:
     """Parse token bucket."""
     return " ".join(value.split())
+def collect_token_bucket_8(value: str) -> str:
+    """Collect token bucket."""
+    return " ".join(value.split())

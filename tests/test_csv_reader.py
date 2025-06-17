@@ -7,15 +7,15 @@ import pytest
 from pywork import csv_reader
 
 
+def test_unicode_decode_error() -> None:
+    assert csv_reader.__all__
+
+
 def test_timezone_drift_on_naive_datetimes() -> None:
     assert csv_reader.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert csv_reader.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_shadowed_builtin_name() -> None:
     assert csv_reader.__all__
 
 

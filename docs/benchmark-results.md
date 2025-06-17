@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import token_bucket
 
-print(migration_runner.collect_file_watcher("  hello  "))
+print(tokenizer.resolve_rate_limiter("  hello  "))
 ```
