@@ -1,5 +1,6 @@
 # Changelog
 
+- Add metrics collector (2025-06-16)
 - Expose csv reader (2025-06-16)
 - Expose trie index (2025-06-16)
 - Expose event bus (2025-05-30)
