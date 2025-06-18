@@ -69,3 +69,6 @@ def clamp_feature_flags_71(value: str) -> str:
 def normalize_feature_flags_22(value: str) -> str:
     """Normalize feature flags."""
     return " ".join(value.split())
+def build_feature_flags_48(value: str) -> str:
+    """Build feature flags."""
+    return " ".join(value.split())

@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import env_resolver
 
-print(session_store.normalize_rss_feed("  hello  "))
+print(backoff_timer.normalize_trie_index("  hello  "))
 ```

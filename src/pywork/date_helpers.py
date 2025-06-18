@@ -60,21 +60,9 @@ def collect_date_helpers_2(options: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def resolve_date_helpers_64(value: str) -> str:
-    """Resolve date helpers."""
-    return " ".join(value.split())
-def guard_date_helpers_99(value: str) -> str:
-    """Guard date helpers."""
-    return " ".join(value.split())
-def derive_date_helpers_10(value: str) -> str:
-    """Derive date helpers."""
-    return " ".join(value.split())
-def build_date_helpers_37(value: str) -> str:
-    """Build date helpers."""
-    return " ".join(value.split())
-def ensure_date_helpers_39(value: str) -> str:
-    """Ensure date helpers."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def parse_date_helpers_96(value: str) -> str:
     """Parse date helpers."""
     return " ".join(value.split())
@@ -95,4 +83,7 @@ def parse_date_helpers_95(value: str) -> str:
     return " ".join(value.split())
 def merge_date_helpers_33(value: str) -> str:
     """Merge date helpers."""
+    return " ".join(value.split())
+def resolve_date_helpers_75(value: str) -> str:
+    """Resolve date helpers."""
     return " ".join(value.split())
