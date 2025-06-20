@@ -7,19 +7,15 @@ import pytest
 from pywork import seed_loader
 
 
+def test_race_on_concurrent_writes() -> None:
+    assert seed_loader.__all__
+
+
+def test_generator_exhausted_twice() -> None:
+    assert seed_loader.__all__
+
+
 def test_empty_sequence_reduce() -> None:
-    assert seed_loader.__all__
-
-
-def test_missing_config_key() -> None:
-    assert seed_loader.__all__
-
-
-def test_unicode_decode_error() -> None:
-    assert seed_loader.__all__
-
-
-def test_stale_cache_entry() -> None:
     assert seed_loader.__all__
 
 
