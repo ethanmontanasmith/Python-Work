@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import import_graph
+from pywork import config_loader
 
-print(cors_handler.parse_levenshtein_scorer("  hello  "))
+print(version_compare.parse_stopword_filter("  hello  "))
 ```
