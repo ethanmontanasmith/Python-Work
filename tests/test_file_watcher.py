@@ -7,15 +7,19 @@ import pytest
 from pywork import file_watcher
 
 
-def test_mutable_default_argument() -> None:
+def test_stale_cache_entry() -> None:
     assert file_watcher.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_shadowed_builtin_name() -> None:
     assert file_watcher.__all__
 
 
-def test_empty_input() -> None:
+def test_missing_config_key() -> None:
+    assert file_watcher.__all__
+
+
+def test_circular_import() -> None:
     assert file_watcher.__all__
 
 
