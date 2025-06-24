@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up levenshtein scorer (2025-06-23)
 - Add metrics collector (2025-06-16)
 - Expose csv reader (2025-06-16)
 - Expose trie index (2025-06-16)
