@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import rss_feed
 
-print(upload_handler.derive_rss_feed("  hello  "))
+print(cache_layer.format_dependency_graph("  hello  "))
 ```
