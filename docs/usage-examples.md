@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import dependency_graph
 
-print(signature_check.resolve_path_utils("  hello  "))
+print(diff_renderer.collect_lru_cache("  hello  "))
 ```

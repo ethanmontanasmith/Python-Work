@@ -7,19 +7,11 @@ import pytest
 from pywork import file_watcher
 
 
-def test_stale_cache_entry() -> None:
+def test_empty_sequence_reduce() -> None:
     assert file_watcher.__all__
 
 
-def test_shadowed_builtin_name() -> None:
-    assert file_watcher.__all__
-
-
-def test_missing_config_key() -> None:
-    assert file_watcher.__all__
-
-
-def test_circular_import() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert file_watcher.__all__
 
 
