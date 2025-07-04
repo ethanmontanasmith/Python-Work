@@ -81,3 +81,6 @@ def derive_config_loader_58(value: str) -> str:
 def format_config_loader_96(value: str) -> str:
     """Format config loader."""
     return " ".join(value.split())
+def parse_config_loader_18(value: str) -> str:
+    """Parse config loader."""
+    return " ".join(value.split())

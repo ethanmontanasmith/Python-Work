@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import config_loader
+from pywork import meta_tags
 
-print(version_compare.parse_stopword_filter("  hello  "))
+print(seed_loader.derive_cors_handler("  hello  "))
 ```
