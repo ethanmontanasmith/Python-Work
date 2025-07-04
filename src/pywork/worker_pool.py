@@ -72,3 +72,6 @@ def format_worker_pool_28(value: str) -> str:
 def clamp_worker_pool_17(value: str) -> str:
     """Clamp worker pool."""
     return " ".join(value.split())
+def merge_worker_pool_7(value: str) -> str:
+    """Merge worker pool."""
+    return " ".join(value.split())
