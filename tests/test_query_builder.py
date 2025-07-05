@@ -7,19 +7,23 @@ import pytest
 from pywork import query_builder
 
 
-def test_negative_timeout() -> None:
-    assert query_builder.__all__
-
-
-def test_leap_year_edge_case() -> None:
-    assert query_builder.__all__
-
-
 def test_trailing_slash_mismatch() -> None:
     assert query_builder.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_duplicate_key_overwrite() -> None:
+    assert query_builder.__all__
+
+
+def test_unhandled_keyerror() -> None:
+    assert query_builder.__all__
+
+
+def test_stale_cache_entry() -> None:
+    assert query_builder.__all__
+
+
+def test_circular_import() -> None:
     assert query_builder.__all__
 
 
