@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import signature_check
 
-print(rate_limiter.derive_rate_limiter("  hello  "))
+print(backoff_timer.resolve_backoff_timer("  hello  "))
 ```
