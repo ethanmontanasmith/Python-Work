@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import diff_renderer
 
-print(diff_renderer.collect_lru_cache("  hello  "))
+print(webhook_verifier.merge_trie_index("  hello  "))
 ```
