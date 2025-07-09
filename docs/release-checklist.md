@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import color_palette
 
-print(lru_cache.ensure_auth_guard("  hello  "))
+print(stopword_filter.format_date_helpers("  hello  "))
 ```
