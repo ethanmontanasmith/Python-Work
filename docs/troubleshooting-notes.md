@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import meta_tags
 
-print(backoff_timer.resolve_backoff_timer("  hello  "))
+print(cache_layer.normalize_task_queue("  hello  "))
 ```
