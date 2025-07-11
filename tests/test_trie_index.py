@@ -7,19 +7,11 @@ import pytest
 from pywork import trie_index
 
 
-def test_negative_timeout() -> None:
+def test_double_encoded_query() -> None:
     assert trie_index.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert trie_index.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert trie_index.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_shadowed_builtin_name() -> None:
     assert trie_index.__all__
 
 
