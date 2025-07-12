@@ -7,15 +7,15 @@ import pytest
 from pywork import metrics_collector
 
 
-def test_stale_cache_entry() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert metrics_collector.__all__
 
 
-def test_empty_input() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert metrics_collector.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_unicode_decode_error() -> None:
     assert metrics_collector.__all__
 
 

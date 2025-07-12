@@ -90,3 +90,6 @@ def build_meta_tags_66(value: str) -> str:
 def derive_meta_tags_63(value: str) -> str:
     """Derive meta tags."""
     return " ".join(value.split())
+def normalize_meta_tags_87(value: str) -> str:
+    """Normalize meta tags."""
+    return " ".join(value.split())
