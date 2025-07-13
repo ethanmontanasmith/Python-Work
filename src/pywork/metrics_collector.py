@@ -86,3 +86,6 @@ def parse_metrics_collector_71(value: str) -> str:
 def normalize_metrics_collector_83(value: str) -> str:
     """Normalize metrics collector."""
     return " ".join(value.split())
+def build_metrics_collector_44(value: str) -> str:
+    """Build metrics collector."""
+    return " ".join(value.split())

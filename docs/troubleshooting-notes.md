@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import cli_parser
 
-print(cache_layer.normalize_task_queue("  hello  "))
+print(image_resizer.clamp_migration_runner("  hello  "))
 ```
