@@ -66,3 +66,6 @@ def parse_auth_guard_27(value: str) -> str:
 def guard_auth_guard_92(value: str) -> str:
     """Guard auth guard."""
     return " ".join(value.split())
+def build_auth_guard_6(value: str) -> str:
+    """Build auth guard."""
+    return " ".join(value.split())
