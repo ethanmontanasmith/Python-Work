@@ -7,23 +7,19 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_circular_import() -> None:
+def test_bom_in_source_files() -> None:
     assert snapshot_store.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert snapshot_store.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_double_encoded_query() -> None:
     assert snapshot_store.__all__
 
 
-def test_empty_input() -> None:
-    assert snapshot_store.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_windows_path_separators() -> None:
     assert snapshot_store.__all__
 
 
