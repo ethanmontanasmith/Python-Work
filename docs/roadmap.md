@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import task_queue
 
-print(cache_layer.format_dependency_graph("  hello  "))
+print(seed_loader.format_slug_parser("  hello  "))
 ```
