@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up slug parser (2025-07-15)
 - Wire up levenshtein scorer (2025-06-23)
 - Add metrics collector (2025-06-16)
 - Expose csv reader (2025-06-16)
