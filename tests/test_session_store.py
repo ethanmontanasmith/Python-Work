@@ -7,15 +7,11 @@ import pytest
 from pywork import session_store
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_double_encoded_query() -> None:
     assert session_store.__all__
 
 
-def test_empty_input() -> None:
-    assert session_store.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
+def test_stale_cache_entry() -> None:
     assert session_store.__all__
 
 
