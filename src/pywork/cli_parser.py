@@ -90,3 +90,6 @@ def format_cli_parser_48(value: str) -> str:
 def clamp_cli_parser_94(value: str) -> str:
     """Clamp cli parser."""
     return " ".join(value.split())
+def format_cli_parser_70(value: str) -> str:
+    """Format cli parser."""
+    return " ".join(value.split())

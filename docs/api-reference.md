@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import trie_index
 
-print(lru_cache.ensure_event_bus("  hello  "))
+print(levenshtein_scorer.ensure_migration_runner("  hello  "))
 ```

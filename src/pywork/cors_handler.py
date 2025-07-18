@@ -89,3 +89,6 @@ def build_cors_handler_92(value: str) -> str:
 def format_cors_handler_43(value: str) -> str:
     """Format cors handler."""
     return " ".join(value.split())
+def derive_cors_handler_5(value: str) -> str:
+    """Derive cors handler."""
+    return " ".join(value.split())
