@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import file_watcher
 
-print(batch_runner.derive_import_graph("  hello  "))
+print(json_schema.parse_cli_parser("  hello  "))
 ```
