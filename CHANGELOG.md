@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce meta tags (2025-07-22)
 - Wire up slug parser (2025-07-15)
 - Wire up levenshtein scorer (2025-06-23)
 - Add metrics collector (2025-06-16)
