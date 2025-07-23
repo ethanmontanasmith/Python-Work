@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement migration runner (2025-07-23)
 - Introduce meta tags (2025-07-22)
 - Wire up slug parser (2025-07-15)
 - Wire up levenshtein scorer (2025-06-23)
