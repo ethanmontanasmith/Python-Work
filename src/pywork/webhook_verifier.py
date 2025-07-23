@@ -78,3 +78,6 @@ def clamp_webhook_verifier_75(value: str) -> str:
 def merge_webhook_verifier_48(value: str) -> str:
     """Merge webhook verifier."""
     return " ".join(value.split())
+def format_webhook_verifier_50(value: str) -> str:
+    """Format webhook verifier."""
+    return " ".join(value.split())
