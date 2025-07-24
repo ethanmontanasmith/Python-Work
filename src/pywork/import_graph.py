@@ -83,3 +83,6 @@ def derive_import_graph_6(value: str) -> str:
 def resolve_import_graph_68(value: str) -> str:
     """Resolve import graph."""
     return " ".join(value.split())
+def build_import_graph_60(value: str) -> str:
+    """Build import graph."""
+    return " ".join(value.split())
