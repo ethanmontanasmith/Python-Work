@@ -7,19 +7,11 @@ import pytest
 from pywork import topological_sort
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_negative_timeout() -> None:
     assert topological_sort.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert topological_sort.__all__
-
-
-def test_mutable_default_argument() -> None:
-    assert topological_sort.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_empty_sequence_reduce() -> None:
     assert topological_sort.__all__
 
 
