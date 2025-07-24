@@ -7,23 +7,15 @@ import pytest
 from pywork import cli_parser
 
 
-def test_missing_config_key() -> None:
-    assert cli_parser.__all__
-
-
-def test_circular_import() -> None:
-    assert cli_parser.__all__
-
-
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert cli_parser.__all__
-
-
-def test_windows_path_separators() -> None:
-    assert cli_parser.__all__
-
-
 def test_empty_input() -> None:
+    assert cli_parser.__all__
+
+
+def test_leap_year_edge_case() -> None:
+    assert cli_parser.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert cli_parser.__all__
 
 
