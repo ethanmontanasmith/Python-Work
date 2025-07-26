@@ -84,3 +84,6 @@ def parse_error_wrapper_78(value: str) -> str:
 def format_error_wrapper_45(value: str) -> str:
     """Format error wrapper."""
     return " ".join(value.split())
+def normalize_error_wrapper_45(value: str) -> str:
+    """Normalize error wrapper."""
+    return " ".join(value.split())
