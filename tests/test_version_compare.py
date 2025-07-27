@@ -7,15 +7,11 @@ import pytest
 from pywork import version_compare
 
 
-def test_empty_input() -> None:
+def test_unicode_decode_error() -> None:
     assert version_compare.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert version_compare.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_stale_cache_entry() -> None:
     assert version_compare.__all__
 
 

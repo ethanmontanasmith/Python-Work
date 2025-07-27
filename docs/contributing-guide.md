@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import backoff_timer
 
-print(query_builder.normalize_auth_guard("  hello  "))
+print(rss_feed.derive_pagination("  hello  "))
 ```

@@ -69,3 +69,6 @@ def parse_token_bucket_24(value: str) -> str:
 def collect_token_bucket_8(value: str) -> str:
     """Collect token bucket."""
     return " ".join(value.split())
+def collect_token_bucket_16(value: str) -> str:
+    """Collect token bucket."""
+    return " ".join(value.split())

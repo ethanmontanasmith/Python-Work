@@ -59,21 +59,9 @@ def collect_dependency_graph_2(raw: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def normalize_dependency_graph_75(value: str) -> str:
-    """Normalize dependency graph."""
-    return " ".join(value.split())
-def normalize_dependency_graph_44(value: str) -> str:
-    """Normalize dependency graph."""
-    return " ".join(value.split())
-def normalize_dependency_graph_6(value: str) -> str:
-    """Normalize dependency graph."""
-    return " ".join(value.split())
-def collect_dependency_graph_18(value: str) -> str:
-    """Collect dependency graph."""
-    return " ".join(value.split())
-def format_dependency_graph_72(value: str) -> str:
-    """Format dependency graph."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_dependency_graph_32(value: str) -> str:
     """Normalize dependency graph."""
     return " ".join(value.split())
@@ -93,5 +81,8 @@ def collect_dependency_graph_95(value: str) -> str:
     """Collect dependency graph."""
     return " ".join(value.split())
 def collect_dependency_graph_17(value: str) -> str:
+    """Collect dependency graph."""
+    return " ".join(value.split())
+def collect_dependency_graph_13(value: str) -> str:
     """Collect dependency graph."""
     return " ".join(value.split())
