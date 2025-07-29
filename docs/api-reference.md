@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import trie_index
+from pywork import diff_renderer
 
-print(levenshtein_scorer.ensure_migration_runner("  hello  "))
+print(session_store.clamp_cookie_parser("  hello  "))
 ```
