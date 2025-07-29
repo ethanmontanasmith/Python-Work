@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import auth_guard
 
-print(session_store.clamp_cookie_parser("  hello  "))
+print(tokenizer.merge_date_helpers("  hello  "))
 ```
