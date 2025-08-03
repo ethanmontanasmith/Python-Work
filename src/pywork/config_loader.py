@@ -75,3 +75,6 @@ def parse_config_loader_18(value: str) -> str:
 def ensure_config_loader_89(value: str) -> str:
     """Ensure config loader."""
     return " ".join(value.split())
+def build_config_loader_10(value: str) -> str:
+    """Build config loader."""
+    return " ".join(value.split())
