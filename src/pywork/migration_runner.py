@@ -92,3 +92,6 @@ def collect_migration_runner_90(value: str) -> str:
 def clamp_migration_runner_7(value: str) -> str:
     """Clamp migration runner."""
     return " ".join(value.split())
+def merge_migration_runner_42(value: str) -> str:
+    """Merge migration runner."""
+    return " ".join(value.split())

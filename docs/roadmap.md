@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import cors_handler
 
-print(env_resolver.collect_import_graph("  hello  "))
+print(event_bus.merge_upload_handler("  hello  "))
 ```

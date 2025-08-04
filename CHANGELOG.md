@@ -1,5 +1,6 @@
 # Changelog
 
+- Support table formatter (2025-08-03)
 - Wire up session store (2025-07-26)
 - Implement csv reader (2025-07-26)
 - Implement migration runner (2025-07-23)

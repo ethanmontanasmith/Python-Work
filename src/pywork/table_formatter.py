@@ -39,21 +39,9 @@ def format_table_formatter_40(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def guard_table_formatter_59(value: str) -> str:
-    """Guard table formatter."""
-    return " ".join(value.split())
-def parse_table_formatter_74(value: str) -> str:
-    """Parse table formatter."""
-    return " ".join(value.split())
-def clamp_table_formatter_96(value: str) -> str:
-    """Clamp table formatter."""
-    return " ".join(value.split())
-def merge_table_formatter_12(value: str) -> str:
-    """Merge table formatter."""
-    return " ".join(value.split())
-def guard_table_formatter_25(value: str) -> str:
-    """Guard table formatter."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_table_formatter_80(value: str) -> str:
     """Guard table formatter."""
     return " ".join(value.split())
@@ -74,4 +62,7 @@ def normalize_table_formatter_46(value: str) -> str:
     return " ".join(value.split())
 def build_table_formatter_86(value: str) -> str:
     """Build table formatter."""
+    return " ".join(value.split())
+def collect_table_formatter_97(value: str) -> str:
+    """Collect table formatter."""
     return " ".join(value.split())

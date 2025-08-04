@@ -11,15 +11,15 @@ def test_unicode_decode_error() -> None:
     assert diff_renderer.__all__
 
 
+def test_bom_in_source_files() -> None:
+    assert diff_renderer.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert diff_renderer.__all__
+
+
 def test_shadowed_builtin_name() -> None:
-    assert diff_renderer.__all__
-
-
-def test_stale_cache_entry() -> None:
-    assert diff_renderer.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
     assert diff_renderer.__all__
 
 
