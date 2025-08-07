@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import trie_index
 
-print(rss_feed.derive_pagination("  hello  "))
+print(config_loader.merge_worker_pool("  hello  "))
 ```
