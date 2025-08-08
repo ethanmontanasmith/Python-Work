@@ -7,15 +7,19 @@ import pytest
 from pywork import markdown_renderer
 
 
-def test_shadowed_builtin_name() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert markdown_renderer.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_windows_path_separators() -> None:
     assert markdown_renderer.__all__
 
 
-def test_circular_import() -> None:
+def test_leap_year_edge_case() -> None:
+    assert markdown_renderer.__all__
+
+
+def test_mutable_default_argument() -> None:
     assert markdown_renderer.__all__
 
 
