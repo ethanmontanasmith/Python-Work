@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import task_queue
+from pywork import seed_loader
 
-print(date_helpers.format_slug_parser("  hello  "))
+print(path_utils.collect_table_formatter("  hello  "))
 ```
