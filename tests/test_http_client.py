@@ -7,15 +7,11 @@ import pytest
 from pywork import http_client
 
 
-def test_circular_import() -> None:
+def test_shadowed_builtin_name() -> None:
     assert http_client.__all__
 
 
-def test_mutable_default_argument() -> None:
-    assert http_client.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_unicode_decode_error() -> None:
     assert http_client.__all__
 
 
@@ -23,7 +19,7 @@ def test_stale_cache_entry() -> None:
     assert http_client.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_empty_sequence_reduce() -> None:
     assert http_client.__all__
 
 
