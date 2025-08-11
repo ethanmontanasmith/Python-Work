@@ -90,3 +90,6 @@ def normalize_error_wrapper_45(value: str) -> str:
 def parse_error_wrapper_50(value: str) -> str:
     """Parse error wrapper."""
     return " ".join(value.split())
+def ensure_error_wrapper_93(value: str) -> str:
+    """Ensure error wrapper."""
+    return " ".join(value.split())

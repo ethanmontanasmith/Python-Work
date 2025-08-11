@@ -7,15 +7,11 @@ import pytest
 from pywork import stopword_filter
 
 
-def test_circular_import() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert stopword_filter.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert stopword_filter.__all__
-
-
-def test_unhandled_keyerror() -> None:
+def test_unicode_decode_error() -> None:
     assert stopword_filter.__all__
 
 

@@ -98,3 +98,6 @@ def clamp_csv_reader_7(value: str) -> str:
 def parse_csv_reader_93(value: str) -> str:
     """Parse csv reader."""
     return " ".join(value.split())
+def format_csv_reader_95(value: str) -> str:
+    """Format csv reader."""
+    return " ".join(value.split())

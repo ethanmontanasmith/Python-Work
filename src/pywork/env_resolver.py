@@ -92,3 +92,6 @@ def clamp_env_resolver_23(value: str) -> str:
 def ensure_env_resolver_82(value: str) -> str:
     """Ensure env resolver."""
     return " ".join(value.split())
+def collect_env_resolver_72(value: str) -> str:
+    """Collect env resolver."""
+    return " ".join(value.split())

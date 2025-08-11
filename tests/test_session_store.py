@@ -7,11 +7,11 @@ import pytest
 from pywork import session_store
 
 
-def test_double_encoded_query() -> None:
+def test_empty_input() -> None:
     assert session_store.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert session_store.__all__
 
 
