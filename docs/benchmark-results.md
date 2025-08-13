@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import rss_feed
 
-print(tokenizer.resolve_rate_limiter("  hello  "))
+print(dependency_graph.guard_error_wrapper("  hello  "))
 ```
