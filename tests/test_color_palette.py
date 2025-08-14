@@ -11,19 +11,15 @@ def test_empty_input() -> None:
     assert color_palette.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert color_palette.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_empty_sequence_reduce() -> None:
     assert color_palette.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert color_palette.__all__
-
-
-def test_mutable_default_argument() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert color_palette.__all__
 
 
