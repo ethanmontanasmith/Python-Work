@@ -7,11 +7,7 @@ import pytest
 from pywork import date_helpers
 
 
-def test_missing_config_key() -> None:
-    assert date_helpers.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_double_encoded_query() -> None:
     assert date_helpers.__all__
 
 
