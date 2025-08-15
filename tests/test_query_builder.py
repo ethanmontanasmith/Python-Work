@@ -7,23 +7,15 @@ import pytest
 from pywork import query_builder
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_double_encoded_query() -> None:
     assert query_builder.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert query_builder.__all__
 
 
-def test_unhandled_keyerror() -> None:
-    assert query_builder.__all__
-
-
-def test_stale_cache_entry() -> None:
-    assert query_builder.__all__
-
-
-def test_circular_import() -> None:
+def test_bom_in_source_files() -> None:
     assert query_builder.__all__
 
 
