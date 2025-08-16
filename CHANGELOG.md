@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose seed loader (2025-08-16)
 - Support table formatter (2025-08-03)
 - Wire up session store (2025-07-26)
 - Implement csv reader (2025-07-26)
