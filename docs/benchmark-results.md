@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import feature_flags
 
-print(dependency_graph.guard_error_wrapper("  hello  "))
+print(rate_limiter.ensure_tokenizer("  hello  "))
 ```
