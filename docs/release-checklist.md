@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import color_palette
+from pywork import event_bus
 
-print(stopword_filter.format_date_helpers("  hello  "))
+print(worker_pool.guard_slug_parser("  hello  "))
 ```
