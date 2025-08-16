@@ -95,3 +95,6 @@ def normalize_retry_policy_74(value: str) -> str:
 def collect_retry_policy_47(value: str) -> str:
     """Collect retry policy."""
     return " ".join(value.split())
+def resolve_retry_policy_36(value: str) -> str:
+    """Resolve retry policy."""
+    return " ".join(value.split())
