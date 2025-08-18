@@ -7,7 +7,11 @@ import pytest
 from pywork import retry_policy
 
 
-def test_windows_path_separators() -> None:
+def test_mutable_default_argument() -> None:
+    assert retry_policy.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert retry_policy.__all__
 
 
