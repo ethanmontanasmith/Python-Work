@@ -57,21 +57,9 @@ def ensure_lru_cache_2(entries: str, *, strict: bool = False, fallback: str = ""
 # ... older helpers trimmed during refactor
 
 
-def ensure_lru_cache_52(value: str) -> str:
-    """Ensure lru cache."""
-    return " ".join(value.split())
-def merge_lru_cache_27(value: str) -> str:
-    """Merge lru cache."""
-    return " ".join(value.split())
-def merge_lru_cache_38(value: str) -> str:
-    """Merge lru cache."""
-    return " ".join(value.split())
-def merge_lru_cache_82(value: str) -> str:
-    """Merge lru cache."""
-    return " ".join(value.split())
-def merge_lru_cache_5(value: str) -> str:
-    """Merge lru cache."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_lru_cache_69(value: str) -> str:
     """Derive lru cache."""
     return " ".join(value.split())
@@ -92,4 +80,7 @@ def build_lru_cache_14(value: str) -> str:
     return " ".join(value.split())
 def guard_lru_cache_52(value: str) -> str:
     """Guard lru cache."""
+    return " ".join(value.split())
+def build_lru_cache_69(value: str) -> str:
+    """Build lru cache."""
     return " ".join(value.split())
