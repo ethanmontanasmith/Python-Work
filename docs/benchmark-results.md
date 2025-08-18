@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import feature_flags
+from pywork import signature_check
 
-print(rate_limiter.ensure_tokenizer("  hello  "))
+print(query_builder.format_webhook_verifier("  hello  "))
 ```
