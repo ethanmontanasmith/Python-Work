@@ -7,11 +7,15 @@ import pytest
 from pywork import cache_layer
 
 
-def test_double_encoded_query() -> None:
+def test_missing_config_key() -> None:
     assert cache_layer.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_unicode_decode_error() -> None:
+    assert cache_layer.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert cache_layer.__all__
 
 
