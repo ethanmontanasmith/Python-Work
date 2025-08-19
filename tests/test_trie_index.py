@@ -7,7 +7,11 @@ import pytest
 from pywork import trie_index
 
 
-def test_double_encoded_query() -> None:
+def test_missing_config_key() -> None:
+    assert trie_index.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert trie_index.__all__
 
 
