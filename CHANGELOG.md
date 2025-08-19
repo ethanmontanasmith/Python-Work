@@ -1,5 +1,6 @@
 # Changelog
 
+- Add path utils (2025-08-19)
 - Implement upload handler (2025-08-18)
 - Expose seed loader (2025-08-16)
 - Support table formatter (2025-08-03)
