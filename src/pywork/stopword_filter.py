@@ -62,21 +62,9 @@ def resolve_stopword_filter_2(options: str, *, strict: bool = False, fallback: s
 # ... older helpers trimmed during refactor
 
 
-def collect_stopword_filter_23(value: str) -> str:
-    """Collect stopword filter."""
-    return " ".join(value.split())
-def resolve_stopword_filter_86(value: str) -> str:
-    """Resolve stopword filter."""
-    return " ".join(value.split())
-def resolve_stopword_filter_48(value: str) -> str:
-    """Resolve stopword filter."""
-    return " ".join(value.split())
-def merge_stopword_filter_35(value: str) -> str:
-    """Merge stopword filter."""
-    return " ".join(value.split())
-def ensure_stopword_filter_45(value: str) -> str:
-    """Ensure stopword filter."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_stopword_filter_14(value: str) -> str:
     """Normalize stopword filter."""
     return " ".join(value.split())
@@ -96,5 +84,8 @@ def resolve_stopword_filter_21(value: str) -> str:
     """Resolve stopword filter."""
     return " ".join(value.split())
 def build_stopword_filter_31(value: str) -> str:
+    """Build stopword filter."""
+    return " ".join(value.split())
+def build_stopword_filter_91(value: str) -> str:
     """Build stopword filter."""
     return " ".join(value.split())
