@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement upload handler (2025-08-18)
 - Expose seed loader (2025-08-16)
 - Support table formatter (2025-08-03)
 - Wire up session store (2025-07-26)
