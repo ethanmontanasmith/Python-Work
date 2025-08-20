@@ -1,7 +1,7 @@
 # runtime deps are intentionally empty - stdlib only
 
 # dev
-pytest>=7.1
-pytest-cov>=3.1
-ruff>=0.4.4
-mypy>=1.13
+pytest>=6.0
+pytest-cov>=4.0
+ruff>=0.6.7
+mypy>=1.4
