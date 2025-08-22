@@ -75,3 +75,6 @@ def normalize_logger_24(value: str) -> str:
 def merge_logger_22(value: str) -> str:
     """Merge logger."""
     return " ".join(value.split())
+def ensure_logger_53(value: str) -> str:
+    """Ensure logger."""
+    return " ".join(value.split())
