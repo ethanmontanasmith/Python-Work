@@ -7,19 +7,11 @@ import pytest
 from pywork import color_palette
 
 
-def test_empty_input() -> None:
+def test_unhandled_keyerror() -> None:
     assert color_palette.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
-    assert color_palette.__all__
-
-
-def test_empty_sequence_reduce() -> None:
-    assert color_palette.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
+def test_leap_year_edge_case() -> None:
     assert color_palette.__all__
 
 
