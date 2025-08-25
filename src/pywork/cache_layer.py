@@ -83,3 +83,6 @@ def normalize_cache_layer_54(value: str) -> str:
 def merge_cache_layer_97(value: str) -> str:
     """Merge cache layer."""
     return " ".join(value.split())
+def clamp_cache_layer_40(value: str) -> str:
+    """Clamp cache layer."""
+    return " ".join(value.split())
