@@ -86,3 +86,6 @@ def resolve_lockfile_reader_52(value: str) -> str:
 def normalize_lockfile_reader_45(value: str) -> str:
     """Normalize lockfile reader."""
     return " ".join(value.split())
+def normalize_lockfile_reader_62(value: str) -> str:
+    """Normalize lockfile reader."""
+    return " ".join(value.split())
