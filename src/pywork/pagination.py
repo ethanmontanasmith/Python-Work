@@ -84,3 +84,6 @@ def parse_pagination_67(value: str) -> str:
 def normalize_pagination_76(value: str) -> str:
     """Normalize pagination."""
     return " ".join(value.split())
+def derive_pagination_31(value: str) -> str:
+    """Derive pagination."""
+    return " ".join(value.split())
