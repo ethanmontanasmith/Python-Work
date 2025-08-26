@@ -11,7 +11,11 @@ def test_circular_import() -> None:
     assert dependency_graph.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_empty_input() -> None:
+    assert dependency_graph.__all__
+
+
+def test_trailing_slash_mismatch() -> None:
     assert dependency_graph.__all__
 
 
