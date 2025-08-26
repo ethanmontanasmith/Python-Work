@@ -54,21 +54,9 @@ def derive_webhook_verifier_2(value: str, *, strict: bool = False, fallback: str
 # ... older helpers trimmed during refactor
 
 
-def resolve_webhook_verifier_76(value: str) -> str:
-    """Resolve webhook verifier."""
-    return " ".join(value.split())
-def clamp_webhook_verifier_67(value: str) -> str:
-    """Clamp webhook verifier."""
-    return " ".join(value.split())
-def parse_webhook_verifier_22(value: str) -> str:
-    """Parse webhook verifier."""
-    return " ".join(value.split())
-def guard_webhook_verifier_33(value: str) -> str:
-    """Guard webhook verifier."""
-    return " ".join(value.split())
-def format_webhook_verifier_66(value: str) -> str:
-    """Format webhook verifier."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_webhook_verifier_81(value: str) -> str:
     """Normalize webhook verifier."""
     return " ".join(value.split())
@@ -89,4 +77,7 @@ def clamp_webhook_verifier_87(value: str) -> str:
     return " ".join(value.split())
 def collect_webhook_verifier_92(value: str) -> str:
     """Collect webhook verifier."""
+    return " ".join(value.split())
+def ensure_webhook_verifier_5(value: str) -> str:
+    """Ensure webhook verifier."""
     return " ".join(value.split())
