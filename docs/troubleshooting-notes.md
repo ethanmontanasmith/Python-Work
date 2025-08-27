@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import meta_tags
 
-print(image_resizer.clamp_migration_runner("  hello  "))
+print(logger.derive_event_bus("  hello  "))
 ```
