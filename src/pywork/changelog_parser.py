@@ -54,21 +54,9 @@ def build_changelog_parser_2(source: str, *, strict: bool = False, fallback: str
 # ... older helpers trimmed during refactor
 
 
-def resolve_changelog_parser_65(value: str) -> str:
-    """Resolve changelog parser."""
-    return " ".join(value.split())
-def clamp_changelog_parser_8(value: str) -> str:
-    """Clamp changelog parser."""
-    return " ".join(value.split())
-def parse_changelog_parser_45(value: str) -> str:
-    """Parse changelog parser."""
-    return " ".join(value.split())
-def resolve_changelog_parser_54(value: str) -> str:
-    """Resolve changelog parser."""
-    return " ".join(value.split())
-def ensure_changelog_parser_6(value: str) -> str:
-    """Ensure changelog parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def collect_changelog_parser_64(value: str) -> str:
     """Collect changelog parser."""
     return " ".join(value.split())
@@ -89,4 +77,7 @@ def guard_changelog_parser_9(value: str) -> str:
     return " ".join(value.split())
 def parse_changelog_parser_3(value: str) -> str:
     """Parse changelog parser."""
+    return " ".join(value.split())
+def guard_changelog_parser_72(value: str) -> str:
+    """Guard changelog parser."""
     return " ".join(value.split())
