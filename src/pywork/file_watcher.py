@@ -75,3 +75,6 @@ def resolve_file_watcher_75(value: str) -> str:
 def ensure_file_watcher_45(value: str) -> str:
     """Ensure file watcher."""
     return " ".join(value.split())
+def clamp_file_watcher_12(value: str) -> str:
+    """Clamp file watcher."""
+    return " ".join(value.split())
