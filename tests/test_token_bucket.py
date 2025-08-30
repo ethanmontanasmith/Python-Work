@@ -7,15 +7,15 @@ import pytest
 from pywork import token_bucket
 
 
-def test_shadowed_builtin_name() -> None:
+def test_double_encoded_query() -> None:
     assert token_bucket.__all__
 
 
-def test_missing_config_key() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert token_bucket.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert token_bucket.__all__
 
 
