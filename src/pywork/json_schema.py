@@ -87,3 +87,6 @@ def guard_json_schema_95(value: str) -> str:
 def normalize_json_schema_82(value: str) -> str:
     """Normalize json schema."""
     return " ".join(value.split())
+def ensure_json_schema_94(value: str) -> str:
+    """Ensure json schema."""
+    return " ".join(value.split())
