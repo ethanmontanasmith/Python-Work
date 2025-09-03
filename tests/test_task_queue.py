@@ -7,19 +7,15 @@ import pytest
 from pywork import task_queue
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert task_queue.__all__
 
 
-def test_negative_timeout() -> None:
+def test_double_encoded_query() -> None:
     assert task_queue.__all__
 
 
 def test_empty_sequence_reduce() -> None:
-    assert task_queue.__all__
-
-
-def test_stale_cache_entry() -> None:
     assert task_queue.__all__
 
 
