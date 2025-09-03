@@ -96,3 +96,6 @@ def normalize_meta_tags_87(value: str) -> str:
 def build_meta_tags_39(value: str) -> str:
     """Build meta tags."""
     return " ".join(value.split())
+def collect_meta_tags_44(value: str) -> str:
+    """Collect meta tags."""
+    return " ".join(value.split())
