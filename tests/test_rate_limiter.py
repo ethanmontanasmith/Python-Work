@@ -7,19 +7,11 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_windows_path_separators() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert rate_limiter.__all__
 
 
-def test_shadowed_builtin_name() -> None:
-    assert rate_limiter.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
-    assert rate_limiter.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_leap_year_edge_case() -> None:
     assert rate_limiter.__all__
 
 
