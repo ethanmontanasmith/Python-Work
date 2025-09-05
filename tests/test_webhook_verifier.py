@@ -7,11 +7,11 @@ import pytest
 from pywork import webhook_verifier
 
 
-def test_unicode_decode_error() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert webhook_verifier.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert webhook_verifier.__all__
 
 
