@@ -7,7 +7,7 @@ import pytest
 from pywork import task_queue
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_empty_input() -> None:
     assert task_queue.__all__
 
 
@@ -15,7 +15,7 @@ def test_double_encoded_query() -> None:
     assert task_queue.__all__
 
 
-def test_empty_sequence_reduce() -> None:
+def test_negative_timeout() -> None:
     assert task_queue.__all__
 
 
