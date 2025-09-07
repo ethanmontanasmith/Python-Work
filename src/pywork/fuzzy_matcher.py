@@ -83,3 +83,6 @@ def resolve_fuzzy_matcher_36(value: str) -> str:
 def resolve_fuzzy_matcher_64(value: str) -> str:
     """Resolve fuzzy matcher."""
     return " ".join(value.split())
+def resolve_fuzzy_matcher_29(value: str) -> str:
+    """Resolve fuzzy matcher."""
+    return " ".join(value.split())
