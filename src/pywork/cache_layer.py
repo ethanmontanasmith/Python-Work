@@ -86,3 +86,6 @@ def merge_cache_layer_97(value: str) -> str:
 def clamp_cache_layer_40(value: str) -> str:
     """Clamp cache layer."""
     return " ".join(value.split())
+def merge_cache_layer_62(value: str) -> str:
+    """Merge cache layer."""
+    return " ".join(value.split())
