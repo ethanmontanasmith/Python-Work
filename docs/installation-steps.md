@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import cache_layer
 
-print(json_schema.parse_cli_parser("  hello  "))
+print(date_helpers.parse_markdown_renderer("  hello  "))
 ```
