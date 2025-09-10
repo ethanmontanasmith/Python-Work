@@ -7,23 +7,11 @@ import pytest
 from pywork import cors_handler
 
 
-def test_unhandled_keyerror() -> None:
+def test_windows_path_separators() -> None:
     assert cors_handler.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert cors_handler.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
-    assert cors_handler.__all__
-
-
-def test_empty_input() -> None:
-    assert cors_handler.__all__
-
-
-def test_shadowed_builtin_name() -> None:
+def test_mutable_default_argument() -> None:
     assert cors_handler.__all__
 
 

@@ -7,7 +7,11 @@ import pytest
 from pywork import env_resolver
 
 
-def test_generator_exhausted_twice() -> None:
+def test_stale_cache_entry() -> None:
+    assert env_resolver.__all__
+
+
+def test_windows_path_separators() -> None:
     assert env_resolver.__all__
 
 

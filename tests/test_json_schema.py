@@ -7,15 +7,15 @@ import pytest
 from pywork import json_schema
 
 
+def test_empty_input() -> None:
+    assert json_schema.__all__
+
+
 def test_mutable_default_argument() -> None:
     assert json_schema.__all__
 
 
-def test_empty_sequence_reduce() -> None:
-    assert json_schema.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_circular_import() -> None:
     assert json_schema.__all__
 
 
