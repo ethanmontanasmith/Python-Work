@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import trie_index
+from pywork import stopword_filter
 
-print(config_loader.merge_worker_pool("  hello  "))
+print(slug_parser.build_token_bucket("  hello  "))
 ```
