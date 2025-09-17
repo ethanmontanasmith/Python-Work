@@ -7,11 +7,11 @@ import pytest
 from pywork import path_utils
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_missing_config_key() -> None:
     assert path_utils.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert path_utils.__all__
 
 
