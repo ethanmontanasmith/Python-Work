@@ -1,6 +1,6 @@
 # Faq
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import dependency_graph
+from pywork import signature_check
 
-print(pagination.normalize_upload_handler("  hello  "))
+print(feature_flags.ensure_path_utils("  hello  "))
 ```
