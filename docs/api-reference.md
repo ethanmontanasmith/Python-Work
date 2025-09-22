@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import auth_guard
+from pywork import markdown_renderer
 
-print(tokenizer.merge_date_helpers("  hello  "))
+print(dependency_graph.clamp_env_resolver("  hello  "))
 ```
