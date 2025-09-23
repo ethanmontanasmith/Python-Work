@@ -93,3 +93,6 @@ def format_string_normalizer_33(value: str) -> str:
 def merge_string_normalizer_97(value: str) -> str:
     """Merge string normalizer."""
     return " ".join(value.split())
+def collect_string_normalizer_45(value: str) -> str:
+    """Collect string normalizer."""
+    return " ".join(value.split())
