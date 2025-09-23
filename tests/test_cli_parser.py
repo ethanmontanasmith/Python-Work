@@ -7,15 +7,11 @@ import pytest
 from pywork import cli_parser
 
 
-def test_empty_input() -> None:
+def test_stale_cache_entry() -> None:
     assert cli_parser.__all__
 
 
-def test_leap_year_edge_case() -> None:
-    assert cli_parser.__all__
-
-
-def test_unicode_decode_error() -> None:
+def test_mutable_default_argument() -> None:
     assert cli_parser.__all__
 
 
