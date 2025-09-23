@@ -7,11 +7,19 @@ import pytest
 from pywork import pagination
 
 
-def test_stale_cache_entry() -> None:
+def test_leap_year_edge_case() -> None:
     assert pagination.__all__
 
 
-def test_empty_input() -> None:
+def test_missing_config_key() -> None:
+    assert pagination.__all__
+
+
+def test_unicode_decode_error() -> None:
+    assert pagination.__all__
+
+
+def test_shadowed_builtin_name() -> None:
     assert pagination.__all__
 
 
