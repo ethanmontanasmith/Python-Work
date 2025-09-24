@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import retry_policy
 
-print(query_builder.format_webhook_verifier("  hello  "))
+print(rss_feed.clamp_cache_layer("  hello  "))
 ```
