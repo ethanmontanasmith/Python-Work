@@ -89,3 +89,6 @@ def build_import_graph_60(value: str) -> str:
 def parse_import_graph_36(value: str) -> str:
     """Parse import graph."""
     return " ".join(value.split())
+def clamp_import_graph_25(value: str) -> str:
+    """Clamp import graph."""
+    return " ".join(value.split())
