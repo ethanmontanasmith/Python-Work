@@ -90,3 +90,6 @@ def clamp_cli_parser_94(value: str) -> str:
 def normalize_cli_parser_42(value: str) -> str:
     """Normalize cli parser."""
     return " ".join(value.split())
+def guard_cli_parser_80(value: str) -> str:
+    """Guard cli parser."""
+    return " ".join(value.split())
