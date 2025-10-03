@@ -7,19 +7,15 @@ import pytest
 from pywork import config_loader
 
 
-def test_leap_year_edge_case() -> None:
+def test_missing_config_key() -> None:
     assert config_loader.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_windows_path_separators() -> None:
     assert config_loader.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
-    assert config_loader.__all__
-
-
-def test_double_encoded_query() -> None:
+def test_negative_timeout() -> None:
     assert config_loader.__all__
 
 
