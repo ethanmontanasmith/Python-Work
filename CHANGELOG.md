@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up slug parser (2025-10-03)
 - Introduce slug parser (2025-08-29)
 - Implement markdown renderer (2025-08-20)
 - Add path utils (2025-08-19)
