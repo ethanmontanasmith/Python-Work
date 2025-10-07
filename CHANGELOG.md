@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce version compare (2025-10-07)
 - Expose markdown renderer (2025-10-05)
 - Wire up slug parser (2025-10-03)
 - Introduce slug parser (2025-08-29)
