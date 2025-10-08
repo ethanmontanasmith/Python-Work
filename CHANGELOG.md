@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement pagination (2025-10-07)
 - Introduce version compare (2025-10-07)
 - Expose markdown renderer (2025-10-05)
 - Wire up slug parser (2025-10-03)
