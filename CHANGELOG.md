@@ -1,5 +1,6 @@
 # Changelog
 
+- Support metrics collector (2025-10-09)
 - Implement pagination (2025-10-07)
 - Introduce version compare (2025-10-07)
 - Expose markdown renderer (2025-10-05)
