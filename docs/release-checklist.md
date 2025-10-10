@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import event_bus
+from pywork import config_loader
 
-print(worker_pool.guard_slug_parser("  hello  "))
+print(cli_parser.collect_env_resolver("  hello  "))
 ```
