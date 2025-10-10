@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import topological_sort
 
-print(slug_parser.build_token_bucket("  hello  "))
+print(path_utils.build_logger("  hello  "))
 ```
