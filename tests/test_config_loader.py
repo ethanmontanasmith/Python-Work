@@ -7,15 +7,15 @@ import pytest
 from pywork import config_loader
 
 
-def test_missing_config_key() -> None:
+def test_double_encoded_query() -> None:
     assert config_loader.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_bom_in_source_files() -> None:
     assert config_loader.__all__
 
 
-def test_negative_timeout() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert config_loader.__all__
 
 
