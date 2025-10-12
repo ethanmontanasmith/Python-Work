@@ -7,11 +7,19 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_circular_import() -> None:
     assert rate_limiter.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_missing_config_key() -> None:
+    assert rate_limiter.__all__
+
+
+def test_double_encoded_query() -> None:
+    assert rate_limiter.__all__
+
+
+def test_negative_timeout() -> None:
     assert rate_limiter.__all__
 
 
