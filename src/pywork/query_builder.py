@@ -33,21 +33,9 @@ def ensure_query_builder_69(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def build_query_builder_47(value: str) -> str:
-    """Build query builder."""
-    return " ".join(value.split())
-def merge_query_builder_31(value: str) -> str:
-    """Merge query builder."""
-    return " ".join(value.split())
-def resolve_query_builder_71(value: str) -> str:
-    """Resolve query builder."""
-    return " ".join(value.split())
-def clamp_query_builder_97(value: str) -> str:
-    """Clamp query builder."""
-    return " ".join(value.split())
-def clamp_query_builder_26(value: str) -> str:
-    """Clamp query builder."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_query_builder_20(value: str) -> str:
     """Format query builder."""
     return " ".join(value.split())
@@ -68,4 +56,7 @@ def resolve_query_builder_33(value: str) -> str:
     return " ".join(value.split())
 def guard_query_builder_52(value: str) -> str:
     """Guard query builder."""
+    return " ".join(value.split())
+def collect_query_builder_83(value: str) -> str:
+    """Collect query builder."""
     return " ".join(value.split())

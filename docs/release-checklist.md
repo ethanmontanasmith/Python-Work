@@ -1,6 +1,6 @@
 # Release checklist
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import config_loader
+from pywork import changelog_parser
 
-print(cli_parser.collect_env_resolver("  hello  "))
+print(lru_cache.ensure_color_palette("  hello  "))
 ```

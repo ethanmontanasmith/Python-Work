@@ -7,11 +7,11 @@ import pytest
 from pywork import color_palette
 
 
-def test_unhandled_keyerror() -> None:
+def test_mutable_default_argument() -> None:
     assert color_palette.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert color_palette.__all__
 
 
