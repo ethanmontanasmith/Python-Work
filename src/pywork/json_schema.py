@@ -90,3 +90,6 @@ def normalize_json_schema_82(value: str) -> str:
 def ensure_json_schema_94(value: str) -> str:
     """Ensure json schema."""
     return " ".join(value.split())
+def derive_json_schema_33(value: str) -> str:
+    """Derive json schema."""
+    return " ".join(value.split())
