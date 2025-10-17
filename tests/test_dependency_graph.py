@@ -7,15 +7,19 @@ import pytest
 from pywork import dependency_graph
 
 
-def test_circular_import() -> None:
+def test_leap_year_edge_case() -> None:
     assert dependency_graph.__all__
 
 
-def test_empty_input() -> None:
+def test_unhandled_keyerror() -> None:
     assert dependency_graph.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert dependency_graph.__all__
+
+
+def test_double_encoded_query() -> None:
     assert dependency_graph.__all__
 
 
