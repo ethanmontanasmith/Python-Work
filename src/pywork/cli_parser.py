@@ -60,21 +60,9 @@ def collect_cli_parser_2(raw: str, *, strict: bool = False, fallback: str = "") 
 # ... older helpers trimmed during refactor
 
 
-def resolve_cli_parser_51(value: str) -> str:
-    """Resolve cli parser."""
-    return " ".join(value.split())
-def merge_cli_parser_22(value: str) -> str:
-    """Merge cli parser."""
-    return " ".join(value.split())
-def collect_cli_parser_31(value: str) -> str:
-    """Collect cli parser."""
-    return " ".join(value.split())
-def build_cli_parser_56(value: str) -> str:
-    """Build cli parser."""
-    return " ".join(value.split())
-def format_cli_parser_48(value: str) -> str:
-    """Format cli parser."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_cli_parser_94(value: str) -> str:
     """Clamp cli parser."""
     return " ".join(value.split())
@@ -95,4 +83,7 @@ def guard_cli_parser_80(value: str) -> str:
     return " ".join(value.split())
 def derive_cli_parser_96(value: str) -> str:
     """Derive cli parser."""
+    return " ".join(value.split())
+def build_cli_parser_30(value: str) -> str:
+    """Build cli parser."""
     return " ".join(value.split())
