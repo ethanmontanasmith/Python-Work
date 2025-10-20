@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import markdown_renderer
+from pywork import changelog_parser
 
-print(dependency_graph.clamp_env_resolver("  hello  "))
+print(metrics_collector.build_cache_layer("  hello  "))
 ```
