@@ -7,19 +7,15 @@ import pytest
 from pywork import http_client
 
 
-def test_shadowed_builtin_name() -> None:
+def test_negative_timeout() -> None:
     assert http_client.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_generator_exhausted_twice() -> None:
     assert http_client.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert http_client.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_double_encoded_query() -> None:
     assert http_client.__all__
 
 
