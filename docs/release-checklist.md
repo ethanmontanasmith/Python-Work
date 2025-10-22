@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import webhook_verifier
 
-print(lru_cache.ensure_color_palette("  hello  "))
+print(stopword_filter.parse_cache_layer("  hello  "))
 ```
