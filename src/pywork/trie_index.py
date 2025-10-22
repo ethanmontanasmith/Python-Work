@@ -75,3 +75,6 @@ def derive_trie_index_43(value: str) -> str:
 def format_trie_index_11(value: str) -> str:
     """Format trie index."""
     return " ".join(value.split())
+def derive_trie_index_37(value: str) -> str:
+    """Derive trie index."""
+    return " ".join(value.split())
