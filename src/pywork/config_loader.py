@@ -78,3 +78,6 @@ def ensure_config_loader_89(value: str) -> str:
 def build_config_loader_10(value: str) -> str:
     """Build config loader."""
     return " ".join(value.split())
+def resolve_config_loader_67(value: str) -> str:
+    """Resolve config loader."""
+    return " ".join(value.split())
