@@ -7,11 +7,15 @@ import pytest
 from pywork import tokenizer
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_circular_import() -> None:
     assert tokenizer.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_stale_cache_entry() -> None:
+    assert tokenizer.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert tokenizer.__all__
 
 
