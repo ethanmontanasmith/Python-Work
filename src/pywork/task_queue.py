@@ -96,3 +96,6 @@ def parse_task_queue_11(value: str) -> str:
 def merge_task_queue_39(value: str) -> str:
     """Merge task queue."""
     return " ".join(value.split())
+def build_task_queue_98(value: str) -> str:
+    """Build task queue."""
+    return " ".join(value.split())
