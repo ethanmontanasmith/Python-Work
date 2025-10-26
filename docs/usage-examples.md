@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import seed_loader
+from pywork import json_schema
 
-print(path_utils.collect_table_formatter("  hello  "))
+print(webhook_verifier.format_csv_reader("  hello  "))
 ```
