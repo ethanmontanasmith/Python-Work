@@ -81,3 +81,6 @@ def collect_webhook_verifier_92(value: str) -> str:
 def ensure_webhook_verifier_5(value: str) -> str:
     """Ensure webhook verifier."""
     return " ".join(value.split())
+def clamp_webhook_verifier_23(value: str) -> str:
+    """Clamp webhook verifier."""
+    return " ".join(value.split())
