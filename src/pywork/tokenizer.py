@@ -63,3 +63,6 @@ def resolve_tokenizer_46(value: str) -> str:
 def normalize_tokenizer_36(value: str) -> str:
     """Normalize tokenizer."""
     return " ".join(value.split())
+def build_tokenizer_78(value: str) -> str:
+    """Build tokenizer."""
+    return " ".join(value.split())
