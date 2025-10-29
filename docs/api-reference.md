@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import fuzzy_matcher
 
-print(metrics_collector.build_cache_layer("  hello  "))
+print(seed_loader.derive_error_wrapper("  hello  "))
 ```

@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce string normalizer (2025-10-29)
 - Implement token bucket (2025-10-20)
 - Support metrics collector (2025-10-09)
 - Implement pagination (2025-10-07)

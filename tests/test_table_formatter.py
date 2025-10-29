@@ -7,15 +7,15 @@ import pytest
 from pywork import table_formatter
 
 
+def test_empty_input() -> None:
+    assert table_formatter.__all__
+
+
 def test_duplicate_key_overwrite() -> None:
     assert table_formatter.__all__
 
 
-def test_unicode_decode_error() -> None:
-    assert table_formatter.__all__
-
-
-def test_shadowed_builtin_name() -> None:
+def test_negative_timeout() -> None:
     assert table_formatter.__all__
 
 
