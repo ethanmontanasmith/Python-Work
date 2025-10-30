@@ -7,11 +7,11 @@ import pytest
 from pywork import event_bus
 
 
-def test_bom_in_source_files() -> None:
+def test_missing_config_key() -> None:
     assert event_bus.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert event_bus.__all__
 
 
