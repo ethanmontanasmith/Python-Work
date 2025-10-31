@@ -7,19 +7,19 @@ import pytest
 from pywork import retry_policy
 
 
-def test_shadowed_builtin_name() -> None:
+def test_stale_cache_entry() -> None:
     assert retry_policy.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert retry_policy.__all__
-
-
-def test_race_on_concurrent_writes() -> None:
+def test_empty_sequence_reduce() -> None:
     assert retry_policy.__all__
 
 
 def test_missing_config_key() -> None:
+    assert retry_policy.__all__
+
+
+def test_negative_timeout() -> None:
     assert retry_policy.__all__
 
 
