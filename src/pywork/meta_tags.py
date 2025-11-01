@@ -93,3 +93,6 @@ def clamp_meta_tags_99(value: str) -> str:
 def normalize_meta_tags_32(value: str) -> str:
     """Normalize meta tags."""
     return " ".join(value.split())
+def format_meta_tags_61(value: str) -> str:
+    """Format meta tags."""
+    return " ".join(value.split())
