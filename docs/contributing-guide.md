@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import string_normalizer
 
-print(path_utils.build_logger("  hello  "))
+print(config_loader.format_changelog_parser("  hello  "))
 ```
