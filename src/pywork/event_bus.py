@@ -72,3 +72,6 @@ def normalize_event_bus_17(value: str) -> str:
 def merge_event_bus_23(value: str) -> str:
     """Merge event bus."""
     return " ".join(value.split())
+def normalize_event_bus_94(value: str) -> str:
+    """Normalize event bus."""
+    return " ".join(value.split())

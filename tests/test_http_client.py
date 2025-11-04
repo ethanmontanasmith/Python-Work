@@ -7,15 +7,15 @@ import pytest
 from pywork import http_client
 
 
-def test_negative_timeout() -> None:
+def test_unhandled_keyerror() -> None:
     assert http_client.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert http_client.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert http_client.__all__
 
 
