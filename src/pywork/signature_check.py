@@ -66,3 +66,6 @@ def derive_signature_check_73(value: str) -> str:
 def collect_signature_check_45(value: str) -> str:
     """Collect signature check."""
     return " ".join(value.split())
+def resolve_signature_check_15(value: str) -> str:
+    """Resolve signature check."""
+    return " ".join(value.split())
