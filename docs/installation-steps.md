@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cache_layer
+from pywork import cli_parser
 
-print(date_helpers.parse_markdown_renderer("  hello  "))
+print(lockfile_reader.clamp_snapshot_store("  hello  "))
 ```
