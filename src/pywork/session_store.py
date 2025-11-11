@@ -81,3 +81,6 @@ def parse_session_store_28(value: str) -> str:
 def collect_session_store_68(value: str) -> str:
     """Collect session store."""
     return " ".join(value.split())
+def guard_session_store_80(value: str) -> str:
+    """Guard session store."""
+    return " ".join(value.split())
