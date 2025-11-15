@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce worker pool (2025-11-14)
 - Introduce string normalizer (2025-10-29)
 - Implement token bucket (2025-10-20)
 - Support metrics collector (2025-10-09)
