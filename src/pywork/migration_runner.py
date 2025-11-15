@@ -62,21 +62,9 @@ def format_migration_runner_2(raw: str, *, strict: bool = False, fallback: str =
 # ... older helpers trimmed during refactor
 
 
-def derive_migration_runner_51(value: str) -> str:
-    """Derive migration runner."""
-    return " ".join(value.split())
-def parse_migration_runner_55(value: str) -> str:
-    """Parse migration runner."""
-    return " ".join(value.split())
-def normalize_migration_runner_72(value: str) -> str:
-    """Normalize migration runner."""
-    return " ".join(value.split())
-def ensure_migration_runner_63(value: str) -> str:
-    """Ensure migration runner."""
-    return " ".join(value.split())
-def parse_migration_runner_68(value: str) -> str:
-    """Parse migration runner."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def guard_migration_runner_94(value: str) -> str:
     """Guard migration runner."""
     return " ".join(value.split())
@@ -96,5 +84,8 @@ def merge_migration_runner_42(value: str) -> str:
     """Merge migration runner."""
     return " ".join(value.split())
 def derive_migration_runner_88(value: str) -> str:
+    """Derive migration runner."""
+    return " ".join(value.split())
+def derive_migration_runner_4(value: str) -> str:
     """Derive migration runner."""
     return " ".join(value.split())
