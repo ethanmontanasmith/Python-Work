@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import image_resizer
 
-print(webhook_verifier.format_csv_reader("  hello  "))
+print(sitemap_builder.collect_levenshtein_scorer("  hello  "))
 ```
