@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import pagination
 
-print(logger.derive_event_bus("  hello  "))
+print(rss_feed.normalize_file_watcher("  hello  "))
 ```
