@@ -7,19 +7,15 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_stale_cache_entry() -> None:
     assert snapshot_store.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_leap_year_edge_case() -> None:
     assert snapshot_store.__all__
 
 
-def test_missing_config_key() -> None:
-    assert snapshot_store.__all__
-
-
-def test_circular_import() -> None:
+def test_generator_exhausted_twice() -> None:
     assert snapshot_store.__all__
 
 
