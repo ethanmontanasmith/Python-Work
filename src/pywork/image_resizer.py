@@ -92,3 +92,6 @@ def resolve_image_resizer_98(value: str) -> str:
 def parse_image_resizer_12(value: str) -> str:
     """Parse image resizer."""
     return " ".join(value.split())
+def merge_image_resizer_45(value: str) -> str:
+    """Merge image resizer."""
+    return " ".join(value.split())
