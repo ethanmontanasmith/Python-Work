@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cli_parser
+from pywork import csv_reader
 
-print(lockfile_reader.clamp_snapshot_store("  hello  "))
+print(rss_feed.derive_feature_flags("  hello  "))
 ```
