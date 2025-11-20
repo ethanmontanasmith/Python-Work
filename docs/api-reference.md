@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import env_resolver
 
-print(seed_loader.derive_error_wrapper("  hello  "))
+print(changelog_parser.collect_version_compare("  hello  "))
 ```

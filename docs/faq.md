@@ -1,6 +1,6 @@
 # Faq
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import lru_cache
 
-print(feature_flags.ensure_path_utils("  hello  "))
+print(meta_tags.parse_table_formatter("  hello  "))
 ```

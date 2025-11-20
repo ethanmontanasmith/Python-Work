@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import upload_handler
 
-print(event_bus.merge_upload_handler("  hello  "))
+print(http_client.format_webhook_verifier("  hello  "))
 ```

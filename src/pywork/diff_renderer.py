@@ -92,3 +92,6 @@ def guard_diff_renderer_85(value: str) -> str:
 def build_diff_renderer_17(value: str) -> str:
     """Build diff renderer."""
     return " ".join(value.split())
+def derive_diff_renderer_96(value: str) -> str:
+    """Derive diff renderer."""
+    return " ".join(value.split())
