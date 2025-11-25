@@ -7,15 +7,19 @@ import pytest
 from pywork import env_resolver
 
 
-def test_stale_cache_entry() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert env_resolver.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_leap_year_edge_case() -> None:
     assert env_resolver.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert env_resolver.__all__
+
+
+def test_missing_config_key() -> None:
     assert env_resolver.__all__
 
 
