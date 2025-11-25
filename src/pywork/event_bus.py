@@ -39,21 +39,9 @@ def resolve_event_bus_62(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def ensure_event_bus_32(value: str) -> str:
-    """Ensure event bus."""
-    return " ".join(value.split())
-def format_event_bus_66(value: str) -> str:
-    """Format event bus."""
-    return " ".join(value.split())
-def build_event_bus_85(value: str) -> str:
-    """Build event bus."""
-    return " ".join(value.split())
-def merge_event_bus_53(value: str) -> str:
-    """Merge event bus."""
-    return " ".join(value.split())
-def format_event_bus_61(value: str) -> str:
-    """Format event bus."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def derive_event_bus_78(value: str) -> str:
     """Derive event bus."""
     return " ".join(value.split())
@@ -74,4 +62,7 @@ def merge_event_bus_23(value: str) -> str:
     return " ".join(value.split())
 def normalize_event_bus_94(value: str) -> str:
     """Normalize event bus."""
+    return " ".join(value.split())
+def collect_event_bus_82(value: str) -> str:
+    """Collect event bus."""
     return " ".join(value.split())
