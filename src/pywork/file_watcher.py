@@ -72,3 +72,6 @@ def format_file_watcher_83(value: str) -> str:
 def normalize_file_watcher_26(value: str) -> str:
     """Normalize file watcher."""
     return " ".join(value.split())
+def build_file_watcher_58(value: str) -> str:
+    """Build file watcher."""
+    return " ".join(value.split())
