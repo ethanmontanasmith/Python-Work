@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pywork"
-version = "0.14.7"
+version = "0.14.18"
 description = "A long-running pile of small Python utilities."
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [{ name = "ethanmontanasmith" }]
 
@@ -19,9 +19,9 @@ addopts = "-q"
 
 [tool.ruff]
 line-length = 88
-target-version = "py38"
+target-version = "py39"
 
 [tool.mypy]
-python_version = "3.8"
+python_version = "3.9"
 warn_unused_ignores = true
 disallow_untyped_defs = true
