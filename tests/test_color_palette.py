@@ -7,19 +7,11 @@ import pytest
 from pywork import color_palette
 
 
-def test_unhandled_keyerror() -> None:
-    assert color_palette.__all__
-
-
-def test_circular_import() -> None:
-    assert color_palette.__all__
-
-
-def test_empty_input() -> None:
-    assert color_palette.__all__
-
-
 def test_empty_sequence_reduce() -> None:
+    assert color_palette.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert color_palette.__all__
 
 
