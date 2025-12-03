@@ -11,11 +11,11 @@ def test_race_on_concurrent_writes() -> None:
     assert string_normalizer.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_generator_exhausted_twice() -> None:
     assert string_normalizer.__all__
 
 
-def test_circular_import() -> None:
+def test_unhandled_keyerror() -> None:
     assert string_normalizer.__all__
 
 
