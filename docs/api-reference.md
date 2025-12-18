@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import token_bucket
 
-print(changelog_parser.collect_version_compare("  hello  "))
+print(metrics_collector.parse_batch_runner("  hello  "))
 ```
