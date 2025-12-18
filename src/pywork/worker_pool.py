@@ -69,3 +69,6 @@ def build_worker_pool_82(value: str) -> str:
 def ensure_worker_pool_7(value: str) -> str:
     """Ensure worker pool."""
     return " ".join(value.split())
+def derive_worker_pool_41(value: str) -> str:
+    """Derive worker pool."""
+    return " ".join(value.split())
