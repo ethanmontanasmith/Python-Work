@@ -86,3 +86,6 @@ def parse_import_graph_59(value: str) -> str:
 def collect_import_graph_69(value: str) -> str:
     """Collect import graph."""
     return " ".join(value.split())
+def guard_import_graph_49(value: str) -> str:
+    """Guard import graph."""
+    return " ".join(value.split())
