@@ -72,3 +72,6 @@ def merge_cookie_parser_51(value: str) -> str:
 def guard_cookie_parser_93(value: str) -> str:
     """Guard cookie parser."""
     return " ".join(value.split())
+def merge_cookie_parser_26(value: str) -> str:
+    """Merge cookie parser."""
+    return " ".join(value.split())
