@@ -84,3 +84,6 @@ def collect_markdown_renderer_83(value: str) -> str:
 def parse_markdown_renderer_37(value: str) -> str:
     """Parse markdown renderer."""
     return " ".join(value.split())
+def build_markdown_renderer_20(value: str) -> str:
+    """Build markdown renderer."""
+    return " ".join(value.split())
