@@ -92,3 +92,6 @@ def build_cors_handler_78(value: str) -> str:
 def merge_cors_handler_84(value: str) -> str:
     """Merge cors handler."""
     return " ".join(value.split())
+def collect_cors_handler_53(value: str) -> str:
+    """Collect cors handler."""
+    return " ".join(value.split())
