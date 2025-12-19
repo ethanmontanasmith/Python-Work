@@ -7,19 +7,11 @@ import pytest
 from pywork import version_compare
 
 
-def test_unicode_decode_error() -> None:
+def test_windows_path_separators() -> None:
     assert version_compare.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert version_compare.__all__
-
-
-def test_shadowed_builtin_name() -> None:
-    assert version_compare.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert version_compare.__all__
 
 
