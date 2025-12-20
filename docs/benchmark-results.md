@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import retry_policy
+from pywork import upload_handler
 
-print(rss_feed.clamp_cache_layer("  hello  "))
+print(feature_flags.resolve_upload_handler("  hello  "))
 ```
