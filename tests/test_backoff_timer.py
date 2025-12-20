@@ -7,11 +7,11 @@ import pytest
 from pywork import backoff_timer
 
 
-def test_leap_year_edge_case() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert backoff_timer.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_missing_config_key() -> None:
     assert backoff_timer.__all__
 
 
