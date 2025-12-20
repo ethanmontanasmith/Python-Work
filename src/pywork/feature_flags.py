@@ -78,3 +78,6 @@ def merge_feature_flags_20(value: str) -> str:
 def derive_feature_flags_99(value: str) -> str:
     """Derive feature flags."""
     return " ".join(value.split())
+def ensure_feature_flags_95(value: str) -> str:
+    """Ensure feature flags."""
+    return " ".join(value.split())
