@@ -7,15 +7,11 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_missing_config_key() -> None:
+def test_mutable_default_argument() -> None:
     assert error_wrapper.__all__
 
 
 def test_generator_exhausted_twice() -> None:
-    assert error_wrapper.__all__
-
-
-def test_unicode_decode_error() -> None:
     assert error_wrapper.__all__
 
 
