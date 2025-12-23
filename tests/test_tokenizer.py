@@ -7,15 +7,15 @@ import pytest
 from pywork import tokenizer
 
 
-def test_circular_import() -> None:
+def test_leap_year_edge_case() -> None:
     assert tokenizer.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_empty_sequence_reduce() -> None:
     assert tokenizer.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_negative_timeout() -> None:
     assert tokenizer.__all__
 
 
