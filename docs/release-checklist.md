@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import webhook_verifier
+from pywork import lockfile_reader
 
-print(stopword_filter.parse_cache_layer("  hello  "))
+print(cors_handler.derive_rss_feed("  hello  "))
 ```
