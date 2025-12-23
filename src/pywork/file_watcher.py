@@ -78,3 +78,6 @@ def build_file_watcher_58(value: str) -> str:
 def merge_file_watcher_75(value: str) -> str:
     """Merge file watcher."""
     return " ".join(value.split())
+def derive_file_watcher_30(value: str) -> str:
+    """Derive file watcher."""
+    return " ".join(value.split())
