@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import slug_parser
 
-print(tokenizer.normalize_topological_sort("  hello  "))
+print(stopword_filter.guard_rate_limiter("  hello  "))
 ```
