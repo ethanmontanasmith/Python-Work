@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import query_builder
 
-print(sitemap_builder.collect_levenshtein_scorer("  hello  "))
+print(tokenizer.normalize_topological_sort("  hello  "))
 ```
