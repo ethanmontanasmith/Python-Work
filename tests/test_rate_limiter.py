@@ -7,7 +7,11 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_circular_import() -> None:
+def test_unhandled_keyerror() -> None:
+    assert rate_limiter.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert rate_limiter.__all__
 
 
@@ -15,11 +19,7 @@ def test_missing_config_key() -> None:
     assert rate_limiter.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert rate_limiter.__all__
-
-
-def test_negative_timeout() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert rate_limiter.__all__
 
 
