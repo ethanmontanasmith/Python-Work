@@ -84,3 +84,6 @@ def resolve_config_loader_67(value: str) -> str:
 def normalize_config_loader_89(value: str) -> str:
     """Normalize config loader."""
     return " ".join(value.split())
+def build_config_loader_77(value: str) -> str:
+    """Build config loader."""
+    return " ".join(value.split())
