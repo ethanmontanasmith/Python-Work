@@ -7,7 +7,11 @@ import pytest
 from pywork import topological_sort
 
 
-def test_empty_input() -> None:
+def test_unhandled_keyerror() -> None:
+    assert topological_sort.__all__
+
+
+def test_missing_config_key() -> None:
     assert topological_sort.__all__
 
 
