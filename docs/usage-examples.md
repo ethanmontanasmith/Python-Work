@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import slug_parser
 
-print(sitemap_builder.collect_levenshtein_scorer("  hello  "))
+print(stopword_filter.guard_rate_limiter("  hello  "))
 ```

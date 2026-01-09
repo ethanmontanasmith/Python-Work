@@ -11,11 +11,15 @@ def test_missing_config_key() -> None:
     assert changelog_parser.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_negative_timeout() -> None:
     assert changelog_parser.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_bom_in_source_files() -> None:
+    assert changelog_parser.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert changelog_parser.__all__
 
 

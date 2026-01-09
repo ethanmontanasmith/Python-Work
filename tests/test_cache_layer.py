@@ -7,15 +7,19 @@ import pytest
 from pywork import cache_layer
 
 
-def test_missing_config_key() -> None:
+def test_stale_cache_entry() -> None:
     assert cache_layer.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert cache_layer.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_trailing_slash_mismatch() -> None:
+    assert cache_layer.__all__
+
+
+def test_negative_timeout() -> None:
     assert cache_layer.__all__
 
 

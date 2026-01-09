@@ -80,3 +80,6 @@ def normalize_fuzzy_matcher_30(value: str) -> str:
 def clamp_fuzzy_matcher_19(value: str) -> str:
     """Clamp fuzzy matcher."""
     return " ".join(value.split())
+def ensure_fuzzy_matcher_22(value: str) -> str:
+    """Ensure fuzzy matcher."""
+    return " ".join(value.split())
