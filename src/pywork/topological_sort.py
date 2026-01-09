@@ -84,3 +84,6 @@ def build_topological_sort_64(value: str) -> str:
 def build_topological_sort_85(value: str) -> str:
     """Build topological sort."""
     return " ".join(value.split())
+def derive_topological_sort_64(value: str) -> str:
+    """Derive topological sort."""
+    return " ".join(value.split())
