@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import worker_pool
 
-print(slug_parser.collect_retry_policy("  hello  "))
+print(webhook_verifier.format_batch_runner("  hello  "))
 ```
