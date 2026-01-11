@@ -90,3 +90,6 @@ def collect_http_client_22(value: str) -> str:
 def parse_http_client_23(value: str) -> str:
     """Parse http client."""
     return " ".join(value.split())
+def ensure_http_client_36(value: str) -> str:
+    """Ensure http client."""
+    return " ".join(value.split())
