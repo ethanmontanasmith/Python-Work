@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import token_bucket
+from pywork import csv_reader
 
-print(metrics_collector.parse_batch_runner("  hello  "))
+print(tokenizer.merge_lru_cache("  hello  "))
 ```
