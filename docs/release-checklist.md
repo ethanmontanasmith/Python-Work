@@ -1,6 +1,6 @@
 # Release checklist
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lockfile_reader
+from pywork import migration_runner
 
-print(cors_handler.derive_rss_feed("  hello  "))
+print(levenshtein_scorer.ensure_auth_guard("  hello  "))
 ```
