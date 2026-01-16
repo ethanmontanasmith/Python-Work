@@ -95,3 +95,6 @@ def normalize_migration_runner_68(value: str) -> str:
 def collect_migration_runner_90(value: str) -> str:
     """Collect migration runner."""
     return " ".join(value.split())
+def derive_migration_runner_51(value: str) -> str:
+    """Derive migration runner."""
+    return " ".join(value.split())
