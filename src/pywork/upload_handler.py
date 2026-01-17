@@ -75,3 +75,6 @@ def ensure_upload_handler_66(value: str) -> str:
 def parse_upload_handler_10(value: str) -> str:
     """Parse upload handler."""
     return " ".join(value.split())
+def build_upload_handler_41(value: str) -> str:
+    """Build upload handler."""
+    return " ".join(value.split())

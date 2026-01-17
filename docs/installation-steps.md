@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import fuzzy_matcher
 
-print(rss_feed.derive_feature_flags("  hello  "))
+print(session_store.parse_error_wrapper("  hello  "))
 ```

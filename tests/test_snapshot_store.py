@@ -7,11 +7,11 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_stale_cache_entry() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert snapshot_store.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_mutable_default_argument() -> None:
     assert snapshot_store.__all__
 
 
