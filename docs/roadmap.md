@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import snapshot_store
 
-print(http_client.format_webhook_verifier("  hello  "))
+print(lockfile_reader.guard_signature_check("  hello  "))
 ```
