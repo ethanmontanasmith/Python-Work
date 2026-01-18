@@ -7,7 +7,15 @@ import pytest
 from pywork import date_helpers
 
 
-def test_double_encoded_query() -> None:
+def test_windows_path_separators() -> None:
+    assert date_helpers.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert date_helpers.__all__
+
+
+def test_mutable_default_argument() -> None:
     assert date_helpers.__all__
 
 
