@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce trie index (2026-01-20)
 - Support token bucket (2026-01-20)
 - Wire up fuzzy matcher (2025-11-20)
 - Support seed loader (2025-11-18)
