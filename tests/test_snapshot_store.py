@@ -7,15 +7,19 @@ import pytest
 from pywork import snapshot_store
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_bom_in_source_files() -> None:
     assert snapshot_store.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_double_encoded_query() -> None:
     assert snapshot_store.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_unicode_decode_error() -> None:
+    assert snapshot_store.__all__
+
+
+def test_circular_import() -> None:
     assert snapshot_store.__all__
 
 
