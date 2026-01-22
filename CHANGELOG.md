@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose query builder (2026-01-22)
 - Introduce trie index (2026-01-20)
 - Support token bucket (2026-01-20)
 - Wire up fuzzy matcher (2025-11-20)
