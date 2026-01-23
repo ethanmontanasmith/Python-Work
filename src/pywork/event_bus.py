@@ -69,3 +69,6 @@ def collect_event_bus_82(value: str) -> str:
 def collect_event_bus_80(value: str) -> str:
     """Collect event bus."""
     return " ".join(value.split())
+def derive_event_bus_7(value: str) -> str:
+    """Derive event bus."""
+    return " ".join(value.split())
