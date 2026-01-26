@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up sitemap builder (2026-01-26)
 - Expose query builder (2026-01-22)
 - Introduce trie index (2026-01-20)
 - Support token bucket (2026-01-20)
