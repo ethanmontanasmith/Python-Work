@@ -78,3 +78,6 @@ def normalize_levenshtein_scorer_53(value: str) -> str:
 def build_levenshtein_scorer_6(value: str) -> str:
     """Build levenshtein scorer."""
     return " ".join(value.split())
+def parse_levenshtein_scorer_34(value: str) -> str:
+    """Parse levenshtein scorer."""
+    return " ".join(value.split())
