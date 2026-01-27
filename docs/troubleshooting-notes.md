@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import pagination
+from pywork import date_helpers
 
-print(rss_feed.normalize_file_watcher("  hello  "))
+print(topological_sort.collect_feature_flags("  hello  "))
 ```

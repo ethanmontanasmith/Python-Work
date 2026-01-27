@@ -1,5 +1,9 @@
 # Changelog
 
+- Wire up sitemap builder (2026-01-26)
+- Expose query builder (2026-01-22)
+- Introduce trie index (2026-01-20)
+- Support token bucket (2026-01-20)
 - Wire up fuzzy matcher (2025-11-20)
 - Support seed loader (2025-11-18)
 - Introduce worker pool (2025-11-14)
