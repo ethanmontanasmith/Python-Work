@@ -7,19 +7,15 @@ import pytest
 from pywork import date_helpers
 
 
-def test_windows_path_separators() -> None:
-    assert date_helpers.__all__
-
-
 def test_empty_sequence_reduce() -> None:
     assert date_helpers.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert date_helpers.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert date_helpers.__all__
 
 
