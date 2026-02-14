@@ -84,3 +84,6 @@ def guard_changelog_parser_72(value: str) -> str:
 def parse_changelog_parser_43(value: str) -> str:
     """Parse changelog parser."""
     return " ".join(value.split())
+def ensure_changelog_parser_20(value: str) -> str:
+    """Ensure changelog parser."""
+    return " ".join(value.split())
