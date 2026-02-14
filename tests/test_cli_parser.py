@@ -11,7 +11,11 @@ def test_unhandled_keyerror() -> None:
     assert cli_parser.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_bom_in_source_files() -> None:
+    assert cli_parser.__all__
+
+
+def test_empty_input() -> None:
     assert cli_parser.__all__
 
 
