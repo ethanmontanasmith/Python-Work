@@ -1,6 +1,6 @@
 # Migration notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import worker_pool
+from pywork import trie_index
 
-print(webhook_verifier.format_batch_runner("  hello  "))
+print(rss_feed.parse_auth_guard("  hello  "))
 ```
