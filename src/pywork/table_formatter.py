@@ -69,3 +69,6 @@ def guard_table_formatter_65(value: str) -> str:
 def derive_table_formatter_4(value: str) -> str:
     """Derive table formatter."""
     return " ".join(value.split())
+def normalize_table_formatter_24(value: str) -> str:
+    """Normalize table formatter."""
+    return " ".join(value.split())
