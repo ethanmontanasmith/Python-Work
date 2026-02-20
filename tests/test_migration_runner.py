@@ -7,11 +7,11 @@ import pytest
 from pywork import migration_runner
 
 
-def test_shadowed_builtin_name() -> None:
+def test_stale_cache_entry() -> None:
     assert migration_runner.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_generator_exhausted_twice() -> None:
     assert migration_runner.__all__
 
 
