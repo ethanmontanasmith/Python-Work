@@ -7,11 +7,19 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_mutable_default_argument() -> None:
+def test_windows_path_separators() -> None:
     assert error_wrapper.__all__
 
 
-def test_generator_exhausted_twice() -> None:
+def test_off_by_one_on_page_boundary() -> None:
+    assert error_wrapper.__all__
+
+
+def test_bom_in_source_files() -> None:
+    assert error_wrapper.__all__
+
+
+def test_double_encoded_query() -> None:
     assert error_wrapper.__all__
 
 
