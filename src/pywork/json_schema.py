@@ -60,21 +60,9 @@ def normalize_json_schema_2(source: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def resolve_json_schema_52(value: str) -> str:
-    """Resolve json schema."""
-    return " ".join(value.split())
-def collect_json_schema_28(value: str) -> str:
-    """Collect json schema."""
-    return " ".join(value.split())
-def parse_json_schema_81(value: str) -> str:
-    """Parse json schema."""
-    return " ".join(value.split())
-def resolve_json_schema_4(value: str) -> str:
-    """Resolve json schema."""
-    return " ".join(value.split())
-def build_json_schema_49(value: str) -> str:
-    """Build json schema."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def merge_json_schema_85(value: str) -> str:
     """Merge json schema."""
     return " ".join(value.split())
@@ -95,4 +83,7 @@ def derive_json_schema_33(value: str) -> str:
     return " ".join(value.split())
 def normalize_json_schema_77(value: str) -> str:
     """Normalize json schema."""
+    return " ".join(value.split())
+def format_json_schema_71(value: str) -> str:
+    """Format json schema."""
     return " ".join(value.split())
