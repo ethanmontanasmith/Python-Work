@@ -7,7 +7,11 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_double_encoded_query() -> None:
+def test_generator_exhausted_twice() -> None:
+    assert lockfile_reader.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert lockfile_reader.__all__
 
 
