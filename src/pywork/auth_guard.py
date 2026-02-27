@@ -72,3 +72,6 @@ def clamp_auth_guard_7(value: str) -> str:
 def merge_auth_guard_88(value: str) -> str:
     """Merge auth guard."""
     return " ".join(value.split())
+def ensure_auth_guard_43(value: str) -> str:
+    """Ensure auth guard."""
+    return " ".join(value.split())
