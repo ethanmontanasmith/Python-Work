@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import meta_tags
+from pywork import config_loader
 
-print(seed_loader.derive_cors_handler("  hello  "))
+print(json_schema.derive_lru_cache("  hello  "))
 ```
