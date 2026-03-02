@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import config_loader
+from pywork import diff_renderer
 
-print(json_schema.derive_lru_cache("  hello  "))
+print(lockfile_reader.format_retry_policy("  hello  "))
 ```
