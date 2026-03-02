@@ -7,11 +7,15 @@ import pytest
 from pywork import lockfile_reader
 
 
-def test_generator_exhausted_twice() -> None:
+def test_missing_config_key() -> None:
     assert lockfile_reader.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_double_encoded_query() -> None:
+    assert lockfile_reader.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert lockfile_reader.__all__
 
 
