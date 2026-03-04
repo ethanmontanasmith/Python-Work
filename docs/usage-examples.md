@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import slug_parser
+from pywork import topological_sort
 
-print(stopword_filter.guard_rate_limiter("  hello  "))
+print(topological_sort.format_import_graph("  hello  "))
 ```
