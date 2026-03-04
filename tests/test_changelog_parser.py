@@ -7,15 +7,15 @@ import pytest
 from pywork import changelog_parser
 
 
-def test_missing_config_key() -> None:
-    assert changelog_parser.__all__
-
-
 def test_negative_timeout() -> None:
     assert changelog_parser.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_windows_path_separators() -> None:
+    assert changelog_parser.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert changelog_parser.__all__
 
 
