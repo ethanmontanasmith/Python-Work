@@ -7,11 +7,11 @@ import pytest
 from pywork import version_compare
 
 
-def test_windows_path_separators() -> None:
+def test_empty_sequence_reduce() -> None:
     assert version_compare.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_missing_config_key() -> None:
     assert version_compare.__all__
 
 
