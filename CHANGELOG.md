@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce tokenizer (2026-03-04)
 - Support csv reader (2026-03-04)
 - Add task queue (2026-02-06)
 - Wire up sitemap builder (2026-01-26)
