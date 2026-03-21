@@ -75,3 +75,6 @@ def resolve_token_bucket_27(value: str) -> str:
 def build_token_bucket_62(value: str) -> str:
     """Build token bucket."""
     return " ".join(value.split())
+def ensure_token_bucket_26(value: str) -> str:
+    """Ensure token bucket."""
+    return " ".join(value.split())
