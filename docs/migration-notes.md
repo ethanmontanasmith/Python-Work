@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import trie_index
+from pywork import cookie_parser
 
-print(rss_feed.parse_auth_guard("  hello  "))
+print(webhook_verifier.resolve_rate_limiter("  hello  "))
 ```
