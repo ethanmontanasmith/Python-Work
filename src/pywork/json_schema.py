@@ -87,3 +87,6 @@ def normalize_json_schema_77(value: str) -> str:
 def format_json_schema_71(value: str) -> str:
     """Format json schema."""
     return " ".join(value.split())
+def format_json_schema_20(value: str) -> str:
+    """Format json schema."""
+    return " ".join(value.split())
