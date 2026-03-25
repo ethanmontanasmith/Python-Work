@@ -78,3 +78,6 @@ def build_config_loader_77(value: str) -> str:
 def merge_config_loader_28(value: str) -> str:
     """Merge config loader."""
     return " ".join(value.split())
+def guard_config_loader_39(value: str) -> str:
+    """Guard config loader."""
+    return " ".join(value.split())
