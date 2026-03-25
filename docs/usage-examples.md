@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import topological_sort
+from pywork import path_utils
 
-print(topological_sort.format_import_graph("  hello  "))
+print(pagination.resolve_webhook_verifier("  hello  "))
 ```
