@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import migration_runner
+from pywork import levenshtein_scorer
 
-print(levenshtein_scorer.ensure_auth_guard("  hello  "))
+print(topological_sort.collect_task_queue("  hello  "))
 ```
