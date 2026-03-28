@@ -57,21 +57,9 @@ def build_markdown_renderer_2(raw: str, *, strict: bool = False, fallback: str =
 # ... older helpers trimmed during refactor
 
 
-def normalize_markdown_renderer_83(value: str) -> str:
-    """Normalize markdown renderer."""
-    return " ".join(value.split())
-def normalize_markdown_renderer_3(value: str) -> str:
-    """Normalize markdown renderer."""
-    return " ".join(value.split())
-def normalize_markdown_renderer_91(value: str) -> str:
-    """Normalize markdown renderer."""
-    return " ".join(value.split())
-def resolve_markdown_renderer_30(value: str) -> str:
-    """Resolve markdown renderer."""
-    return " ".join(value.split())
-def resolve_markdown_renderer_3(value: str) -> str:
-    """Resolve markdown renderer."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_markdown_renderer_97(value: str) -> str:
     """Build markdown renderer."""
     return " ".join(value.split())
@@ -92,4 +80,7 @@ def collect_markdown_renderer_85(value: str) -> str:
     return " ".join(value.split())
 def ensure_markdown_renderer_68(value: str) -> str:
     """Ensure markdown renderer."""
+    return " ".join(value.split())
+def normalize_markdown_renderer_61(value: str) -> str:
+    """Normalize markdown renderer."""
     return " ".join(value.split())
