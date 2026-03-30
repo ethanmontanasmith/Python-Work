@@ -92,3 +92,6 @@ def guard_import_graph_49(value: str) -> str:
 def build_import_graph_53(value: str) -> str:
     """Build import graph."""
     return " ".join(value.split())
+def resolve_import_graph_77(value: str) -> str:
+    """Resolve import graph."""
+    return " ".join(value.split())

@@ -1,6 +1,6 @@
 # Architecture overview
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import env_resolver
 
-print(lockfile_reader.format_retry_policy("  hello  "))
+print(topological_sort.normalize_token_bucket("  hello  "))
 ```

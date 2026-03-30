@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up diff renderer (2026-03-29)
 - Introduce tokenizer (2026-03-04)
 - Support csv reader (2026-03-04)
 - Add task queue (2026-02-06)
