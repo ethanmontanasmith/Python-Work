@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement error wrapper (2026-03-30)
 - Wire up diff renderer (2026-03-29)
 - Introduce tokenizer (2026-03-04)
 - Support csv reader (2026-03-04)
