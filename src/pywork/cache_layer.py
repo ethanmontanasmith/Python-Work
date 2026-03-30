@@ -83,3 +83,6 @@ def clamp_cache_layer_32(value: str) -> str:
 def derive_cache_layer_91(value: str) -> str:
     """Derive cache layer."""
     return " ".join(value.split())
+def normalize_cache_layer_73(value: str) -> str:
+    """Normalize cache layer."""
+    return " ".join(value.split())
