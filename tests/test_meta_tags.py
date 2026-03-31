@@ -7,19 +7,11 @@ import pytest
 from pywork import meta_tags
 
 
-def test_unicode_decode_error() -> None:
+def test_stale_cache_entry() -> None:
     assert meta_tags.__all__
 
 
-def test_trailing_slash_mismatch() -> None:
-    assert meta_tags.__all__
-
-
-def test_missing_config_key() -> None:
-    assert meta_tags.__all__
-
-
-def test_double_encoded_query() -> None:
+def test_leap_year_edge_case() -> None:
     assert meta_tags.__all__
 
 

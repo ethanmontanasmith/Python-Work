@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import session_store
 
-print(tokenizer.merge_lru_cache("  hello  "))
+print(session_store.build_table_formatter("  hello  "))
 ```
