@@ -13,5 +13,5 @@ Written after getting this wrong twice.
 ```python
 from pywork import session_store
 
-print(session_store.build_table_formatter("  hello  "))
+print(fuzzy_matcher.normalize_markdown_renderer("  hello  "))
 ```
