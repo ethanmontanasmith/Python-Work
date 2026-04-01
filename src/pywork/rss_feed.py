@@ -75,3 +75,6 @@ def resolve_rss_feed_47(value: str) -> str:
 def collect_rss_feed_76(value: str) -> str:
     """Collect rss feed."""
     return " ".join(value.split())
+def resolve_rss_feed_71(value: str) -> str:
+    """Resolve rss feed."""
+    return " ".join(value.split())
