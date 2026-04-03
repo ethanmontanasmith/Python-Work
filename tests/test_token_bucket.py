@@ -7,15 +7,19 @@ import pytest
 from pywork import token_bucket
 
 
-def test_shadowed_builtin_name() -> None:
+def test_bom_in_source_files() -> None:
     assert token_bucket.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_mutable_default_argument() -> None:
     assert token_bucket.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_missing_config_key() -> None:
+    assert token_bucket.__all__
+
+
+def test_empty_input() -> None:
     assert token_bucket.__all__
 
 
