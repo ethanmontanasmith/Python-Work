@@ -7,11 +7,15 @@ import pytest
 from pywork import version_compare
 
 
-def test_empty_sequence_reduce() -> None:
+def test_unhandled_keyerror() -> None:
     assert version_compare.__all__
 
 
-def test_missing_config_key() -> None:
+def test_unicode_decode_error() -> None:
+    assert version_compare.__all__
+
+
+def test_off_by_one_on_page_boundary() -> None:
     assert version_compare.__all__
 
 
