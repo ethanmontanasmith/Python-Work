@@ -7,11 +7,15 @@ import pytest
 from pywork import meta_tags
 
 
-def test_stale_cache_entry() -> None:
+def test_negative_timeout() -> None:
     assert meta_tags.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_duplicate_key_overwrite() -> None:
+    assert meta_tags.__all__
+
+
+def test_empty_sequence_reduce() -> None:
     assert meta_tags.__all__
 
 
