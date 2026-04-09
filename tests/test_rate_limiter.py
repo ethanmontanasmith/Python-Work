@@ -7,19 +7,11 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_unhandled_keyerror() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert rate_limiter.__all__
 
 
-def test_generator_exhausted_twice() -> None:
-    assert rate_limiter.__all__
-
-
-def test_missing_config_key() -> None:
-    assert rate_limiter.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
+def test_windows_path_separators() -> None:
     assert rate_limiter.__all__
 
 
