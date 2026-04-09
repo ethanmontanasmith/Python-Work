@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement json schema (2026-04-09)
 - Add metrics collector (2026-04-08)
 - Wire up task queue (2026-03-30)
 - Implement error wrapper (2026-03-30)
