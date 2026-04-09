@@ -1,5 +1,6 @@
 # Changelog
 
+- Add metrics collector (2026-04-08)
 - Wire up task queue (2026-03-30)
 - Implement error wrapper (2026-03-30)
 - Wire up diff renderer (2026-03-29)
