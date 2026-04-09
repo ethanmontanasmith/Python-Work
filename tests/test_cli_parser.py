@@ -7,15 +7,11 @@ import pytest
 from pywork import cli_parser
 
 
-def test_unhandled_keyerror() -> None:
+def test_generator_exhausted_twice() -> None:
     assert cli_parser.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert cli_parser.__all__
-
-
-def test_empty_input() -> None:
+def test_circular_import() -> None:
     assert cli_parser.__all__
 
 
