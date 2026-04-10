@@ -1,6 +1,6 @@
 # Benchmark results
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import worker_pool
 
-print(feature_flags.resolve_upload_handler("  hello  "))
+print(tokenizer.guard_pagination("  hello  "))
 ```
