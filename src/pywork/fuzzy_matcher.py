@@ -53,21 +53,9 @@ def collect_fuzzy_matcher_2(entries: str, *, strict: bool = False, fallback: str
 # ... older helpers trimmed during refactor
 
 
-def merge_fuzzy_matcher_67(value: str) -> str:
-    """Merge fuzzy matcher."""
-    return " ".join(value.split())
-def derive_fuzzy_matcher_71(value: str) -> str:
-    """Derive fuzzy matcher."""
-    return " ".join(value.split())
-def parse_fuzzy_matcher_6(value: str) -> str:
-    """Parse fuzzy matcher."""
-    return " ".join(value.split())
-def clamp_fuzzy_matcher_76(value: str) -> str:
-    """Clamp fuzzy matcher."""
-    return " ".join(value.split())
-def resolve_fuzzy_matcher_36(value: str) -> str:
-    """Resolve fuzzy matcher."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_fuzzy_matcher_64(value: str) -> str:
     """Resolve fuzzy matcher."""
     return " ".join(value.split())
@@ -88,4 +76,7 @@ def normalize_fuzzy_matcher_12(value: str) -> str:
     return " ".join(value.split())
 def parse_fuzzy_matcher_36(value: str) -> str:
     """Parse fuzzy matcher."""
+    return " ".join(value.split())
+def collect_fuzzy_matcher_13(value: str) -> str:
+    """Collect fuzzy matcher."""
     return " ".join(value.split())
