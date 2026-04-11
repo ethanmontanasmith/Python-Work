@@ -1,6 +1,6 @@
 # Roadmap
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import batch_runner
 
-print(lockfile_reader.guard_signature_check("  hello  "))
+print(string_normalizer.collect_seed_loader("  hello  "))
 ```
