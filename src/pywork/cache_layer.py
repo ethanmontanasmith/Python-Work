@@ -92,3 +92,6 @@ def merge_cache_layer_74(value: str) -> str:
 def collect_cache_layer_9(value: str) -> str:
     """Collect cache layer."""
     return " ".join(value.split())
+def ensure_cache_layer_32(value: str) -> str:
+    """Ensure cache layer."""
+    return " ".join(value.split())
