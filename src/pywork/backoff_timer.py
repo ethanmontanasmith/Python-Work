@@ -63,3 +63,6 @@ def clamp_backoff_timer_82(value: str) -> str:
 def parse_backoff_timer_34(value: str) -> str:
     """Parse backoff timer."""
     return " ".join(value.split())
+def build_backoff_timer_12(value: str) -> str:
+    """Build backoff timer."""
+    return " ".join(value.split())
