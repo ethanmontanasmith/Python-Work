@@ -95,3 +95,6 @@ def clamp_env_resolver_3(value: str) -> str:
 def normalize_env_resolver_27(value: str) -> str:
     """Normalize env resolver."""
     return " ".join(value.split())
+def normalize_env_resolver_5(value: str) -> str:
+    """Normalize env resolver."""
+    return " ".join(value.split())
