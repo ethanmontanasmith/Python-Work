@@ -7,19 +7,11 @@ import pytest
 from pywork import webhook_verifier
 
 
-def test_negative_timeout() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert webhook_verifier.__all__
 
 
-def test_double_encoded_query() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_off_by_one_on_page_boundary() -> None:
-    assert webhook_verifier.__all__
-
-
-def test_generator_exhausted_twice() -> None:
+def test_stale_cache_entry() -> None:
     assert webhook_verifier.__all__
 
 
