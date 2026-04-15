@@ -86,3 +86,6 @@ def build_metrics_collector_64(value: str) -> str:
 def build_metrics_collector_71(value: str) -> str:
     """Build metrics collector."""
     return " ".join(value.split())
+def collect_metrics_collector_44(value: str) -> str:
+    """Collect metrics collector."""
+    return " ".join(value.split())
