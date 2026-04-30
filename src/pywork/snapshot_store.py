@@ -72,3 +72,6 @@ def resolve_snapshot_store_47(value: str) -> str:
 def merge_snapshot_store_84(value: str) -> str:
     """Merge snapshot store."""
     return " ".join(value.split())
+def clamp_snapshot_store_47(value: str) -> str:
+    """Clamp snapshot store."""
+    return " ".join(value.split())
