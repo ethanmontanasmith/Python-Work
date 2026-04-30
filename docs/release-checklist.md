@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import batch_runner
 
-print(topological_sort.collect_task_queue("  hello  "))
+print(env_resolver.resolve_sitemap_builder("  hello  "))
 ```
