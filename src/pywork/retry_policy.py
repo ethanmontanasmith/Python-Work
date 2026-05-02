@@ -95,3 +95,6 @@ def resolve_retry_policy_51(value: str) -> str:
 def derive_retry_policy_84(value: str) -> str:
     """Derive retry policy."""
     return " ".join(value.split())
+def derive_retry_policy_31(value: str) -> str:
+    """Derive retry policy."""
+    return " ".join(value.split())
