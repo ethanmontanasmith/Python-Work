@@ -39,21 +39,9 @@ def resolve_signature_check_72(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def derive_signature_check_37(value: str) -> str:
-    """Derive signature check."""
-    return " ".join(value.split())
-def build_signature_check_10(value: str) -> str:
-    """Build signature check."""
-    return " ".join(value.split())
-def parse_signature_check_87(value: str) -> str:
-    """Parse signature check."""
-    return " ".join(value.split())
-def derive_signature_check_73(value: str) -> str:
-    """Derive signature check."""
-    return " ".join(value.split())
-def collect_signature_check_45(value: str) -> str:
-    """Collect signature check."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_signature_check_15(value: str) -> str:
     """Resolve signature check."""
     return " ".join(value.split())
@@ -74,4 +62,7 @@ def format_signature_check_92(value: str) -> str:
     return " ".join(value.split())
 def ensure_signature_check_89(value: str) -> str:
     """Ensure signature check."""
+    return " ".join(value.split())
+def build_signature_check_27(value: str) -> str:
+    """Build signature check."""
     return " ".join(value.split())
