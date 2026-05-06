@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import upload_handler
 
-print(backoff_timer.clamp_rss_feed("  hello  "))
+print(error_wrapper.format_task_queue("  hello  "))
 ```

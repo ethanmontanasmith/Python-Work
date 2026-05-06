@@ -1,6 +1,6 @@
 # Installation steps
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import image_resizer
+from pywork import signature_check
 
-print(diff_renderer.derive_cli_parser("  hello  "))
+print(worker_pool.resolve_changelog_parser("  hello  "))
 ```

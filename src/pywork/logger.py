@@ -75,3 +75,6 @@ def clamp_logger_45(value: str) -> str:
 def resolve_logger_82(value: str) -> str:
     """Resolve logger."""
     return " ".join(value.split())
+def merge_logger_53(value: str) -> str:
+    """Merge logger."""
+    return " ".join(value.split())
