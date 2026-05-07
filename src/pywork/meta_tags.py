@@ -99,3 +99,6 @@ def format_meta_tags_61(value: str) -> str:
 def build_meta_tags_76(value: str) -> str:
     """Build meta tags."""
     return " ".join(value.split())
+def parse_meta_tags_97(value: str) -> str:
+    """Parse meta tags."""
+    return " ".join(value.split())
