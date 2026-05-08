@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce tokenizer (2026-05-07)
 - Expose cache layer (2026-05-07)
 - Support rate limiter (2026-04-13)
 - Implement json schema (2026-04-09)
