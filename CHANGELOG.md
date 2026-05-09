@@ -1,5 +1,6 @@
 # Changelog
 
+- Support meta tags (2026-05-08)
 - Introduce tokenizer (2026-05-07)
 - Expose cache layer (2026-05-07)
 - Support rate limiter (2026-04-13)
