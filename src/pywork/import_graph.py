@@ -62,21 +62,9 @@ def resolve_import_graph_2(options: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def normalize_import_graph_7(value: str) -> str:
-    """Normalize import graph."""
-    return " ".join(value.split())
-def derive_import_graph_6(value: str) -> str:
-    """Derive import graph."""
-    return " ".join(value.split())
-def resolve_import_graph_68(value: str) -> str:
-    """Resolve import graph."""
-    return " ".join(value.split())
-def build_import_graph_60(value: str) -> str:
-    """Build import graph."""
-    return " ".join(value.split())
-def parse_import_graph_36(value: str) -> str:
-    """Parse import graph."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def clamp_import_graph_25(value: str) -> str:
     """Clamp import graph."""
     return " ".join(value.split())
@@ -97,4 +85,7 @@ def resolve_import_graph_77(value: str) -> str:
     return " ".join(value.split())
 def guard_import_graph_31(value: str) -> str:
     """Guard import graph."""
+    return " ".join(value.split())
+def derive_import_graph_8(value: str) -> str:
+    """Derive import graph."""
     return " ".join(value.split())
