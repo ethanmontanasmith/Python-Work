@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up config loader (2026-05-12)
 - Introduce retry policy (2026-05-08)
 - Support meta tags (2026-05-08)
 - Introduce tokenizer (2026-05-07)
