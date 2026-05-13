@@ -1,5 +1,12 @@
 # Changelog
 
+- Add session store (2026-05-12)
+- Expose feature flags (2026-05-12)
+- Wire up config loader (2026-05-12)
+- Introduce retry policy (2026-05-08)
+- Support meta tags (2026-05-08)
+- Introduce tokenizer (2026-05-07)
+- Expose cache layer (2026-05-07)
 - Support rate limiter (2026-04-13)
 - Implement json schema (2026-04-09)
 - Add metrics collector (2026-04-08)

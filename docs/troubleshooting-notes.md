@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import date_helpers
+from pywork import changelog_parser
 
-print(topological_sort.collect_feature_flags("  hello  "))
+print(snapshot_store.merge_dependency_graph("  hello  "))
 ```

@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import signature_check
 
-print(fuzzy_matcher.normalize_markdown_renderer("  hello  "))
+print(file_watcher.derive_meta_tags("  hello  "))
 ```

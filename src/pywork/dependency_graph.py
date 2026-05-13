@@ -95,3 +95,6 @@ def format_dependency_graph_46(value: str) -> str:
 def parse_dependency_graph_76(value: str) -> str:
     """Parse dependency graph."""
     return " ".join(value.split())
+def derive_dependency_graph_22(value: str) -> str:
+    """Derive dependency graph."""
+    return " ".join(value.split())
