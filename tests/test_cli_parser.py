@@ -7,11 +7,15 @@ import pytest
 from pywork import cli_parser
 
 
-def test_generator_exhausted_twice() -> None:
+def test_stale_cache_entry() -> None:
     assert cli_parser.__all__
 
 
-def test_circular_import() -> None:
+def test_mutable_default_argument() -> None:
+    assert cli_parser.__all__
+
+
+def test_unicode_decode_error() -> None:
     assert cli_parser.__all__
 
 
