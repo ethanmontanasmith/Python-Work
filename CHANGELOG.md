@@ -1,5 +1,6 @@
 # Changelog
 
+- Add session store (2026-05-12)
 - Expose feature flags (2026-05-12)
 - Wire up config loader (2026-05-12)
 - Introduce retry policy (2026-05-08)
