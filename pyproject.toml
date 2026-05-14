@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pywork"
-version = "0.14.16"
+version = "0.14.19"
 description = "A long-running pile of small Python utilities."
 requires-python = ">=3.11"
 license = { text = "MIT" }
