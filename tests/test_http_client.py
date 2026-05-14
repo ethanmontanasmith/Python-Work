@@ -7,15 +7,15 @@ import pytest
 from pywork import http_client
 
 
-def test_circular_import() -> None:
+def test_unicode_decode_error() -> None:
     assert http_client.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert http_client.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_missing_config_key() -> None:
     assert http_client.__all__
 
 
