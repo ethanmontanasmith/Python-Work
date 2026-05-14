@@ -93,3 +93,6 @@ def derive_string_normalizer_57(value: str) -> str:
 def parse_string_normalizer_40(value: str) -> str:
     """Parse string normalizer."""
     return " ".join(value.split())
+def guard_string_normalizer_68(value: str) -> str:
+    """Guard string normalizer."""
+    return " ".join(value.split())
