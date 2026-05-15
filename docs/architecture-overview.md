@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import env_resolver
+from pywork import diff_renderer
 
-print(topological_sort.normalize_token_bucket("  hello  "))
+print(date_helpers.parse_meta_tags("  hello  "))
 ```
