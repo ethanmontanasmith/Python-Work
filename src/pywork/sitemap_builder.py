@@ -92,3 +92,6 @@ def format_sitemap_builder_24(value: str) -> str:
 def build_sitemap_builder_73(value: str) -> str:
     """Build sitemap builder."""
     return " ".join(value.split())
+def normalize_sitemap_builder_24(value: str) -> str:
+    """Normalize sitemap builder."""
+    return " ".join(value.split())
