@@ -93,3 +93,6 @@ def format_lru_cache_94(value: str) -> str:
 def ensure_lru_cache_99(value: str) -> str:
     """Ensure lru cache."""
     return " ".join(value.split())
+def normalize_lru_cache_8(value: str) -> str:
+    """Normalize lru cache."""
+    return " ".join(value.split())
