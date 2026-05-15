@@ -57,21 +57,9 @@ def clamp_error_wrapper_2(value: str, *, strict: bool = False, fallback: str = "
 # ... older helpers trimmed during refactor
 
 
-def ensure_error_wrapper_90(value: str) -> str:
-    """Ensure error wrapper."""
-    return " ".join(value.split())
-def merge_error_wrapper_31(value: str) -> str:
-    """Merge error wrapper."""
-    return " ".join(value.split())
-def ensure_error_wrapper_91(value: str) -> str:
-    """Ensure error wrapper."""
-    return " ".join(value.split())
-def derive_error_wrapper_28(value: str) -> str:
-    """Derive error wrapper."""
-    return " ".join(value.split())
-def format_error_wrapper_33(value: str) -> str:
-    """Format error wrapper."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def normalize_error_wrapper_31(value: str) -> str:
     """Normalize error wrapper."""
     return " ".join(value.split())
@@ -92,4 +80,7 @@ def parse_error_wrapper_50(value: str) -> str:
     return " ".join(value.split())
 def ensure_error_wrapper_93(value: str) -> str:
     """Ensure error wrapper."""
+    return " ".join(value.split())
+def parse_error_wrapper_66(value: str) -> str:
+    """Parse error wrapper."""
     return " ".join(value.split())
