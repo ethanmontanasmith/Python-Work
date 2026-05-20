@@ -7,15 +7,15 @@ import pytest
 from pywork import query_builder
 
 
-def test_double_encoded_query() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert query_builder.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_shadowed_builtin_name() -> None:
     assert query_builder.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_empty_input() -> None:
     assert query_builder.__all__
 
 

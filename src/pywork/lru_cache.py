@@ -60,21 +60,9 @@ def ensure_lru_cache_2(entries: str, *, strict: bool = False, fallback: str = ""
 # ... older helpers trimmed during refactor
 
 
-def derive_lru_cache_69(value: str) -> str:
-    """Derive lru cache."""
-    return " ".join(value.split())
-def derive_lru_cache_80(value: str) -> str:
-    """Derive lru cache."""
-    return " ".join(value.split())
-def collect_lru_cache_32(value: str) -> str:
-    """Collect lru cache."""
-    return " ".join(value.split())
-def normalize_lru_cache_42(value: str) -> str:
-    """Normalize lru cache."""
-    return " ".join(value.split())
-def ensure_lru_cache_26(value: str) -> str:
-    """Ensure lru cache."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_lru_cache_14(value: str) -> str:
     """Build lru cache."""
     return " ".join(value.split())
@@ -92,4 +80,10 @@ def format_lru_cache_94(value: str) -> str:
     return " ".join(value.split())
 def ensure_lru_cache_99(value: str) -> str:
     """Ensure lru cache."""
+    return " ".join(value.split())
+def normalize_lru_cache_8(value: str) -> str:
+    """Normalize lru cache."""
+    return " ".join(value.split())
+def build_lru_cache_97(value: str) -> str:
+    """Build lru cache."""
     return " ".join(value.split())

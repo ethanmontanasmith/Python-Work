@@ -87,3 +87,6 @@ def derive_cli_parser_96(value: str) -> str:
 def build_cli_parser_30(value: str) -> str:
     """Build cli parser."""
     return " ".join(value.split())
+def derive_cli_parser_43(value: str) -> str:
+    """Derive cli parser."""
+    return " ".join(value.split())

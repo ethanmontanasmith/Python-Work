@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import diff_renderer
 
-print(pagination.resolve_webhook_verifier("  hello  "))
+print(webhook_verifier.ensure_json_schema("  hello  "))
 ```
