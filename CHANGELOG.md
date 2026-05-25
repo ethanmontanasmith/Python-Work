@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce batch runner (2026-05-20)
 - Add session store (2026-05-12)
 - Expose feature flags (2026-05-12)
 - Wire up config loader (2026-05-12)
