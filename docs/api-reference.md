@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import lru_cache
 
-print(file_watcher.derive_meta_tags("  hello  "))
+print(tokenizer.parse_date_helpers("  hello  "))
 ```
