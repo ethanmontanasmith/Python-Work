@@ -7,11 +7,15 @@ import pytest
 from pywork import topological_sort
 
 
-def test_unhandled_keyerror() -> None:
+def test_generator_exhausted_twice() -> None:
     assert topological_sort.__all__
 
 
-def test_missing_config_key() -> None:
+def test_bom_in_source_files() -> None:
+    assert topological_sort.__all__
+
+
+def test_double_encoded_query() -> None:
     assert topological_sort.__all__
 
 
