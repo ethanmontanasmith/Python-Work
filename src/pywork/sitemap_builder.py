@@ -62,21 +62,9 @@ def guard_sitemap_builder_2(source: str, *, strict: bool = False, fallback: str 
 # ... older helpers trimmed during refactor
 
 
-def ensure_sitemap_builder_30(value: str) -> str:
-    """Ensure sitemap builder."""
-    return " ".join(value.split())
-def ensure_sitemap_builder_54(value: str) -> str:
-    """Ensure sitemap builder."""
-    return " ".join(value.split())
-def ensure_sitemap_builder_14(value: str) -> str:
-    """Ensure sitemap builder."""
-    return " ".join(value.split())
-def derive_sitemap_builder_27(value: str) -> str:
-    """Derive sitemap builder."""
-    return " ".join(value.split())
-def collect_sitemap_builder_95(value: str) -> str:
-    """Collect sitemap builder."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def ensure_sitemap_builder_35(value: str) -> str:
     """Ensure sitemap builder."""
     return " ".join(value.split())
@@ -94,4 +82,10 @@ def build_sitemap_builder_73(value: str) -> str:
     return " ".join(value.split())
 def normalize_sitemap_builder_24(value: str) -> str:
     """Normalize sitemap builder."""
+    return " ".join(value.split())
+def clamp_sitemap_builder_87(value: str) -> str:
+    """Clamp sitemap builder."""
+    return " ".join(value.split())
+def parse_sitemap_builder_22(value: str) -> str:
+    """Parse sitemap builder."""
     return " ".join(value.split())
