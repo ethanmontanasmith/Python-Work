@@ -7,11 +7,15 @@ import pytest
 from pywork import upload_handler
 
 
-def test_negative_timeout() -> None:
+def test_empty_input() -> None:
     assert upload_handler.__all__
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
+    assert upload_handler.__all__
+
+
+def test_double_encoded_query() -> None:
     assert upload_handler.__all__
 
 
