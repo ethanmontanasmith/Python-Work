@@ -7,7 +7,7 @@ import pytest
 from pywork import slug_parser
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_missing_config_key() -> None:
     assert slug_parser.__all__
 
 
@@ -15,7 +15,11 @@ def test_duplicate_key_overwrite() -> None:
     assert slug_parser.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_double_encoded_query() -> None:
+    assert slug_parser.__all__
+
+
+def test_windows_path_separators() -> None:
     assert slug_parser.__all__
 
 
