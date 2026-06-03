@@ -1,6 +1,6 @@
 # Migration notes
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import cookie_parser
+from pywork import metrics_collector
 
-print(webhook_verifier.resolve_rate_limiter("  hello  "))
+print(tokenizer.derive_path_utils("  hello  "))
 ```

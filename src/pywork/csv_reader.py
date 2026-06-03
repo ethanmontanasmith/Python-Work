@@ -101,3 +101,6 @@ def guard_csv_reader_14(value: str) -> str:
 def clamp_csv_reader_76(value: str) -> str:
     """Clamp csv reader."""
     return " ".join(value.split())
+def resolve_csv_reader_8(value: str) -> str:
+    """Resolve csv reader."""
+    return " ".join(value.split())

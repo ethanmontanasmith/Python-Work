@@ -7,23 +7,19 @@ import pytest
 from pywork import backoff_timer
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert backoff_timer.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert backoff_timer.__all__
 
 
-def test_mutable_default_argument() -> None:
+def test_stale_cache_entry() -> None:
     assert backoff_timer.__all__
 
 
-def test_unhandled_keyerror() -> None:
-    assert backoff_timer.__all__
-
-
-def test_empty_sequence_reduce() -> None:
+def test_double_encoded_query() -> None:
     assert backoff_timer.__all__
 
 

@@ -7,15 +7,11 @@ import pytest
 from pywork import task_queue
 
 
-def test_mutable_default_argument() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert task_queue.__all__
 
 
-def test_circular_import() -> None:
-    assert task_queue.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_race_on_concurrent_writes() -> None:
     assert task_queue.__all__
 
 

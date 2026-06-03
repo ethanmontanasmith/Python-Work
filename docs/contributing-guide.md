@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import migration_runner
 
-print(error_wrapper.format_task_queue("  hello  "))
+print(color_palette.clamp_path_utils("  hello  "))
 ```
