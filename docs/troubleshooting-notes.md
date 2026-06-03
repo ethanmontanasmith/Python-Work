@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import changelog_parser
+from pywork import snapshot_store
 
-print(snapshot_store.merge_dependency_graph("  hello  "))
+print(metrics_collector.derive_pagination("  hello  "))
 ```
