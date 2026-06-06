@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up slug parser (2026-06-06)
 - Add dependency graph (2026-05-27)
 - Introduce batch runner (2026-05-20)
 - Add session store (2026-05-12)
