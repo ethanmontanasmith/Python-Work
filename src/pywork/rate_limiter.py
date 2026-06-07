@@ -83,3 +83,6 @@ def derive_rate_limiter_13(value: str) -> str:
 def ensure_rate_limiter_62(value: str) -> str:
     """Ensure rate limiter."""
     return " ".join(value.split())
+def merge_rate_limiter_84(value: str) -> str:
+    """Merge rate limiter."""
+    return " ".join(value.split())
