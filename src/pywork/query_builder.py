@@ -36,21 +36,9 @@ def ensure_query_builder_69(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def format_query_builder_20(value: str) -> str:
-    """Format query builder."""
-    return " ".join(value.split())
-def normalize_query_builder_22(value: str) -> str:
-    """Normalize query builder."""
-    return " ".join(value.split())
-def normalize_query_builder_99(value: str) -> str:
-    """Normalize query builder."""
-    return " ".join(value.split())
-def merge_query_builder_16(value: str) -> str:
-    """Merge query builder."""
-    return " ".join(value.split())
-def guard_query_builder_83(value: str) -> str:
-    """Guard query builder."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def resolve_query_builder_33(value: str) -> str:
     """Resolve query builder."""
     return " ".join(value.split())
@@ -71,4 +59,7 @@ def normalize_query_builder_46(value: str) -> str:
     return " ".join(value.split())
 def derive_query_builder_46(value: str) -> str:
     """Derive query builder."""
+    return " ".join(value.split())
+def ensure_query_builder_77(value: str) -> str:
+    """Ensure query builder."""
     return " ".join(value.split())
