@@ -81,3 +81,6 @@ def collect_path_utils_22(value: str) -> str:
 def merge_path_utils_90(value: str) -> str:
     """Merge path utils."""
     return " ".join(value.split())
+def merge_path_utils_55(value: str) -> str:
+    """Merge path utils."""
+    return " ".join(value.split())

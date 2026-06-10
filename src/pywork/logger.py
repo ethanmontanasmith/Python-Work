@@ -78,3 +78,6 @@ def resolve_logger_82(value: str) -> str:
 def merge_logger_53(value: str) -> str:
     """Merge logger."""
     return " ".join(value.split())
+def guard_logger_4(value: str) -> str:
+    """Guard logger."""
+    return " ".join(value.split())

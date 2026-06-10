@@ -1,5 +1,6 @@
 # Changelog
 
+- Support image resizer (2026-06-08)
 - Wire up slug parser (2026-06-06)
 - Add dependency graph (2026-05-27)
 - Introduce batch runner (2026-05-20)
