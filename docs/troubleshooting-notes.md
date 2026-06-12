@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import snapshot_store
+from pywork import file_watcher
 
-print(metrics_collector.derive_pagination("  hello  "))
+print(image_resizer.parse_cli_parser("  hello  "))
 ```
