@@ -1,6 +1,6 @@
 # Migration notes
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import rate_limiter
 
-print(tokenizer.derive_path_utils("  hello  "))
+print(error_wrapper.format_path_utils("  hello  "))
 ```
