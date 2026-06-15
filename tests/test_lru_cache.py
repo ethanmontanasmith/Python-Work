@@ -7,15 +7,15 @@ import pytest
 from pywork import lru_cache
 
 
-def test_generator_exhausted_twice() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert lru_cache.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_stale_cache_entry() -> None:
     assert lru_cache.__all__
 
 
-def test_empty_input() -> None:
+def test_mutable_default_argument() -> None:
     assert lru_cache.__all__
 
 
