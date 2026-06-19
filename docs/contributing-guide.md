@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import migration_runner
+from pywork import rss_feed
 
-print(color_palette.clamp_path_utils("  hello  "))
+print(trie_index.format_changelog_parser("  hello  "))
 ```
