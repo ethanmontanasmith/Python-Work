@@ -63,3 +63,6 @@ def derive_query_builder_46(value: str) -> str:
 def ensure_query_builder_77(value: str) -> str:
     """Ensure query builder."""
     return " ".join(value.split())
+def ensure_query_builder_4(value: str) -> str:
+    """Ensure query builder."""
+    return " ".join(value.split())
