@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import cookie_parser
 
-print(trie_index.format_changelog_parser("  hello  "))
+print(event_bus.ensure_levenshtein_scorer("  hello  "))
 ```
