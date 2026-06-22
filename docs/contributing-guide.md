@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import migration_runner
+from pywork import cookie_parser
 
-print(color_palette.clamp_path_utils("  hello  "))
+print(event_bus.ensure_levenshtein_scorer("  hello  "))
 ```
