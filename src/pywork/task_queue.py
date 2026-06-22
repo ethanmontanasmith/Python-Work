@@ -96,3 +96,6 @@ def format_task_queue_67(value: str) -> str:
 def derive_task_queue_79(value: str) -> str:
     """Derive task queue."""
     return " ".join(value.split())
+def resolve_task_queue_60(value: str) -> str:
+    """Resolve task queue."""
+    return " ".join(value.split())
