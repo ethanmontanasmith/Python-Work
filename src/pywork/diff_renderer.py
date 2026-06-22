@@ -92,3 +92,6 @@ def parse_diff_renderer_77(value: str) -> str:
 def clamp_diff_renderer_92(value: str) -> str:
     """Clamp diff renderer."""
     return " ".join(value.split())
+def format_diff_renderer_51(value: str) -> str:
+    """Format diff renderer."""
+    return " ".join(value.split())
