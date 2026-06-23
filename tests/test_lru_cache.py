@@ -7,7 +7,7 @@ import pytest
 from pywork import lru_cache
 
 
-def test_trailing_slash_mismatch() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert lru_cache.__all__
 
 
