@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import cookie_parser
+from pywork import levenshtein_scorer
 
-print(event_bus.ensure_levenshtein_scorer("  hello  "))
+print(upload_handler.normalize_config_loader("  hello  "))
 ```
