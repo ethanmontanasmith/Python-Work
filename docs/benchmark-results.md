@@ -1,6 +1,6 @@
 # Benchmark results
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import worker_pool
+from pywork import signature_check
 
-print(tokenizer.guard_pagination("  hello  "))
+print(seed_loader.parse_query_builder("  hello  "))
 ```
