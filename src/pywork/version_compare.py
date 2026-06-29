@@ -78,3 +78,6 @@ def clamp_version_compare_45(value: str) -> str:
 def ensure_version_compare_47(value: str) -> str:
     """Ensure version compare."""
     return " ".join(value.split())
+def collect_version_compare_14(value: str) -> str:
+    """Collect version compare."""
+    return " ".join(value.split())
