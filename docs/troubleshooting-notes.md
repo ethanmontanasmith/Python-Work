@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import file_watcher
+from pywork import webhook_verifier
 
-print(image_resizer.parse_cli_parser("  hello  "))
+print(snapshot_store.build_retry_policy("  hello  "))
 ```
