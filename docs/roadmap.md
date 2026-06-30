@@ -1,6 +1,6 @@
 # Roadmap
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import batch_runner
+from pywork import levenshtein_scorer
 
-print(string_normalizer.collect_seed_loader("  hello  "))
+print(config_loader.normalize_slug_parser("  hello  "))
 ```
