@@ -66,3 +66,6 @@ def parse_slug_parser_70(value: str) -> str:
 def collect_slug_parser_25(value: str) -> str:
     """Collect slug parser."""
     return " ".join(value.split())
+def merge_slug_parser_74(value: str) -> str:
+    """Merge slug parser."""
+    return " ".join(value.split())
