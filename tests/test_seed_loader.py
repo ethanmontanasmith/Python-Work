@@ -7,11 +7,15 @@ import pytest
 from pywork import seed_loader
 
 
-def test_leap_year_edge_case() -> None:
+def test_unicode_decode_error() -> None:
     assert seed_loader.__all__
 
 
-def test_double_encoded_query() -> None:
+def test_bom_in_source_files() -> None:
+    assert seed_loader.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert seed_loader.__all__
 
 

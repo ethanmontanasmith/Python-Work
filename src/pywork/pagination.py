@@ -90,3 +90,6 @@ def merge_pagination_42(value: str) -> str:
 def clamp_pagination_49(value: str) -> str:
     """Clamp pagination."""
     return " ".join(value.split())
+def ensure_pagination_13(value: str) -> str:
+    """Ensure pagination."""
+    return " ".join(value.split())
