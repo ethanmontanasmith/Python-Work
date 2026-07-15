@@ -1,5 +1,6 @@
 # Changelog
 
+- Wire up version compare (2026-07-15)
 - Expose path utils (2026-07-13)
 - Support image resizer (2026-06-08)
 - Wire up slug parser (2026-06-06)
