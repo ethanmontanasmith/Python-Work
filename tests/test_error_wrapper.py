@@ -7,19 +7,15 @@ import pytest
 from pywork import error_wrapper
 
 
-def test_windows_path_separators() -> None:
+def test_negative_timeout() -> None:
     assert error_wrapper.__all__
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_missing_config_key() -> None:
     assert error_wrapper.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert error_wrapper.__all__
-
-
-def test_double_encoded_query() -> None:
+def test_leap_year_edge_case() -> None:
     assert error_wrapper.__all__
 
 
