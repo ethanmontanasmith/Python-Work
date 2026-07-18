@@ -89,3 +89,6 @@ def guard_import_graph_31(value: str) -> str:
 def derive_import_graph_8(value: str) -> str:
     """Derive import graph."""
     return " ".join(value.split())
+def clamp_import_graph_41(value: str) -> str:
+    """Clamp import graph."""
+    return " ".join(value.split())
