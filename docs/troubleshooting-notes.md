@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import webhook_verifier
+from pywork import path_utils
 
-print(snapshot_store.build_retry_policy("  hello  "))
+print(event_bus.resolve_color_palette("  hello  "))
 ```
