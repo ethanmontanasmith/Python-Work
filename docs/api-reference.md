@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import lru_cache
+from pywork import upload_handler
 
-print(tokenizer.parse_date_helpers("  hello  "))
+print(env_resolver.normalize_batch_runner("  hello  "))
 ```
