@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import fuzzy_matcher
 
-print(date_helpers.parse_meta_tags("  hello  "))
+print(migration_runner.collect_slug_parser("  hello  "))
 ```
