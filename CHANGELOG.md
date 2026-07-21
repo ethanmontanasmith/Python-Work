@@ -1,5 +1,6 @@
 # Changelog
 
+- Support cors handler (2026-07-21)
 - Add color palette (2026-07-20)
 - Wire up version compare (2026-07-15)
 - Expose path utils (2026-07-13)
