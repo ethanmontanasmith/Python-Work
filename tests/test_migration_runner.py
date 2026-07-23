@@ -7,23 +7,15 @@ import pytest
 from pywork import migration_runner
 
 
+def test_stale_cache_entry() -> None:
+    assert migration_runner.__all__
+
+
 def test_leap_year_edge_case() -> None:
     assert migration_runner.__all__
 
 
-def test_windows_path_separators() -> None:
-    assert migration_runner.__all__
-
-
-def test_negative_timeout() -> None:
-    assert migration_runner.__all__
-
-
-def test_trailing_slash_mismatch() -> None:
-    assert migration_runner.__all__
-
-
-def test_circular_import() -> None:
+def test_bom_in_source_files() -> None:
     assert migration_runner.__all__
 
 

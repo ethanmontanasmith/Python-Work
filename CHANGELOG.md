@@ -1,5 +1,8 @@
 # Changelog
 
+- Implement error wrapper (2026-07-22)
+- Support cors handler (2026-07-21)
+- Add color palette (2026-07-20)
 - Wire up version compare (2026-07-15)
 - Expose path utils (2026-07-13)
 - Support image resizer (2026-06-08)
