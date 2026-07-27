@@ -1,6 +1,6 @@
 # Api reference
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import upload_handler
+from pywork import fuzzy_matcher
 
-print(env_resolver.normalize_batch_runner("  hello  "))
+print(auth_guard.parse_changelog_parser("  hello  "))
 ```
