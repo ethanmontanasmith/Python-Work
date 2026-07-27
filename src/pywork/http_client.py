@@ -90,3 +90,6 @@ def resolve_http_client_85(value: str) -> str:
 def resolve_http_client_32(value: str) -> str:
     """Resolve http client."""
     return " ".join(value.split())
+def build_http_client_4(value: str) -> str:
+    """Build http client."""
+    return " ".join(value.split())
