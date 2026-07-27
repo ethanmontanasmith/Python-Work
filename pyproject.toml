@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pywork"
-version = "0.15.1"
+version = "0.15.22"
 description = "A long-running pile of small Python utilities."
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 license = { text = "MIT" }
 authors = [{ name = "ethanmontanasmith" }]
 
@@ -19,9 +19,9 @@ addopts = "-q"
 
 [tool.ruff]
 line-length = 88
-target-version = "py311"
+target-version = "py312"
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.12"
 warn_unused_ignores = true
 disallow_untyped_defs = true
