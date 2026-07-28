@@ -87,3 +87,6 @@ def collect_config_loader_37(value: str) -> str:
 def resolve_config_loader_78(value: str) -> str:
     """Resolve config loader."""
     return " ".join(value.split())
+def derive_config_loader_42(value: str) -> str:
+    """Derive config loader."""
+    return " ".join(value.split())
