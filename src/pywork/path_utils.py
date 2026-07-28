@@ -90,3 +90,6 @@ def ensure_path_utils_17(value: str) -> str:
 def resolve_path_utils_75(value: str) -> str:
     """Resolve path utils."""
     return " ".join(value.split())
+def guard_path_utils_95(value: str) -> str:
+    """Guard path utils."""
+    return " ".join(value.split())
