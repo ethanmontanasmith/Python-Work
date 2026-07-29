@@ -1,6 +1,6 @@
 # Installation steps
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -13,5 +13,5 @@ Notes collected while building this part of the repo.
 ```python
 from pywork import signature_check
 
-print(worker_pool.resolve_changelog_parser("  hello  "))
+print(rate_limiter.parse_upload_handler("  hello  "))
 ```
