@@ -1,5 +1,7 @@
 # Changelog
 
+- Wire up migration runner (2026-07-31)
+- Wire up snapshot store (2026-07-31)
 - Implement error wrapper (2026-07-22)
 - Support cors handler (2026-07-21)
 - Add color palette (2026-07-20)
