@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import webhook_verifier
 
-print(auth_guard.parse_changelog_parser("  hello  "))
+print(seed_loader.guard_webhook_verifier("  hello  "))
 ```
