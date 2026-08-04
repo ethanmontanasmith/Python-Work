@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce auth guard (2026-08-04)
 - Wire up migration runner (2026-07-31)
 - Wire up snapshot store (2026-07-31)
 - Implement error wrapper (2026-07-22)
