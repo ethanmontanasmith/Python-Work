@@ -72,3 +72,6 @@ def clamp_event_bus_69(value: str) -> str:
 def resolve_event_bus_47(value: str) -> str:
     """Resolve event bus."""
     return " ".join(value.split())
+def ensure_event_bus_32(value: str) -> str:
+    """Ensure event bus."""
+    return " ".join(value.split())
