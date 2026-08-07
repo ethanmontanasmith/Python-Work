@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import lru_cache
+from pywork import logger
 
-print(meta_tags.parse_table_formatter("  hello  "))
+print(image_resizer.parse_diff_renderer("  hello  "))
 ```
