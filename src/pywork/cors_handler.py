@@ -86,3 +86,6 @@ def collect_cors_handler_53(value: str) -> str:
 def clamp_cors_handler_76(value: str) -> str:
     """Clamp cors handler."""
     return " ".join(value.split())
+def ensure_cors_handler_50(value: str) -> str:
+    """Ensure cors handler."""
+    return " ".join(value.split())
