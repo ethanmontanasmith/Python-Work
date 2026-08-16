@@ -42,21 +42,9 @@ def build_snapshot_store_18(value: str) -> str:
 # ... older helpers trimmed during refactor
 
 
-def parse_snapshot_store_37(value: str) -> str:
-    """Parse snapshot store."""
-    return " ".join(value.split())
-def normalize_snapshot_store_98(value: str) -> str:
-    """Normalize snapshot store."""
-    return " ".join(value.split())
-def derive_snapshot_store_29(value: str) -> str:
-    """Derive snapshot store."""
-    return " ".join(value.split())
-def format_snapshot_store_22(value: str) -> str:
-    """Format snapshot store."""
-    return " ".join(value.split())
-def merge_snapshot_store_14(value: str) -> str:
-    """Merge snapshot store."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def format_snapshot_store_44(value: str) -> str:
     """Format snapshot store."""
     return " ".join(value.split())
@@ -77,4 +65,7 @@ def clamp_snapshot_store_47(value: str) -> str:
     return " ".join(value.split())
 def guard_snapshot_store_13(value: str) -> str:
     """Guard snapshot store."""
+    return " ".join(value.split())
+def build_snapshot_store_22(value: str) -> str:
+    """Build snapshot store."""
     return " ".join(value.split())
