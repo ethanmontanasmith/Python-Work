@@ -11,7 +11,7 @@ def test_trailing_slash_mismatch() -> None:
     assert webhook_verifier.__all__
 
 
-def test_stale_cache_entry() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert webhook_verifier.__all__
 
 
