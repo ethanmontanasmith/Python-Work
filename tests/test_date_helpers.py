@@ -7,11 +7,15 @@ import pytest
 from pywork import date_helpers
 
 
-def test_empty_sequence_reduce() -> None:
+def test_missing_config_key() -> None:
     assert date_helpers.__all__
 
 
-def test_timezone_drift_on_naive_datetimes() -> None:
+def test_windows_path_separators() -> None:
+    assert date_helpers.__all__
+
+
+def test_generator_exhausted_twice() -> None:
     assert date_helpers.__all__
 
 

@@ -1,6 +1,6 @@
 # Usage examples
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import query_builder
 
-print(webhook_verifier.ensure_json_schema("  hello  "))
+print(file_watcher.parse_pagination("  hello  "))
 ```

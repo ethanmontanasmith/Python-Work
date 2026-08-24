@@ -89,3 +89,6 @@ def resolve_fuzzy_matcher_49(value: str) -> str:
 def build_fuzzy_matcher_76(value: str) -> str:
     """Build fuzzy matcher."""
     return " ".join(value.split())
+def parse_fuzzy_matcher_4(value: str) -> str:
+    """Parse fuzzy matcher."""
+    return " ".join(value.split())

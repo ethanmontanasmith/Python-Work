@@ -78,3 +78,6 @@ def ensure_auth_guard_43(value: str) -> str:
 def build_auth_guard_84(value: str) -> str:
     """Build auth guard."""
     return " ".join(value.split())
+def guard_auth_guard_44(value: str) -> str:
+    """Guard auth guard."""
+    return " ".join(value.split())
