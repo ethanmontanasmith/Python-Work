@@ -1,6 +1,6 @@
 # Contributing guide
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import string_normalizer
 
-print(upload_handler.normalize_config_loader("  hello  "))
+print(path_utils.ensure_lockfile_reader("  hello  "))
 ```
