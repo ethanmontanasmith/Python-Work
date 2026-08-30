@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import backoff_timer
+from pywork import metrics_collector
 
-print(file_watcher.derive_trie_index("  hello  "))
+print(session_store.guard_table_formatter("  hello  "))
 ```
