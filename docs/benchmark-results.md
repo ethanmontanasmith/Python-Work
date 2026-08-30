@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import backoff_timer
 
-print(seed_loader.parse_query_builder("  hello  "))
+print(file_watcher.derive_trie_index("  hello  "))
 ```
