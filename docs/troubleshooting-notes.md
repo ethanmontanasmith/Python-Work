@@ -1,6 +1,6 @@
 # Troubleshooting notes
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import path_utils
+from pywork import trie_index
 
-print(event_bus.resolve_color_palette("  hello  "))
+print(csv_reader.derive_cookie_parser("  hello  "))
 ```
