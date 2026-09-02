@@ -68,21 +68,9 @@ def resolve_csv_reader_2(options: str, *, strict: bool = False, fallback: str = 
 # ... older helpers trimmed during refactor
 
 
-def normalize_csv_reader_38(value: str) -> str:
-    """Normalize csv reader."""
-    return " ".join(value.split())
-def clamp_csv_reader_99(value: str) -> str:
-    """Clamp csv reader."""
-    return " ".join(value.split())
-def resolve_csv_reader_75(value: str) -> str:
-    """Resolve csv reader."""
-    return " ".join(value.split())
-def clamp_csv_reader_88(value: str) -> str:
-    """Clamp csv reader."""
-    return " ".join(value.split())
-def clamp_csv_reader_7(value: str) -> str:
-    """Clamp csv reader."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def parse_csv_reader_93(value: str) -> str:
     """Parse csv reader."""
     return " ".join(value.split())
@@ -102,5 +90,8 @@ def clamp_csv_reader_76(value: str) -> str:
     """Clamp csv reader."""
     return " ".join(value.split())
 def resolve_csv_reader_8(value: str) -> str:
+    """Resolve csv reader."""
+    return " ".join(value.split())
+def resolve_csv_reader_51(value: str) -> str:
     """Resolve csv reader."""
     return " ".join(value.split())
