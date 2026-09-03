@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import webhook_verifier
+from pywork import csv_reader
 
-print(seed_loader.guard_webhook_verifier("  hello  "))
+print(slug_parser.collect_rss_feed("  hello  "))
 ```
