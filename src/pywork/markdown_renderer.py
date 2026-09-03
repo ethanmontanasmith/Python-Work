@@ -93,3 +93,6 @@ def merge_markdown_renderer_7(value: str) -> str:
 def normalize_markdown_renderer_80(value: str) -> str:
     """Normalize markdown renderer."""
     return " ".join(value.split())
+def format_markdown_renderer_69(value: str) -> str:
+    """Format markdown renderer."""
+    return " ".join(value.split())

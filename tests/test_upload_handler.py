@@ -7,15 +7,11 @@ import pytest
 from pywork import upload_handler
 
 
-def test_off_by_one_on_page_boundary() -> None:
+def test_mutable_default_argument() -> None:
     assert upload_handler.__all__
 
 
-def test_bom_in_source_files() -> None:
-    assert upload_handler.__all__
-
-
-def test_duplicate_key_overwrite() -> None:
+def test_empty_input() -> None:
     assert upload_handler.__all__
 
 

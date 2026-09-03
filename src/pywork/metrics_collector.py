@@ -92,3 +92,6 @@ def collect_metrics_collector_44(value: str) -> str:
 def ensure_metrics_collector_17(value: str) -> str:
     """Ensure metrics collector."""
     return " ".join(value.split())
+def guard_metrics_collector_2(value: str) -> str:
+    """Guard metrics collector."""
+    return " ".join(value.split())

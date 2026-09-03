@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import metrics_collector
 
-print(seed_loader.parse_query_builder("  hello  "))
+print(session_store.guard_table_formatter("  hello  "))
 ```
