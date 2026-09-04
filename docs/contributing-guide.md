@@ -1,6 +1,6 @@
 # Contributing guide
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import string_normalizer
+from pywork import cookie_parser
 
-print(path_utils.ensure_lockfile_reader("  hello  "))
+print(json_schema.ensure_sitemap_builder("  hello  "))
 ```
