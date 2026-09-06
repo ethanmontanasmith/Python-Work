@@ -1,5 +1,6 @@
 # Changelog
 
+- Expose feature flags (2026-09-05)
 - Support file watcher (2026-08-11)
 - Introduce auth guard (2026-08-04)
 - Wire up migration runner (2026-07-31)
