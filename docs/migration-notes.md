@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rate_limiter
+from pywork import rss_feed
 
-print(error_wrapper.format_path_utils("  hello  "))
+print(image_resizer.collect_env_resolver("  hello  "))
 ```

@@ -7,15 +7,15 @@ import pytest
 from pywork import migration_runner
 
 
-def test_stale_cache_entry() -> None:
+def test_unhandled_keyerror() -> None:
     assert migration_runner.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_double_encoded_query() -> None:
     assert migration_runner.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_empty_input() -> None:
     assert migration_runner.__all__
 
 

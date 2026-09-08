@@ -1,6 +1,6 @@
 # Release checklist
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import batch_runner
+from pywork import rss_feed
 
-print(env_resolver.resolve_sitemap_builder("  hello  "))
+print(webhook_verifier.format_cli_parser("  hello  "))
 ```
