@@ -69,3 +69,6 @@ def ensure_query_builder_4(value: str) -> str:
 def resolve_query_builder_53(value: str) -> str:
     """Resolve query builder."""
     return " ".join(value.split())
+def format_query_builder_50(value: str) -> str:
+    """Format query builder."""
+    return " ".join(value.split())
