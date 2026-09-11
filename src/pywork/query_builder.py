@@ -72,3 +72,6 @@ def resolve_query_builder_53(value: str) -> str:
 def format_query_builder_50(value: str) -> str:
     """Format query builder."""
     return " ".join(value.split())
+def guard_query_builder_29(value: str) -> str:
+    """Guard query builder."""
+    return " ".join(value.split())
