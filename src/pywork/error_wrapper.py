@@ -90,3 +90,6 @@ def ensure_error_wrapper_75(value: str) -> str:
 def derive_error_wrapper_18(value: str) -> str:
     """Derive error wrapper."""
     return " ".join(value.split())
+def merge_error_wrapper_98(value: str) -> str:
+    """Merge error wrapper."""
+    return " ".join(value.split())

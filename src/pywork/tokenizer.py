@@ -72,3 +72,6 @@ def collect_tokenizer_20(value: str) -> str:
 def clamp_tokenizer_34(value: str) -> str:
     """Clamp tokenizer."""
     return " ".join(value.split())
+def parse_tokenizer_59(value: str) -> str:
+    """Parse tokenizer."""
+    return " ".join(value.split())
