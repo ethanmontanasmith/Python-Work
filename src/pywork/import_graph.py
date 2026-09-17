@@ -95,3 +95,6 @@ def clamp_import_graph_41(value: str) -> str:
 def collect_import_graph_89(value: str) -> str:
     """Collect import graph."""
     return " ".join(value.split())
+def collect_import_graph_24(value: str) -> str:
+    """Collect import graph."""
+    return " ".join(value.split())
