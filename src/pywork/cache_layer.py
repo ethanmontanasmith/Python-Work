@@ -86,3 +86,6 @@ def ensure_cache_layer_32(value: str) -> str:
 def resolve_cache_layer_87(value: str) -> str:
     """Resolve cache layer."""
     return " ".join(value.split())
+def resolve_cache_layer_39(value: str) -> str:
+    """Resolve cache layer."""
+    return " ".join(value.split())
