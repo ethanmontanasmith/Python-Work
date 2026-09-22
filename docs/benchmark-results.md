@@ -1,6 +1,6 @@
 # Benchmark results
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import metrics_collector
+from pywork import diff_renderer
 
-print(session_store.guard_table_formatter("  hello  "))
+print(env_resolver.resolve_import_graph("  hello  "))
 ```

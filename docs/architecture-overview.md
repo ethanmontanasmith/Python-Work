@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import fuzzy_matcher
+from pywork import session_store
 
-print(migration_runner.collect_slug_parser("  hello  "))
+print(metrics_collector.clamp_topological_sort("  hello  "))
 ```
