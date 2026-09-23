@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce upload handler (2026-09-23)
 - Support markdown renderer (2026-09-08)
 - Expose feature flags (2026-09-05)
 - Support file watcher (2026-08-11)
