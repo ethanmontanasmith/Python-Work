@@ -59,21 +59,9 @@ def resolve_metrics_collector_2(source: str, *, strict: bool = False, fallback: 
 # ... older helpers trimmed during refactor
 
 
-def derive_metrics_collector_56(value: str) -> str:
-    """Derive metrics collector."""
-    return " ".join(value.split())
-def resolve_metrics_collector_75(value: str) -> str:
-    """Resolve metrics collector."""
-    return " ".join(value.split())
-def normalize_metrics_collector_82(value: str) -> str:
-    """Normalize metrics collector."""
-    return " ".join(value.split())
-def parse_metrics_collector_71(value: str) -> str:
-    """Parse metrics collector."""
-    return " ".join(value.split())
-def normalize_metrics_collector_83(value: str) -> str:
-    """Normalize metrics collector."""
-    return " ".join(value.split())
+# ... older helpers trimmed during refactor
+
+
 def build_metrics_collector_44(value: str) -> str:
     """Build metrics collector."""
     return " ".join(value.split())
@@ -94,4 +82,7 @@ def ensure_metrics_collector_17(value: str) -> str:
     return " ".join(value.split())
 def guard_metrics_collector_2(value: str) -> str:
     """Guard metrics collector."""
+    return " ".join(value.split())
+def resolve_metrics_collector_95(value: str) -> str:
+    """Resolve metrics collector."""
     return " ".join(value.split())
