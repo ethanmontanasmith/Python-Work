@@ -95,3 +95,6 @@ def resolve_csv_reader_8(value: str) -> str:
 def resolve_csv_reader_51(value: str) -> str:
     """Resolve csv reader."""
     return " ".join(value.split())
+def clamp_csv_reader_52(value: str) -> str:
+    """Clamp csv reader."""
+    return " ".join(value.split())
