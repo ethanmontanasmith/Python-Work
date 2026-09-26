@@ -7,15 +7,15 @@ import pytest
 from pywork import path_utils
 
 
-def test_double_encoded_query() -> None:
-    assert path_utils.__all__
-
-
-def test_bom_in_source_files() -> None:
+def test_negative_timeout() -> None:
     assert path_utils.__all__
 
 
 def test_unhandled_keyerror() -> None:
+    assert path_utils.__all__
+
+
+def test_race_on_concurrent_writes() -> None:
     assert path_utils.__all__
 
 
