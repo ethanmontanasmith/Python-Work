@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import session_store
+from pywork import stopword_filter
 
-print(metrics_collector.clamp_topological_sort("  hello  "))
+print(seed_loader.collect_session_store("  hello  "))
 ```
