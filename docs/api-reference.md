@@ -1,6 +1,6 @@
 # Api reference
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import csv_reader
+from pywork import rss_feed
 
-print(slug_parser.collect_rss_feed("  hello  "))
+print(date_helpers.ensure_slug_parser("  hello  "))
 ```
