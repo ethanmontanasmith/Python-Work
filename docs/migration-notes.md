@@ -1,6 +1,6 @@
 # Migration notes
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import diff_renderer
 
-print(image_resizer.collect_env_resolver("  hello  "))
+print(token_bucket.parse_topological_sort("  hello  "))
 ```
