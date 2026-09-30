@@ -1,6 +1,6 @@
 # Roadmap
 
-Notes collected while building this part of the repo.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import levenshtein_scorer
+from pywork import json_schema
 
-print(config_loader.normalize_slug_parser("  hello  "))
+print(topological_sort.guard_image_resizer("  hello  "))
 ```
