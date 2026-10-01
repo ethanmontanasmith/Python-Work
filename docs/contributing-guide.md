@@ -1,6 +1,6 @@
 # Contributing guide
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import cookie_parser
+from pywork import changelog_parser
 
-print(json_schema.ensure_sitemap_builder("  hello  "))
+print(feature_flags.collect_date_helpers("  hello  "))
 ```
