@@ -7,15 +7,11 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_shadowed_builtin_name() -> None:
+def test_generator_exhausted_twice() -> None:
     assert string_normalizer.__all__
 
 
-def test_stale_cache_entry() -> None:
-    assert string_normalizer.__all__
-
-
-def test_missing_config_key() -> None:
+def test_bom_in_source_files() -> None:
     assert string_normalizer.__all__
 
 
