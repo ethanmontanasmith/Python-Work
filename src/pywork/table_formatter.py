@@ -78,3 +78,6 @@ def parse_table_formatter_86(value: str) -> str:
 def format_table_formatter_6(value: str) -> str:
     """Format table formatter."""
     return " ".join(value.split())
+def format_table_formatter_96(value: str) -> str:
+    """Format table formatter."""
+    return " ".join(value.split())
