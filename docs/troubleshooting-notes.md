@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import trie_index
+from pywork import sitemap_builder
 
-print(csv_reader.derive_cookie_parser("  hello  "))
+print(upload_handler.merge_json_schema("  hello  "))
 ```
