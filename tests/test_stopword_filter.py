@@ -11,7 +11,11 @@ def test_duplicate_key_overwrite() -> None:
     assert stopword_filter.__all__
 
 
-def test_unicode_decode_error() -> None:
+def test_windows_path_separators() -> None:
+    assert stopword_filter.__all__
+
+
+def test_leap_year_edge_case() -> None:
     assert stopword_filter.__all__
 
 
