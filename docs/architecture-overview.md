@@ -1,6 +1,6 @@
 # Architecture overview
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import stopword_filter
+from pywork import cors_handler
 
-print(seed_loader.collect_session_store("  hello  "))
+print(event_bus.ensure_markdown_renderer("  hello  "))
 ```
