@@ -1,6 +1,6 @@
 # Installation steps
 
-Short reference so I stop re-deriving this every few months.
+Notes collected while building this part of the repo.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import signature_check
+from pywork import csv_reader
 
-print(rate_limiter.parse_upload_handler("  hello  "))
+print(query_builder.ensure_cookie_parser("  hello  "))
 ```
