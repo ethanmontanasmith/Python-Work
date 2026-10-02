@@ -1,6 +1,6 @@
 # Usage examples
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import query_builder
+from pywork import trie_index
 
-print(file_watcher.parse_pagination("  hello  "))
+print(retry_policy.build_metrics_collector("  hello  "))
 ```
