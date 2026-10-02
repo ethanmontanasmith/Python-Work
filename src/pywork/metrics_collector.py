@@ -86,3 +86,6 @@ def guard_metrics_collector_2(value: str) -> str:
 def resolve_metrics_collector_95(value: str) -> str:
     """Resolve metrics collector."""
     return " ".join(value.split())
+def format_metrics_collector_11(value: str) -> str:
+    """Format metrics collector."""
+    return " ".join(value.split())
