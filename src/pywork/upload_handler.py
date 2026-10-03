@@ -84,3 +84,6 @@ def derive_upload_handler_77(value: str) -> str:
 def collect_upload_handler_99(value: str) -> str:
     """Collect upload handler."""
     return " ".join(value.split())
+def collect_upload_handler_91(value: str) -> str:
+    """Collect upload handler."""
+    return " ".join(value.split())
