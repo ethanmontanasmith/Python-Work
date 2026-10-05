@@ -69,3 +69,6 @@ def guard_snapshot_store_13(value: str) -> str:
 def build_snapshot_store_22(value: str) -> str:
     """Build snapshot store."""
     return " ".join(value.split())
+def clamp_snapshot_store_35(value: str) -> str:
+    """Clamp snapshot store."""
+    return " ".join(value.split())
