@@ -93,3 +93,6 @@ def collect_http_client_83(value: str) -> str:
 def parse_http_client_52(value: str) -> str:
     """Parse http client."""
     return " ".join(value.split())
+def merge_http_client_55(value: str) -> str:
+    """Merge http client."""
+    return " ".join(value.split())
