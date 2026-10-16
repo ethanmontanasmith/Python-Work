@@ -1,5 +1,6 @@
 # Changelog
 
+- Implement sitemap builder (2026-10-15)
 - Wire up file watcher (2026-10-03)
 - Add http client (2026-09-30)
 - Introduce upload handler (2026-09-23)
