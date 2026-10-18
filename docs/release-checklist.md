@@ -1,6 +1,6 @@
 # Release checklist
 
-Short reference so I stop re-deriving this every few months.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import backoff_timer
 
-print(webhook_verifier.format_cli_parser("  hello  "))
+print(json_schema.ensure_changelog_parser("  hello  "))
 ```
