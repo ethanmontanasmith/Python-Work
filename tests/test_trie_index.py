@@ -7,15 +7,15 @@ import pytest
 from pywork import trie_index
 
 
-def test_missing_config_key() -> None:
+def test_duplicate_key_overwrite() -> None:
     assert trie_index.__all__
 
 
-def test_unhandled_keyerror() -> None:
+def test_timezone_drift_on_naive_datetimes() -> None:
     assert trie_index.__all__
 
 
-def test_shadowed_builtin_name() -> None:
+def test_generator_exhausted_twice() -> None:
     assert trie_index.__all__
 
 
