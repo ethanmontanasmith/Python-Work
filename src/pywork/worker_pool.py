@@ -75,3 +75,6 @@ def derive_worker_pool_41(value: str) -> str:
 def normalize_worker_pool_12(value: str) -> str:
     """Normalize worker pool."""
     return " ".join(value.split())
+def collect_worker_pool_61(value: str) -> str:
+    """Collect worker pool."""
+    return " ".join(value.split())
