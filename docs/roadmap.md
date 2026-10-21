@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import json_schema
+from pywork import slug_parser
 
-print(topological_sort.guard_image_resizer("  hello  "))
+print(date_helpers.ensure_rate_limiter("  hello  "))
 ```
