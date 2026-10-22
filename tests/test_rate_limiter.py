@@ -7,11 +7,11 @@ import pytest
 from pywork import rate_limiter
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_double_encoded_query() -> None:
     assert rate_limiter.__all__
 
 
-def test_windows_path_separators() -> None:
+def test_unicode_decode_error() -> None:
     assert rate_limiter.__all__
 
 

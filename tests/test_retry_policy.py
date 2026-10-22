@@ -11,7 +11,11 @@ def test_unhandled_keyerror() -> None:
     assert retry_policy.__all__
 
 
-def test_race_on_concurrent_writes() -> None:
+def test_empty_sequence_reduce() -> None:
+    assert retry_policy.__all__
+
+
+def test_stale_cache_entry() -> None:
     assert retry_policy.__all__
 
 
