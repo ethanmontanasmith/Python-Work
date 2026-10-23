@@ -1,6 +1,6 @@
 # Architecture overview
 
-Written after getting this wrong twice.
+Short reference so I stop re-deriving this every few months.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Written after getting this wrong twice.
 ## Example
 
 ```python
-from pywork import cors_handler
+from pywork import cookie_parser
 
-print(event_bus.ensure_markdown_renderer("  hello  "))
+print(feature_flags.clamp_version_compare("  hello  "))
 ```
