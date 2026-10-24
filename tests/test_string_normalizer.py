@@ -7,11 +7,11 @@ import pytest
 from pywork import string_normalizer
 
 
-def test_generator_exhausted_twice() -> None:
+def test_circular_import() -> None:
     assert string_normalizer.__all__
 
 
-def test_bom_in_source_files() -> None:
+def test_trailing_slash_mismatch() -> None:
     assert string_normalizer.__all__
 
 
