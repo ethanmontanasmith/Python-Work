@@ -1,6 +1,6 @@
 # Api reference
 
-Notes collected while building this part of the repo.
+Written after getting this wrong twice.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Notes collected while building this part of the repo.
 ## Example
 
 ```python
-from pywork import rss_feed
+from pywork import file_watcher
 
-print(date_helpers.ensure_slug_parser("  hello  "))
+print(cli_parser.normalize_import_graph("  hello  "))
 ```
