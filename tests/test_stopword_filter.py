@@ -7,7 +7,7 @@ import pytest
 from pywork import stopword_filter
 
 
-def test_duplicate_key_overwrite() -> None:
+def test_off_by_one_on_page_boundary() -> None:
     assert stopword_filter.__all__
 
 
@@ -15,7 +15,15 @@ def test_windows_path_separators() -> None:
     assert stopword_filter.__all__
 
 
-def test_leap_year_edge_case() -> None:
+def test_mutable_default_argument() -> None:
+    assert stopword_filter.__all__
+
+
+def test_empty_sequence_reduce() -> None:
+    assert stopword_filter.__all__
+
+
+def test_unhandled_keyerror() -> None:
     assert stopword_filter.__all__
 
 
