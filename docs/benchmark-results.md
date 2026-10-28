@@ -11,7 +11,7 @@ Short reference so I stop re-deriving this every few months.
 ## Example
 
 ```python
-from pywork import diff_renderer
+from pywork import migration_runner
 
-print(env_resolver.resolve_import_graph("  hello  "))
+print(rate_limiter.build_rss_feed("  hello  "))
 ```
