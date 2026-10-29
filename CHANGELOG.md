@@ -1,5 +1,6 @@
 # Changelog
 
+- Introduce backoff timer (2026-10-29)
 - Implement sitemap builder (2026-10-15)
 - Wire up file watcher (2026-10-03)
 - Add http client (2026-09-30)
